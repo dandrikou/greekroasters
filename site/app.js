@@ -46,6 +46,15 @@ function render() {
     const a = el.querySelector("h3 a");
     a.href = c.url;
     a.textContent = c.name;
+    const pic = el.querySelector(".pic");
+    if (c.image) {
+      pic.href = c.url;
+      const img = pic.querySelector("img");
+      img.addEventListener("error", () => pic.remove());
+      img.src = c.image;
+    } else {
+      pic.remove();
+    }
     el.querySelector(".sub").textContent = [c.roaster, [c.origin, c.region].filter(Boolean).join(", ")].filter(Boolean).join(" · ");
     el.querySelector(".kg strong").textContent = euro(c.best_per_kg);
     const chips = el.querySelector(".chips");

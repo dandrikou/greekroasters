@@ -149,3 +149,34 @@ def test_bilingual_listings_merge_and_merch_is_dropped():
     assert is_excluded("earl grey μαύρο τσάι")
     assert not is_excluded("Bildimoo Danche, Ethiopia (Filter)")
     assert not is_excluded("Ritual Filter Blend")
+
+
+def test_product_images_are_captured():
+    shop = parse_shopify_product({
+        "title": "Kenya AA 250g", "handle": "kenya-aa", "body_html": "",
+        "images": [{"src": "https://cdn.shopify.com/s/files/1/kenya.jpg?v=1"}],
+        "variants": [{"title": "Default Title", "price": "12.50", "available": True}],
+    }, "https://kudu.gr")
+    assert shop["image"] == "https://cdn.shopify.com/s/files/1/kenya.jpg?v=1&width=480"
+    woo = parse_woo_product({
+        "id": 4, "name": "Brazil 250g", "permalink": "https://x.gr/p/", "categories": [],
+        "prices": {"price": "1200", "currency_minor_unit": 2}, "is_in_stock": True,
+        "images": [{"src": "https://x.gr/big.jpg", "thumbnail": "https://x.gr/small.jpg"}],
+    })
+    assert woo["image"] == "https://x.gr/small.jpg"
+    page = """<script type="application/ld+json">{"@type":"Product","name":"Peru 250g",
+      "image":[{"@type":"ImageObject","url":"/img/peru.jpg"}],"offers":{"price":"11"}}</script>"""
+    assert parse_jsonld_product(page, "https://mokka.coffee/en/p/peru/")["image"] == "https://mokka.coffee/img/peru.jpg"
+    page = """<meta property="og:image" content="https://d.coffee/a.png">
+      <script type="application/ld+json">{"@type":"Product","name":"Peru 250g","offers":{"price":"11"}}</script>"""
+    assert parse_jsonld_product(page, "https://d.coffee/product/peru")["image"] == "https://d.coffee/a.png"
+    assert enrich(ROASTER, shop, {}, {})["image"] == shop["image"]
+
+
+def test_shopify_ignores_bogus_variant_weight():
+    parsed = parse_shopify_product({
+        "title": "Amazon Organic Blend", "handle": "amazon", "body_html": "",
+        "variants": [{"title": "Κόκκοι", "price": "12.00", "available": True, "grams": 270},
+                     {"title": "Φίλτρου", "price": "12.00", "available": True, "grams": 270000}],
+    }, "https://www.earthcoffeeco.shop")
+    assert parsed["options"] == [{"size_g": 270, "price": 12.0, "in_stock": True}]
