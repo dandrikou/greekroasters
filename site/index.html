@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Greek Roasters</title>
+  <meta name="description" content="Specialty coffee beans from Greek roasters, compared by price per kg and updated daily.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Greek Roasters</h1>
+      <p class="lede">Specialty beans from Greek online roasters, compared by price per kg. Prices refresh every morning.</p>
+      <p class="meta" id="updated"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <input id="q" type="search" placeholder="Search coffee, notes, farm…" aria-label="Search">
+      <select id="origin" aria-label="Origin"><option value="">All origins</option></select>
+      <select id="taste" aria-label="Taste"><option value="">All tastes</option></select>
+      <select id="roast" aria-label="Roast"><option value="">All roasts</option></select>
+      <select id="type" aria-label="Type"><option value="">All types</option></select>
+      <select id="roaster" aria-label="Roaster"><option value="">All roasters</option></select>
+      <label class="range">Max €/kg <output id="maxOut"></output>
+        <input id="max" type="range" min="20" max="200" step="5" value="200">
+      </label>
+      <label class="check"><input id="stock" type="checkbox" checked> In stock only</label>
+      <select id="sort" aria-label="Sort">
+        <option value="perkg">Cheapest per kg</option>
+        <option value="bag">Cheapest bag</option>
+        <option value="drop">Biggest price drop</option>
+        <option value="new">Newest first</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </section>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <section id="list" class="grid"></section>
+
+    <section class="roasters">
+      <h2>Roasters</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Roaster</th><th>City</th><th>Coffees</th><th>From €/kg</th><th>Median €/kg</th><th>Free shipping</th><th>Prices</th></tr></thead>
+          <tbody id="roasterRows"></tbody>
+        </table>
+      </div>
+      <p class="fine">Taste groups come from each roaster's tasting notes. Most roasters don't state a roast level, so filter roasts are counted as Light and espresso roasts as Medium unless the shop says otherwise. Shipping isn't included in price per kg.</p>
+    </section>
+  </main>
+
+  <template id="card">
+    <article class="card">
+      <div class="head">
+        <div>
+          <h3><a target="_blank" rel="noopener"></a></h3>
+          <p class="sub"></p>
+        </div>
+        <div class="kg"><strong></strong><span>per kg</span></div>
+      </div>
+      <p class="chips"></p>
+      <p class="notes"></p>
+      <ul class="opts"></ul>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
