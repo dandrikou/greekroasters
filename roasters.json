@@ -34,7 +34,7 @@
    "product_link_pattern": "https://handpickerscoffee\\.gr/p/[^\"'#?]+"},
   {"id": "mokka", "name": "Mokka", "city": "Athens", "website": "https://mokka.coffee",
    "free_shipping_eur": null, "platform": "jsonld",
-   "listing_pages": ["https://mokka.coffee/en/c/specialty-coffee/"],
+   "default_size_g": 250, "listing_pages": ["https://mokka.coffee/en/c/specialty-coffee/"],
    "product_link_pattern": "https://mokka\\.coffee/en/p/[^\"'#?]+"},
   {"id": "dabov", "name": "Dabov (Bulgaria)", "city": "Sofia, Bulgaria", "website": "https://dabov.coffee",
    "free_shipping_eur": null, "platform": "jsonld",

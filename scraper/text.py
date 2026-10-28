@@ -12,7 +12,9 @@ EXCLUDE_RE = re.compile(
     r"capsul|κάψουλ|καψουλ|капсул|\bpods?\b|drip ?bag|cold ?brew|\bml\b|t-?shirt|socks|\bmugs?\b|glass|"
     r"machine|grinder|kettle|dripper|\bkit\b|gift|bundle|subscription|συνδρομ|абонамент|advent|ticket|"
     r"\btea\b|matcha|milk|ελληνικός|ελληνικο|greek coffee|ibrik|\bese\b|дози|кутия|discovery|seasoning|"
-    r"sample|tasting pack|\bset\b|\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine",
+    r"sample|tasting pack|\bset\b|\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine|"
+    r"drinking chocolate|\bdrink\b|reusable cup|ποτήρι|μπρελόκ|keychain|τσάντα|κανάτα|φίλτρα|εργαλείο|kalita|\bv60\b|"
+    r"σεμινάρ|seminar|workshop",
     re.IGNORECASE,
 )
 
