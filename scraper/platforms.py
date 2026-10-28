@@ -1,6 +1,6 @@
 """Shop adapters. Each returns a list of raw products:
 
-    {"name", "url", "text", "categories", "in_stock",
+    {"name", "url", "image", "text", "categories", "in_stock",
      "options": [{"size_g", "price", "in_stock"}]}
 
 Prices are in euro. "text" is the plain-text description used for origin, process and notes.
@@ -43,13 +43,24 @@ def parse_shopify_product(product, base_url):
         if variant.get("price") in (None, "", "0.00"):
             continue
         grams = variant.get("grams") or None
-        size = parse_size_g(variant.get("title"), name) or (grams if grams and grams >= 30 else None)
+        # Shops sometimes enter shipping weight wrongly (e.g. 270000 g), so only trust bag-like weights.
+        size = parse_size_g(variant.get("title"), name) or (grams if grams and 30 <= grams <= 5000 else None)
         options.append(_option(size, variant["price"], variant.get("available", True)))
     if not options:
         return None
+    known_sizes = {o["size_g"] for o in options if o["size_g"]}
+    if len(known_sizes) == 1:
+        # Grind-only variants of a single bag size.
+        for o in options:
+            o["size_g"] = o["size_g"] or next(iter(known_sizes))
+    images = product.get("images") or []
+    image = images[0].get("src", "") if images else ""
+    if image and "cdn.shopify" in image:
+        image += ("&" if "?" in image else "?") + "width=480"
     return {
         "name": name,
         "url": f"{base_url.rstrip('/')}/products/{product['handle']}",
+        "image": image,
         "text": text,
         "tags": product.get("tags", []),
         "categories": [product.get("product_type", "")],
@@ -136,9 +147,11 @@ def parse_woo_product(product, variation_lookup=None):
                 ]
     if not options:
         return None
+    images = product.get("images") or []
     return {
         "name": name,
         "url": product.get("permalink", ""),
+        "image": (images[0].get("thumbnail") or images[0].get("src", "")) if images else "",
         "text": text,
         "categories": categories,
         "in_stock": any(o["in_stock"] for o in options),
@@ -182,6 +195,16 @@ def woocommerce(client, roaster):
 JSONLD_RE = re.compile(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', re.IGNORECASE | re.DOTALL)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 META_DESC_RE = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']*)', re.IGNORECASE)
+OG_IMAGE_RE = re.compile(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', re.IGNORECASE)
+
+
+def _jsonld_image(value):
+    """schema.org image can be a URL, a list of URLs, or an ImageObject."""
+    if isinstance(value, list):
+        value = value[0] if value else ""
+    if isinstance(value, dict):
+        value = value.get("url") or value.get("contentUrl") or ""
+    return value if isinstance(value, str) else ""
 
 
 def _walk_jsonld(node):
@@ -241,9 +264,12 @@ def parse_jsonld_product(page_html, url):
     description = strip_html(found.get("description", ""))
     meta = META_DESC_RE.search(page_html)
     text = description or (html.unescape(meta.group(1)) if meta else "")
+    og = OG_IMAGE_RE.search(page_html)
+    image = _jsonld_image(found.get("image")) or (html.unescape(og.group(1)) if og else "")
     return {
         "name": name,
         "url": url,
+        "image": urljoin(url, image) if image else "",
         "text": text,
         "categories": [],
         "in_stock": any(o["in_stock"] for o in options),

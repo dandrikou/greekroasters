@@ -84,6 +84,7 @@ def enrich(roaster, raw, seed_by_url, seed_by_name):
         "roast": roast,
         "roast_basis": basis,
         "url": raw["url"],
+        "image": raw.get("image", ""),
         "in_stock": raw["in_stock"],
         "options": options,
         "best_per_kg": best["per_kg"] if best else None,
@@ -112,6 +113,7 @@ def merge_same_coffee(raw_products):
             target = merged[key]
             target["options"] = sorted(target["options"] + product["options"], key=lambda o: o.get("size_g") or 0)
             target["in_stock"] = target["in_stock"] or product["in_stock"]
+            target["image"] = target.get("image") or product.get("image", "")
         else:
             merged[key] = {**product, "options": list(product["options"])}
     return list(merged.values())
