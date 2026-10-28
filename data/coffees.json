@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T07:50+00:00",
+ "generated_at": "2026-10-28T08:48+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -106,10 +106,10 @@
    "website": "https://area51coffeeroasters.com",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "previous",
+   "source": "live",
    "last_checked": "2026-10-28",
-   "error": "no products found",
-   "coffees": 9,
+   "error": null,
+   "coffees": 7,
    "cheapest_per_kg": 44.84,
    "median_per_kg": 50.36
   },
@@ -123,7 +123,7 @@
    "source": "live",
    "last_checked": "2026-10-28",
    "error": null,
-   "coffees": 21,
+   "coffees": 20,
    "cheapest_per_kg": 38.42,
    "median_per_kg": 84.19
   },
@@ -166,8 +166,8 @@
    "last_checked": "2026-10-28",
    "error": null,
    "coffees": 14,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "cheapest_per_kg": 46.0,
+   "median_per_kg": 67.5
   },
   {
    "id": "cafeistas",
@@ -179,9 +179,9 @@
    "source": "live",
    "last_checked": "2026-10-28",
    "error": null,
-   "coffees": 62,
-   "cheapest_per_kg": 15.07,
-   "median_per_kg": 40.72
+   "coffees": 15,
+   "cheapest_per_kg": 36.0,
+   "median_per_kg": 50.0
   },
   {
    "id": "kolektiva",
@@ -284,7 +284,7 @@
  ],
  "coffees": [
   {
-   "id": "earth:amazon-organic-blend",
+   "id": "earth:amazon-blend",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
    "name": "Amazon Organic Blend",
@@ -315,11 +315,11 @@
    "best_per_kg": 0.04,
    "cheapest_bag": 12.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 48.0,
-   "price_changed_on": "2026-10-28"
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
-   "id": "earth:aztec-organic-blend",
+   "id": "earth:aztec-blend",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
    "name": "Aztec Organic Blend",
@@ -349,499 +349,6 @@
    ],
    "best_per_kg": 0.04,
    "cheapest_bag": 12.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 48.0,
-   "price_changed_on": "2026-10-28"
-  },
-  {
-   "id": "cafeistas:33-double-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "33% double choco drink powder mix – republic® – 750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/33-double-choco-drink-opwder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 11.3,
-     "in_stock": true,
-     "per_kg": 15.07
-    }
-   ],
-   "best_per_kg": 15.07,
-   "cheapest_bag": 11.3,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:33-double-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "33% double – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/33-double-drinking-choco-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 11.3,
-     "in_stock": true,
-     "per_kg": 15.07
-    }
-   ],
-   "best_per_kg": 15.07,
-   "cheapest_bag": 11.3,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:bitter-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "bitter choco drink powder mix – republic® – 750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/bitter-drinking-choco-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:bitter-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "bitter – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/bitter-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:white-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "white choco drink powder mix – republic® -750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/white-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:λευκ-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "λευκή – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/white-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:salted-caramel-flavored-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "salted caramel flavored choco drink powder mix – republic® – 750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/salted-caramel-flavored-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:αλμυρ-καραμ-λα-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "αλμυρή καραμέλα – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/salted-caramel-flavored-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:hazelnut-flavored-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "hazelnut flavored choco drink powder mix – republic® -750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/hazelnut-flavored-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:φουντο-κι-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "φουντούκι – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/hazelnut-flavored-drinking-choco-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:strawberry-flavored-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "strawberry flavored choco drink powder mix – republic® -750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/strawberry-flavored-choco-drink-republic-powder-mix-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:φρ-ουλα-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "φράουλα – republic® -750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/strawberry-flavored-drinking-choco-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 17.33
-    }
-   ],
-   "best_per_kg": 17.33,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:white-with-hazelnut-choco-drink-powder-mix-republic",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "white with hazelnut choco drink powder mix – republic® -750g",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/white-with-hazelnut-choco-drink-powder-mix-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.2,
-     "in_stock": true,
-     "per_kg": 17.6
-    }
-   ],
-   "best_per_kg": 17.6,
-   "cheapest_bag": 13.2,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:λευκ-με-φουντο-κι-republic-μ-γμα-σε-σκ-νη-για-σοκολατο-χο-ρ-φημα",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "λευκή με φουντούκι – republic® – 750g – μίγμα σε σκόνη για σοκολατούχο ρόφημα",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/white-with-hazelnut-drinking-choco-republic-750g/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 750,
-     "price": 13.2,
-     "in_stock": true,
-     "per_kg": 17.6
-    }
-   ],
-   "best_per_kg": 17.6,
-   "cheapest_bag": 13.2,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:rooibos-τσ-ι-χωρ-ς-τε-νη",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "rooibos τσάι χωρίς τεΐνη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/rooibos-theine-free-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 3.33,
-     "in_stock": true,
-     "per_kg": 26.64
-    }
-   ],
-   "best_per_kg": 26.64,
-   "cheapest_bag": 3.33,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:earl-grey-μα-ρο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "earl grey μαύρο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/earl-grey-black-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 3.45,
-     "in_stock": true,
-     "per_kg": 27.6
-    }
-   ],
-   "best_per_kg": 27.6,
-   "cheapest_bag": 3.45,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:china-πρ-σινο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "china πράσινο τσάι",
-   "origin": "China",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/china-green-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 3.68,
-     "in_stock": true,
-     "per_kg": 29.44
-    }
-   ],
-   "best_per_kg": 29.44,
-   "cheapest_bag": 3.68,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -876,7 +383,7 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:good-cup-specialty-coffee-blend",
+   "id": "kudu:good-cup-specialty-blend",
    "roaster_id": "kudu",
    "roaster": "Kudu",
    "name": "Good Cup Specialty Coffee blend (250g)",
@@ -936,7 +443,7 @@
    "best_per_kg": 32.0,
    "cheapest_bag": 8.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 32.0,
    "price_changed_on": null
   },
   {
@@ -971,11 +478,11 @@
    "best_per_kg": 32.0,
    "cheapest_bag": 8.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 32.0,
    "price_changed_on": null
   },
   {
-   "id": "blackbart:seven-seas-coffee-blend",
+   "id": "blackbart:seven-seas-blend",
    "roaster_id": "blackbart",
    "roaster": "Black Bart",
    "name": "Seven Seas Coffee Blend Κόκκος 250gr",
@@ -1010,7 +517,7 @@
    "price_changed_on": null
   },
   {
-   "id": "blackbart:siren-s-call-100-arabica-coffee-blend",
+   "id": "blackbart:siren-s-call-100-arabica-blend",
    "roaster_id": "blackbart",
    "roaster": "Black Bart",
    "name": "Siren’s Call 100% Arabica Coffee Blend Κόκκος 1kg",
@@ -1070,7 +577,7 @@
    "best_per_kg": 32.32,
    "cheapest_bag": 8.08,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 33.0,
+   "previous_per_kg": 32.32,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -1105,7 +612,7 @@
    "best_per_kg": 33.0,
    "cheapest_bag": 8.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 33.0,
    "price_changed_on": null
   },
   {
@@ -1140,7 +647,7 @@
    "best_per_kg": 33.0,
    "cheapest_bag": 8.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 33.0,
    "price_changed_on": null
   },
   {
@@ -1175,7 +682,7 @@
    "best_per_kg": 33.2,
    "cheapest_bag": 9.1,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 33.2,
    "price_changed_on": null
   },
   {
@@ -1245,7 +752,7 @@
    "best_per_kg": 33.2,
    "cheapest_bag": 9.1,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 33.2,
    "price_changed_on": null
   },
   {
@@ -1350,11 +857,11 @@
    "best_per_kg": 34.0,
    "cheapest_bag": 9.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 34.0,
    "price_changed_on": null
   },
   {
-   "id": "kudu:habit-specialty-coffee-blend",
+   "id": "kudu:habit-specialty-blend",
    "roaster_id": "kudu",
    "roaster": "Kudu",
    "name": "Habit Specialty Coffee blend (250g)",
@@ -1408,40 +915,11 @@
    "best_per_kg": 34.8,
    "cheapest_bag": 17.4,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 34.8,
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:bush-of-ghosts-πρ-σινο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "bush of ghosts πράσινο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/bush-of-ghosts-green-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 4.35,
-     "in_stock": true,
-     "per_kg": 34.8
-    }
-   ],
-   "best_per_kg": 34.8,
-   "cheapest_bag": 4.35,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:bio-organic-coffee-ground-for-filter",
+   "id": "cafeistas:bio-ground-for-filter",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "bio – 250g – organic coffee – ground for filter",
@@ -1470,7 +948,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:bio-οργανικ-ς-καφ-ς-αλεσμ-νος-για-φ-λτρου",
+   "id": "cafeistas:bio-αλεσμ-νος-για-φ-λτρου",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "bio – 250g – οργανικός καφές αλεσμένος για φίλτρου",
@@ -1582,7 +1060,7 @@
    "best_per_kg": 36.12,
    "cheapest_bag": 9.03,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 37.0,
+   "previous_per_kg": 36.12,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -1611,7 +1089,7 @@
    "best_per_kg": 36.12,
    "cheapest_bag": 9.03,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 37.0,
+   "previous_per_kg": 36.12,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -1640,7 +1118,7 @@
    "best_per_kg": 36.3,
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 36.3,
    "price_changed_on": null
   },
   {
@@ -1669,7 +1147,7 @@
    "best_per_kg": 36.67,
    "cheapest_bag": 9.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 36.67,
    "price_changed_on": null
   },
   {
@@ -1698,7 +1176,7 @@
    "best_per_kg": 36.8,
    "cheapest_bag": 18.4,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 36.8,
    "price_changed_on": null
   },
   {
@@ -1791,7 +1269,7 @@
    "best_per_kg": 37.69,
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 37.69,
    "price_changed_on": null
   },
   {
@@ -1826,7 +1304,7 @@
    "best_per_kg": 38.0,
    "cheapest_bag": 12.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 38.0,
    "price_changed_on": null
   },
   {
@@ -1862,64 +1340,6 @@
    "cheapest_bag": 12.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 38.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:paradise-apple-μα-ρο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "paradise apple μαύρο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/paradise-apple-black-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 4.8,
-     "in_stock": true,
-     "per_kg": 38.4
-    }
-   ],
-   "best_per_kg": 38.4,
-   "cheapest_bag": 4.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:vanilla-bee-μα-ρο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "vanilla bee μαύρο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/vanilla-bee-black-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 4.8,
-     "in_stock": true,
-     "per_kg": 38.4
-    }
-   ],
-   "best_per_kg": 38.4,
-   "cheapest_bag": 4.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -1983,7 +1403,7 @@
    "best_per_kg": 38.59,
    "cheapest_bag": 10.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 38.99,
+   "previous_per_kg": 38.59,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -2208,7 +1628,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:aracacu-brazil-coffee",
+   "id": "cafeistas:aracacu-brazil",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "aracacu – brazil – 250g – coffee",
@@ -2228,30 +1648,7 @@
      "price": 10.0,
      "in_stock": true,
      "per_kg": 40.0
-    }
-   ],
-   "best_per_kg": 40.0,
-   "cheapest_bag": 10.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:aracacu-brazil-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "aracacu – brazil – 250g – καφές",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/aracacu-brazil-250g-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 10.0,
@@ -2297,37 +1694,8 @@
    "best_per_kg": 40.68,
    "cheapest_bag": 11.3,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 41.36,
+   "previous_per_kg": 40.68,
    "price_changed_on": "2026-10-28"
-  },
-  {
-   "id": "cafeistas:pink-flamingo-πρ-σινο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "pink flamingo πράσινο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/pink-flamingo-green-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 5.09,
-     "in_stock": true,
-     "per_kg": 40.72
-    }
-   ],
-   "best_per_kg": 40.72,
-   "cheapest_bag": 5.09,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
   },
   {
    "id": "samba:brazil-fazenda-lagoa",
@@ -2423,7 +1791,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:dos-latin-american-blend-coffee",
+   "id": "cafeistas:dos-latin-american-blend",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "dos latin american blend – 1000g – coffee",
@@ -2445,39 +1813,16 @@
      "per_kg": 42.0
     },
     {
-     "size_g": 1000,
-     "price": 41.25,
-     "in_stock": true,
-     "per_kg": 41.25
-    }
-   ],
-   "best_per_kg": 41.25,
-   "cheapest_bag": 10.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:dos-latin-american-blend-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "dos latin american blend – 1000g – καφές",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/dos-latin-american-blend-1000g-coffee/",
-   "in_stock": true,
-   "options": [
-    {
      "size_g": 250,
      "price": 10.5,
      "in_stock": true,
      "per_kg": 42.0
+    },
+    {
+     "size_g": 1000,
+     "price": 41.25,
+     "in_stock": true,
+     "per_kg": 41.25
     },
     {
      "size_g": 1000,
@@ -2493,7 +1838,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:moja-african-blend-coffee",
+   "id": "cafeistas:moja-african-blend",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "moja african blend – 1000g – coffee",
@@ -2515,39 +1860,16 @@
      "per_kg": 42.0
     },
     {
-     "size_g": 1000,
-     "price": 41.25,
-     "in_stock": true,
-     "per_kg": 41.25
-    }
-   ],
-   "best_per_kg": 41.25,
-   "cheapest_bag": 10.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:moja-african-blend-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "moja african blend – 1000g – καφές",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/moja-african-blend-1000g-coffee/",
-   "in_stock": true,
-   "options": [
-    {
      "size_g": 250,
      "price": 10.5,
      "in_stock": true,
      "per_kg": 42.0
+    },
+    {
+     "size_g": 1000,
+     "price": 41.25,
+     "in_stock": true,
+     "per_kg": 41.25
     },
     {
      "size_g": 1000,
@@ -2623,7 +1945,7 @@
    "best_per_kg": 42.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 42.0,
    "price_changed_on": null
   },
   {
@@ -2658,66 +1980,8 @@
    "best_per_kg": 42.94,
    "cheapest_bag": 11.87,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 43.62,
+   "previous_per_kg": 42.94,
    "price_changed_on": "2026-10-28"
-  },
-  {
-   "id": "cafeistas:purple-forest-τσ-ι-χωρ-ς-τε-νη",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "purple forest τσάι χωρίς τεΐνη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/purple-forest-theine-free-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 5.37,
-     "in_stock": true,
-     "per_kg": 42.96
-    }
-   ],
-   "best_per_kg": 42.96,
-   "cheapest_bag": 5.37,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:desert-flower-τσ-ι-χωρ-ς-τε-νη",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "desert flower τσάι χωρίς τεΐνη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/desert-flower-theine-free-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 5.37,
-     "in_stock": true,
-     "per_kg": 42.96
-    }
-   ],
-   "best_per_kg": 42.96,
-   "cheapest_bag": 5.37,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
   },
   {
    "id": "kudu:costa-rica-cedral-alto",
@@ -2778,7 +2042,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:water-decaffeinated-arabica-coffee",
+   "id": "cafeistas:water-decaffeinated-arabica",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "water decaffeinated – arabica – 500g – coffee",
@@ -2794,95 +2058,26 @@
    "in_stock": true,
    "options": [
     {
-     "size_g": 500,
-     "price": 21.7,
+     "size_g": 250,
+     "price": 10.85,
      "in_stock": true,
      "per_kg": 43.4
-    }
-   ],
-   "best_per_kg": 43.4,
-   "cheapest_bag": 21.7,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:water-decaffeinated-arabica-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "water decaffeinated – arabica – 500g – καφές",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/water-decaffeinated-arabica-500g-coffee/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 500,
-     "price": 21.7,
-     "in_stock": true,
-     "per_kg": 43.4
-    }
-   ],
-   "best_per_kg": 43.4,
-   "cheapest_bag": 21.7,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:water-decaffeinated-arabica-organic-coffee",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "water decaffeinated – arabica – 250g – organic coffee",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "Water decaf",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/water-decaffeinated-arabica-250g-organic-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 10.85,
      "in_stock": true,
      "per_kg": 43.4
-    }
-   ],
-   "best_per_kg": 43.4,
-   "cheapest_bag": 10.85,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:water-decaffeinated-arabica-οργανικ-ς-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "water decaffeinated – arabica – 250g – οργανικός καφές",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "Water decaf",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/water-decaffeinated-arabica-250g-organic-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
-     "size_g": 250,
-     "price": 10.85,
+     "size_g": 500,
+     "price": 21.7,
+     "in_stock": true,
+     "per_kg": 43.4
+    },
+    {
+     "size_g": 500,
+     "price": 21.7,
      "in_stock": true,
      "per_kg": 43.4
     }
@@ -2919,7 +2114,7 @@
    "best_per_kg": 44.07,
    "cheapest_bag": 11.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.07,
    "price_changed_on": null
   },
   {
@@ -2960,7 +2155,7 @@
    "best_per_kg": 44.07,
    "cheapest_bag": 12.15,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 44.75,
+   "previous_per_kg": 44.07,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -2995,7 +2190,7 @@
    "best_per_kg": 44.52,
    "cheapest_bag": 12.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.52,
    "price_changed_on": null
   },
   {
@@ -3110,7 +2305,7 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/brazil-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "in_stock": true,
    "options": [
     {
@@ -3123,36 +2318,7 @@
    "best_per_kg": 44.84,
    "cheapest_bag": 11.21,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "area51:interstellar-blend",
-   "roaster_id": "area51",
-   "roaster": "Area 51",
-   "name": "Interstellar Blend",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 11.21,
-     "in_stock": true,
-     "per_kg": 44.84
-    }
-   ],
-   "best_per_kg": 44.84,
-   "cheapest_bag": 11.21,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.84,
    "price_changed_on": null
   },
   {
@@ -3187,36 +2353,7 @@
    "best_per_kg": 44.99,
    "cheapest_bag": 11.81,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:cool-breeze-πρ-σινο-τσ-ι",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "cool breeze πράσινο τσάι",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/cool-breeze-green-tea/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 125,
-     "price": 5.65,
-     "in_stock": true,
-     "per_kg": 45.2
-    }
-   ],
-   "best_per_kg": 45.2,
-   "cheapest_bag": 5.65,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.99,
    "price_changed_on": null
   },
   {
@@ -3246,6 +2383,35 @@
    "cheapest_bag": 11.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 46.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:india-attikan-estate",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "INDIA ATTIKAN ESTATE",
+   "origin": "India",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Caramel, Floral, Tangerine",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/india-attikan-estate-250gr-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -3309,7 +2475,7 @@
    "best_per_kg": 46.33,
    "cheapest_bag": 12.15,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 46.73,
+   "previous_per_kg": 46.33,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -3344,7 +2510,7 @@
    "best_per_kg": 46.45,
    "cheapest_bag": 13.1,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.45,
    "price_changed_on": null
   },
   {
@@ -3377,7 +2543,7 @@
    "price_changed_on": null
   },
   {
-   "id": "earth:ethnic-organic-blend",
+   "id": "earth:ethnic-blend",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
    "name": "Ethnic Organic Blend",
@@ -3472,7 +2638,7 @@
    "best_per_kg": 48.76,
    "cheapest_bag": 12.75,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.76,
    "price_changed_on": null
   },
   {
@@ -3517,7 +2683,7 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/decaf-co2-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "in_stock": true,
    "options": [
     {
@@ -3530,7 +2696,7 @@
    "best_per_kg": 49.76,
    "cheapest_bag": 12.44,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 49.76,
    "price_changed_on": null
   },
   {
@@ -3563,7 +2729,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:karimikui-kenya-coffee",
+   "id": "cafeistas:karimikui-kenya",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "karimikui – kenya – 250g – coffee",
@@ -3583,6 +2749,12 @@
      "price": 12.5,
      "in_stock": true,
      "per_kg": 50.0
+    },
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
     }
    ],
    "best_per_kg": 50.0,
@@ -3592,7 +2764,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:kibingo-burundi-καφ-ς",
+   "id": "cafeistas:kibingo-burundi",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "kibingo – burundi – 250g – καφές",
@@ -3612,30 +2784,7 @@
      "price": 12.5,
      "in_stock": true,
      "per_kg": 50.0
-    }
-   ],
-   "best_per_kg": 50.0,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:karimikui-kenya-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "karimikui – kenya – 250g – καφές",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/karimikui-kenya-250g-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 12.5,
@@ -3650,36 +2799,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:kibingo-burundi-coffee",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "kibingo – burundi – 250g – coffee",
-   "origin": "Burundi",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/kibingo-burundi-250g-coffee/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": 50.0
-    }
-   ],
-   "best_per_kg": 50.0,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:buku-abel-ethiopia-coffee",
+   "id": "cafeistas:buku-abel-ethiopia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "buku abel – ethiopia – 250g – coffee",
@@ -3699,30 +2819,7 @@
      "price": 12.5,
      "in_stock": true,
      "per_kg": 50.0
-    }
-   ],
-   "best_per_kg": 50.0,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:buku-abel-ethiopia-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "buku abel – ethiopia – 250g – καφές",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/buku-abel-ethiopia-250g-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 12.5,
@@ -3732,70 +2829,6 @@
    ],
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:gaggia-espresso-style-black",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "gaggia – espresso – style – black",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://cafeistas.com/en/product/gaggia-espresso-style-black/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 3700,
-     "price": 186.0,
-     "in_stock": true,
-     "per_kg": 50.27
-    },
-    {
-     "size_g": 3700,
-     "price": 186.0,
-     "in_stock": true,
-     "per_kg": 50.27
-    }
-   ],
-   "best_per_kg": 50.27,
-   "cheapest_bag": 186.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "area51:ethiopia-worka-nenke",
-   "roaster_id": "area51",
-   "roaster": "Area 51",
-   "name": "Ethiopia Worka Nenke",
-   "origin": "Ethiopia",
-   "region": "Yirgacheffe, Gedeb",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "strawberry, peach, molasses, milk chocolate",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.59,
-     "in_stock": true,
-     "per_kg": 50.36
-    }
-   ],
-   "best_per_kg": 50.36,
-   "cheapest_bag": 12.59,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -3813,7 +2846,7 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/el-salvador-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "in_stock": true,
    "options": [
     {
@@ -3826,15 +2859,15 @@
    "best_per_kg": 50.36,
    "cheapest_bag": 12.59,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.36,
    "price_changed_on": null
   },
   {
-   "id": "area51:indonesia",
+   "id": "area51:ethiopia",
    "roaster_id": "area51",
    "roaster": "Area 51",
-   "name": "Indonesia",
-   "origin": "Indonesia",
+   "name": "Ethiopia",
+   "origin": "Ethiopia",
    "region": "",
    "type": "Single origin",
    "process": "",
@@ -3842,7 +2875,7 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/ethiopia-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "in_stock": true,
    "options": [
     {
@@ -3871,7 +2904,7 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/colombia-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "in_stock": true,
    "options": [
     {
@@ -3884,7 +2917,7 @@
    "best_per_kg": 50.36,
    "cheapest_bag": 12.59,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.36,
    "price_changed_on": null
   },
   {
@@ -3913,7 +2946,7 @@
    "best_per_kg": 51.32,
    "cheapest_bag": 12.83,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 51.32,
    "price_changed_on": null
   },
   {
@@ -3948,11 +2981,11 @@
    "best_per_kg": 51.39,
    "cheapest_bag": 13.41,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 51.79,
+   "previous_per_kg": 51.39,
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "kudu:the-grail-specialty-coffee-blend",
+   "id": "kudu:the-grail-specialty-blend",
    "roaster_id": "kudu",
    "roaster": "Kudu",
    "name": "The Grail Specialty Coffee blend (250g)",
@@ -4035,11 +3068,40 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-28",
+   "previous_per_kg": 52.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:colombia-reforest-project",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "COLOMBIA REFOREST PROJECT 250GR",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Chocolate",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/colombia-reforest-project-250gr-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:miwu-uganda-coffee",
+   "id": "cafeistas:miwu-uganda",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "miwu – uganda – 250g – coffee",
@@ -4059,30 +3121,7 @@
      "price": 13.0,
      "in_stock": false,
      "per_kg": 52.0
-    }
-   ],
-   "best_per_kg": 52.0,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:miwu-uganda-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "miwu – uganda – 250g – καφές",
-   "origin": "Uganda",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/miwu-uganda-250g-coffee/",
-   "in_stock": false,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 13.0,
@@ -4157,7 +3196,7 @@
    "best_per_kg": 52.3,
    "cheapest_bag": 15.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.3,
    "price_changed_on": null
   },
   {
@@ -4347,7 +3386,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:sidama-bombe-ethiopia-coffee",
+   "id": "cafeistas:sidama-bombe-ethiopia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "sidama bombe – ethiopia – 250g – coffee",
@@ -4367,30 +3406,7 @@
      "price": 13.5,
      "in_stock": true,
      "per_kg": 54.0
-    }
-   ],
-   "best_per_kg": 54.0,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:sidama-bombe-ethiopia-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "sidama bombe – ethiopia – 250g – καφές",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/sidama-bombe-ethiopia-250g-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 13.5,
@@ -4459,7 +3475,7 @@
    "best_per_kg": 54.36,
    "cheapest_bag": 13.59,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 54.36,
    "price_changed_on": null
   },
   {
@@ -4488,7 +3504,7 @@
    "best_per_kg": 54.36,
    "cheapest_bag": 13.59,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 54.36,
    "price_changed_on": null
   },
   {
@@ -4662,6 +3678,35 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-10-28",
+   "previous_per_kg": 56.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:kenya-kanjathi-aa",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "KENYA KANJATHI AA",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Tea Like, Cranberries, Honey, Blackcurrant, Orange",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/kenya-kanjathi-aa-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -4720,7 +3765,7 @@
    "best_per_kg": 56.64,
    "cheapest_bag": 14.16,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.64,
    "price_changed_on": null
   },
   {
@@ -4749,7 +3794,7 @@
    "best_per_kg": 56.64,
    "cheapest_bag": 14.16,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.64,
    "price_changed_on": null
   },
   {
@@ -4894,7 +3939,7 @@
    "best_per_kg": 58.15,
    "cheapest_bag": 15.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 58.15,
    "price_changed_on": null
   },
   {
@@ -4952,7 +3997,7 @@
    "best_per_kg": 58.52,
    "cheapest_bag": 14.63,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 58.52,
    "price_changed_on": null
   },
   {
@@ -4981,7 +4026,7 @@
    "best_per_kg": 58.92,
    "cheapest_bag": 14.73,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 58.92,
    "price_changed_on": null
   },
   {
@@ -5039,7 +4084,7 @@
    "best_per_kg": 59.2,
    "cheapest_bag": 14.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 59.2,
    "price_changed_on": null
   },
   {
@@ -5219,7 +4264,7 @@
    "best_per_kg": 60.04,
    "cheapest_bag": 15.01,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 60.04,
    "price_changed_on": null
   },
   {
@@ -5248,7 +4293,7 @@
    "best_per_kg": 60.8,
    "cheapest_bag": 15.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 60.8,
    "price_changed_on": null
   },
   {
@@ -5306,7 +4351,7 @@
    "best_per_kg": 61.15,
    "cheapest_bag": 15.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 61.15,
    "price_changed_on": null
   },
   {
@@ -5335,7 +4380,7 @@
    "best_per_kg": 61.96,
    "cheapest_bag": 15.49,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 61.96,
    "price_changed_on": null
   },
   {
@@ -5422,7 +4467,7 @@
    "best_per_kg": 62.32,
    "cheapest_bag": 15.58,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.32,
    "price_changed_on": null
   },
   {
@@ -5451,7 +4496,7 @@
    "best_per_kg": 62.59,
    "cheapest_bag": 16.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.59,
    "price_changed_on": null
   },
   {
@@ -5480,7 +4525,7 @@
    "best_per_kg": 63.84,
    "cheapest_bag": 15.96,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 63.84,
    "price_changed_on": null
   },
   {
@@ -5510,6 +4555,35 @@
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 64.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:pink-crush",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "PINK CRUSH",
+   "origin": "Indonesia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Cranberry, stewed apple, balsamic pink grapefruit, sherbet, tamarind",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pink-crush-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    }
+   ],
+   "best_per_kg": 64.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5567,7 +4641,7 @@
    "best_per_kg": 64.23,
    "cheapest_bag": 16.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.23,
    "price_changed_on": null
   },
   {
@@ -5596,7 +4670,7 @@
    "best_per_kg": 64.4,
    "cheapest_bag": 16.1,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.4,
    "price_changed_on": null
   },
   {
@@ -5625,7 +4699,7 @@
    "best_per_kg": 64.6,
    "cheapest_bag": 16.15,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.6,
    "price_changed_on": null
   },
   {
@@ -5654,7 +4728,7 @@
    "best_per_kg": 64.6,
    "cheapest_bag": 16.15,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.6,
    "price_changed_on": null
   },
   {
@@ -5770,11 +4844,40 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 16.5,
    "first_seen": "2026-10-28",
+   "previous_per_kg": 66.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:mango-muse",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "MANGO MUSE",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Apricot, dried mango, orange blossom, honey, black tea",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/mango-muse-ethiopia-conte-coffee-roasters/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:pachamama-colombia-250-coffee",
+   "id": "cafeistas:pachamama-colombia-250",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "pachamama – colombia – 250 – coffee",
@@ -5803,7 +4906,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:pachamama-colombia-καφ-ς",
+   "id": "cafeistas:pachamama-colombia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "pachamama – colombia -250g – καφές",
@@ -5886,6 +4989,35 @@
    "best_per_kg": 67.31,
    "cheapest_bag": 17.5,
    "first_seen": "2026-10-28",
+   "previous_per_kg": 67.31,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:supernatural",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "SUPERNATURAL",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Peach, orange wine, kiwi, strawberry, dark chocolate, honey",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/supernatural-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 67.5
+    }
+   ],
+   "best_per_kg": 67.5,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -5915,7 +5047,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6002,7 +5134,7 @@
    "best_per_kg": 68.46,
    "cheapest_bag": 17.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.46,
    "price_changed_on": null
   },
   {
@@ -6089,7 +5221,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 17.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -6177,6 +5309,35 @@
    "cheapest_bag": 14.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 70.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:black-cherry-cola",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "BLACK CHERRY COLA",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Black grape, dark cherry, fig, cacao nibs, heavy body",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/black-cherry-cola-2/",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.5,
+     "in_stock": false,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 17.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6292,7 +5453,7 @@
    "best_per_kg": 72.68,
    "cheapest_bag": 18.17,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.68,
    "price_changed_on": null
   },
   {
@@ -6321,7 +5482,7 @@
    "best_per_kg": 72.69,
    "cheapest_bag": 18.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.69,
    "price_changed_on": null
   },
   {
@@ -6350,7 +5511,7 @@
    "best_per_kg": 74.48,
    "cheapest_bag": 18.62,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 74.48,
    "price_changed_on": null
   },
   {
@@ -6379,7 +5540,7 @@
    "best_per_kg": 75.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 75.0,
    "price_changed_on": null
   },
   {
@@ -6408,7 +5569,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -6443,7 +5604,7 @@
    "best_per_kg": 77.47,
    "cheapest_bag": 19.93,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 77.47,
    "price_changed_on": null
   },
   {
@@ -6623,7 +5784,7 @@
    "best_per_kg": 83.8,
    "cheapest_bag": 26.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 83.8,
    "price_changed_on": null
   },
   {
@@ -6658,7 +5819,7 @@
    "best_per_kg": 84.19,
    "cheapest_bag": 21.62,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 84.19,
    "price_changed_on": null
   },
   {
@@ -6803,7 +5964,7 @@
    "best_per_kg": 86.8,
    "cheapest_bag": 21.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 86.8,
    "price_changed_on": null
   },
   {
@@ -6832,7 +5993,7 @@
    "best_per_kg": 87.4,
    "cheapest_bag": 21.85,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 87.4,
    "price_changed_on": null
   },
   {
@@ -6865,7 +6026,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:gesha-l-h-salazar-colombia-coffee",
+   "id": "cafeistas:gesha-l-h-salazar-colombia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "gesha l.h. Salazar – colombia – 250g – coffee",
@@ -6885,30 +6046,7 @@
      "price": 22.0,
      "in_stock": true,
      "per_kg": 88.0
-    }
-   ],
-   "best_per_kg": 88.0,
-   "cheapest_bag": 22.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:gesha-l-h-salazar-colombia-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "gesha L.H. Salazar – colombia – 250g – καφές",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/gesha-lhsalazar-colombia-250g-coffee/",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 22.0,
@@ -6954,7 +6092,7 @@
    "best_per_kg": 88.9,
    "cheapest_bag": 27.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 88.9,
    "price_changed_on": null
   },
   {
@@ -6989,7 +6127,7 @@
    "best_per_kg": 89.0,
    "cheapest_bag": 27.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 89.0,
    "price_changed_on": null
   },
   {
@@ -7022,6 +6160,93 @@
    "price_changed_on": null
   },
   {
+   "id": "conte:pi-a-colada",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "PIÑA COLADA",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Pineapple, blackberry, crisp green apple, lemon tea, bergamot, lavender, Parma violets, dark chocolate, toffee",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pina-colada-2/",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 18.5,
+     "in_stock": false,
+     "per_kg": 92.5
+    }
+   ],
+   "best_per_kg": 92.5,
+   "cheapest_bag": 18.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:rocket-flower",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "ROCKET FLOWER",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Orange, Citrus, Coconut, Floral, Lemongrass, sweet aromatics",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/rocket-flower-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 18.5,
+     "in_stock": true,
+     "per_kg": 92.5
+    }
+   ],
+   "best_per_kg": 92.5,
+   "cheapest_bag": 18.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:juicy-strawberry-colombia",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "JUICY STRAWBERRY COLOMBIA",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "Strawberry, red fruits, brown sugar, lemon, citric acid",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/bestsellers/juicy-strawberry-colombia-200gr-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 95.0
+    }
+   ],
+   "best_per_kg": 95.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:las-quebraditas-sl-28-colombia",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -7047,7 +6272,7 @@
    "best_per_kg": 95.56,
    "cheapest_bag": 25.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 95.56,
    "price_changed_on": null
   },
   {
@@ -7134,7 +6359,7 @@
    "best_per_kg": 100.0,
    "cheapest_bag": 25.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 100.0,
    "price_changed_on": null
   },
   {
@@ -7227,8 +6452,66 @@
    "best_per_kg": 102.83,
    "cheapest_bag": 26.27,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 103.23,
+   "previous_per_kg": 102.83,
    "price_changed_on": "2026-10-28"
+  },
+  {
+   "id": "conte:aji-bourbon-washed",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "AJI BOURBON WASHED",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Lemon Iced Tea, White Grapes, Peach",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-washed-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 105.0
+    }
+   ],
+   "best_per_kg": 105.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:aji-bourbon-natural",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "AJI BOURBON NATURAL",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Red Berry Tea, Jasmine, Bubblegum",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-natural-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 105.0
+    }
+   ],
+   "best_per_kg": 105.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "dabov:costa-rica-anaerobic",
@@ -7318,19 +6601,77 @@
    "price_changed_on": null
   },
   {
-   "id": "area51:colombia-omblig-n",
+   "id": "conte:sidra-bourbon",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "SIDRA BOURBON",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Jelly Beans, Red Grape, Jasmine, Jammy",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/bourbon-sidra-2/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 23.0,
+     "in_stock": true,
+     "per_kg": 115.0
+    }
+   ],
+   "best_per_kg": 115.0,
+   "cheapest_bag": 23.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:ombligon",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "OMBLIGON",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Elderflower Cordial, Blood Orange, Black Tea",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/ombligon-2/",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 23.0,
+     "in_stock": false,
+     "per_kg": 115.0
+    }
+   ],
+   "best_per_kg": 115.0,
+   "cheapest_bag": 23.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "area51:colombia-ombligon",
    "roaster_id": "area51",
    "roaster": "Area 51",
-   "name": "Colombia Ombligón",
+   "name": "Colombia Ombligon",
    "origin": "Colombia",
-   "region": "Huila",
+   "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/colombia-ombligon-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-150g/",
    "in_stock": true,
    "options": [
     {
@@ -7372,7 +6713,7 @@
    "best_per_kg": 120.0,
    "cheapest_bag": 30.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 120.0,
    "price_changed_on": null
   },
   {
@@ -7437,7 +6778,7 @@
    "id": "kudu:colombia-los-nogales",
    "roaster_id": "kudu",
    "roaster": "Kudu",
-   "name": "Colombia Los Nogales  (200g)",
+   "name": "Colombia Los Nogales (200g)",
    "origin": "Colombia",
    "region": "",
    "type": "Single origin",
@@ -7463,7 +6804,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:blue-mountain-jamaica-coffee",
+   "id": "cafeistas:blue-mountain-jamaica",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "blue mountain – jamaica – 250g – coffee",
@@ -7483,30 +6824,7 @@
      "price": 33.0,
      "in_stock": false,
      "per_kg": 132.0
-    }
-   ],
-   "best_per_kg": 132.0,
-   "cheapest_bag": 33.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:blue-mountain-jamaica-καφ-ς",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "blue mountain – jamaica – 250g – καφές",
-   "origin": "Jamaica",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/product/blue-mountain-jamaica-250g/",
-   "in_stock": false,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 33.0,
@@ -7546,23 +6864,23 @@
    "best_per_kg": 133.0,
    "cheapest_bag": 33.25,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 133.0,
    "price_changed_on": null
   },
   {
-   "id": "area51:colombia-sl-28-la-macarena",
+   "id": "area51:colombia-sl-28",
    "roaster_id": "area51",
    "roaster": "Area 51",
-   "name": "Colombia SL-28 (La Macarena)",
+   "name": "Colombia SL 28",
    "origin": "Colombia",
-   "region": "Cauca",
+   "region": "",
    "type": "Single origin",
-   "process": "Anaerobic, yeast-inoculated, thermal shock",
-   "notes": "forest fruit, caramel, butter",
-   "taste": "Chocolate / nutty",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/shop/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/colombia-sl-28-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-150g/",
    "in_stock": true,
    "options": [
     {
@@ -7691,7 +7009,7 @@
    "best_per_kg": 150.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 150.0,
    "price_changed_on": null
   },
   {
@@ -7720,7 +7038,7 @@
    "best_per_kg": 150.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 150.0,
    "price_changed_on": null
   },
   {
@@ -7755,7 +7073,7 @@
    "best_per_kg": 150.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 150.0,
    "price_changed_on": null
   },
   {
@@ -7842,7 +7160,7 @@
    "best_per_kg": 156.0,
    "cheapest_bag": 39.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 156.0,
    "price_changed_on": null
   },
   {
@@ -8103,7 +7421,7 @@
    "best_per_kg": 333.33,
    "cheapest_bag": 50.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 333.33,
    "price_changed_on": null
   },
   {
@@ -8132,7 +7450,7 @@
    "best_per_kg": 333.33,
    "cheapest_bag": 50.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 333.33,
    "price_changed_on": null
   },
   {
@@ -8161,7 +7479,7 @@
    "best_per_kg": 333.33,
    "cheapest_bag": 50.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 333.33,
    "price_changed_on": null
   },
   {
@@ -8190,7 +7508,7 @@
    "best_per_kg": 333.33,
    "cheapest_bag": 50.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 333.33,
    "price_changed_on": null
   },
   {
@@ -8219,7 +7537,7 @@
    "best_per_kg": 333.33,
    "cheapest_bag": 50.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 333.33,
    "price_changed_on": null
   },
   {
@@ -8277,7 +7595,7 @@
    "best_per_kg": 416.31,
    "cheapest_bag": 66.61,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 416.31,
    "price_changed_on": null
   },
   {
@@ -8306,7 +7624,7 @@
    "best_per_kg": 449.76,
    "cheapest_bag": 112.44,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 449.76,
    "price_changed_on": null
   },
   {
@@ -8335,7 +7653,7 @@
    "best_per_kg": 456.0,
    "cheapest_bag": 45.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 456.0,
    "price_changed_on": null
   },
   {
@@ -8364,7 +7682,7 @@
    "best_per_kg": 522.5,
    "cheapest_bag": 52.25,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 522.5,
    "price_changed_on": null
   },
   {
@@ -8422,7 +7740,7 @@
    "best_per_kg": 1017.0,
    "cheapest_bag": 101.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 1017.0,
    "price_changed_on": null
   },
   {
@@ -8513,744 +7831,6 @@
    "price_changed_on": null
   },
   {
-   "id": "taresso:colombia-arabica-cascara-huila-bourbon-geisha-tabi",
-   "roaster_id": "taresso",
-   "roaster": "Taresso",
-   "name": "Colombia Arabica Cascara, Huila, Bourbon, Geisha & Tabi",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.taresso.com/product/colombia-arabica-cascara-huila-bourbon-geisha-tabi/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 5.09,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 5.09,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:kenya-kanjathi-aa",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "KENYA KANJATHI AA",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Tea Like, Cranberries, Honey, Blackcurrant, Orange",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/kenya-kanjathi-aa-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:black-cherry-cola",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "BLACK CHERRY COLA",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Black grape, dark cherry, fig, cacao nibs, heavy body",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/black-cherry-cola-2/",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 17.5,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 17.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:pi-a-colada",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "PIÑA COLADA",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Pineapple, blackberry, crisp green apple, lemon tea, bergamot, lavender, Parma violets, dark chocolate, toffee",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pina-colada-2/",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.5,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:mango-muse",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "MANGO MUSE",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Apricot, dried mango, orange blossom, honey, black tea",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/mango-muse-ethiopia-conte-coffee-roasters/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 16.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 16.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:supernatural",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "SUPERNATURAL",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Peach, orange wine, kiwi, strawberry, dark chocolate, honey",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/supernatural-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:aji-bourbon-washed",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "AJI BOURBON WASHED",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Lemon Iced Tea, White Grapes, Peach",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-washed-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 21.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:sidra-bourbon",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "SIDRA BOURBON",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Jelly Beans, Red Grape, Jasmine, Jammy",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/bourbon-sidra-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 23.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 23.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:aji-bourbon-natural",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "AJI BOURBON NATURAL",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Red Berry Tea, Jasmine, Bubblegum",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-natural-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 21.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:ombligon",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "OMBLIGON",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Elderflower Cordial, Blood Orange, Black Tea",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/ombligon-2/",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 23.0,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 23.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:rocket-flower",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "ROCKET FLOWER",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Orange, Citrus, Coconut, Floral, Lemongrass, sweet aromatics",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/rocket-flower-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:pink-crush",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "PINK CRUSH",
-   "origin": "Indonesia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Cranberry, stewed apple, balsamic pink grapefruit, sherbet, tamarind",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pink-crush-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 16.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 16.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:india-attikan-estate",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "INDIA ATTIKAN ESTATE",
-   "origin": "India",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Caramel, Floral, Tangerine",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/india-attikan-estate-250gr-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 11.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 11.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:juicy-strawberry-colombia",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "JUICY STRAWBERRY COLOMBIA",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Honey",
-   "notes": "Strawberry, red fruits, brown sugar, lemon, citric acid",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/bestsellers/juicy-strawberry-colombia-200gr-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 19.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 19.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:colombia-reforest-project",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "COLOMBIA REFOREST PROJECT 250GR",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Chocolate",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/colombia-reforest-project-250gr-2/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:chemex-paper-filters-100pcs",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "chemex – paper – filters – 100pcs",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://cafeistas.com/en/product/chemex-paper-filters-100pcs/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.4,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 12.4,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.4,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:paper-filter-melitta-1-4",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "paper filter melitta 1×4",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://cafeistas.com/en/product/paper-filter-melitta-1x4/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 1.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 1.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:coffee-filter-melitta-1-4",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "coffee filter melitta 1×4",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://cafeistas.com/product/coffee-filter-melitta-1x4/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 1.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 1.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:cafeistas-sketch-tote-bag",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "cafeistas sketch tote bag",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/cafeistas-sketch-tote-bag/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 6.0,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 6.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 6.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:cafeistas-tote-bag",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "cafeistas tote bag",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/cafeistas-tote-bag/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 15.0,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 15.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 15.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:cafeistas-tee",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "cafeistas tee",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/cafeistas-tee/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:straw-biodegradable-reusable-cup",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "straw biodegradable reusable cup",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/straw-biodegradable-reusable-cup/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.9,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 14.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:enjoy-coffee-at-home",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "enjoy coffee at home",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/enjoy-coffee-at-home/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 60.0,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 60.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 60.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "cafeistas:coffee-outdoors-magazine",
-   "roaster_id": "cafeistas",
-   "roaster": "Cafeistas",
-   "name": "coffee outdoors magazine",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://cafeistas.com/en/product/coffee-outdoors-magazine/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 7.0,
-     "in_stock": true,
-     "per_kg": null
-    },
-    {
-     "size_g": null,
-     "price": 7.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 7.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
    "id": "handpickers:carry-over-espresso-blend",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -9312,7 +7892,7 @@
    "id": "handpickers:santa-monica-cinnamon-colombia",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
-   "name": "Santa Monica- Cinnamon\n, Colombia",
+   "name": "Santa Monica- Cinnamon , Colombia",
    "origin": "Colombia",
    "region": "",
    "type": "Single origin",
@@ -9338,10 +7918,10 @@
    "price_changed_on": null
   },
   {
-   "id": "handpickers:santa-monica-winey-amp-strawberry-colombia",
+   "id": "handpickers:santa-monica-winey-strawberry-colombia",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
-   "name": "Santa Monica- Winey &amp; Strawberry, Colombia",
+   "name": "Santa Monica- Winey & Strawberry, Colombia",
    "origin": "Colombia",
    "region": "",
    "type": "Single origin",
