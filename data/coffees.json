@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:24+00:00",
+ "generated_at": "2026-10-28T12:37+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -190,12 +190,12 @@
    "website": "https://roasters-kolektiva.com",
    "free_shipping_eur": 50,
    "note": null,
-   "source": "manual",
-   "last_checked": null,
-   "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://roasters-kolektiva.com/wp-json/wc/store/v1/products?per_page=100&page=1",
-   "coffees": 0,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "source": "live",
+   "last_checked": "2026-10-28",
+   "error": null,
+   "coffees": 47,
+   "cheapest_per_kg": 34.15,
+   "median_per_kg": 68.0
   },
   {
    "id": "handpickers",
@@ -271,18 +271,78 @@
    "id": "june",
    "name": "June Roasters",
    "city": "Athens",
-   "website": "https://juneroasters.gr",
+   "website": "https://www.junecoffeeroasters.com",
    "free_shipping_eur": null,
-   "note": "Own shop asks robots not to read it. Not tracked yet.",
-   "source": "manual",
-   "last_checked": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-10-28",
    "error": null,
-   "coffees": 0,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "coffees": 14,
+   "cheapest_per_kg": 15.0,
+   "median_per_kg": 41.6
   }
  ],
  "coffees": [
+  {
+   "id": "june:classic-drinking-chocolate",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "Classic Drinking Chocolate",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/classic-drinking-chocolate/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/JUNE-CHOCO-CLAS-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 1000,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 15.0
+    }
+   ],
+   "best_per_kg": 15.0,
+   "cheapest_bag": 15.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:bitter-drinking-chocolate",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "Bitter Drinking Chocolate",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/bitter-drinking-chocolate/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/JUNE-CHOCO-BITTER-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 1000,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 15.0
+    }
+   ],
+   "best_per_kg": 15.0,
+   "cheapest_bag": 15.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
   {
    "id": "7grams:brazil-single-origin",
    "roaster_id": "7grams",
@@ -805,6 +865,48 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-brazil-rhea",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Brazil #Rhea 1kg",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-brazil-rhea-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-brazil_rhea_1kg-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.0,
+     "in_stock": true,
+     "per_kg": 36.0
+    },
+    {
+     "size_g": 1000,
+     "price": 34.15,
+     "in_stock": true,
+     "per_kg": 34.15
+    },
+    {
+     "size_g": 1000,
+     "price": 34.15,
+     "in_stock": true,
+     "per_kg": 34.15
+    }
+   ],
+   "best_per_kg": 34.15,
+   "cheapest_bag": 9.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kudu:habit-specialty-blend",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -1169,6 +1271,90 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:the-passenger",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "The Passenger 1kg",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/the-passenger-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/THE-PASSENGER_1KG-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.6,
+     "in_stock": true,
+     "per_kg": 38.4
+    },
+    {
+     "size_g": 1000,
+     "price": 37.45,
+     "in_stock": true,
+     "per_kg": 37.45
+    },
+    {
+     "size_g": 1000,
+     "price": 37.45,
+     "in_stock": true,
+     "per_kg": 37.45
+    }
+   ],
+   "best_per_kg": 37.45,
+   "cheapest_bag": 9.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-brazil-benicio",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Brazil #Benicio 1kg",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-brazil-benicio-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/benicio_new-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.6,
+     "in_stock": true,
+     "per_kg": 38.4
+    },
+    {
+     "size_g": 1000,
+     "price": 37.45,
+     "in_stock": true,
+     "per_kg": 37.45
+    },
+    {
+     "size_g": 1000,
+     "price": 37.45,
+     "in_stock": true,
+     "per_kg": 37.45
+    }
+   ],
+   "best_per_kg": 37.45,
+   "cheapest_bag": 9.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taf:el-quizarra-jardin-de-aromas-costa-rica-single-estate",
    "roaster_id": "taf",
    "roaster": "Taf",
@@ -1468,6 +1654,120 @@
    "price_changed_on": null
   },
   {
+   "id": "june:brazil-sul-de-minas",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "BRAZIL SUL DE MINAS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Caramel, Clean aftertaste, Full body, Milk chocolate, Nutty, Raisin",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/brazil-sul-de-minas/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/BRAZIL-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.7,
+     "in_stock": true,
+     "per_kg": 38.8
+    }
+   ],
+   "best_per_kg": 38.8,
+   "cheapest_bag": 9.7,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:the-explorer",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "The Explorer 1kg",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/the-explorer-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/THE-EXPLORER_1KG-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    },
+    {
+     "size_g": 1000,
+     "price": 38.9,
+     "in_stock": true,
+     "per_kg": 38.9
+    },
+    {
+     "size_g": 1000,
+     "price": 38.9,
+     "in_stock": true,
+     "per_kg": 38.9
+    }
+   ],
+   "best_per_kg": 38.9,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-brazil-toucan",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Brazil #Toucan 1kg",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-brazil-toucan-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-brazil_toucan_1kg-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    },
+    {
+     "size_g": 1000,
+     "price": 39.0,
+     "in_stock": true,
+     "per_kg": 39.0
+    },
+    {
+     "size_g": 1000,
+     "price": 39.0,
+     "in_stock": true,
+     "per_kg": 39.0
+    }
+   ],
+   "best_per_kg": 39.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kudu:colombia-los-idolos",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -1696,6 +1996,36 @@
    "price_changed_on": null
   },
   {
+   "id": "june:costa-rica-la-pastora",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "COSTA RICA LA PASTORA",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Caramel, Citrus notes, Milk chocolate, Red apple",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/costa-rica/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/COSTA-RICA-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.2,
+     "in_stock": true,
+     "per_kg": 40.8
+    }
+   ],
+   "best_per_kg": 40.8,
+   "cheapest_bag": 10.2,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "novelty:mexico-decaf-mwp",
    "roaster_id": "novelty",
    "roaster": "Novelty Coffee",
@@ -1888,6 +2218,108 @@
    "price_changed_on": null
   },
   {
+   "id": "june:colombia-popayan-supremo",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "COLOMBIA POPAYAN SUPREMO",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Balanced acidity, Chocolate flavor, Full body, Nice hazelnut, toasted caramel aroma",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/colombia/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/COLOMBIA-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.4,
+     "in_stock": true,
+     "per_kg": 41.6
+    }
+   ],
+   "best_per_kg": 41.6,
+   "cheapest_bag": 10.4,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:decaf-santos",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "DECAF SANTOS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "Almonds, Caramel, Chocolate, Orange Toffee",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/decaf/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/DECAF-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.4,
+     "in_stock": true,
+     "per_kg": 41.6
+    }
+   ],
+   "best_per_kg": 41.6,
+   "cheapest_bag": 10.4,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-mexico-decaf-pure",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico (Decaf) #Pure 1kg",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-decaf-pure-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-mexico_decaf_pure_1kg-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.9,
+     "in_stock": true,
+     "per_kg": 43.6
+    },
+    {
+     "size_g": 1000,
+     "price": 41.7,
+     "in_stock": true,
+     "per_kg": 41.7
+    },
+    {
+     "size_g": 1000,
+     "price": 41.7,
+     "in_stock": true,
+     "per_kg": 41.7
+    }
+   ],
+   "best_per_kg": 41.7,
+   "cheapest_bag": 10.9,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kross:lighthouse",
    "roaster_id": "kross",
    "roaster": "Kross",
@@ -1990,6 +2422,36 @@
    "price_changed_on": null
   },
   {
+   "id": "june:ethiopia-sidamo-moplaco",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "ETHIOPIA SIDAMO MOPLACO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Distinct sweetness, Lime and orange blossom, ripe yellow fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/ethiopia/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/ETHIOPIA-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.8,
+     "in_stock": true,
+     "per_kg": 43.2
+    }
+   ],
+   "best_per_kg": 43.2,
+   "cheapest_bag": 10.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "samba:el-cerro-estate-blend",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -2065,6 +2527,36 @@
    "cheapest_bag": 10.85,
    "first_seen": "2026-10-28",
    "previous_per_kg": 43.4,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:kenya-aa-mutitu",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "KENYA AA+ MUTITU",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Sugar cane, chamomile, raisin, blueberry, cinnamon hints",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/kenya-aa-mutitu/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2025/04/KENYA-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.9,
+     "in_stock": true,
+     "per_kg": 43.6
+    }
+   ],
+   "best_per_kg": 43.6,
+   "cheapest_bag": 10.9,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -2166,7 +2658,7 @@
    "best_per_kg": 44.44,
    "cheapest_bag": 12.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 0.04,
+   "previous_per_kg": 44.44,
    "price_changed_on": "2026-10-28"
   },
   {
@@ -2196,8 +2688,92 @@
    "best_per_kg": 44.44,
    "cheapest_bag": 12.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 0.04,
+   "previous_per_kg": 44.44,
    "price_changed_on": "2026-10-28"
+  },
+  {
+   "id": "kolektiva:trip-to-costa-rica-tarrazu",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Costa Rica #Tarrazu 1kg",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-costa-rica-tarrazu-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-costa-rica_tarrazu_1kg-2-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.6,
+     "in_stock": true,
+     "per_kg": 46.4
+    },
+    {
+     "size_g": 1000,
+     "price": 44.5,
+     "in_stock": true,
+     "per_kg": 44.5
+    },
+    {
+     "size_g": 1000,
+     "price": 44.5,
+     "in_stock": true,
+     "per_kg": 44.5
+    }
+   ],
+   "best_per_kg": 44.5,
+   "cheapest_bag": 11.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-guatemala-maria",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Guatemala #Maria 1kg",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-guatemala-maria-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-guatemala_maria_1kg-2-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.6,
+     "in_stock": true,
+     "per_kg": 46.4
+    },
+    {
+     "size_g": 1000,
+     "price": 44.5,
+     "in_stock": true,
+     "per_kg": 44.5
+    },
+    {
+     "size_g": 1000,
+     "price": 44.5,
+     "in_stock": true,
+     "per_kg": 44.5
+    }
+   ],
+   "best_per_kg": 44.5,
+   "cheapest_bag": 11.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "roosters:νο-60-rwanda-gatare",
@@ -3914,6 +4490,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-mexico-maya-volc-n",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico #Maya Volcán 200gr",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-maya/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/11/trip-to-mexico_maya-volcan-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.3,
+     "in_stock": true,
+     "per_kg": 57.2
+    }
+   ],
+   "best_per_kg": 57.2,
+   "cheapest_bag": 14.3,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:honduras-finca-el-puente",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -4118,6 +4724,36 @@
    "cheapest_bag": 14.73,
    "first_seen": "2026-10-28",
    "previous_per_kg": 58.92,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-kenya-ayaan",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip To Kenya #Ayaan 200gr",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-kenya-ayaan-200gr/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2025/04/TRIP-TO-KENYA_-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 11.8,
+     "in_stock": true,
+     "per_kg": 59.0
+    }
+   ],
+   "best_per_kg": 59.0,
+   "cheapest_bag": 11.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4454,6 +5090,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-guatemala-bolsa-de-las-mayas",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Guatemala #Bolsa De Las Mayas",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-guatemala-bolsa-de-las-mayas/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2023/05/trip-to-guatemala_-bolsa-de-la-mayas-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.4,
+     "in_stock": true,
+     "per_kg": 61.6
+    }
+   ],
+   "best_per_kg": 61.6,
+   "cheapest_bag": 15.4,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "handpickers:nagizole-2-uganda",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -4481,6 +5147,48 @@
    "cheapest_bag": 15.49,
    "first_seen": "2026-10-28",
    "previous_per_kg": 61.96,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-ethiopia-nyala",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Ethiopia #Nyala 1kg",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-ethiopia-nyala-1kg/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/05/trip-to-ethiopia_nyala_1kg-2-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    },
+    {
+     "size_g": 1000,
+     "price": 62.0,
+     "in_stock": true,
+     "per_kg": 62.0
+    },
+    {
+     "size_g": 1000,
+     "price": 62.0,
+     "in_stock": true,
+     "per_kg": 62.0
+    }
+   ],
+   "best_per_kg": 62.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4602,6 +5310,66 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-peru-jaguar",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Peru #Jaguar",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-peru-jaguar/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/04/trip-to-peru_jaguar-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.8,
+     "in_stock": true,
+     "per_kg": 63.2
+    }
+   ],
+   "best_per_kg": 63.2,
+   "cheapest_bag": 15.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-peru-macaw",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Peru #Macaw",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-peru-macaw/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/04/trip-to-peru_macaw-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.8,
+     "in_stock": true,
+     "per_kg": 63.2
+    }
+   ],
+   "best_per_kg": 63.2,
+   "cheapest_bag": 15.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "handpickers:aa-githiha-096-kenya",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -4716,6 +5484,36 @@
    ],
    "best_per_kg": 64.0,
    "cheapest_bag": 12.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:0-1-project-guatemala",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "0.1 PROJECT GUATEMALA",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "CHERRY, LIQUOR, CHOCO SYRUP, MELON, PASSION FRUIT",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/0-1-project-colombia-la-cabana/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2025/07/01-pro-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    }
+   ],
+   "best_per_kg": 64.0,
+   "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -5230,6 +6028,186 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:exotic-touch",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Exotic Touch",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/exotic-touch/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/exotic-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:sunny-twist",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Sunny Twist",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/sunny-twist/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/sunny-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:spicy-sip",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Spicy Sip",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/spicy-sip/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/spicy-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:red-forest",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Red Forest",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/rose-bloom/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/redf-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:citrus-garden",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Citrus Garden",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/citrus-garden/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/citrus-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:autumn-moment",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Autumn Moment",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/autumn-moment/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/autumn-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:gargari-gutity-supernatural-ethiopia",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -5498,6 +6476,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-mexico-carlos-reserva-typica",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico #Carlos Reserva Typica 200 gr",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-carlos-reserva-typica/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/11/Carlos-Reserva-Typica-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 14.3,
+     "in_stock": true,
+     "per_kg": 71.5
+    }
+   ],
+   "best_per_kg": 71.5,
+   "cheapest_bag": 14.3,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taf:creativa-static-catuai-panama",
    "roaster_id": "taf",
    "roaster": "Taf",
@@ -5614,6 +6622,36 @@
    "cheapest_bag": 18.9,
    "first_seen": "2026-10-28",
    "previous_per_kg": 72.69,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-ethiopia-ayice",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Ethiopia #Ayice 200 gr",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-ethiopia-ayice/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2023/10/trip-to-ethiopia-ayice-1-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 14.8,
+     "in_stock": true,
+     "per_kg": 74.0
+    }
+   ],
+   "best_per_kg": 74.0,
+   "cheapest_bag": 14.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5740,6 +6778,66 @@
    "cheapest_bag": 19.93,
    "first_seen": "2026-10-28",
    "previous_per_kg": 77.47,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-mexico-el-separo",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico #El Separo 200 gr",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-el-separo/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/11/EL-SEPARO-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 15.5,
+     "in_stock": true,
+     "per_kg": 77.5
+    }
+   ],
+   "best_per_kg": 77.5,
+   "cheapest_bag": 15.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-mexico-tesoro-de-miguel",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico #Tesoro de Miguel 200gr",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-tesoro-de-miguel/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/11/Tesoro-de-Miguel-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 15.5,
+     "in_stock": true,
+     "per_kg": 77.5
+    }
+   ],
+   "best_per_kg": 77.5,
+   "cheapest_bag": 15.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5890,6 +6988,36 @@
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 80.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-ethiopia-baboon",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Ethiopia #Baboon 200 gr",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-ethiopia-baboon/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2023/12/TRIP-TO-ETHIOPIA_BABOON-1-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 82.5
+    }
+   ],
+   "best_per_kg": 82.5,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6433,6 +7561,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:trip-to-mexico-sinai-cup-of-excellence-no-3-winner",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Mexico #Sinai – Cup Of Excellence No.3 Winner 200gr",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-mexico-sinai-cup-of-excellence-no-3-winner/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/11/SINAI_-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 19.3,
+     "in_stock": true,
+     "per_kg": 96.5
+    }
+   ],
+   "best_per_kg": 96.5,
+   "cheapest_bag": 19.3,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:ethiopia-karamo-washed",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -6457,6 +7615,126 @@
    ],
    "best_per_kg": 99.2,
    "cheapest_bag": 19.84,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-πορτοκαλ",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Πορτοκαλί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-portokali/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/10/kafetiera_moccamaster_orange-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 2800,
+     "price": 279.0,
+     "in_stock": true,
+     "per_kg": 99.64
+    }
+   ],
+   "best_per_kg": 99.64,
+   "cheapest_bag": 279.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-πρ-σινη",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Πράσινη",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-prasini/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/10/moccamaster-coffee-machine-kbg-select-forest-green-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 2800,
+     "price": 279.0,
+     "in_stock": true,
+     "per_kg": 99.64
+    }
+   ],
+   "best_per_kg": 99.64,
+   "cheapest_bag": 279.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-κ-κκινη",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Κόκκινη",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-kokkini/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/09/kafetiera_moccamaster_red-407x407.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 2800,
+     "price": 279.0,
+     "in_stock": true,
+     "per_kg": 99.64
+    }
+   ],
+   "best_per_kg": 99.64,
+   "cheapest_bag": 279.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-παστ-λ-πρ-σινη",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Παστέλ Πράσινη",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://roasters-kolektiva.com/product/kafetiera-filrtou-moccamaster-kbg-select-pastel-prasini/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/moccamaster-pastel-green-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 2800,
+     "price": 279.0,
+     "in_stock": true,
+     "per_kg": 99.64
+    }
+   ],
+   "best_per_kg": 99.64,
+   "cheapest_bag": 279.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -7378,6 +8656,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kolektiva:cold-remedy-bio",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Cold Remedy Bio",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/cold-remedy-bio/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/cold-407x407.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 35,
+     "price": 6.5,
+     "in_stock": true,
+     "per_kg": 185.71
+    }
+   ],
+   "best_per_kg": 185.71,
+   "cheapest_bag": 6.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:nicaragua-coe-2-2025",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -8025,6 +9333,486 @@
    ],
    "best_per_kg": null,
    "cheapest_bag": 11.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:ποτ-ρι-θερμ-ς-roasters-kolektiva",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Ποτήρι Θερμός Roasters Kolektiva",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/potiri-thermos-roasters-kolektiva/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/cup_w-2-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 12.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 12.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:μπρελ-κ-roasters-kolektiva",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Μπρελόκ Roasters Kolektiva",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/brelok-roasters-kolektiva/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/keychain_w-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 4.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 4.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:τσ-ντα-υφασμ-τινη-roasters-kolektiva",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Τσάντα Υφασμάτινη Roasters Kolektiva",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/tsanta-yfasmatini-roasters-kolektiva/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/RK_totebag_front_white-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:v60-καν-τα-yama-gd-20-για-drip-brewing",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "V60 Κανάτα Yama gd-20 για Drip Coffee Brewing",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/v60-kanata-yama-gd-20-gia-drip-coffee-brewing/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/Kanata-gialini-Yama-gd-20-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 26.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 26.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:φ-λτρα-kalita-wave-185",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Φίλτρα Καφέ Kalita Wave 185",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://roasters-kolektiva.com/product/filtra-kafe-kalita-wave-185/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/kalita_185_filter-407x407.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 11.3,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 11.3,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-brewing-foundation",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BREWING FOUNDATION",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-foundation/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Foundation-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 250.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 250.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-brewing-intermediate",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BREWING INTERMEDIATE",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-intermediate/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Intermediate-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 450.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 450.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-brewing-professional",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BREWING PROFESSIONAL",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-professional/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Professional-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 800.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 800.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-professional",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BARISTA SKILLS PROFESSIONAL",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-professional/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Professional-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 800.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 800.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-intermediate",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BARISTA SKILLS INTERMEDIATE",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-intermediate/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Intermediate-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 450.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 450.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-foundation",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – BARISTA SKILLS FOUNDATION",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-foundation/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Foundation-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 250.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 250.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-sca-introduction-to",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο SCA – INTRODUCTION TO COFFEE",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-sca-introduction-to-coffee/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/introduction-to-coffee-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 180.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 180.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-work-flow",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο Καφέ – WORK FLOW",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-kafe-work-flow/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_WORKFLOW-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 700.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 700.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-latte-art",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο Καφέ – LATTE ART",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-kafe-latte-art/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_LATTEART-1-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 350.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 350.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-barista-level-2",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο Καφέ – BARISTA LEVEL 2",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-kafe-barista-level-2/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_lvl02-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 350.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 350.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:σεμιν-ριο-barista-level-1",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Σεμινάριο Καφέ – BARISTA LEVEL 1",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/seminario-kafe-barista-level-1/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_lvl01-407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 180.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 180.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -8715,6 +10503,156 @@
    ],
    "best_per_kg": null,
    "cheapest_bag": 8.13,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:tiptoh-oat-drink",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "TipToh oat drink",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/tiptoh-oat-drink/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/TIP-TOH-OAT-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 3.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 3.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:tiptop-pea-drink",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "TipTop pea drink",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/tiptop-pea/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/TIP-TOH-PEE-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 3.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 3.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:belogia-ced-εργαλε-ο-ισοκατανομ-ς",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "Belogia ced Εργαλείο ισοκατανομής καφέ",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/belogia-ced-ergaleio-isokatanomis-kafe/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2025/11/ισοκατανεμητης-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 24.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 24.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:cappuccino-reusable-cup",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "Cappuccino reusable cup",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.junecoffeeroasters.com/product/cappuccino-reusable-cup/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/JUNE-CUP-1--300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "june:espresso-reusable-cup",
+   "roaster_id": "june",
+   "roaster": "June Roasters",
+   "name": "Espresso reusable cup",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.junecoffeeroasters.com/product/espresso-reusable-cup/",
+   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/JUNE-CUP-1-300x300.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 6.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 6.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
