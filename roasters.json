@@ -49,7 +49,6 @@
   {"id": "taf", "name": "Taf", "city": "Athens", "website": "https://cafetaf.gr",
    "free_shipping_eur": null, "platform": "manual",
    "note": "Own shop can't be read automatically. Prices are from the reseller thedistiller.gr and only change when updated by hand."},
-  {"id": "june", "name": "June Roasters", "city": "Athens", "website": "https://juneroasters.gr",
-   "free_shipping_eur": null, "platform": "manual",
-   "note": "Own shop asks robots not to read it. Not tracked yet."}
+  {"id": "june", "name": "June Roasters", "city": "Athens", "website": "https://www.junecoffeeroasters.com",
+   "free_shipping_eur": null, "platform": "woocommerce", "categories": []}
 ]
