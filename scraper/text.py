@@ -12,7 +12,7 @@ EXCLUDE_RE = re.compile(
     r"capsul|κάψουλ|καψουλ|капсул|\bpods?\b|drip ?bag|cold ?brew|\bml\b|t-?shirt|socks|\bmugs?\b|glass|"
     r"machine|grinder|kettle|dripper|\bkit\b|gift|bundle|subscription|συνδρομ|абонамент|advent|ticket|"
     r"\btea\b|matcha|milk|ελληνικός|ελληνικο|greek coffee|ibrik|\bese\b|дози|кутия|discovery|seasoning|"
-    r"sample|tasting pack|\bset\b|\bbox\b",
+    r"sample|tasting pack|\bset\b|\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine",
     re.IGNORECASE,
 )
 
@@ -70,7 +70,7 @@ def strip_html(value):
         return ""
     text = re.sub(r"<(br|/p|/li|/div|/h\d)[^>]*>", "\n", value, flags=re.IGNORECASE)
     text = re.sub(r"<[^>]+>", " ", text)
-    text = html.unescape(text)
+    text = html.unescape(html.unescape(text))
     text = re.sub(r"[ \t\xa0]+", " ", text)
     return re.sub(r"\n\s*", "\n", text).strip()
 

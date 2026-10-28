@@ -110,7 +110,11 @@ def parse_woo_product(product, variation_lookup=None):
             label = next((a.get("value", "") for a in var.get("attributes", [])
                           if a.get("name", "").lower() in (taxonomy.lower(), size_attr.get("name", "").lower())), "")
             # Variation values are slugs such as "250-gr", "1-kg" or "0-250-kg".
-            size = parse_size_g(re.sub(r"(\d)-(\d)", r"\1.\2", label).replace("-", " "))
+            size = parse_size_g(re.sub(r"(\d)-(\d)", r"\1.\2", label or "").replace("-", " "))
+            if size is None:
+                # Size isn't a variation choice (e.g. a fixed "Package: 250gr" attribute).
+                term_sizes = {parse_size_g(t.get("name", "")) for t in size_attr.get("terms", [])}
+                size = term_sizes.pop() if len(term_sizes) == 1 else parse_size_g(name)
             if size in seen_sizes:
                 continue
             seen_sizes.add(size)

@@ -32,7 +32,7 @@ def url_key(url):
 def name_key(name):
     """Name without bag size or 'beans' words, so the 250 g and 1 kg listings of one coffee match."""
     text = SIZE_RE.sub(" ", name.lower())
-    text = re.sub(r"\b(κόκκος|κόκκοι|κοκκοι|σε κόκκους|καφέ|whole ?beans?|beans)\b|[()|,\-–]", " ", text)
+    text = re.sub(r"\b(κόκκος|κόκκοι|κοκκοι|σε κόκκους|καφές|καφέ|οργανικός|organic|coffee|whole ?beans?|beans)\b|[()|,\-–]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -55,6 +55,7 @@ def per_kg(option):
 
 def enrich(roaster, raw, seed_by_url, seed_by_name):
     """Combine a scraped product with curated seed details (curated wins where it has a value)."""
+    raw = {**raw, "name": " ".join(raw["name"].split())}
     curated = seed_by_name.get(name_key(raw["name"])) or seed_by_url.get(url_key(raw["url"])) or {}
     text = raw.get("text", "")
     tags_text = " ".join(raw.get("tags", []))

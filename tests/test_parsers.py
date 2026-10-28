@@ -125,3 +125,27 @@ def test_per_size_listings_merge_into_one_coffee():
     merged = merge_same_coffee(raw)
     assert len(merged) == 1
     assert [o["size_g"] for o in merged[0]["options"]] == [250, 1000]
+
+
+def test_woo_fixed_package_size_and_grind_variations():
+    product = {
+        "id": 3, "name": "KENYA KANJATHI AA", "permalink": "https://www.contecoffeeroasters.com/en/x/",
+        "short_description": "", "description": "", "categories": [],
+        "prices": {"price": "1400", "currency_minor_unit": 2}, "is_in_stock": True,
+        "attributes": [
+            {"name": "Milling", "terms": [{"name": "V60"}, {"name": "Whole Beans"}]},
+            {"name": "Package", "terms": [{"name": "250gr"}]},
+        ],
+        "variations": [{"id": 31, "attributes": [{"name": "Milling", "value": None}]}],
+    }
+    parsed = parse_woo_product(product, lambda vid: {"prices": {"price": "1400", "currency_minor_unit": 2}, "is_in_stock": True})
+    assert [(o["size_g"], o["price"]) for o in parsed["options"]] == [(250, 14.0)]
+
+
+def test_bilingual_listings_merge_and_merch_is_dropped():
+    from scraper.build import name_key
+    assert name_key("aracacu – brazil – 250g – coffee") == name_key("aracacu – brazil – 250g – καφές")
+    assert is_excluded("33% double choco drink powder mix – republic® – 750g")
+    assert is_excluded("earl grey μαύρο τσάι")
+    assert not is_excluded("Bildimoo Danche, Ethiopia (Filter)")
+    assert not is_excluded("Ritual Filter Blend")
