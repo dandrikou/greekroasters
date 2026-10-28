@@ -1,0 +1,58 @@
+name: Daily price update
+
+on:
+  schedule:
+    - cron: "15 4 * * *"   # 04:15 UTC, about 07:15 in Greece
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**", "scraper/**", "roasters.json", "data/seed.json"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Scrape all roasters
+        run: python -m scraper.build
+      - name: Commit new prices
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Daily prices $(date -u +%F)"
+          git push
+      - name: Assemble site
+        run: |
+          mkdir -p _site/data
+          cp site/* _site/
+          cp data/coffees.json _site/data/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
