@@ -27,7 +27,7 @@
    "free_shipping_eur": null, "platform": "woocommerce",
    "categories": ["specialty-coffee-origins", "specialty-coffee-blends", "organic-specialty-coffees"]},
   {"id": "spiri", "name": "Spiri", "city": "Greece", "website": "https://spiri.gr",
-   "free_shipping_eur": null, "platform": "jsonld",
+   "free_shipping_eur": null, "platform": "jsonld", "default_size_g": 250,
    "listing_pages": ["https://spiri.gr/product-category/kafes-ellinikos-espresso-filtrou/",
                      "https://spiri.gr/product-category/kafes-ellinikos-espresso-filtrou/page/2/",
                      "https://spiri.gr/product-category/kafes-ellinikos-espresso-filtrou/page/3/"],
