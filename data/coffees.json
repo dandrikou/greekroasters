@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T10:57+00:00",
+ "generated_at": "2026-10-29T18:43+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -109,7 +109,7 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 7,
+   "coffees": 6,
    "cheapest_per_kg": 44.84,
    "median_per_kg": 50.36
   },
@@ -165,7 +165,7 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 14,
+   "coffees": 15,
    "cheapest_per_kg": 46.0,
    "median_per_kg": 67.5
   },
@@ -184,6 +184,48 @@
    "median_per_kg": 50.0
   },
   {
+   "id": "spiri",
+   "name": "Spiri",
+   "city": "Greece",
+   "website": "https://spiri.gr",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "manual",
+   "last_checked": null,
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://spiri.gr/wp-json/wc/store/v1/products?per_page=100&page=1&category=kafes-ellinikos-espresso-filtrou",
+   "coffees": 0,
+   "cheapest_per_kg": null,
+   "median_per_kg": null
+  },
+  {
+   "id": "monogram",
+   "name": "Monogram Roasters",
+   "city": "Greece",
+   "website": "https://www.monogramroasters.gr",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-10-29",
+   "error": null,
+   "coffees": 13,
+   "cheapest_per_kg": 16.0,
+   "median_per_kg": 64.0
+  },
+  {
+   "id": "delmocca",
+   "name": "Del Mocca",
+   "city": "Greece",
+   "website": "https://delmocca.gr",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-10-29",
+   "error": null,
+   "coffees": 27,
+   "cheapest_per_kg": 33.92,
+   "median_per_kg": 40.68
+  },
+  {
    "id": "kolektiva",
    "name": "Roasters Kolektiva",
    "city": "Thessaloniki",
@@ -193,7 +235,7 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 47,
+   "coffees": 31,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 68.0
   },
@@ -222,8 +264,8 @@
    "last_checked": "2026-10-29",
    "error": null,
    "coffees": 16,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "cheapest_per_kg": 32.52,
+   "median_per_kg": 55.2
   },
   {
    "id": "dabov",
@@ -238,6 +280,20 @@
    "coffees": 29,
    "cheapest_per_kg": 49.0,
    "median_per_kg": 64.0
+  },
+  {
+   "id": "spinos",
+   "name": "Spinos",
+   "city": "Greece",
+   "website": "https://www.spinos.coffee",
+   "free_shipping_eur": null,
+   "note": "Drupal shop. Prices are the smallest (250 g) bag.",
+   "source": "live",
+   "last_checked": "2026-10-29",
+   "error": null,
+   "coffees": 12,
+   "cheapest_per_kg": 25.0,
+   "median_per_kg": 29.0
   },
   {
    "id": "7grams",
@@ -277,47 +333,137 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 14,
-   "cheapest_per_kg": 15.0,
+   "coffees": 7,
+   "cheapest_per_kg": 38.8,
    "median_per_kg": 41.6
   }
  ],
  "coffees": [
   {
-   "id": "june:classic-drinking-chocolate",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "Classic Drinking Chocolate",
+   "id": "monogram:oikos-manolikakis-filter-grounds",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "Oikos MANOLIKAKIS Filter coffee Grounds",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/classic-drinking-chocolate/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/JUNE-CHOCO-CLAS-300x300.jpeg",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.monogramroasters.gr/product/manolikakis-filter-coffee-grounds/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/filter_1080x1080px-600x600.png",
    "in_stock": true,
    "options": [
     {
-     "size_g": 1000,
-     "price": 15.0,
+     "size_g": 100,
+     "price": 8.0,
      "in_stock": true,
-     "per_kg": 15.0
+     "per_kg": 80.0
+    },
+    {
+     "size_g": 200,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    },
+    {
+     "size_g": 500,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 16.0
     }
    ],
-   "best_per_kg": 15.0,
-   "cheapest_bag": 15.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 15.0,
+   "best_per_kg": 16.0,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "june:bitter-drinking-chocolate",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "Bitter Drinking Chocolate",
+   "id": "monogram:oikos-manolikakis-espresso-grounds",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "Oikos MANOLIKAKIS Espresso Grounds",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium-dark",
+   "roast_basis": "Stated",
+   "url": "https://www.monogramroasters.gr/product/manolikakis-espresso-grounds/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/espresso_arabica_1080x1080px-600x600.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    },
+    {
+     "size_g": 200,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    },
+    {
+     "size_g": 500,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 16.0
+    }
+   ],
+   "best_per_kg": 16.0,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:androm-da-yirgacheffe-g1-ethiopia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "ANDROMÈDA Yirgacheffe G1, Ethiopia",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Floral, Lemon, Stone fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/andromeda-yirgacheffe-ethiopia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2023/03/ANDROMEDA1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    },
+    {
+     "size_g": 1000,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 16.0
+    }
+   ],
+   "best_per_kg": 16.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:spinos-presidente",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Spinos Presidente",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
@@ -326,21 +472,429 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/bitter-drinking-chocolate/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/JUNE-CHOCO-BITTER-300x300.jpeg",
+   "url": "https://www.spinos.coffee/products/kafes/spinos-presidente",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/Spinos.png",
    "in_stock": true,
    "options": [
     {
-     "size_g": 1000,
-     "price": 15.0,
+     "size_g": 250,
+     "price": 6.3,
      "in_stock": true,
-     "per_kg": 15.0
+     "per_kg": 25.2
+    },
+    {
+     "size_g": 500,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 25.0
+    },
+    {
+     "size_g": 1000,
+     "price": 25.0,
+     "in_stock": true,
+     "per_kg": 25.0
     }
    ],
-   "best_per_kg": 15.0,
-   "cheapest_bag": 15.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 15.0,
+   "best_per_kg": 25.0,
+   "cheapest_bag": 6.3,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:guatemala-finca-miralvalle",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Guatemala Finca Miralvalle",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/guatemala-finca-miralvalle",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.5,
+     "in_stock": true,
+     "per_kg": 26.0
+    },
+    {
+     "size_g": 500,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 26.0
+    },
+    {
+     "size_g": 1000,
+     "price": 26.0,
+     "in_stock": true,
+     "per_kg": 26.0
+    }
+   ],
+   "best_per_kg": 26.0,
+   "cheapest_bag": 6.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:key-largo-rico",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Key Largo 'Rico'",
+   "origin": "India",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/key-largo-rico",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/Rico.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.7,
+     "in_stock": true,
+     "per_kg": 26.8
+    },
+    {
+     "size_g": 500,
+     "price": 13.3,
+     "in_stock": true,
+     "per_kg": 26.6
+    },
+    {
+     "size_g": 1000,
+     "price": 26.6,
+     "in_stock": true,
+     "per_kg": 26.6
+    }
+   ],
+   "best_per_kg": 26.6,
+   "cheapest_bag": 6.7,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:key-largo-adelina",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Key Largo 'Adelina'",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/key-largo-adelina",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/adelina-.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 27.2
+    },
+    {
+     "size_g": 250,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 27.2
+    },
+    {
+     "size_g": 500,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 27.0
+    },
+    {
+     "size_g": 500,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 27.0
+    },
+    {
+     "size_g": 1000,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 27.0
+    },
+    {
+     "size_g": 1000,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 27.0
+    }
+   ],
+   "best_per_kg": 27.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:κ-στα-ρ-κα-villa-hermosa",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Κόστα Ρίκα Villa Hermosa",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/kosta-rika-villa-hermosa",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.8,
+     "in_stock": true,
+     "per_kg": 27.2
+    },
+    {
+     "size_g": 500,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 27.0
+    },
+    {
+     "size_g": 1000,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 27.0
+    }
+   ],
+   "best_per_kg": 27.0,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:key-largo-primero",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Key Largo 'Primero'",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/key-largo-primero",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/Primero-coffee-.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.0,
+     "in_stock": true,
+     "per_kg": 28.0
+    },
+    {
+     "size_g": 500,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 28.0
+    },
+    {
+     "size_g": 1000,
+     "price": 28.0,
+     "in_stock": true,
+     "per_kg": 28.0
+    }
+   ],
+   "best_per_kg": 28.0,
+   "cheapest_bag": 7.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:myanmar",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Myanmar",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/myanmar",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.3,
+     "in_stock": true,
+     "per_kg": 29.2
+    },
+    {
+     "size_g": 500,
+     "price": 14.5,
+     "in_stock": true,
+     "per_kg": 29.0
+    },
+    {
+     "size_g": 1000,
+     "price": 29.0,
+     "in_stock": true,
+     "per_kg": 29.0
+    }
+   ],
+   "best_per_kg": 29.0,
+   "cheapest_bag": 7.3,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:αιθιοπ-α-yirgacheffe",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Αιθιοπία Yirgacheffe",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/aithiopia-yirgacheffe",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.3,
+     "in_stock": true,
+     "per_kg": 29.2
+    },
+    {
+     "size_g": 500,
+     "price": 14.5,
+     "in_stock": true,
+     "per_kg": 29.0
+    },
+    {
+     "size_g": 1000,
+     "price": 29.0,
+     "in_stock": true,
+     "per_kg": 29.0
+    }
+   ],
+   "best_per_kg": 29.0,
+   "cheapest_bag": 7.3,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:nicaragua-finca-mierisch-el-limoncillo",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Nicaragua FINCA Mierisch El Limoncillo",
+   "origin": "Nicaragua",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/nicaragua-finca-mierisch-el-limoncillo",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.5,
+     "in_stock": true,
+     "per_kg": 30.0
+    },
+    {
+     "size_g": 500,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 30.0
+    },
+    {
+     "size_g": 1000,
+     "price": 30.0,
+     "in_stock": true,
+     "per_kg": 30.0
+    }
+   ],
+   "best_per_kg": 30.0,
+   "cheapest_bag": 7.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:colombia",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/colombia",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/spinos-coffee.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.5,
+     "in_stock": true,
+     "per_kg": 30.0
+    },
+    {
+     "size_g": 500,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 30.0
+    },
+    {
+     "size_g": 1000,
+     "price": 30.0,
+     "in_stock": true,
+     "per_kg": 30.0
+    }
+   ],
+   "best_per_kg": 30.0,
+   "cheapest_bag": 7.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -577,6 +1131,66 @@
    "price_changed_on": "2026-10-28"
   },
   {
+   "id": "mokka:ντεκαφ-νε-decaffeine",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Ντεκαφέϊνε - Decaffeine",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/decaffeine-%ce%bd%cf%84%ce%b5%ce%ba%ce%b1%cf%86%ce%ad%cf%8a%ce%bd%ce%b5/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Decaffeine.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.13,
+     "in_stock": true,
+     "per_kg": 32.52
+    }
+   ],
+   "best_per_kg": 32.52,
+   "cheapest_bag": 8.13,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:βραζιλ-α-brazil-fazenta-monte-alegre",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Βραζιλία - Brazil - Fazenta Monte Alegre",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenta-monte-alegre/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Brazil-Monte_Allegre-Mundo_Nouvo_Catuai.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.14,
+     "in_stock": true,
+     "per_kg": 32.56
+    }
+   ],
+   "best_per_kg": 32.56,
+   "cheapest_bag": 8.14,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "blackbart:porto-guatemala-single-origin",
    "roaster_id": "blackbart",
    "roaster": "Black Bart",
@@ -790,6 +1404,180 @@
    "cheapest_bag": 9.54,
    "first_seen": "2026-10-28",
    "previous_per_kg": 33.34,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:we-roast-decaf",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "We Roast Decaf",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/we-roast-decaf",
+   "image": "https://www.spinos.coffee/sites/default/files/2021-11/decaf.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.4,
+     "in_stock": true,
+     "per_kg": 33.6
+    },
+    {
+     "size_g": 500,
+     "price": 16.8,
+     "in_stock": true,
+     "per_kg": 33.6
+    },
+    {
+     "size_g": 1000,
+     "price": 33.5,
+     "in_stock": true,
+     "per_kg": 33.5
+    }
+   ],
+   "best_per_kg": 33.5,
+   "cheapest_bag": 8.4,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:φ-λτρου-aroma-100-arabica-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Φίλτρου Aroma 100% Arabica 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://delmocca.gr/product/kafes-filtroy-aroma-100-arabica-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.005-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.48,
+     "in_stock": true,
+     "per_kg": 33.92
+    },
+    {
+     "size_g": 500,
+     "price": 0.0,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": 33.92,
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:φ-λτρου-aroma-100-arabica-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Φίλτρου Aroma 100% Arabica 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://delmocca.gr/product/kafes-filtroy-aroma-100-arabica-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.002-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.48,
+     "in_stock": true,
+     "per_kg": 33.92
+    },
+    {
+     "size_g": 500,
+     "price": 0.0,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": 33.92,
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-cremoso-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Cremoso 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-cremoso-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.013-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.48,
+     "in_stock": true,
+     "per_kg": 33.92
+    }
+   ],
+   "best_per_kg": 33.92,
+   "cheapest_bag": 8.48,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-cremoso-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Cremoso 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-cremoso-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.012-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.48,
+     "in_stock": true,
+     "per_kg": 33.92
+    }
+   ],
+   "best_per_kg": 33.92,
+   "cheapest_bag": 8.48,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -1486,6 +2274,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:βραζιλ-α-brazil-fazenda-monte-alegre-bourbon",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Βραζιλία - Brazil - Fazenda Monte Alegre - Bourbon",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenda-monte-alegre-bourbon/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/02/Mokka-3D-Pouch-Brazil-Monte_Allegre-Bourbon.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.6,
+     "in_stock": true,
+     "per_kg": 38.4
+    }
+   ],
+   "best_per_kg": 38.4,
+   "cheapest_bag": 9.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taresso:ritual-filter-blend",
    "roaster_id": "taresso",
    "roaster": "Taresso",
@@ -1513,6 +2331,126 @@
    "cheapest_bag": 38.42,
    "first_seen": "2026-10-28",
    "previous_per_kg": 38.42,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:φ-λτρου-με-γε-ση-καραμ-λα-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Φίλτρου με Γεύση Καραμέλα 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://delmocca.gr/product/kafes-filtroy-me-geysi-karamela-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.004-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.61,
+     "in_stock": true,
+     "per_kg": 38.44
+    }
+   ],
+   "best_per_kg": 38.44,
+   "cheapest_bag": 9.61,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:φ-λτρου-με-γε-ση-φουντο-κι-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Φίλτρου με Γεύση Φουντούκι 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://delmocca.gr/product/kafes-filtroy-me-geysi-foyntoyki-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.003-2-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.61,
+     "in_stock": true,
+     "per_kg": 38.44
+    }
+   ],
+   "best_per_kg": 38.44,
+   "cheapest_bag": 9.61,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-grand-crema-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Grand Crema 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-grand-crema-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.009-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.61,
+     "in_stock": true,
+     "per_kg": 38.44
+    }
+   ],
+   "best_per_kg": 38.44,
+   "cheapest_bag": 9.61,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-grand-crema-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Grand Crema 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-grand-crema-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.008-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.61,
+     "in_stock": true,
+     "per_kg": 38.44
+    }
+   ],
+   "best_per_kg": 38.44,
+   "cheapest_bag": 9.61,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -1726,6 +2664,42 @@
    "price_changed_on": null
   },
   {
+   "id": "monogram:acma-bucaramanga-colombia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "ACMA Bucaramanga, Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Brown sugar, Butter, Citrus",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/acma-bucaramanga-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2023/03/ACMA1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    },
+    {
+     "size_g": 1000,
+     "price": 39.0,
+     "in_stock": true,
+     "per_kg": 39.0
+    }
+   ],
+   "best_per_kg": 39.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kolektiva:trip-to-brazil-toucan",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -1930,6 +2904,36 @@
    "price_changed_on": null
   },
   {
+   "id": "monogram:p-gasus-colombia-decaf",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "PÈGASUS, Colombia DECAF",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "Brown sugar, Caramel, Chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/pegasus-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2023/05/PEGASUS1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    }
+   ],
+   "best_per_kg": 40.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taresso:supremo-espresso-blend",
    "roaster_id": "taresso",
    "roaster": "Taresso",
@@ -1964,6 +2968,216 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 40.68,
    "price_changed_on": "2026-10-28"
+  },
+  {
+   "id": "delmocca:single-origin-honduras-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Honduras 250gr Σπυρί",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-honduras-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Honduras-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:single-origin-peru-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Peru 250gr Σπυρί",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-peru-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Peru-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:single-origin-guatemala-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Guatemala 250gr Σπυρί",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-guatemala-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Guatemala-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-si-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Si 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-si-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/kafes_espresso_si-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-si-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Si 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-si-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/kafes_espresso_si-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-gourmet-100-arabica-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Gourmet 100% Arabica 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-gourmet-100-arabica-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.017-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-gourmet-100-arabica-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Gourmet 100% Arabica 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-gourmet-100-arabica-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.017-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.17,
+     "in_stock": true,
+     "per_kg": 40.68
+    }
+   ],
+   "best_per_kg": 40.68,
+   "cheapest_bag": 10.17,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "samba:brazil-fazenda-lagoa",
@@ -2356,6 +3570,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:ελ-σαλβαδ-ρ-el-salvador-apaneca-bourbon-washed",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Ελ Σαλβαδόρ - El Salvador - Apaneca Bourbon - Washed",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b5%ce%bb-%cf%83%ce%b1%ce%bb%ce%b2%ce%b1%ce%b4%cf%8c%cf%81-el-salvador-finca-la-fany-red-bourbon-washed-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%cf%81%ce%b1%cf%86%ce%ae/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/01/EL_Salvador-Apaneca-Bourbon-Washed.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.6,
+     "in_stock": true,
+     "per_kg": 42.4
+    }
+   ],
+   "best_per_kg": 42.4,
+   "cheapest_bag": 10.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taresso:tigrato-espresso-blend",
    "roaster_id": "taresso",
    "roaster": "Taresso",
@@ -2392,6 +3636,192 @@
    "price_changed_on": "2026-10-28"
   },
   {
+   "id": "delmocca:single-origin-ethiopia-sidamo-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Ethiopia Sidamo 250gr Σπυρί",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-ethiopia-sidamo-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Ehiopia-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 10.74,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:single-origin-costa-rica-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Costa Rica 250gr Σπυρί",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-costa-rica-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Costa-rica-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 10.74,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:single-origin-brazil-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Brazil 250gr Σπυρί",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-santos-dattera-sweet-blue-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Brazil-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 10.74,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:single-origin-colombia-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Single Origin Colombia 250gr Σπυρί",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://delmocca.gr/product/kafes-single-origin-colombia-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/Colombia-White-MockUp-250gr-Final-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 10.74,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-speciality-100-arabica-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Speciality 100% Arabica 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-speciality-100-arabica-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.007-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    },
+    {
+     "size_g": 1000,
+     "price": 0.0,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-speciality-100-arabica-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Speciality 100% Arabica 250gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-speciality-100-arabica-250gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.006-1-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.74,
+     "in_stock": true,
+     "per_kg": 42.96
+    }
+   ],
+   "best_per_kg": 42.96,
+   "cheapest_bag": 10.74,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kudu:costa-rica-cedral-alto",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -2419,6 +3849,36 @@
    "cheapest_bag": 10.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": 43.2,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:βραζιλ-α-brazil-fazenda-monte-alegre-natural-fermentation-lighter-roast",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Βραζιλία - Brazil - Fazenda Monte Alegre - Natural Fermentation - Lighter Roast",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenda-monte-alegre-natural-fermentation/",
+   "image": "https://mokka.coffee/wp-content/uploads/2025/12/Mokka-3D-Pouch-Brazil-Monte_Allegre-Mundo_Nouvo_Catuai-Fermented.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.8,
+     "in_stock": true,
+     "per_kg": 43.2
+    }
+   ],
+   "best_per_kg": 43.2,
+   "cheapest_bag": 10.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -3170,6 +4630,78 @@
    "price_changed_on": null
   },
   {
+   "id": "delmocca:espresso-decaffeine-σπυρ",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Decaffeine 250gr Σπυρί",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-decaffeine-250gr-spyri/",
+   "image": "https://delmocca.gr/wp-content/uploads/2023/01/101.01.015-300x240.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.87,
+     "in_stock": true,
+     "per_kg": 47.48
+    },
+    {
+     "size_g": 500,
+     "price": 0.0,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": 47.48,
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "delmocca:espresso-decaffeine-αλεσμ-νος",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Decaffeine 500gr Αλεσμένος",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-decaffeine-500gr-alesmenos/",
+   "image": "https://delmocca.gr/wp-content/uploads/2021/05/Decaffeine-1-300x240.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.87,
+     "in_stock": true,
+     "per_kg": 47.48
+    },
+    {
+     "size_g": 500,
+     "price": 0.0,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": 47.48,
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:ethnic-blend",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -3469,6 +5001,96 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-red-typica-washed",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Red Typica - Washed",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-red-typica-double-soak-1550/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Guatemala-Anabella_Meneses-Red_Typica-Washed.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:αιθιοπ-α-ethiopia-sheka-gr1-honey",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Αιθιοπία - Ethiopia - Sheka GR1 - Honey",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-sheka-gr1-honey/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/09/Ethiopia-ShekaGR1-Helroom-Honey.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-geded-washed",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Αιθιοπία - Ethiopia - Yirgacheffe GR1 Geded - Washed",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-moplaco-yirgacheffe-kochere-shifo-natural/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Gebed-Heirloom-Washed.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "area51:el-salvador",
    "roaster_id": "area51",
    "roaster": "Area 51",
@@ -3513,36 +5135,6 @@
    "roast_basis": "",
    "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/ethiopia-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
    "image": "https://area51coffeeroasters.com/wp-content/uploads/1-AREA-51-Coffee-Pouch-Top-1.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.59,
-     "in_stock": true,
-     "per_kg": 50.36
-    }
-   ],
-   "best_per_kg": 50.36,
-   "cheapest_bag": 12.59,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 50.36,
-   "price_changed_on": null
-  },
-  {
-   "id": "area51:colombia",
-   "roaster_id": "area51",
-   "roaster": "Area 51",
-   "name": "Colombia",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/colombia-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
-   "image": "https://area51coffeeroasters.com/wp-content/uploads/1-AREA-51-Coffee-Pouch-Top.png",
    "in_stock": true,
    "options": [
     {
@@ -3742,6 +5334,36 @@
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 52.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:peru-el-diamante",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "PERU EL DIAMANTE 250GR",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Citrus peel, Cashew butter, White tea, Honeydew, Camomile, Lychee",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/peru-el-diamante-2/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2025/10/3-600x600.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4219,6 +5841,36 @@
    "cheapest_bag": 13.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": 55.2,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:κ-νυα-kenya-nyeri-hill-aa-washed",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Κένυα - Kenya - Nyeri Hill AA - Washed",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%ba%ce%ad%ce%bd%cf%85%ce%b1-kenya-gichathaini-washed-fresh-harvest-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%cf%81%ce%b1%cf%86%ce%ae/",
+   "image": "https://mokka.coffee/wp-content/uploads/2025/03/Kenya-Nyeri-Hill-AA-Washed.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.8,
+     "in_stock": true,
+     "per_kg": 55.2
+    }
+   ],
+   "best_per_kg": 55.2,
+   "cheapest_bag": 13.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4816,6 +6468,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-red-pacamara-natural",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Red Pacamara - Natural",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-red-pacamara-natural/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Guatemala-Anabella_Meneses-Red_Pacamara-Natural.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.8,
+     "in_stock": true,
+     "per_kg": 59.2
+    }
+   ],
+   "best_per_kg": 59.2,
+   "cheapest_bag": 14.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kross:ethiopia-aricha-wubanchi",
    "roaster_id": "kross",
    "roaster": "Kross",
@@ -5280,6 +6962,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-kochere-red-sundried-unwashed",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 Kochere Red Sundried - Unwashed",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-kochere-red-sundried-unwashed/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Kochere_Red_Sundried-Washed.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.6,
+     "in_stock": true,
+     "per_kg": 62.4
+    }
+   ],
+   "best_per_kg": 62.4,
+   "cheapest_bag": 15.6,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:santu-rio-sul-starmaya-brazil",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -5457,6 +7169,66 @@
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 64.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:diamante-el-salvador",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "DIAMANTE, El Salvador",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Cocoa, Red Grapes, Vanilla",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/diamante-el-salvador/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/01/diam-PACKSHOT-ΓΙΑ-ESHOP-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    }
+   ],
+   "best_per_kg": 64.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:pers-as-mutitu-aa-kenya",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "PERSÈAS Mutitu AA, Kenya",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Honey, Orangepeel, Raspberry",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/perseas/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2024/09/PERSEASjpg-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    }
+   ],
+   "best_per_kg": 64.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6535,6 +8307,36 @@
    "price_changed_on": null
   },
   {
+   "id": "monogram:uraga-haro-wachu-g1-ethiopia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "URAGA Haro Wachu G1, Ethiopia",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Cherry, Pomegrante, Strawberries",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/uraga-haro-wachu/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2024/01/URAGA1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "novelty:colombia-la-divisa",
    "roaster_id": "novelty",
    "roaster": "Novelty Coffee",
@@ -6625,6 +8427,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-geisha-orange-honey",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Geisha - Orange Honey",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-geisha-orange-honey/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Guatemala-Anabella_Meneses-Geisha-Orange_Honey.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.2,
+     "in_stock": true,
+     "per_kg": 72.8
+    }
+   ],
+   "best_per_kg": 72.8,
+   "cheapest_bag": 18.2,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kolektiva:trip-to-ethiopia-ayice",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -6712,6 +8544,66 @@
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 75.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-beautiful-series-orange",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 - Beautiful Series Orange",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-beautiful-series-orange/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Beautiful_Series-Orange.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.9,
+     "in_stock": true,
+     "per_kg": 75.6
+    }
+   ],
+   "best_per_kg": 75.6,
+   "cheapest_bag": 18.9,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-beautiful-series-red",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 - Beautiful Series Red",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-beautiful-series-red/",
+   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Beautiful_Series-Red.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.9,
+     "in_stock": true,
+     "per_kg": 75.6
+    }
+   ],
+   "best_per_kg": 75.6,
+   "cheapest_bag": 18.9,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6838,6 +8730,48 @@
    "cheapest_bag": 15.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 77.5,
+   "price_changed_on": null
+  },
+  {
+   "id": "spinos:colombia-santa-monica",
+   "roaster_id": "spinos",
+   "roaster": "Spinos",
+   "name": "Colombia Santa Monica",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.spinos.coffee/products/kafes/colombia-santa-monica",
+   "image": "https://www.spinos.coffee/sites/default/files/2025-04/SPINOS-BAG-VERSION1---.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.5,
+     "in_stock": true,
+     "per_kg": 78.0
+    },
+    {
+     "size_g": 500,
+     "price": 39.0,
+     "in_stock": true,
+     "per_kg": 78.0
+    },
+    {
+     "size_g": 1000,
+     "price": 78.0,
+     "in_stock": true,
+     "per_kg": 78.0
+    }
+   ],
+   "best_per_kg": 78.0,
+   "cheapest_bag": 19.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6988,6 +8922,96 @@
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 80.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:las-perlitas-colombia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "LAS PERLITAS, Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Blueberries, Grapefruit, Hibiscus",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/las-perlitas-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2026/05/LAS-PER-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:pink-bourbon-colombia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "PINK BOURBON, Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Mango, Pineapple, Strawberries",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/pink-bourbon-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/10/PINK1jpg-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:sunset-vietnam",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "SUNSET, Vietnam",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "Carbonic maceration",
+   "notes": "dark chocolate, liquery, Tropical Fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/sunset-vietnam/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/09/PACKSHOT-ΓΙΑ-ESHOP-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -7770,6 +9794,66 @@
    "price_changed_on": null
   },
   {
+   "id": "monogram:la-villa-gesha-colombia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "LA VILLA Gesha, Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Creamy, Ginger, Lemongrass",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/la-villa-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/10/PACKSHOT-ΓΙΑ-ESHOP-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 100.0
+    }
+   ],
+   "best_per_kg": 100.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:chiroso-colombia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "CHIROSO, Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Cherry, Lychee, Rose",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/chiroso-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/06/PACKSHOT-ΓΙΑ-ESHOP-ΨΗΙΡ-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 100.0
+    }
+   ],
+   "best_per_kg": 100.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "handpickers:villa-betulia-colombia",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -8320,6 +10404,36 @@
    "price_changed_on": null
   },
   {
+   "id": "mokka:παναμ-panama-geisha-honey-lighter-roast",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Παναμά - Panama - Geisha - Honey - Lighter Roast",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%cf%80%ce%b1%ce%bd%ce%b1%ce%bc%ce%ac-panama-geisha-honey/",
+   "image": "https://mokka.coffee/wp-content/uploads/2022/10/Panama-Costas_Costarangos-Geisha-Honey.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 34.0,
+     "in_stock": true,
+     "per_kg": 136.0
+    }
+   ],
+   "best_per_kg": 136.0,
+   "cheapest_bag": 34.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "area51:colombia-sl-28",
    "roaster_id": "area51",
    "roaster": "Area 51",
@@ -8377,6 +10491,36 @@
    "cheapest_bag": 28.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 140.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "mokka:παναμ-ς-panama-geisha-natural-lighter-roast",
+   "roaster_id": "mokka",
+   "roaster": "Mokka",
+   "name": "Παναμάς - Panama - Geisha - Natural - Lighter Roast",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://mokka.coffee/en/p/%cf%80%ce%b1%ce%bd%ce%b1%ce%bc%ce%ac%cf%82-panama-volcan-coffee-corp-geisha-natural/",
+   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Panama-Costas_Costarangos-Geisha-Natural.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 36.0,
+     "in_stock": true,
+     "per_kg": 144.0
+    }
+   ],
+   "best_per_kg": 144.0,
+   "cheapest_bag": 36.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9338,482 +11482,122 @@
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:ποτ-ρι-θερμ-ς-roasters-kolektiva",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Ποτήρι Θερμός Roasters Kolektiva",
+   "id": "delmocca:espresso-cremoso",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Cremoso 1kg",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/potiri-thermos-roasters-kolektiva/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/cup_w-2-407x407.jpg",
-   "in_stock": true,
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-cremoso-1kg/",
+   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Cremoso-300x240.png",
+   "in_stock": false,
    "options": [
     {
-     "size_g": null,
-     "price": 12.0,
-     "in_stock": true,
+     "size_g": 1000,
+     "price": 0.0,
+     "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 12.0,
-   "first_seen": "2026-10-28",
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:μπρελ-κ-roasters-kolektiva",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Μπρελόκ Roasters Kolektiva",
+   "id": "delmocca:espresso-si",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Si 1kg",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/brelok-roasters-kolektiva/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/keychain_w-407x407.jpg",
-   "in_stock": true,
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-si-1kg/",
+   "image": "https://delmocca.gr/wp-content/uploads/2022/10/2-300x240.jpg",
+   "in_stock": false,
    "options": [
     {
-     "size_g": null,
-     "price": 4.0,
-     "in_stock": true,
+     "size_g": 1000,
+     "price": 0.0,
+     "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 4.0,
-   "first_seen": "2026-10-28",
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:τσ-ντα-υφασμ-τινη-roasters-kolektiva",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Τσάντα Υφασμάτινη Roasters Kolektiva",
+   "id": "delmocca:espresso-grand-crema",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Grand Crema 1kg",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/tsanta-yfasmatini-roasters-kolektiva/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/03/RK_totebag_front_white-407x407.jpg",
-   "in_stock": true,
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-grand-crema-1kg/",
+   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Grand-Crema-300x240.png",
+   "in_stock": false,
    "options": [
     {
-     "size_g": null,
-     "price": 8.0,
-     "in_stock": true,
+     "size_g": 1000,
+     "price": 0.0,
+     "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 8.0,
-   "first_seen": "2026-10-28",
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:v60-καν-τα-yama-gd-20-για-drip-brewing",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "V60 Κανάτα Yama gd-20 για Drip Coffee Brewing",
+   "id": "delmocca:espresso-gourmet-100-arabica",
+   "roaster_id": "delmocca",
+   "roaster": "Del Mocca",
+   "name": "Καφές Espresso Gourmet 100% Arabica 1kg",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/v60-kanata-yama-gd-20-gia-drip-coffee-brewing/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/Kanata-gialini-Yama-gd-20-407x407.jpg",
-   "in_stock": true,
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://delmocca.gr/product/kafes-espresso-gourmet-100-arabica-1kg/",
+   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Gourmet-300x240.png",
+   "in_stock": false,
    "options": [
     {
-     "size_g": null,
-     "price": 26.5,
-     "in_stock": true,
+     "size_g": 1000,
+     "price": 0.0,
+     "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 26.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:φ-λτρα-kalita-wave-185",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Φίλτρα Καφέ Kalita Wave 185",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://roasters-kolektiva.com/product/filtra-kafe-kalita-wave-185/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/kalita_185_filter-407x407.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 11.3,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 11.3,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-brewing-foundation",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BREWING FOUNDATION",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-foundation/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Foundation-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 250.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 250.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-brewing-intermediate",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BREWING INTERMEDIATE",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-intermediate/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Intermediate-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 450.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 450.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-brewing-professional",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BREWING PROFESSIONAL",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-brewing-professional/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Brewing-Professional-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 800.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 800.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-professional",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BARISTA SKILLS PROFESSIONAL",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-professional/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Professional-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 800.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 800.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-intermediate",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BARISTA SKILLS INTERMEDIATE",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-intermediate/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Intermediate-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 450.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 450.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-barista-skills-foundation",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – BARISTA SKILLS FOUNDATION",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-barista-skills-foundation/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/Barista-Skills-Foundation-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 250.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 250.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-sca-introduction-to",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο SCA – INTRODUCTION TO COFFEE",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-sca-introduction-to-coffee/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/introduction-to-coffee-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 180.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 180.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-work-flow",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο Καφέ – WORK FLOW",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-kafe-work-flow/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_WORKFLOW-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 700.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 700.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-latte-art",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο Καφέ – LATTE ART",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-kafe-latte-art/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_LATTEART-1-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 350.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 350.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-barista-level-2",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο Καφέ – BARISTA LEVEL 2",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-kafe-barista-level-2/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_lvl02-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 350.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 350.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:σεμιν-ριο-barista-level-1",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Σεμινάριο Καφέ – BARISTA LEVEL 1",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/seminario-kafe-barista-level-1/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/01/1x1-BARISTA-SEMINARS-_lvl01-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 180.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 180.0,
-   "first_seen": "2026-10-28",
+   "cheapest_bag": 0.0,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -10023,636 +11807,6 @@
    ],
    "best_per_kg": null,
    "cheapest_bag": 8.08,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-red-pacamara-natural",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Red Pacamara - Natural",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-red-pacamara-natural/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Guatemala-Anabella_Meneses-Red_Pacamara-Natural.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.8,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-red-typica-washed",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Red Typica - Washed",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-red-typica-double-soak-1550/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Guatemala-Anabella_Meneses-Red_Typica-Washed.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:γουατεμ-λα-guatemala-santa-felisa-geisha-orange-honey",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Γουατεμάλα - Guatemala - Santa Felisa - Geisha - Orange Honey",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Honey",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b3%ce%bf%cf%85%ce%b1%cf%84%ce%b5%ce%bc%ce%ac%ce%bb%ce%b1-guatemala-santa-felisa-geisha-orange-honey/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Guatemala-Anabella_Meneses-Geisha-Orange_Honey.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.2,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.2,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-kochere-red-sundried-unwashed",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 Kochere Red Sundried - Unwashed",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-kochere-red-sundried-unwashed/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Kochere_Red_Sundried-Washed.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 15.6,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 15.6,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:αιθιοπ-α-ethiopia-sheka-gr1-honey",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Αιθιοπία - Ethiopia - Sheka GR1 - Honey",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Honey",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-sheka-gr1-honey/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/09/Ethiopia-ShekaGR1-Helroom-Honey.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-geded-washed",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Αιθιοπία - Ethiopia - Yirgacheffe GR1 Geded - Washed",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-moplaco-yirgacheffe-kochere-shifo-natural/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Gebed-Heirloom-Washed.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-beautiful-series-orange",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 - Beautiful Series Orange",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Honey",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-beautiful-series-orange/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Beautiful_Series-Orange.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-beautiful-series-red",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Αιθιοπία - Ethiopia - Yirgacheffe Gr1 - Beautiful Series Red",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b1%ce%b9%ce%b8%ce%b9%ce%bf%cf%80%ce%af%ce%b1-ethiopia-yirgacheffe-gr1-beautiful-series-red/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/10/Ethiopia-Helena_Georgalis-Ethiopia_Yirgacheffe_GR1_Beautiful_Series-Red.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:βραζιλ-α-brazil-fazenta-monte-alegre",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Βραζιλία - Brazil - Fazenta Monte Alegre",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenta-monte-alegre/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Brazil-Monte_Allegre-Mundo_Nouvo_Catuai.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 8.14,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 8.14,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:βραζιλ-α-brazil-fazenda-monte-alegre-bourbon",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Βραζιλία - Brazil - Fazenda Monte Alegre - Bourbon",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenda-monte-alegre-bourbon/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/02/Mokka-3D-Pouch-Brazil-Monte_Allegre-Bourbon.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 9.6,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 9.6,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:βραζιλ-α-brazil-fazenda-monte-alegre-natural-fermentation-lighter-roast",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Βραζιλία - Brazil - Fazenda Monte Alegre - Natural Fermentation - Lighter Roast",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b2%cf%81%ce%b1%ce%b6%ce%b9%ce%bb%ce%af%ce%b1-brazil-fazenda-monte-alegre-natural-fermentation/",
-   "image": "https://mokka.coffee/wp-content/uploads/2025/12/Mokka-3D-Pouch-Brazil-Monte_Allegre-Mundo_Nouvo_Catuai-Fermented.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 10.8,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 10.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:κ-νυα-kenya-nyeri-hill-aa-washed",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Κένυα - Kenya - Nyeri Hill AA - Washed",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%ba%ce%ad%ce%bd%cf%85%ce%b1-kenya-gichathaini-washed-fresh-harvest-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%cf%81%ce%b1%cf%86%ce%ae/",
-   "image": "https://mokka.coffee/wp-content/uploads/2025/03/Kenya-Nyeri-Hill-AA-Washed.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.8,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:παναμ-ς-panama-geisha-natural-lighter-roast",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Παναμάς - Panama - Geisha - Natural - Lighter Roast",
-   "origin": "Panama",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%cf%80%ce%b1%ce%bd%ce%b1%ce%bc%ce%ac%cf%82-panama-volcan-coffee-corp-geisha-natural/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Panama-Costas_Costarangos-Geisha-Natural.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 36.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 36.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:παναμ-panama-geisha-honey-lighter-roast",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Παναμά - Panama - Geisha - Honey - Lighter Roast",
-   "origin": "Panama",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%cf%80%ce%b1%ce%bd%ce%b1%ce%bc%ce%ac-panama-geisha-honey/",
-   "image": "https://mokka.coffee/wp-content/uploads/2022/10/Panama-Costas_Costarangos-Geisha-Honey.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 34.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 34.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:ελ-σαλβαδ-ρ-el-salvador-apaneca-bourbon-washed",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Ελ Σαλβαδόρ - El Salvador - Apaneca Bourbon - Washed",
-   "origin": "El Salvador",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/%ce%b5%ce%bb-%cf%83%ce%b1%ce%bb%ce%b2%ce%b1%ce%b4%cf%8c%cf%81-el-salvador-finca-la-fany-red-bourbon-washed-%ce%b1%ce%bd%cf%84%ce%b9%ce%b3%cf%81%ce%b1%cf%86%ce%ae/",
-   "image": "https://mokka.coffee/wp-content/uploads/2026/01/EL_Salvador-Apaneca-Bourbon-Washed.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 10.6,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 10.6,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "mokka:ντεκαφ-νε-decaffeine",
-   "roaster_id": "mokka",
-   "roaster": "Mokka",
-   "name": "Ντεκαφέϊνε - Decaffeine",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://mokka.coffee/en/p/decaffeine-%ce%bd%cf%84%ce%b5%ce%ba%ce%b1%cf%86%ce%ad%cf%8a%ce%bd%ce%b5/",
-   "image": "https://mokka.coffee/wp-content/uploads/2021/03/Decaffeine.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 8.13,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 8.13,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:tiptoh-oat-drink",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "TipToh oat drink",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/tiptoh-oat-drink/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/TIP-TOH-OAT-300x300.jpeg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 3.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 3.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:tiptop-pea-drink",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "TipTop pea drink",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/tiptop-pea/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2026/06/TIP-TOH-PEE-300x300.jpeg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 3.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 3.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:belogia-ced-εργαλε-ο-ισοκατανομ-ς",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "Belogia ced Εργαλείο ισοκατανομής καφέ",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/belogia-ced-ergaleio-isokatanomis-kafe/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2025/11/ισοκατανεμητης-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 24.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 24.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:cappuccino-reusable-cup",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "Cappuccino reusable cup",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/cappuccino-reusable-cup/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/JUNE-CUP-1--300x300.jpeg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 8.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:espresso-reusable-cup",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "Espresso reusable cup",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://www.junecoffeeroasters.com/product/espresso-reusable-cup/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2024/11/JUNE-CUP-1-300x300.jpeg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 6.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 6.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
