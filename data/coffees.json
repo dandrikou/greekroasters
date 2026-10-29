@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T12:37+00:00",
+ "generated_at": "2026-10-29T10:57+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 31.6,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 21,
    "cheapest_per_kg": 34.8,
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -79,7 +79,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 38.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -107,7 +107,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 44.84,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 20,
    "cheapest_per_kg": 38.42,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 33.2,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 46.0,
@@ -177,7 +177,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
@@ -191,7 +191,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 47,
    "cheapest_per_kg": 34.15,
@@ -205,7 +205,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 32,
    "cheapest_per_kg": 32.32,
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": null,
@@ -275,7 +275,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-10-28",
+   "last_checked": "2026-10-29",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 15.0,
@@ -310,7 +310,7 @@
    "best_per_kg": 15.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 15.0,
    "price_changed_on": null
   },
   {
@@ -340,7 +340,7 @@
    "best_per_kg": 15.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 15.0,
    "price_changed_on": null
   },
   {
@@ -903,7 +903,7 @@
    "best_per_kg": 34.15,
    "cheapest_bag": 9.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 34.15,
    "price_changed_on": null
   },
   {
@@ -1309,7 +1309,7 @@
    "best_per_kg": 37.45,
    "cheapest_bag": 9.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 37.45,
    "price_changed_on": null
   },
   {
@@ -1351,7 +1351,7 @@
    "best_per_kg": 37.45,
    "cheapest_bag": 9.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 37.45,
    "price_changed_on": null
   },
   {
@@ -1680,7 +1680,7 @@
    "best_per_kg": 38.8,
    "cheapest_bag": 9.7,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 38.8,
    "price_changed_on": null
   },
   {
@@ -1722,7 +1722,7 @@
    "best_per_kg": 38.9,
    "cheapest_bag": 10.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 38.9,
    "price_changed_on": null
   },
   {
@@ -1764,7 +1764,7 @@
    "best_per_kg": 39.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 39.0,
    "price_changed_on": null
   },
   {
@@ -2022,7 +2022,7 @@
    "best_per_kg": 40.8,
    "cheapest_bag": 10.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 40.8,
    "price_changed_on": null
   },
   {
@@ -2244,7 +2244,7 @@
    "best_per_kg": 41.6,
    "cheapest_bag": 10.4,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 41.6,
    "price_changed_on": null
   },
   {
@@ -2274,7 +2274,7 @@
    "best_per_kg": 41.6,
    "cheapest_bag": 10.4,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 41.6,
    "price_changed_on": null
   },
   {
@@ -2316,7 +2316,7 @@
    "best_per_kg": 41.7,
    "cheapest_bag": 10.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 41.7,
    "price_changed_on": null
   },
   {
@@ -2448,7 +2448,7 @@
    "best_per_kg": 43.2,
    "cheapest_bag": 10.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 43.2,
    "price_changed_on": null
   },
   {
@@ -2556,7 +2556,7 @@
    "best_per_kg": 43.6,
    "cheapest_bag": 10.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 43.6,
    "price_changed_on": null
   },
   {
@@ -2730,7 +2730,7 @@
    "best_per_kg": 44.5,
    "cheapest_bag": 11.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.5,
    "price_changed_on": null
   },
   {
@@ -2772,7 +2772,7 @@
    "best_per_kg": 44.5,
    "cheapest_bag": 11.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.5,
    "price_changed_on": null
   },
   {
@@ -4516,7 +4516,7 @@
    "best_per_kg": 57.2,
    "cheapest_bag": 14.3,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 57.2,
    "price_changed_on": null
   },
   {
@@ -4753,7 +4753,7 @@
    "best_per_kg": 59.0,
    "cheapest_bag": 11.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 59.0,
    "price_changed_on": null
   },
   {
@@ -5116,7 +5116,7 @@
    "best_per_kg": 61.6,
    "cheapest_bag": 15.4,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 61.6,
    "price_changed_on": null
   },
   {
@@ -5188,7 +5188,7 @@
    "best_per_kg": 62.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.0,
    "price_changed_on": null
   },
   {
@@ -5336,7 +5336,7 @@
    "best_per_kg": 63.2,
    "cheapest_bag": 15.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 63.2,
    "price_changed_on": null
   },
   {
@@ -5366,7 +5366,7 @@
    "best_per_kg": 63.2,
    "cheapest_bag": 15.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 63.2,
    "price_changed_on": null
   },
   {
@@ -5515,7 +5515,7 @@
    "best_per_kg": 64.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.0,
    "price_changed_on": null
   },
   {
@@ -6054,7 +6054,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6084,7 +6084,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6114,7 +6114,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6144,7 +6144,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6174,7 +6174,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6204,7 +6204,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -6502,7 +6502,7 @@
    "best_per_kg": 71.5,
    "cheapest_bag": 14.3,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 71.5,
    "price_changed_on": null
   },
   {
@@ -6651,7 +6651,7 @@
    "best_per_kg": 74.0,
    "cheapest_bag": 14.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 74.0,
    "price_changed_on": null
   },
   {
@@ -6807,7 +6807,7 @@
    "best_per_kg": 77.5,
    "cheapest_bag": 15.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 77.5,
    "price_changed_on": null
   },
   {
@@ -6837,7 +6837,7 @@
    "best_per_kg": 77.5,
    "cheapest_bag": 15.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 77.5,
    "price_changed_on": null
   },
   {
@@ -7017,7 +7017,7 @@
    "best_per_kg": 82.5,
    "cheapest_bag": 16.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 82.5,
    "price_changed_on": null
   },
   {
@@ -7587,7 +7587,7 @@
    "best_per_kg": 96.5,
    "cheapest_bag": 19.3,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 96.5,
    "price_changed_on": null
   },
   {
@@ -7646,7 +7646,7 @@
    "best_per_kg": 99.64,
    "cheapest_bag": 279.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 99.64,
    "price_changed_on": null
   },
   {
@@ -7676,7 +7676,7 @@
    "best_per_kg": 99.64,
    "cheapest_bag": 279.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 99.64,
    "price_changed_on": null
   },
   {
@@ -7706,7 +7706,7 @@
    "best_per_kg": 99.64,
    "cheapest_bag": 279.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 99.64,
    "price_changed_on": null
   },
   {
@@ -7736,7 +7736,7 @@
    "best_per_kg": 99.64,
    "cheapest_bag": 279.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 99.64,
    "price_changed_on": null
   },
   {
@@ -8682,7 +8682,7 @@
    "best_per_kg": 185.71,
    "cheapest_bag": 6.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 185.71,
    "price_changed_on": null
   },
   {
