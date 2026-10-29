@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:43+00:00",
+ "generated_at": "2026-10-29T19:53+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -189,13 +189,13 @@
    "city": "Greece",
    "website": "https://spiri.gr",
    "free_shipping_eur": null,
-   "note": null,
-   "source": "manual",
-   "last_checked": null,
-   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://spiri.gr/wp-json/wc/store/v1/products?per_page=100&page=1&category=kafes-ellinikos-espresso-filtrou",
-   "coffees": 0,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "note": "Shop API returns errors, so product pages are read instead.",
+   "source": "live",
+   "last_checked": "2026-10-29",
+   "error": null,
+   "coffees": 20,
+   "cheapest_per_kg": 28.0,
+   "median_per_kg": 29.7
   },
   {
    "id": "monogram",
@@ -208,7 +208,7 @@
    "last_checked": "2026-10-29",
    "error": null,
    "coffees": 13,
-   "cheapest_per_kg": 16.0,
+   "cheapest_per_kg": 39.0,
    "median_per_kg": 64.0
   },
   {
@@ -221,7 +221,7 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 27,
+   "coffees": 14,
    "cheapest_per_kg": 33.92,
    "median_per_kg": 40.68
   },
@@ -249,9 +249,9 @@
    "source": "live",
    "last_checked": "2026-10-29",
    "error": null,
-   "coffees": 32,
-   "cheapest_per_kg": 32.32,
-   "median_per_kg": 61.96
+   "coffees": 33,
+   "cheapest_per_kg": 32.28,
+   "median_per_kg": 61.92
   },
   {
    "id": "mokka",
@@ -340,126 +340,6 @@
  ],
  "coffees": [
   {
-   "id": "monogram:oikos-manolikakis-filter-grounds",
-   "roaster_id": "monogram",
-   "roaster": "Monogram Roasters",
-   "name": "Oikos MANOLIKAKIS Filter coffee Grounds",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.monogramroasters.gr/product/manolikakis-filter-coffee-grounds/",
-   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/filter_1080x1080px-600x600.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 80.0
-    },
-    {
-     "size_g": 200,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 40.0
-    },
-    {
-     "size_g": 500,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 16.0
-    }
-   ],
-   "best_per_kg": 16.0,
-   "cheapest_bag": 8.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "monogram:oikos-manolikakis-espresso-grounds",
-   "roaster_id": "monogram",
-   "roaster": "Monogram Roasters",
-   "name": "Oikos MANOLIKAKIS Espresso Grounds",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium-dark",
-   "roast_basis": "Stated",
-   "url": "https://www.monogramroasters.gr/product/manolikakis-espresso-grounds/",
-   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/espresso_arabica_1080x1080px-600x600.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 80.0
-    },
-    {
-     "size_g": 200,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 40.0
-    },
-    {
-     "size_g": 500,
-     "price": 8.0,
-     "in_stock": true,
-     "per_kg": 16.0
-    }
-   ],
-   "best_per_kg": 16.0,
-   "cheapest_bag": 8.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "monogram:androm-da-yirgacheffe-g1-ethiopia",
-   "roaster_id": "monogram",
-   "roaster": "Monogram Roasters",
-   "name": "ANDROMÈDA Yirgacheffe G1, Ethiopia",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Floral, Lemon, Stone fruits",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.monogramroasters.gr/product/andromeda-yirgacheffe-ethiopia/",
-   "image": "https://www.monogramroasters.gr/wp-content/uploads/2023/03/ANDROMEDA1-600x600.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 16.0,
-     "in_stock": true,
-     "per_kg": 64.0
-    },
-    {
-     "size_g": 1000,
-     "price": 16.0,
-     "in_stock": true,
-     "per_kg": 16.0
-    }
-   ],
-   "best_per_kg": 16.0,
-   "cheapest_bag": 16.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
    "id": "spinos:spinos-presidente",
    "roaster_id": "spinos",
    "roaster": "Spinos",
@@ -498,7 +378,7 @@
    "best_per_kg": 25.0,
    "cheapest_bag": 6.3,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 25.0,
    "price_changed_on": null
   },
   {
@@ -540,7 +420,7 @@
    "best_per_kg": 26.0,
    "cheapest_bag": 6.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 26.0,
    "price_changed_on": null
   },
   {
@@ -582,7 +462,7 @@
    "best_per_kg": 26.6,
    "cheapest_bag": 6.7,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 26.6,
    "price_changed_on": null
   },
   {
@@ -642,7 +522,7 @@
    "best_per_kg": 27.0,
    "cheapest_bag": 6.8,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 27.0,
    "price_changed_on": null
   },
   {
@@ -683,6 +563,42 @@
    ],
    "best_per_kg": 27.0,
    "cheapest_bag": 6.8,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 27.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:outlaw-blend",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "OUTLAW BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/blends/outlaw/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/OUTLAW.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.0,
+     "in_stock": true,
+     "per_kg": 28.0
+    },
+    {
+     "size_g": 500,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 28.0
+    }
+   ],
+   "best_per_kg": 28.0,
+   "cheapest_bag": 7.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -726,6 +642,42 @@
    "best_per_kg": 28.0,
    "cheapest_bag": 7.0,
    "first_seen": "2026-10-29",
+   "previous_per_kg": 28.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:brazil-brazil-mantiqueira-de-minas",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "BRAZIL BRAZIL MANTIQUEIRA DE MINAS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/blends/brazil/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/BRAZIL.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.25,
+     "in_stock": true,
+     "per_kg": 29.0
+    },
+    {
+     "size_g": 500,
+     "price": 14.5,
+     "in_stock": true,
+     "per_kg": 29.0
+    }
+   ],
+   "best_per_kg": 29.0,
+   "cheapest_bag": 7.25,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -768,7 +720,7 @@
    "best_per_kg": 29.0,
    "cheapest_bag": 7.3,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 29.0,
    "price_changed_on": null
   },
   {
@@ -809,6 +761,42 @@
    ],
    "best_per_kg": 29.0,
    "cheapest_bag": 7.3,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 29.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:horizon-blend",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "HORIZON BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/blends/horizon/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/HOUSE-BLEND-ARABICA.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.43,
+     "in_stock": true,
+     "per_kg": 29.72
+    },
+    {
+     "size_g": 500,
+     "price": 14.85,
+     "in_stock": true,
+     "per_kg": 29.7
+    }
+   ],
+   "best_per_kg": 29.7,
+   "cheapest_bag": 7.43,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -852,7 +840,7 @@
    "best_per_kg": 30.0,
    "cheapest_bag": 7.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 30.0,
    "price_changed_on": null
   },
   {
@@ -894,7 +882,7 @@
    "best_per_kg": 30.0,
    "cheapest_bag": 7.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 30.0,
    "price_changed_on": null
   },
   {
@@ -923,6 +911,42 @@
    "best_per_kg": 30.0,
    "cheapest_bag": 7.5,
    "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:house-blend",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "HOUSE BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/blends/house/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/HOUSE-BLEND-A.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.63,
+     "in_stock": true,
+     "per_kg": 30.52
+    },
+    {
+     "size_g": 500,
+     "price": 15.25,
+     "in_stock": true,
+     "per_kg": 30.5
+    }
+   ],
+   "best_per_kg": 30.5,
+   "cheapest_bag": 7.63,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -1119,16 +1143,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 8.08,
+     "price": 8.07,
      "in_stock": true,
-     "per_kg": 32.32
+     "per_kg": 32.28
     }
    ],
-   "best_per_kg": 32.32,
-   "cheapest_bag": 8.08,
+   "best_per_kg": 32.28,
+   "cheapest_bag": 8.07,
    "first_seen": "2026-10-28",
    "previous_per_kg": 32.32,
-   "price_changed_on": "2026-10-28"
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "mokka:ντεκαφ-νε-decaffeine",
@@ -1157,7 +1181,7 @@
    "best_per_kg": 32.52,
    "cheapest_bag": 8.13,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 32.52,
    "price_changed_on": null
   },
   {
@@ -1187,7 +1211,7 @@
    "best_per_kg": 32.56,
    "cheapest_bag": 8.14,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 32.56,
    "price_changed_on": null
   },
   {
@@ -1260,6 +1284,42 @@
    "cheapest_bag": 8.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 33.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:colombia-supremo",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "COLOMBIA SUPREMO",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/colombia-supremo/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/colombia-sofia.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.25,
+     "in_stock": true,
+     "per_kg": 33.0
+    },
+    {
+     "size_g": 500,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 33.0
+    }
+   ],
+   "best_per_kg": 33.0,
+   "cheapest_bag": 8.25,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -1445,11 +1505,11 @@
    "best_per_kg": 33.5,
    "cheapest_bag": 8.4,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 33.5,
    "price_changed_on": null
   },
   {
-   "id": "delmocca:φ-λτρου-aroma-100-arabica-σπυρ",
+   "id": "delmocca:φ-λτρου-aroma-100-arabica",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Φίλτρου Aroma 100% Arabica 250gr Σπυρί",
@@ -1472,56 +1532,20 @@
      "per_kg": 33.92
     },
     {
-     "size_g": 500,
-     "price": 0.0,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": 33.92,
-   "cheapest_bag": 0.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:φ-λτρου-aroma-100-arabica-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Φίλτρου Aroma 100% Arabica 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://delmocca.gr/product/kafes-filtroy-aroma-100-arabica-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.002-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
-    {
      "size_g": 250,
      "price": 8.48,
      "in_stock": true,
      "per_kg": 33.92
-    },
-    {
-     "size_g": 500,
-     "price": 0.0,
-     "in_stock": false,
-     "per_kg": null
     }
    ],
    "best_per_kg": 33.92,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 8.48,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-cremoso-σπυρ",
+   "id": "delmocca:espresso-cremoso",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Cremoso 250gr Σπυρί",
@@ -1542,31 +1566,7 @@
      "price": 8.48,
      "in_stock": true,
      "per_kg": 33.92
-    }
-   ],
-   "best_per_kg": 33.92,
-   "cheapest_bag": 8.48,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-cremoso-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Cremoso 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-cremoso-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.012-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 8.48,
@@ -1785,7 +1785,7 @@
    "price_changed_on": null
   },
   {
-   "id": "cafeistas:bio-αλεσμ-νος-για-φ-λτρου",
+   "id": "cafeistas:bio-για-φ-λτρου",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
    "name": "bio – 250g – οργανικός καφές αλεσμένος για φίλτρου",
@@ -1810,8 +1810,8 @@
    ],
    "best_per_kg": 36.0,
    "cheapest_bag": 9.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 36.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -2300,7 +2300,7 @@
    "best_per_kg": 38.4,
    "cheapest_bag": 9.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 38.4,
    "price_changed_on": null
   },
   {
@@ -2334,67 +2334,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:φ-λτρου-με-γε-ση-καραμ-λα-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Φίλτρου με Γεύση Καραμέλα 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://delmocca.gr/product/kafes-filtroy-me-geysi-karamela-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.004-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 9.61,
-     "in_stock": true,
-     "per_kg": 38.44
-    }
-   ],
-   "best_per_kg": 38.44,
-   "cheapest_bag": 9.61,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:φ-λτρου-με-γε-ση-φουντο-κι-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Φίλτρου με Γεύση Φουντούκι 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://delmocca.gr/product/kafes-filtroy-me-geysi-foyntoyki-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.04.003-2-300x240.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 9.61,
-     "in_stock": true,
-     "per_kg": 38.44
-    }
-   ],
-   "best_per_kg": 38.44,
-   "cheapest_bag": 9.61,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-grand-crema-σπυρ",
+   "id": "delmocca:espresso-grand-crema",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Grand Crema 250gr Σπυρί",
@@ -2415,31 +2355,7 @@
      "price": 9.61,
      "in_stock": true,
      "per_kg": 38.44
-    }
-   ],
-   "best_per_kg": 38.44,
-   "cheapest_bag": 9.61,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-grand-crema-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Grand Crema 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-grand-crema-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.008-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 9.61,
@@ -2696,7 +2612,7 @@
    "best_per_kg": 39.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 39.0,
    "price_changed_on": null
   },
   {
@@ -2904,6 +2820,66 @@
    "price_changed_on": null
   },
   {
+   "id": "monogram:oikos-manolikakis-filter-grounds",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "Oikos MANOLIKAKIS Filter coffee Grounds",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.monogramroasters.gr/product/manolikakis-filter-coffee-grounds/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/filter_1080x1080px-600x600.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    }
+   ],
+   "best_per_kg": 40.0,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 16.0,
+   "price_changed_on": "2026-10-29"
+  },
+  {
+   "id": "monogram:oikos-manolikakis-espresso-grounds",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "Oikos MANOLIKAKIS Espresso Grounds",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium-dark",
+   "roast_basis": "Stated",
+   "url": "https://www.monogramroasters.gr/product/manolikakis-espresso-grounds/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/12/espresso_arabica_1080x1080px-600x600.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 8.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    }
+   ],
+   "best_per_kg": 40.0,
+   "cheapest_bag": 8.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 16.0,
+   "price_changed_on": "2026-10-29"
+  },
+  {
    "id": "monogram:p-gasus-colombia-decaf",
    "roaster_id": "monogram",
    "roaster": "Monogram Roasters",
@@ -2930,7 +2906,7 @@
    "best_per_kg": 40.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 40.0,
    "price_changed_on": null
   },
   {
@@ -2970,7 +2946,7 @@
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "delmocca:single-origin-honduras-σπυρ",
+   "id": "delmocca:single-origin-honduras",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Honduras 250gr Σπυρί",
@@ -3000,7 +2976,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:single-origin-peru-σπυρ",
+   "id": "delmocca:single-origin-peru",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Peru 250gr Σπυρί",
@@ -3030,7 +3006,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:single-origin-guatemala-σπυρ",
+   "id": "delmocca:single-origin-guatemala",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Guatemala 250gr Σπυρί",
@@ -3060,7 +3036,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-si-σπυρ",
+   "id": "delmocca:espresso-si",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Si 250gr Σπυρί",
@@ -3081,31 +3057,7 @@
      "price": 10.17,
      "in_stock": true,
      "per_kg": 40.68
-    }
-   ],
-   "best_per_kg": 40.68,
-   "cheapest_bag": 10.17,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-si-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Si 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-si-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/kafes_espresso_si-300x240.jpg",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 10.17,
@@ -3120,7 +3072,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-gourmet-100-arabica-σπυρ",
+   "id": "delmocca:espresso-gourmet-100-arabica",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Gourmet 100% Arabica 250gr Σπυρί",
@@ -3141,31 +3093,7 @@
      "price": 10.17,
      "in_stock": true,
      "per_kg": 40.68
-    }
-   ],
-   "best_per_kg": 40.68,
-   "cheapest_bag": 10.17,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-gourmet-100-arabica-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Gourmet 100% Arabica 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-gourmet-100-arabica-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.017-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
+    },
     {
      "size_g": 250,
      "price": 10.17,
@@ -3596,7 +3524,7 @@
    "best_per_kg": 42.4,
    "cheapest_bag": 10.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 42.4,
    "price_changed_on": null
   },
   {
@@ -3636,7 +3564,7 @@
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "delmocca:single-origin-ethiopia-sidamo-σπυρ",
+   "id": "delmocca:single-origin-ethiopia-sidamo",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Ethiopia Sidamo 250gr Σπυρί",
@@ -3666,7 +3594,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:single-origin-costa-rica-σπυρ",
+   "id": "delmocca:single-origin-costa-rica",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Costa Rica 250gr Σπυρί",
@@ -3696,7 +3624,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:single-origin-brazil-σπυρ",
+   "id": "delmocca:single-origin-brazil",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Brazil 250gr Σπυρί",
@@ -3726,7 +3654,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:single-origin-colombia-σπυρ",
+   "id": "delmocca:single-origin-colombia",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Single Origin Colombia 250gr Σπυρί",
@@ -3756,7 +3684,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-speciality-100-arabica-σπυρ",
+   "id": "delmocca:espresso-speciality-100-arabica",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Speciality 100% Arabica 250gr Σπυρί",
@@ -3778,36 +3706,6 @@
      "in_stock": true,
      "per_kg": 42.96
     },
-    {
-     "size_g": 1000,
-     "price": 0.0,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": 42.96,
-   "cheapest_bag": 0.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-speciality-100-arabica-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Speciality 100% Arabica 250gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-speciality-100-arabica-250gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.006-1-300x240.jpg",
-   "in_stock": true,
-   "options": [
     {
      "size_g": 250,
      "price": 10.74,
@@ -3878,7 +3776,7 @@
    "best_per_kg": 43.2,
    "cheapest_bag": 10.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 43.2,
    "price_changed_on": null
   },
   {
@@ -4630,7 +4528,7 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-decaffeine-σπυρ",
+   "id": "delmocca:espresso-decaffeine",
    "roaster_id": "delmocca",
    "roaster": "Del Mocca",
    "name": "Καφές Espresso Decaffeine 250gr Σπυρί",
@@ -4653,50 +4551,14 @@
      "per_kg": 47.48
     },
     {
-     "size_g": 500,
-     "price": 0.0,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": 47.48,
-   "cheapest_bag": 0.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "delmocca:espresso-decaffeine-αλεσμ-νος",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Decaffeine 500gr Αλεσμένος",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-decaffeine-500gr-alesmenos/",
-   "image": "https://delmocca.gr/wp-content/uploads/2021/05/Decaffeine-1-300x240.png",
-   "in_stock": true,
-   "options": [
-    {
      "size_g": 250,
      "price": 11.87,
      "in_stock": true,
      "per_kg": 47.48
-    },
-    {
-     "size_g": 500,
-     "price": 0.0,
-     "in_stock": false,
-     "per_kg": null
     }
    ],
    "best_per_kg": 47.48,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 11.87,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -5027,7 +4889,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5057,7 +4919,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5087,7 +4949,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5169,16 +5031,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 12.83,
+     "price": 12.82,
      "in_stock": true,
-     "per_kg": 51.32
+     "per_kg": 51.28
     }
    ],
-   "best_per_kg": 51.32,
-   "cheapest_bag": 12.83,
+   "best_per_kg": 51.28,
+   "cheapest_bag": 12.82,
    "first_seen": "2026-10-28",
    "previous_per_kg": 51.32,
-   "price_changed_on": null
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "taresso:colombia-excelso-huila-las-pulgas",
@@ -5363,7 +5225,7 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.0,
    "price_changed_on": null
   },
   {
@@ -5870,7 +5732,7 @@
    "best_per_kg": 55.2,
    "cheapest_bag": 13.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 55.2,
    "price_changed_on": null
   },
   {
@@ -6070,16 +5932,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 14.16,
+     "price": 14.15,
      "in_stock": true,
-     "per_kg": 56.64
+     "per_kg": 56.6
     }
    ],
-   "best_per_kg": 56.64,
-   "cheapest_bag": 14.16,
+   "best_per_kg": 56.6,
+   "cheapest_bag": 14.15,
    "first_seen": "2026-10-28",
    "previous_per_kg": 56.64,
-   "price_changed_on": null
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "handpickers:caballero-tanairi-honduras",
@@ -6100,16 +5962,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 14.16,
+     "price": 14.15,
      "in_stock": true,
-     "per_kg": 56.64
+     "per_kg": 56.6
     }
    ],
-   "best_per_kg": 56.64,
-   "cheapest_bag": 14.16,
+   "best_per_kg": 56.6,
+   "cheapest_bag": 14.15,
    "first_seen": "2026-10-28",
    "previous_per_kg": 56.64,
-   "price_changed_on": null
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "kudu:ethiopia-gargari-gutity",
@@ -6367,16 +6229,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 14.73,
+     "price": 14.72,
      "in_stock": true,
-     "per_kg": 58.92
+     "per_kg": 58.88
     }
    ],
-   "best_per_kg": 58.92,
-   "cheapest_bag": 14.73,
+   "best_per_kg": 58.88,
+   "cheapest_bag": 14.72,
    "first_seen": "2026-10-28",
    "previous_per_kg": 58.92,
-   "price_changed_on": null
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "kolektiva:trip-to-kenya-ayaan",
@@ -6494,7 +6356,7 @@
    "best_per_kg": 59.2,
    "cheapest_bag": 14.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 59.2,
    "price_changed_on": null
   },
   {
@@ -6820,16 +6682,16 @@
    "options": [
     {
      "size_g": 250,
-     "price": 15.49,
+     "price": 15.48,
      "in_stock": true,
-     "per_kg": 61.96
+     "per_kg": 61.92
     }
    ],
-   "best_per_kg": 61.96,
-   "cheapest_bag": 15.49,
+   "best_per_kg": 61.92,
+   "cheapest_bag": 15.48,
    "first_seen": "2026-10-28",
    "previous_per_kg": 61.96,
-   "price_changed_on": null
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "kolektiva:trip-to-ethiopia-nyala",
@@ -6988,7 +6850,7 @@
    "best_per_kg": 62.4,
    "cheapest_bag": 15.6,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.4,
    "price_changed_on": null
   },
   {
@@ -7198,7 +7060,7 @@
    "best_per_kg": 64.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.0,
    "price_changed_on": null
   },
   {
@@ -7228,8 +7090,38 @@
    "best_per_kg": 64.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 64.0,
    "price_changed_on": null
+  },
+  {
+   "id": "monogram:androm-da-yirgacheffe-g1-ethiopia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "ANDROMÈDA Yirgacheffe G1, Ethiopia",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Floral, Lemon, Stone fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/andromeda-yirgacheffe-ethiopia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2023/03/ANDROMEDA1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    }
+   ],
+   "best_per_kg": 64.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 16.0,
+   "price_changed_on": "2026-10-29"
   },
   {
    "id": "dabov:dabov-signature-blend",
@@ -8333,7 +8225,7 @@
    "best_per_kg": 72.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -8453,7 +8345,7 @@
    "best_per_kg": 72.8,
    "cheapest_bag": 18.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.8,
    "price_changed_on": null
   },
   {
@@ -8573,7 +8465,7 @@
    "best_per_kg": 75.6,
    "cheapest_bag": 18.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 75.6,
    "price_changed_on": null
   },
   {
@@ -8603,7 +8495,7 @@
    "best_per_kg": 75.6,
    "cheapest_bag": 18.9,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 75.6,
    "price_changed_on": null
   },
   {
@@ -8771,7 +8663,7 @@
    "best_per_kg": 78.0,
    "cheapest_bag": 19.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 78.0,
    "price_changed_on": null
   },
   {
@@ -8951,7 +8843,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -8981,7 +8873,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -9011,7 +8903,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -9820,7 +9712,7 @@
    "best_per_kg": 100.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 100.0,
    "price_changed_on": null
   },
   {
@@ -9850,7 +9742,7 @@
    "best_per_kg": 100.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 100.0,
    "price_changed_on": null
   },
   {
@@ -10430,7 +10322,7 @@
    "best_per_kg": 136.0,
    "cheapest_bag": 34.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 136.0,
    "price_changed_on": null
   },
   {
@@ -10520,7 +10412,7 @@
    "best_per_kg": 144.0,
    "cheapest_bag": 36.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
+   "previous_per_kg": 144.0,
    "price_changed_on": null
   },
   {
@@ -11482,121 +11374,451 @@
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-cremoso",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Cremoso 1kg",
-   "origin": "Not stated",
+   "id": "spiri:el-salvador-finca-san-cayetano-ethiozar",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "EL SALVADOR FINCA SAN CAYETANO ETHIOZAR",
+   "origin": "El Salvador",
    "region": "",
    "type": "Single origin",
-   "process": "",
+   "process": "Natural",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-cremoso-1kg/",
-   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Cremoso-300x240.png",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/el-salvador/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/10/san-caytamo.webp",
    "in_stock": false,
    "options": [
     {
-     "size_g": 1000,
-     "price": 0.0,
+     "size_g": null,
+     "price": 13.0,
      "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 13.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-si",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Si 1kg",
-   "origin": "Not stated",
+   "id": "spiri:bolivia",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "BOLIVIA",
+   "origin": "Bolivia",
    "region": "",
    "type": "Single origin",
-   "process": "",
+   "process": "Natural",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-si-1kg/",
-   "image": "https://delmocca.gr/wp-content/uploads/2022/10/2-300x240.jpg",
-   "in_stock": false,
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/bolivia/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/08/bolivia-site.webp",
+   "in_stock": true,
    "options": [
     {
-     "size_g": 1000,
-     "price": 0.0,
-     "in_stock": false,
+     "size_g": null,
+     "price": 14.5,
+     "in_stock": true,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 14.5,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-grand-crema",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Grand Crema 1kg",
-   "origin": "Not stated",
+   "id": "spiri:burundi",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "BURUNDI",
+   "origin": "Burundi",
    "region": "",
    "type": "Single origin",
-   "process": "",
+   "process": "Washed",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-grand-crema-1kg/",
-   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Grand-Crema-300x240.png",
-   "in_stock": false,
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/burundi/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/BURUNDI.png",
+   "in_stock": true,
    "options": [
     {
-     "size_g": 1000,
-     "price": 0.0,
-     "in_stock": false,
+     "size_g": null,
+     "price": 11.0,
+     "in_stock": true,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 11.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
   {
-   "id": "delmocca:espresso-gourmet-100-arabica",
-   "roaster_id": "delmocca",
-   "roaster": "Del Mocca",
-   "name": "Καφές Espresso Gourmet 100% Arabica 1kg",
+   "id": "spiri:colombia-huila",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "COLOMBIA HUILA",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/colombia-huila/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/01/colombia-huila-1.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ethiopia",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ETHIOPIA",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-2/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/ETHIOPIA.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:kennya-kaguyu",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "KENNYA Kaguyu",
    "origin": "Not stated",
    "region": "",
    "type": "Single origin",
    "process": "",
    "notes": "",
    "taste": "Not stated",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://delmocca.gr/product/kafes-espresso-gourmet-100-arabica-1kg/",
-   "image": "https://delmocca.gr/wp-content/uploads/2021/07/NEW_Gourmet-300x240.png",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kennya-kaguyu/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/10/KENNYA.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:mexico",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "MEXICO",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/mexico/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/MEXICO.png",
    "in_stock": false,
    "options": [
     {
-     "size_g": 1000,
-     "price": 0.0,
+     "size_g": null,
+     "price": 13.5,
      "in_stock": false,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 0.0,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:rwanta",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "RWANTA",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/rwanta/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/RWANDA.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ethiopia-masina-gr1",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ETHIOPIA MASINA GR1",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-masina-gr1/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/08/ethiopia-masina.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": null,
+     "price": 10.5,
+     "in_stock": false,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 10.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:kenya-aa-embu",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "KENYA AA EMBU",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kenya/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/KENYA-1-e1733469166667.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:decaf-colombia-tumbaga",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "DECAF COLOMBIA TUMBAGA",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/decaf/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/decaf-colombia.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 8.9,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 8.9,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ποτηρια-380ml",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ΠΟΤΗΡΙΑ 380ML",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/potiria-380-ml/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/BLACK.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 25.8,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 25.8,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ποτηρια-710ml",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ΠΟΤΗΡΙΑ 710ML",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/potiria-710ml/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/CAMPER-710-HOT.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 30.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 30.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:pezzetti-moka-3-cups-6-cups",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "PEZZETTI MOKA 3 CUPS – 6 CUPS",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/pezzetti-moka-3-cups-6-cups/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/SILVER-2-SIZES.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 22.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:aeropress-aerobie",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "AEROPRESS AEROBIE",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/aeropress-aerobie/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/AEROPRESS.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 47.8,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 47.8,
    "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
@@ -11658,6 +11880,36 @@
    "best_per_kg": null,
    "cheapest_bag": 86.0,
    "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "handpickers:oma-gesha-village",
+   "roaster_id": "handpickers",
+   "roaster": "Handpickers",
+   "name": "Oma –Gesha Village",
+   "origin": "Ethiopia",
+   "region": "Bench Maji",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "wild flower, pomegranate, white chocolate",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://handpickerscoffee.gr/p/oma-gesha-village",
+   "image": "https://handpickerscoffee.gr/wp-content/uploads/2025/11/oma-gesha-village.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 45.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 45.0,
+   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -11800,13 +12052,13 @@
    "options": [
     {
      "size_g": null,
-     "price": 8.08,
+     "price": 8.07,
      "in_stock": true,
      "per_kg": null
     }
    ],
    "best_per_kg": null,
-   "cheapest_bag": 8.08,
+   "cheapest_bag": 8.07,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
