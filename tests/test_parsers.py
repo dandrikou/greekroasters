@@ -199,3 +199,35 @@ def test_roaster_default_bag_size():
            "options": [{"size_g": None, "price": 13.8, "in_stock": True}]}
     coffee = enrich({**ROASTER, "default_size_g": 250}, raw, {}, {})
     assert coffee["best_per_kg"] == 55.2
+
+
+def test_woo_skips_unoffered_and_unpriced_sizes():
+    product = {
+        "id": 5, "name": "ANDROMÈDA Yirgacheffe G1, Ethiopia", "permalink": "https://m.gr/p/", "categories": [],
+        "prices": {"price": "1600", "currency_minor_unit": 2}, "is_in_stock": True,
+        "attributes": [{"name": "Packing", "taxonomy": "pa_packing", "terms": [{"name": "250gr"}]},
+                       {"name": "Quantity", "taxonomy": "pa_quantity", "terms": [{"name": "Espresso grind"}]}],
+        "variations": [{"id": 1, "attributes": [{"name": "Packing", "value": "250gr"}]},
+                       {"id": 2, "attributes": [{"name": "Packing", "value": "1000gr"}]}],
+    }
+    parsed = parse_woo_product(product, lambda vid: {"prices": {"price": "1600", "currency_minor_unit": 2}})
+    assert [(o["size_g"], o["price"]) for o in parsed["options"]] == [(250, 16.0)]
+    product = {**product, "attributes": [], "variations": [], "prices": {"price": "0", "currency_minor_unit": 2}}
+    assert parse_woo_product(product) is None
+
+
+def test_jsonld_page_reads_woo_variation_form():
+    import html as _html, json as _json
+    variations = [{"attributes": {"attribute_pa_weight": "250gr"}, "display_price": 7.25, "is_in_stock": True},
+                  {"attributes": {"attribute_pa_weight": "500gr"}, "display_price": 14.5, "is_in_stock": True}]
+    page = f"""<script type="application/ld+json">{{"@type":"Product","name":"BRAZIL MANTIQUEIRA DE MINAS",
+      "offers":{{"lowPrice":"7.25","highPrice":"14.50"}}}}</script>
+      <form data-product_variations="{_html.escape(_json.dumps(variations))}"></form>"""
+    parsed = parse_jsonld_product(page, "https://spiri.gr/shop/x/blends/brazil/")
+    assert [(o["size_g"], o["price"]) for o in parsed["options"]] == [(250, 7.25), (500, 14.5)]
+
+
+def test_beans_and_ground_listings_merge():
+    from scraper.build import name_key
+    assert name_key("Καφές Espresso Si 250gr Σπυρί") == name_key("Καφές Espresso Si 250gr Αλεσμένος")
+    assert is_excluded("Καφές Φίλτρου με Γεύση Καραμέλα 250gr Αλεσμένος")

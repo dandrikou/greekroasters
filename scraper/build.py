@@ -32,7 +32,7 @@ def url_key(url):
 def name_key(name):
     """Name without bag size or 'beans' words, so the 250 g and 1 kg listings of one coffee match."""
     text = SIZE_RE.sub(" ", name.lower())
-    text = re.sub(r"\b(κόκκος|κόκκοι|κοκκοι|σε κόκκους|καφές|καφέ|οργανικός|organic|coffee|whole ?beans?|beans)\b|[()|,\-–]", " ", text)
+    text = re.sub(r"\b(κόκκος|κόκκοι|κοκκοι|σε κόκκους|καφές|καφέ|οργανικός|organic|coffee|whole ?beans?|beans|σπυρί|αλεσμένος)\b|[()|,\-–]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
 
 

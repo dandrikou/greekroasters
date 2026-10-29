@@ -46,6 +46,7 @@ def parse_shopify_product(product, base_url):
         # Shops sometimes enter shipping weight wrongly (e.g. 270000 g), so only trust bag-like weights.
         size = parse_size_g(variant.get("title"), name) or (grams if grams and 30 <= grams <= 5000 else None)
         options.append(_option(size, variant["price"], variant.get("available", True)))
+    options = [o for o in options if o["price"] > 0]  # unpriced variations aren't for sale
     if not options:
         return None
     known_sizes = {o["size_g"] for o in options if o["size_g"]}
@@ -90,6 +91,11 @@ def _woo_price(prices):
     return int(prices["price"]) / (10 ** minor)
 
 
+def _slug_size(label):
+    """Variation values are slugs such as "250-gr", "1-kg" or "0-250-kg"."""
+    return parse_size_g(re.sub(r"(\d)-(\d)", r"\1.\2", label or "").replace("-", " "))
+
+
 def _woo_size_attribute(attributes):
     """Return the attribute whose values look like bag sizes (e.g. 250g / 1kg), if any."""
     for attr in attributes or []:
@@ -120,12 +126,13 @@ def parse_woo_product(product, variation_lookup=None):
         for var in variations:
             label = next((a.get("value", "") for a in var.get("attributes", [])
                           if a.get("name", "").lower() in (taxonomy.lower(), size_attr.get("name", "").lower())), "")
-            # Variation values are slugs such as "250-gr", "1-kg" or "0-250-kg".
-            size = parse_size_g(re.sub(r"(\d)-(\d)", r"\1.\2", label or "").replace("-", " "))
+            size = _slug_size(label)
+            term_sizes = {parse_size_g(t.get("name", "")) for t in size_attr.get("terms", [])} - {None}
             if size is None:
                 # Size isn't a variation choice (e.g. a fixed "Package: 250gr" attribute).
-                term_sizes = {parse_size_g(t.get("name", "")) for t in size_attr.get("terms", [])}
-                size = term_sizes.pop() if len(term_sizes) == 1 else parse_size_g(name)
+                size = next(iter(term_sizes)) if len(term_sizes) == 1 else parse_size_g(name)
+            elif term_sizes and size not in term_sizes:
+                continue  # leftover variation for a size the product page doesn't offer
             if size in seen_sizes:
                 continue
             seen_sizes.add(size)
@@ -145,6 +152,7 @@ def parse_woo_product(product, variation_lookup=None):
                     _option(sizes[0], int(price_range["min_amount"]) / 10 ** minor, product.get("is_in_stock", True)),
                     _option(sizes[-1], int(price_range["max_amount"]) / 10 ** minor, product.get("is_in_stock", True)),
                 ]
+    options = [o for o in options if o["price"] > 0]  # unpriced variations aren't for sale
     if not options:
         return None
     images = product.get("images") or []
@@ -195,6 +203,7 @@ def woocommerce(client, roaster):
 JSONLD_RE = re.compile(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', re.IGNORECASE | re.DOTALL)
 TITLE_RE = re.compile(r"<title>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 META_DESC_RE = re.compile(r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']*)', re.IGNORECASE)
+WOO_VARIATIONS_RE = re.compile(r'data-product_variations="([^"]*)"')
 OG_IMAGE_RE = re.compile(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', re.IGNORECASE)
 
 
@@ -215,6 +224,24 @@ def _walk_jsonld(node):
         if "@graph" in node:
             yield from _walk_jsonld(node["@graph"])
         yield node
+
+
+def _woo_form_options(page_html, name):
+    """WooCommerce product pages embed every variation's size and price in the add-to-cart form."""
+    match = WOO_VARIATIONS_RE.search(page_html)
+    if not match:
+        return []
+    try:
+        variations = json.loads(html.unescape(match.group(1)))
+    except json.JSONDecodeError:
+        return []
+    options = []
+    for var in variations if isinstance(variations, list) else []:
+        values = [v for v in (var.get("attributes") or {}).values() if v]
+        size = next((s for s in map(_slug_size, values) if s), None) or parse_size_g(name)
+        if var.get("display_price") not in (None, ""):
+            options.append(_option(size, var["display_price"], var.get("is_in_stock", True)))
+    return options
 
 
 def parse_jsonld_product(page_html, url):
@@ -245,8 +272,8 @@ def parse_jsonld_product(page_html, url):
         sub = sub if isinstance(sub, list) else [sub]
         for o in sub:
             offers.append({**o, "name": variant.get("name", ""), "sku": variant.get("sku", "")})
-    options = []
-    for offer in offers:
+    options = _woo_form_options(page_html, name)
+    for offer in ([] if options else offers):
         price = offer.get("price") or offer.get("lowPrice")
         if price in (None, ""):
             continue
@@ -259,6 +286,7 @@ def parse_jsonld_product(page_html, url):
         size = parse_size_g(offer.get("name"), offer.get("sku"), name, found.get("weight", {}).get("value") if isinstance(found.get("weight"), dict) else None)
         in_stock = "OutOfStock" not in str(offer.get("availability", ""))
         options.append(_option(size, price, in_stock))
+    options = [o for o in options if o["price"] > 0]  # unpriced variations aren't for sale
     if not options:
         return None
     description = strip_html(found.get("description", ""))
