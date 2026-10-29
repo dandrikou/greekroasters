@@ -180,3 +180,22 @@ def test_shopify_ignores_bogus_variant_weight():
                      {"title": "Φίλτρου", "price": "12.00", "available": True, "grams": 270000}],
     }, "https://www.earthcoffeeco.shop")
     assert parsed["options"] == [{"size_g": 270, "price": 12.0, "in_stock": True}]
+
+
+def test_shop_extras_are_dropped():
+    for name in ["Classic Drinking Chocolate", "TipToh oat drink", "Cappuccino reusable cup",
+                 "Belogia ced Εργαλείο ισοκατανομής καφέ", "Ποτήρι Θερμός Roasters Kolektiva",
+                 "Μπρελόκ Roasters Kolektiva", "Τσάντα Υφασμάτινη Roasters Kolektiva",
+                 "V60 Κανάτα Yama gd-20 για Drip Coffee Brewing", "Φίλτρα Καφέ Kalita Wave 185",
+                 "Σεμινάριο SCA – BREWING FOUNDATION"]:
+        assert is_excluded(name), name
+    for name in ["BRAZIL SUL DE MINAS", "DECAF SANTOS", "0.1 PROJECT GUATEMALA", "Ritual Filter Blend",
+                 "Ethiopia Bildimoo Danche (espresso)"]:
+        assert not is_excluded(name), name
+
+
+def test_roaster_default_bag_size():
+    raw = {"name": "Kenya Nyeri Hill AA", "url": "u", "text": "", "categories": [], "in_stock": True,
+           "options": [{"size_g": None, "price": 13.8, "in_stock": True}]}
+    coffee = enrich({**ROASTER, "default_size_g": 250}, raw, {}, {})
+    assert coffee["best_per_kg"] == 55.2

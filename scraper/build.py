@@ -65,7 +65,7 @@ def enrich(roaster, raw, seed_by_url, seed_by_name):
     roast, basis = roast_level(curated.get("roast", ""), raw["name"], text + " " + " ".join(raw.get("categories", [])))
     options = []
     for opt in raw["options"]:
-        size = opt.get("size_g") or curated.get("size_g")
+        size = opt.get("size_g") or curated.get("size_g") or roaster.get("default_size_g")
         options.append({**opt, "size_g": size, "per_kg": per_kg({**opt, "size_g": size})})
     priced = [o for o in options if o["per_kg"]]
     in_stock_priced = [o for o in priced if o["in_stock"]] or priced
