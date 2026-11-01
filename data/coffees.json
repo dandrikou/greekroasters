@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:04+00:00",
+ "generated_at": "2026-11-01T15:18+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -92,9 +92,9 @@
    "website": "https://www.sambacafe.gr",
    "free_shipping_eur": 35,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 21,
    "cheapest_per_kg": 34.8,
    "median_per_kg": 68.0
@@ -120,9 +120,9 @@
    "website": "https://www.krosscoffeeroasters.com",
    "free_shipping_eur": 30,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 23,
    "cheapest_per_kg": 38.0,
    "median_per_kg": 150.0
@@ -148,9 +148,9 @@
    "website": "https://area51coffeeroasters.com",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 5,
    "cheapest_per_kg": 49.76,
    "median_per_kg": 50.36
@@ -162,9 +162,9 @@
    "website": "https://www.taresso.com",
    "free_shipping_eur": 20,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 20,
    "cheapest_per_kg": 38.42,
    "median_per_kg": 84.19
@@ -218,9 +218,9 @@
    "website": "https://cafeistas.com",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 15,
    "cheapest_per_kg": 36.0,
    "median_per_kg": 50.0
@@ -232,9 +232,9 @@
    "website": "https://spiri.gr",
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "no products found",
    "coffees": 16,
    "cheapest_per_kg": 28.0,
    "median_per_kg": 44.0
@@ -246,9 +246,9 @@
    "website": "https://www.monogramroasters.gr",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 13,
    "cheapest_per_kg": 39.0,
    "median_per_kg": 64.0
@@ -260,9 +260,9 @@
    "website": "https://delmocca.gr",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 14,
    "cheapest_per_kg": 33.92,
    "median_per_kg": 40.68
@@ -288,9 +288,9 @@
    "website": "https://www.dargcoffee.shop",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 10,
    "cheapest_per_kg": null,
    "median_per_kg": null
@@ -306,8 +306,8 @@
    "last_checked": "2026-11-01",
    "error": null,
    "coffees": 11,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "cheapest_per_kg": 40.0,
+   "median_per_kg": 56.0
   },
   {
    "id": "hue",
@@ -344,9 +344,9 @@
    "website": "https://roasters-kolektiva.com",
    "free_shipping_eur": 50,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 31,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 68.0
@@ -358,9 +358,9 @@
    "website": "https://handpickerscoffee.gr",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "no products found",
    "coffees": 33,
    "cheapest_per_kg": 32.28,
    "median_per_kg": 61.92
@@ -372,9 +372,9 @@
    "website": "https://mokka.coffee",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-01",
-   "error": null,
+   "error": "no products found",
    "coffees": 16,
    "cheapest_per_kg": 32.52,
    "median_per_kg": 55.2
@@ -478,7 +478,7 @@
    "best_per_kg": 15.5,
    "cheapest_bag": 15.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 15.5,
    "price_changed_on": null
   },
   {
@@ -1719,6 +1719,36 @@
    "best_per_kg": 34.0,
    "cheapest_bag": 8.5,
    "first_seen": "2026-11-01",
+   "previous_per_kg": 34.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "motiv:mexico-chiapas-swiss-water-decaf",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Mexico - Chiapas Swiss Water Decaf",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Decaf",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.5,
+     "in_stock": true,
+     "per_kg": 34.0
+    }
+   ],
+   "best_per_kg": 34.0,
+   "cheapest_bag": 8.5,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -2916,7 +2946,7 @@
    "best_per_kg": 39.6,
    "cheapest_bag": 11.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 39.6,
    "price_changed_on": null
   },
   {
@@ -3073,6 +3103,36 @@
    "cheapest_bag": 10.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": 40.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:brazil-monte-alegre-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "BRAZIL MONTE ALEGRE – FILTER COFFEE & ESPRESSO",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Raisin, Dried Fruits, Hazelnut, Caramel, Vanilla, Milk Chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/brazil-monte-alegre-filter-coffee-espresso-1/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-MONTE-ALEGRE-NEW-2025-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    }
+   ],
+   "best_per_kg": 40.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4092,7 +4152,7 @@
    "best_per_kg": 44.0,
    "cheapest_bag": 11.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.0,
    "price_changed_on": null
   },
   {
@@ -4535,7 +4595,7 @@
    "best_per_kg": 45.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 45.0,
    "price_changed_on": null
   },
   {
@@ -4577,7 +4637,7 @@
    "best_per_kg": 45.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 45.0,
    "price_changed_on": null
   },
   {
@@ -4649,7 +4709,7 @@
    "best_per_kg": 46.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.0,
    "price_changed_on": null
   },
   {
@@ -4691,7 +4751,7 @@
    "best_per_kg": 46.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.0,
    "price_changed_on": null
   },
   {
@@ -4733,7 +4793,7 @@
    "best_per_kg": 46.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.0,
    "price_changed_on": null
   },
   {
@@ -4829,7 +4889,7 @@
    "best_per_kg": 46.08,
    "cheapest_bag": 12.8,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.08,
    "price_changed_on": null
   },
   {
@@ -4865,7 +4925,7 @@
    "best_per_kg": 46.08,
    "cheapest_bag": 12.8,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.08,
    "price_changed_on": null
   },
   {
@@ -5002,7 +5062,7 @@
    "best_per_kg": 46.8,
    "cheapest_bag": 13.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.8,
    "price_changed_on": null
   },
   {
@@ -5134,7 +5194,7 @@
    "best_per_kg": 48.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.0,
    "price_changed_on": null
   },
   {
@@ -5174,6 +5234,36 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:north-specialty-signature-espresso-blend",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "NORTH – SPECIALTY SIGNATURE ESPRESSO BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural",
+   "notes": "CHOCOLATE, ALMOND, RAISIN, STONE FRUITS, VANILLA, SUGARCANE",
+   "taste": "Chocolate / nutty",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.valenio.coffee/product/north-specialty-signature-espresso-blend-3/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Valenio-Coffee-North-Espresso-v2-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    }
+   ],
+   "best_per_kg": 48.0,
+   "cheapest_bag": 12.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "hue:brazil",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
@@ -5206,7 +5296,7 @@
    "best_per_kg": 48.0,
    "cheapest_bag": 12.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.0,
    "price_changed_on": null
   },
   {
@@ -5248,7 +5338,7 @@
    "best_per_kg": 48.5,
    "cheapest_bag": 13.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.5,
    "price_changed_on": null
   },
   {
@@ -5284,7 +5374,7 @@
    "best_per_kg": 48.6,
    "cheapest_bag": 13.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.6,
    "price_changed_on": null
   },
   {
@@ -5385,7 +5475,7 @@
    "best_per_kg": 49.6,
    "cheapest_bag": 13.8,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 49.6,
    "price_changed_on": null
   },
   {
@@ -5487,7 +5577,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5643,7 +5733,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5673,7 +5763,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5859,7 +5949,7 @@
    "best_per_kg": 50.4,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.4,
    "price_changed_on": null
   },
   {
@@ -6027,7 +6117,7 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.0,
    "price_changed_on": null
   },
   {
@@ -6558,6 +6648,36 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:ethiopia-sidamo-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "ETHIOPIA SIDAMO – FILTER COFFEE & ESPRESSO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "PRUNE, BLACKBERRY, GREEN TEA, LAVENDER, NOTES OF HONEY",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/ethiopia-sidamo-filter-coffee-espresso-2/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/ETHIOPIA-PINK-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 54.0
+    }
+   ],
+   "best_per_kg": 54.0,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:house-blend-impressions",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -6673,7 +6793,7 @@
    "best_per_kg": 55.0,
    "cheapest_bag": 11.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 55.0,
    "price_changed_on": null
   },
   {
@@ -6915,6 +7035,96 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:guatemala-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "GUATEMALA – FILTER COFFEE & ESPRESSO",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Tangerine, Toffee, Milk Chocolate, Nuts, Molasses",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/guatemala-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/GUATEMALA-COFFEE-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:colombia-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COLOMBIA – FILTER COFFEE & ESPRESSO",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Lemon Pie, Jasmine, Cocoa, Notes Of Nutmeg, Caramel",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/colombia-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/valenio-coffee-COLOMBIA-ESPRESSOFILTER-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:colombia-huila-decaf-co2-espresso-filter-ibrik",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COLOMBIA HUILA Decaf Co2 ESPRESSO – FILTER – IBRIK",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Natural",
+   "notes": "Honey, Milk Chocolate, Berry Fruits",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/colombia-huila-decaf-co2-espresso-filter-ibrik/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/3.COLOMBIA-HUILA-Decaf-Co2-ESPRESSO-–-FILTER-–-IBRIK-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:rwanda-karongi",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -7149,7 +7359,7 @@
    "best_per_kg": 58.0,
    "cheapest_bag": 14.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 58.0,
    "price_changed_on": null
   },
   {
@@ -7662,7 +7872,7 @@
    "best_per_kg": 60.0,
    "cheapest_bag": 15.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 60.0,
    "price_changed_on": null
   },
   {
@@ -7876,7 +8086,7 @@
    "best_per_kg": 62.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.0,
    "price_changed_on": null
   },
   {
@@ -8599,7 +8809,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 16.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -8629,7 +8839,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 16.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -8785,7 +8995,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -8821,7 +9031,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -9034,6 +9244,66 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:rwanda-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "RWANDA – FILTER COFFEE & ESPRESSO",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "RED BERRIES, MARASCHINO, MILK CHOCOLATE, NOTES OF LYCHEE",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/rwanda-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2026/04/RWANDA-limited-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:ethiopia-banko-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "ETHIOPIA BANKO – FILTER COFFEE & ESPRESSO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Prune, Blueberry, Lime, Bergamot, Lavender, Notes Of Honey",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/ethiopia-banko-filter-coffee-espresso-2/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Ethiopia-filter-1-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "hue:decaf-colombia",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
@@ -9060,7 +9330,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9090,7 +9360,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9120,7 +9390,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9150,7 +9420,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9180,7 +9450,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9396,7 +9666,7 @@
    "best_per_kg": 68.4,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.4,
    "price_changed_on": null
   },
   {
@@ -9432,7 +9702,7 @@
    "best_per_kg": 68.4,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.4,
    "price_changed_on": null
   },
   {
@@ -9468,7 +9738,7 @@
    "best_per_kg": 68.4,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.4,
    "price_changed_on": null
   },
   {
@@ -9587,7 +9857,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 17.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -9773,7 +10043,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -9809,7 +10079,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -9839,7 +10109,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -9961,6 +10231,36 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:kenya-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "KENYA – FILTER COFFEE & ESPRESSO",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Pineapple, Tangerine, Orange Blossom, Toffee, Bery Jam, Citrusy notes of limeade",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/kenya-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/KENYA-NYERI-2025-2026-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "hue:caballero-el-pantanal",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
@@ -9993,7 +10293,7 @@
    "best_per_kg": 72.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -10023,7 +10323,7 @@
    "best_per_kg": 72.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -10179,7 +10479,7 @@
    "best_per_kg": 74.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 74.0,
    "price_changed_on": null
   },
   {
@@ -10305,7 +10605,7 @@
    "best_per_kg": 75.6,
    "cheapest_bag": 21.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 75.6,
    "price_changed_on": null
   },
   {
@@ -10395,6 +10695,36 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
+   "previous_per_kg": 76.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:costa-rica-limited-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COSTA RICA – LIMITED – FILTER COFFEE & ESPRESSO",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "PEACH, CARAMEL, DARK CHOCOLATE, NECTARINE , DRIED FRUITS",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/costa-rica-limited-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2026/08/valenio-costa-rica-1-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -10425,7 +10755,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -10455,7 +10785,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -10485,7 +10815,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -10515,7 +10845,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -10927,6 +11257,36 @@
    "price_changed_on": null
   },
   {
+   "id": "valenio:brazil-geisha-super-limited",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "BRAZIL GEISHA – SUPER LIMITED",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Blueberry, Jasmine, Notes of honey, Earl grey, Hints of orange peel",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.valenio.coffee/product/brazil-geisha-super-limited-1/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-GEISHA-SUPER-LTD-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "hue:dhilgee-danche",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
@@ -10959,7 +11319,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -10995,7 +11355,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11025,7 +11385,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11055,7 +11415,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11085,7 +11445,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11181,7 +11541,7 @@
    "best_per_kg": 84.0,
    "cheapest_bag": 21.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 84.0,
    "price_changed_on": null
   },
   {
@@ -11211,7 +11571,7 @@
    "best_per_kg": 84.0,
    "cheapest_bag": 21.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 84.0,
    "price_changed_on": null
   },
   {
@@ -11241,7 +11601,7 @@
    "best_per_kg": 84.0,
    "cheapest_bag": 21.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 84.0,
    "price_changed_on": null
   },
   {
@@ -11547,7 +11907,7 @@
    "best_per_kg": 88.0,
    "cheapest_bag": 22.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 88.0,
    "price_changed_on": null
   },
   {
@@ -11577,7 +11937,7 @@
    "best_per_kg": 88.0,
    "cheapest_bag": 22.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 88.0,
    "price_changed_on": null
   },
   {
@@ -11679,7 +12039,7 @@
    "best_per_kg": 92.0,
    "cheapest_bag": 23.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 92.0,
    "price_changed_on": null
   },
   {
@@ -11805,7 +12165,7 @@
    "best_per_kg": 94.0,
    "cheapest_bag": 24.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 94.0,
    "price_changed_on": null
   },
   {
@@ -11865,7 +12225,7 @@
    "best_per_kg": 95.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 95.0,
    "price_changed_on": null
   },
   {
@@ -12528,7 +12888,7 @@
    "best_per_kg": 115.0,
    "cheapest_bag": 23.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 115.0,
    "price_changed_on": null
   },
   {
@@ -12618,7 +12978,7 @@
    "best_per_kg": 121.6,
    "cheapest_bag": 30.4,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 121.6,
    "price_changed_on": null
   },
   {
@@ -12708,7 +13068,7 @@
    "best_per_kg": 125.0,
    "cheapest_bag": 25.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 125.0,
    "price_changed_on": null
   },
   {
@@ -12834,7 +13194,7 @@
    "best_per_kg": 135.0,
    "cheapest_bag": 27.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 135.0,
    "price_changed_on": null
   },
   {
@@ -12870,7 +13230,7 @@
    "best_per_kg": 135.0,
    "cheapest_bag": 27.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 135.0,
    "price_changed_on": null
   },
   {
@@ -12906,7 +13266,7 @@
    "best_per_kg": 135.0,
    "cheapest_bag": 27.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 135.0,
    "price_changed_on": null
   },
   {
@@ -12936,7 +13296,7 @@
    "best_per_kg": 136.0,
    "cheapest_bag": 34.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 136.0,
    "price_changed_on": null
   },
   {
@@ -13056,7 +13416,7 @@
    "best_per_kg": 140.0,
    "cheapest_bag": 28.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 140.0,
    "price_changed_on": null
   },
   {
@@ -13654,7 +14014,7 @@
    "best_per_kg": 195.0,
    "cheapest_bag": 39.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 195.0,
    "price_changed_on": null
   },
   {
@@ -13702,7 +14062,7 @@
    "best_per_kg": 200.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 200.0,
    "price_changed_on": null
   },
   {
@@ -13790,7 +14150,7 @@
    "best_per_kg": 220.0,
    "cheapest_bag": 22.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 220.0,
    "price_changed_on": null
   },
   {
@@ -14058,7 +14418,7 @@
    "best_per_kg": 366.67,
    "cheapest_bag": 55.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 366.67,
    "price_changed_on": null
   },
   {
@@ -14267,36 +14627,6 @@
    "cheapest_bag": 101.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 1017.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:mexico-chiapas-swiss-water-decaf",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Mexico - Chiapas Swiss Water Decaf",
-   "origin": "Mexico",
-   "region": "",
-   "type": "Decaf",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 8.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 8.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -14685,336 +15015,6 @@
    ],
    "best_per_kg": null,
    "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:costa-rica-limited-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "COSTA RICA – LIMITED – FILTER COFFEE & ESPRESSO",
-   "origin": "Costa Rica",
-   "region": "",
-   "type": "Single origin",
-   "process": "Honey",
-   "notes": "PEACH, CARAMEL, DARK CHOCOLATE, NECTARINE , DRIED FRUITS",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/costa-rica-limited-filter-coffee-espresso/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2026/08/valenio-costa-rica-1-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 19.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 19.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:rwanda-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "RWANDA – FILTER COFFEE & ESPRESSO",
-   "origin": "Rwanda",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "RED BERRIES, MARASCHINO, MILK CHOCOLATE, NOTES OF LYCHEE",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/rwanda-filter-coffee-espresso/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2026/04/RWANDA-limited-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 17.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 17.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:ethiopia-sidamo-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "ETHIOPIA SIDAMO – FILTER COFFEE & ESPRESSO",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "PRUNE, BLACKBERRY, GREEN TEA, LAVENDER, NOTES OF HONEY",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/ethiopia-sidamo-filter-coffee-espresso-2/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/ETHIOPIA-PINK-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:guatemala-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "GUATEMALA – FILTER COFFEE & ESPRESSO",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Tangerine, Toffee, Milk Chocolate, Nuts, Molasses",
-   "taste": "Chocolate / nutty",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/guatemala-filter-coffee-espresso/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/GUATEMALA-COFFEE-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:colombia-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "COLOMBIA – FILTER COFFEE & ESPRESSO",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Lemon Pie, Jasmine, Cocoa, Notes Of Nutmeg, Caramel",
-   "taste": "Chocolate / nutty",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/colombia-filter-coffee-espresso/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/valenio-coffee-COLOMBIA-ESPRESSOFILTER-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:kenya-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "KENYA – FILTER COFFEE & ESPRESSO",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Pineapple, Tangerine, Orange Blossom, Toffee, Bery Jam, Citrusy notes of limeade",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/kenya-filter-coffee-espresso/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/KENYA-NYERI-2025-2026-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:brazil-monte-alegre-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "BRAZIL MONTE ALEGRE – FILTER COFFEE & ESPRESSO",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Raisin, Dried Fruits, Hazelnut, Caramel, Vanilla, Milk Chocolate",
-   "taste": "Chocolate / nutty",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/brazil-monte-alegre-filter-coffee-espresso-1/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-MONTE-ALEGRE-NEW-2025-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 10.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 10.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:brazil-geisha-super-limited",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "BRAZIL GEISHA – SUPER LIMITED",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Blueberry, Jasmine, Notes of honey, Earl grey, Hints of orange peel",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.valenio.coffee/product/brazil-geisha-super-limited-1/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-GEISHA-SUPER-LTD-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:colombia-huila-decaf-co2-espresso-filter-ibrik",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "COLOMBIA HUILA Decaf Co2 ESPRESSO – FILTER – IBRIK",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Decaf",
-   "process": "Natural",
-   "notes": "Honey, Milk Chocolate, Berry Fruits",
-   "taste": "Balanced",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/colombia-huila-decaf-co2-espresso-filter-ibrik/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/3.COLOMBIA-HUILA-Decaf-Co2-ESPRESSO-–-FILTER-–-IBRIK-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:ethiopia-banko-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "ETHIOPIA BANKO – FILTER COFFEE & ESPRESSO",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Prune, Blueberry, Lime, Bergamot, Lavender, Notes Of Honey",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/ethiopia-banko-filter-coffee-espresso-2/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Ethiopia-filter-1-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 17.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 17.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "valenio:north-specialty-signature-espresso-blend",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "NORTH – SPECIALTY SIGNATURE ESPRESSO BLEND",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "Natural",
-   "notes": "CHOCOLATE, ALMOND, RAISIN, STONE FRUITS, VANILLA, SUGARCANE",
-   "taste": "Chocolate / nutty",
-   "roast": "Medium",
-   "roast_basis": "Inferred: espresso roast",
-   "url": "https://www.valenio.coffee/product/north-specialty-signature-espresso-blend-3/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Valenio-Coffee-North-Espresso-v2-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.0,
    "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
