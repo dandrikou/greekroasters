@@ -1,6 +1,8 @@
 const $ = (id) => document.getElementById(id);
 const euro = (n) => (n == null ? "–" : "€" + n.toFixed(2));
-const fields = ["q", "origin", "taste", "roast", "type", "roaster", "max", "stock", "sort"];
+const fields = ["q", "origin", "taste", "roast", "type", "roaster", "max", "stock", "group", "sort"];
+const TASTE_ORDER = ["Fruity / floral", "Balanced", "Chocolate / nutty", "Not stated"];
+const TYPE_TITLES = { Blend: "Blends", "Single origin": "Single origin coffees", Decaf: "Decaf coffees" };
 let data = { coffees: [], roasters: [] };
 
 function fillSelect(id, values) {
@@ -11,6 +13,42 @@ function fillSelect(id, values) {
 function change(c) {
   if (!c.previous_per_kg || !c.best_per_kg || c.previous_per_kg === c.best_per_kg) return 0;
   return (c.best_per_kg - c.previous_per_kg) / c.previous_per_kg;
+}
+
+function card(c) {
+  const tpl = $("card");
+  const el = tpl.content.firstElementChild.cloneNode(true);
+  if (!c.in_stock) el.classList.add("out");
+  const a = el.querySelector("h3 a");
+  a.href = c.url;
+  a.textContent = c.name;
+  const pic = el.querySelector(".pic");
+  if (c.image) {
+    pic.href = c.url;
+    const img = pic.querySelector("img");
+    img.addEventListener("error", () => pic.remove());
+    img.src = c.image;
+  } else {
+    pic.remove();
+  }
+  el.querySelector(".sub").textContent = [c.roaster, [c.origin, c.region].filter(Boolean).join(", ")].filter(Boolean).join(" · ");
+  el.querySelector(".kg strong").textContent = euro(c.best_per_kg);
+  const chips = el.querySelector(".chips");
+  const chip = (text, cls) => { const s = document.createElement("span"); s.className = "chip " + (cls || ""); s.textContent = text; chips.append(s); };
+  const pct = change(c);
+  if (pct) chip(`${pct < 0 ? "▼" : "▲"} ${Math.abs(pct * 100).toFixed(0)}% since last check`, pct < 0 ? "drop" : "rise");
+  if (c.taste !== "Not stated") chip(c.taste, { "Fruity / floral": "fruity", "Chocolate / nutty": "choc", Balanced: "balanced" }[c.taste]);
+  if (c.roast !== "Not stated") chip(c.roast + (c.roast_basis.startsWith("Inferred") ? "*" : "") + " roast");
+  if (c.process) chip(c.process);
+  if (c.type !== "Single origin") chip(c.type);
+  if (!c.in_stock) chip("Sold out");
+  el.querySelector(".notes").textContent = c.notes;
+  el.querySelector(".opts").replaceChildren(...c.options.map((o) => {
+    const li = document.createElement("li");
+    li.innerHTML = `<b>${o.size_g ? (o.size_g >= 1000 ? o.size_g / 1000 + " kg" : o.size_g + " g") : "?"}</b> ${euro(o.price)}`;
+    return li;
+  }));
+  return el;
 }
 
 function render() {
@@ -39,62 +77,42 @@ function render() {
   $("count").textContent = `${rows.length} of ${data.coffees.length} coffees`;
 
   const list = $("list");
-  const tpl = $("card");
-  list.replaceChildren(...rows.map((c) => {
-    const el = tpl.content.firstElementChild.cloneNode(true);
-    if (!c.in_stock) el.classList.add("out");
-    const a = el.querySelector("h3 a");
-    a.href = c.url;
-    a.textContent = c.name;
-    const pic = el.querySelector(".pic");
-    if (c.image) {
-      pic.href = c.url;
-      const img = pic.querySelector("img");
-      img.addEventListener("error", () => pic.remove());
-      img.src = c.image;
-    } else {
-      pic.remove();
-    }
-    el.querySelector(".sub").textContent = [c.roaster, [c.origin, c.region].filter(Boolean).join(", ")].filter(Boolean).join(" · ");
-    el.querySelector(".kg strong").textContent = euro(c.best_per_kg);
-    const chips = el.querySelector(".chips");
-    const chip = (text, cls) => { const s = document.createElement("span"); s.className = "chip " + (cls || ""); s.textContent = text; chips.append(s); };
-    const pct = change(c);
-    if (pct) chip(`${pct < 0 ? "▼" : "▲"} ${Math.abs(pct * 100).toFixed(0)}% since last check`, pct < 0 ? "drop" : "rise");
-    if (c.taste !== "Not stated") chip(c.taste, { "Fruity / floral": "fruity", "Chocolate / nutty": "choc", Balanced: "balanced" }[c.taste]);
-    if (c.roast !== "Not stated") chip(c.roast + (c.roast_basis.startsWith("Inferred") ? "*" : "") + " roast");
-    if (c.process) chip(c.process);
-    if (c.type !== "Single origin") chip(c.type);
-    if (!c.in_stock) chip("Sold out");
-    el.querySelector(".notes").textContent = c.notes;
-    el.querySelector(".opts").replaceChildren(...c.options.map((o) => {
-      const li = document.createElement("li");
-      li.innerHTML = `<b>${o.size_g ? (o.size_g >= 1000 ? o.size_g / 1000 + " kg" : o.size_g + " g") : "?"}</b> ${euro(o.price)}`;
-      return li;
+  if (!f.group) {
+    list.className = "grid";
+    list.replaceChildren(...rows.map(card));
+  } else {
+    const groups = new Map();
+    rows.forEach((c) => {
+      const key = f.group === "taste" ? c.taste : c.origin;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(c);
+    });
+    const keys = [...groups.keys()].sort(f.group === "taste"
+      ? (a, b) => TASTE_ORDER.indexOf(a) - TASTE_ORDER.indexOf(b)
+      : (a, b) => (a === "Not stated") - (b === "Not stated") || a.localeCompare(b));
+    list.className = "groups";
+    list.replaceChildren(...keys.map((key) => {
+      const section = document.createElement("section");
+      section.className = "group";
+      const h = document.createElement("h2");
+      const items = groups.get(key);
+      const cheapest = Math.min(...items.map((c) => c.best_per_kg ?? Infinity));
+      h.innerHTML = `<span></span> <small>${items.length} coffee${items.length === 1 ? "" : "s"}${isFinite(cheapest) ? " · from " + euro(cheapest) + "/kg" : ""}</small>`;
+      h.firstChild.textContent = key;
+      const grid = document.createElement("div");
+      grid.className = "grid";
+      grid.replaceChildren(...items.map(card));
+      section.append(h, grid);
+      return section;
     }));
-    return el;
-  }));
+  }
+  const title = (TYPE_TITLES[f.type] || "Specialty coffee from Greek roasters") +
+    (f.group === "origin" ? " by origin" : f.group === "taste" ? " by flavour profile" : "");
+  $("pageTitle").textContent = title;
+  document.title = f.type || f.group ? `${title} · Greek Roasters` : "Greek Roasters";
   const params = new URLSearchParams();
   fields.forEach((k) => { const v = $(k).type === "checkbox" ? ($(k).checked ? "" : "0") : $(k).value; if (v && !(k === "max" && v === "200") && !(k === "sort" && v === "perkg")) params.set(k, v); });
   history.replaceState(null, "", params.toString() ? "?" + params : location.pathname);
-}
-
-function renderRoasters() {
-  const label = { live: "Updated", previous: "Last good update", manual: "Checked by hand" };
-  $("roasterRows").replaceChildren(...data.roasters.map((r) => {
-    const tr = document.createElement("tr");
-    const status = r.coffees ? `${label[r.source] || ""} ${r.last_checked || ""}` : "Not tracked yet";
-    tr.innerHTML = `<td><a target="_blank" rel="noopener"></a></td><td></td><td>${r.coffees || 0}</td>
-      <td>${euro(r.cheapest_per_kg)}</td><td>${euro(r.median_per_kg)}</td>
-      <td>${r.free_shipping_eur ? "€" + r.free_shipping_eur + "+" : "–"}</td><td class="${r.source === "previous" ? "stale" : ""}"></td>`;
-    const a = tr.querySelector("a");
-    a.href = r.website;
-    a.textContent = r.name;
-    tr.children[1].textContent = r.city || "";
-    tr.children[6].textContent = status;
-    tr.children[6].title = r.note || r.error || "";
-    return tr;
-  }));
 }
 
 async function init() {
@@ -111,7 +129,6 @@ async function init() {
   fields.forEach((k) => { if (params.has(k)) { if ($(k).type === "checkbox") $(k).checked = params.get(k) !== "0"; else $(k).value = params.get(k); } });
   fields.forEach((k) => $(k).addEventListener("input", render));
   render();
-  renderRoasters();
 }
 
 init().catch((err) => { $("count").textContent = "Couldn't load the coffee data: " + err.message; });

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roasters · Greek Roasters</title>
+  <meta name="description" content="Greek specialty coffee roasters with online shops: coffees, prices per kg and shipping.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav" aria-label="Main">
+    <div class="wrap nav-row">
+      <a class="brand" href="index.html">Greek Roasters</a>
+      <ul class="menu">
+        <li><a href="index.html" data-nav="home">Αρχική</a></li>
+        <li><a href="roasters.html" data-nav="roasters">Roasters</a></li>
+        <li><details class="drop"><summary data-nav="coffee">Coffee</summary>
+          <ul>
+            <li><a href="index.html?type=Blend">Blends</a></li>
+            <li><a href="index.html?type=Single+origin">Single Origin</a></li>
+            <li><a href="index.html?type=Decaf">Decaf</a></li>
+          </ul></details></li>
+        <li><details class="drop"><summary data-nav="single">Single Origin</summary>
+          <ul>
+            <li><a href="index.html?type=Single+origin&amp;group=origin">Sort per origin</a></li>
+            <li><a href="index.html?type=Single+origin&amp;group=taste">Sort per flavour profile</a></li>
+          </ul></details></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="top">
+    <div class="wrap">
+      <h1>Roasters</h1>
+      <p class="lede">Every roaster we track, with how many coffees they sell online and what they cost per kg.</p>
+      <p class="meta" id="updated"></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="filters roaster-filters">
+      <input id="rq" type="search" placeholder="Search roaster or city…" aria-label="Search roasters">
+      <select id="rsort" aria-label="Sort roasters">
+        <option value="name">Name A–Z</option>
+        <option value="cheapest">Cheapest per kg</option>
+        <option value="median">Lowest median per kg</option>
+        <option value="count">Most coffees</option>
+      </select>
+    </div>
+    <section id="roasterList" class="grid roaster-grid"></section>
+    <p class="fine">Prices per kg don't include shipping. Roasters marked "last good update" couldn't be read today, so their prices are from the last successful check.</p>
+  </main>
+
+  <template id="roasterCard">
+    <article class="card roaster">
+      <div class="head">
+        <div>
+          <h3><a target="_blank" rel="noopener"></a></h3>
+          <p class="sub"></p>
+        </div>
+        <div class="kg"><strong></strong><span>from, per kg</span></div>
+      </div>
+      <dl class="facts"></dl>
+      <p class="status"></p>
+      <a class="more" href="#"></a>
+    </article>
+  </template>
+
+  <script src="nav.js"></script>
+  <script src="roasters.js"></script>
+</body>
+</html>

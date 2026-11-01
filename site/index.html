@@ -8,9 +8,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="nav" aria-label="Main">
+    <div class="wrap nav-row">
+      <a class="brand" href="index.html">Greek Roasters</a>
+      <ul class="menu">
+        <li><a href="index.html" data-nav="home">Αρχική</a></li>
+        <li><a href="roasters.html" data-nav="roasters">Roasters</a></li>
+        <li><details class="drop"><summary data-nav="coffee">Coffee</summary>
+          <ul>
+            <li><a href="index.html?type=Blend">Blends</a></li>
+            <li><a href="index.html?type=Single+origin">Single Origin</a></li>
+            <li><a href="index.html?type=Decaf">Decaf</a></li>
+          </ul></details></li>
+        <li><details class="drop"><summary data-nav="single">Single Origin</summary>
+          <ul>
+            <li><a href="index.html?type=Single+origin&amp;group=origin">Sort per origin</a></li>
+            <li><a href="index.html?type=Single+origin&amp;group=taste">Sort per flavour profile</a></li>
+          </ul></details></li>
+      </ul>
+    </div>
+  </nav>
   <header class="top">
     <div class="wrap">
-      <h1>Greek Roasters</h1>
+      <h1 id="pageTitle">Specialty coffee from Greek roasters</h1>
       <p class="lede">Specialty beans from Greek online roasters, compared by price per kg. Prices refresh every morning.</p>
       <p class="meta" id="updated"></p>
     </div>
@@ -28,6 +48,11 @@
         <input id="max" type="range" min="20" max="200" step="5" value="200">
       </label>
       <label class="check"><input id="stock" type="checkbox" checked> In stock only</label>
+      <select id="group" aria-label="Group">
+        <option value="">No grouping</option>
+        <option value="origin">Group by origin</option>
+        <option value="taste">Group by flavour profile</option>
+      </select>
       <select id="sort" aria-label="Sort">
         <option value="perkg">Cheapest per kg</option>
         <option value="bag">Cheapest bag</option>
@@ -40,16 +65,7 @@
     <p class="count" id="count" aria-live="polite"></p>
     <section id="list" class="grid"></section>
 
-    <section class="roasters">
-      <h2>Roasters</h2>
-      <div class="table-scroll">
-        <table>
-          <thead><tr><th>Roaster</th><th>City</th><th>Coffees</th><th>From €/kg</th><th>Median €/kg</th><th>Free shipping</th><th>Prices</th></tr></thead>
-          <tbody id="roasterRows"></tbody>
-        </table>
-      </div>
-      <p class="fine">Taste groups come from each roaster's tasting notes. Most roasters don't state a roast level, so filter roasts are counted as Light and espresso roasts as Medium unless the shop says otherwise. Shipping isn't included in price per kg.</p>
-    </section>
+    <p class="fine">Taste groups come from each roaster's tasting notes. Most roasters don't state a roast level, so filter roasts are counted as Light and espresso roasts as Medium unless the shop says otherwise. Shipping isn't included in price per kg.</p>
   </main>
 
   <template id="card">
@@ -68,6 +84,7 @@
     </article>
   </template>
 
+  <script src="nav.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
