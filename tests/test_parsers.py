@@ -241,3 +241,24 @@ def test_merged_listings_keep_one_option_per_size():
             "options": [{"size_g": 250, "price": 10.17, "in_stock": True}]}]
     assert [o["size_g"] for o in merge_same_coffee(raw)[0]["options"]] == [250]
     assert is_excluded("ΠΟΤΗΡΙΑ 380ML") and is_excluded("AEROPRESS AEROBIE") and is_excluded("PEZZETTI MOKA 3 CUPS – 6 CUPS")
+
+
+def test_squarespace_item():
+    from scraper.platforms import parse_squarespace_item
+    item = {"title": "Kangocho Kenya - Loud Bean", "fullUrl": "/shop/p/kangocho-kenya-loud-bean",
+            "assetUrl": "https://images.squarespace-cdn.com/x.jpg", "excerpt": "<p>200g. Notes: blackcurrant, grapefruit</p>",
+            "structuredContent": {"variants": [{"priceMoney": {"currency": "EUR", "value": "16.00"},
+                                                "onSale": False, "qtyInStock": 4, "attributes": {}}]}}
+    parsed = parse_squarespace_item(item, "https://www.foyerespressobar.com")
+    assert parsed["url"] == "https://www.foyerespressobar.com/shop/p/kangocho-kenya-loud-bean"
+    assert parsed["options"] == [{"size_g": 200, "price": 16.0, "in_stock": True}]
+    old_style = {"title": "Decaf Colombia", "fullUrl": "/shop/p/decaf",
+                 "variants": [{"price": 1700, "unlimited": True, "attributes": {"Size": "250g"}}]}
+    assert parse_squarespace_item(old_style, "https://f.com")["options"] == [{"size_g": 250, "price": 17.0, "in_stock": True}]
+
+
+def test_coffee_names_that_mention_ibrik_or_box():
+    assert not is_excluded("COLOMBIA HUILA Decaf Co2 ESPRESSO – FILTER – IBRIK")
+    assert not is_excluded("Juice Box Colombia - DAK")
+    assert is_excluded("BRAZIL – ETHIOPIA CEZVE/IBRIK SPECIALTY COFFEE")
+    assert is_excluded("Gift box")
