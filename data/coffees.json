@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:44+00:00",
+ "generated_at": "2026-11-01T15:04+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -42,6 +42,48 @@
    "coffees": 10,
    "cheapest_per_kg": 33.34,
    "median_per_kg": 52.68
+  },
+  {
+   "id": "motiv",
+   "name": "Motiv",
+   "city": "Greece",
+   "website": "https://motiv.coffee",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 8,
+   "cheapest_per_kg": 34.0,
+   "median_per_kg": 66.0
+  },
+  {
+   "id": "sortie",
+   "name": "Sortie",
+   "city": "Greece",
+   "website": "https://sortiecoffee.gr",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 12,
+   "cheapest_per_kg": 39.6,
+   "median_per_kg": 48.6
+  },
+  {
+   "id": "roastingwarehouse",
+   "name": "Roasting Warehouse",
+   "city": "Greece",
+   "website": "https://www.roastingwarehouse.gr",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 11,
+   "cheapest_per_kg": 15.5,
+   "median_per_kg": 46.0
   },
   {
    "id": "samba",
@@ -226,6 +268,76 @@
    "median_per_kg": 40.68
   },
   {
+   "id": "anana",
+   "name": "Anana",
+   "city": "Greece",
+   "website": "https://anana.coffee",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 8,
+   "cheapest_per_kg": 50.0,
+   "median_per_kg": 70.0
+  },
+  {
+   "id": "darg",
+   "name": "Darg",
+   "city": "Greece",
+   "website": "https://www.dargcoffee.shop",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 10,
+   "cheapest_per_kg": null,
+   "median_per_kg": null
+  },
+  {
+   "id": "valenio",
+   "name": "Valenio",
+   "city": "Greece",
+   "website": "https://www.valenio.coffee",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 11,
+   "cheapest_per_kg": null,
+   "median_per_kg": null
+  },
+  {
+   "id": "hue",
+   "name": "Hue Roastery",
+   "city": "Greece",
+   "website": "https://hueroastery.com",
+   "free_shipping_eur": null,
+   "note": null,
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 11,
+   "cheapest_per_kg": 48.0,
+   "median_per_kg": 80.0
+  },
+  {
+   "id": "foyer",
+   "name": "Foyer Espresso Bar",
+   "city": "Greece",
+   "website": "https://www.foyerespressobar.com",
+   "free_shipping_eur": null,
+   "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
+   "source": "live",
+   "last_checked": "2026-11-01",
+   "error": null,
+   "coffees": 27,
+   "cheapest_per_kg": 50.0,
+   "median_per_kg": 80.0
+  },
+  {
    "id": "kolektiva",
    "name": "Roasters Kolektiva",
    "city": "Thessaloniki",
@@ -339,6 +451,36 @@
   }
  ],
  "coffees": [
+  {
+   "id": "roastingwarehouse:chocolate",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Chocolate 1kg",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/chocolate-1kg",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/362a2a60f78b0d8be57379f7c3b54150.jpg?v=1732290466&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 1000,
+     "price": 15.5,
+     "in_stock": true,
+     "per_kg": 15.5
+    }
+   ],
+   "best_per_kg": 15.5,
+   "cheapest_bag": 15.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
   {
    "id": "spinos:spinos-presidente",
    "roaster_id": "spinos",
@@ -1551,6 +1693,36 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:colombia-tolima-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Colombia – Tolima Washed",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/colombia-bucaramanga-tolima-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/bocaramanga.jpg?v=1789202482&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.5,
+     "in_stock": true,
+     "per_kg": 34.0
+    }
+   ],
+   "best_per_kg": 34.0,
+   "cheapest_bag": 8.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "blackbart:ghost-ship-decaf",
    "roaster_id": "blackbart",
    "roaster": "Black Bart",
@@ -1745,7 +1917,7 @@
    "best_per_kg": 35.6,
    "cheapest_bag": 8.9,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 35.6,
    "price_changed_on": null
   },
   {
@@ -2712,6 +2884,42 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:brazil-sul-de-minas",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "BRAZIL SUL DE MINAS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Caramel • Milk chocolate • Nutty • Raisin",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/brazil-sul-de-minas",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/brazil-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642943&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.0,
+     "in_stock": true,
+     "per_kg": 44.0
+    },
+    {
+     "size_g": 500,
+     "price": 19.8,
+     "in_stock": true,
+     "per_kg": 39.6
+    }
+   ],
+   "best_per_kg": 39.6,
+   "cheapest_bag": 11.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "underdog:brazil-full-bloom",
    "roaster_id": "underdog",
    "roaster": "The Underdog",
@@ -3440,7 +3648,7 @@
    "best_per_kg": 42.0,
    "cheapest_bag": 10.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 42.0,
    "price_changed_on": null
   },
   {
@@ -3846,6 +4054,48 @@
    "price_changed_on": null
   },
   {
+   "id": "roastingwarehouse:evolve",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Evolve",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/evolve",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/DSC_8367-evolve-2-500_f745295b-adba-42d5-816c-9087bca0e034.png?v=1720434526&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.0,
+     "in_stock": true,
+     "per_kg": 44.0
+    },
+    {
+     "size_g": 500,
+     "price": 22.0,
+     "in_stock": true,
+     "per_kg": 44.0
+    },
+    {
+     "size_g": 1000,
+     "price": 44.0,
+     "in_stock": true,
+     "per_kg": 44.0
+    }
+   ],
+   "best_per_kg": 44.0,
+   "cheapest_bag": 11.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "spiri:burundi",
    "roaster_id": "spiri",
    "roaster": "Spiri",
@@ -3872,7 +4122,7 @@
    "best_per_kg": 44.0,
    "cheapest_bag": 11.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.0,
    "price_changed_on": null
   },
   {
@@ -4253,6 +4503,84 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:decaf-brazil-santos",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "DECAF BRAZIL SANTOS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "Almonds • Caramel • Chocolate • Orange toffee",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/decaf-santos",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/decafeine-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642566&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    },
+    {
+     "size_g": 500,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": 45.0
+    }
+   ],
+   "best_per_kg": 45.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:colombia-clara-molina",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Colombia Clara Molina",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Apricot, plum, peach. Medium to high citric acidity, round juicy body",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/clara-molina-colombia",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/4.jpg?v=1732031180&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 500,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": 45.0
+    },
+    {
+     "size_g": 1000,
+     "price": 45.0,
+     "in_stock": true,
+     "per_kg": 45.0
+    }
+   ],
+   "best_per_kg": 45.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kudu:colombia-black-condor",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -4280,6 +4608,132 @@
    "cheapest_bag": 11.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 46.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:happy-days",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Happy Days",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/happy-days",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/DSC_8372-happy-days-2-500.png?v=1720434505&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 500,
+     "price": 23.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 1000,
+     "price": 46.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:bella-vista",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Bella Vista",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/bella-vista",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/DSC01885-Edit.png?v=1721299496&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 500,
+     "price": 23.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 1000,
+     "price": 46.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:daydreamer",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Daydreamer",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/daydreamer",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/Day-Dreamer-500grams-2-4.png?v=1720434597&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 500,
+     "price": 23.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    },
+    {
+     "size_g": 1000,
+     "price": 46.0,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4339,6 +4793,78 @@
    "best_per_kg": 46.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-10-29",
+   "previous_per_kg": 46.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "sortie:costa-rica-la-pastora",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "COSTA RICA LA PASTORA",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Caramel • Citrus • Milk Chocolate • Red Apple",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/costa-rica-la-pastora",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/costa_rica-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642896&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.8,
+     "in_stock": true,
+     "per_kg": 51.2
+    },
+    {
+     "size_g": 500,
+     "price": 23.04,
+     "in_stock": true,
+     "per_kg": 46.08
+    }
+   ],
+   "best_per_kg": 46.08,
+   "cheapest_bag": 12.8,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "sortie:colombia-popayan-supremo",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "COLOMBIA POPAYAN SUPREMO",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Hazelnut • Toasted Caramel • Chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/colombia-popayan-supremo",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/colombia-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642835&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.8,
+     "in_stock": false,
+     "per_kg": 51.2
+    },
+    {
+     "size_g": 500,
+     "price": 23.04,
+     "in_stock": false,
+     "per_kg": 46.08
+    }
+   ],
+   "best_per_kg": 46.08,
+   "cheapest_bag": 12.8,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -4444,6 +4970,42 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:kenya-aa",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "KENYA AA+",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Sugar Cane • Chamomile • Raisin • Blueberry • Cinnamon Hints",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/kenya-aa",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/kenya-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642987&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    },
+    {
+     "size_g": 500,
+     "price": 23.4,
+     "in_stock": true,
+     "per_kg": 46.8
+    }
+   ],
+   "best_per_kg": 46.8,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "novelty:nicaragua-agua-sarca",
    "roaster_id": "novelty",
    "roaster": "Novelty Coffee",
@@ -4534,6 +5096,48 @@
    "price_changed_on": null
   },
   {
+   "id": "roastingwarehouse:hermanos-mena",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Hermanos Mena",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/hermanos-mena",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/DSC01881-Edit.png?v=1721299644&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    },
+    {
+     "size_g": 500,
+     "price": 24.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    },
+    {
+     "size_g": 1000,
+     "price": 48.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    }
+   ],
+   "best_per_kg": 48.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "roosters:no-65-guatemala-grabada-natural",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -4567,6 +5171,120 @@
    "cheapest_bag": 14.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 48.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:brazil",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Brazil",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/brazil/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/01/Brazil-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    },
+    {
+     "size_g": 1000,
+     "price": 48.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    }
+   ],
+   "best_per_kg": 48.0,
+   "cheapest_bag": 12.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:tumbaga-decaf",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Tumbaga - Decaf",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/tumbaga-decaf",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/DSC01889-Edit.pdf-2.png?v=1721299749&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    },
+    {
+     "size_g": 500,
+     "price": 26.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    },
+    {
+     "size_g": 1000,
+     "price": 48.5,
+     "in_stock": true,
+     "per_kg": 48.5
+    }
+   ],
+   "best_per_kg": 48.5,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "sortie:ethiopia-sidamo-moplaco",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "ETHIOPIA SIDAMO MOPLACO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Yellow fruits • Orange blossom • Distinct sweetness • Lime",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/ethiopia-sidamo-moplaco",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/ethiopia-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642591&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 54.0
+    },
+    {
+     "size_g": 500,
+     "price": 24.3,
+     "in_stock": true,
+     "per_kg": 48.6
+    }
+   ],
+   "best_per_kg": 48.6,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4635,6 +5353,42 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:uganda-embogo",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "UGANDA EMBOGO",
+   "origin": "Uganda",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Strawberry • Citrus • Floral • Wine intensity",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/uganda-embogo",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/uganda-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642411&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.8,
+     "in_stock": false,
+     "per_kg": 55.2
+    },
+    {
+     "size_g": 500,
+     "price": 24.8,
+     "in_stock": false,
+     "per_kg": 49.6
+    }
+   ],
+   "best_per_kg": 49.6,
+   "cheapest_bag": 13.8,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "area51:decaf-co2",
    "roaster_id": "area51",
    "roaster": "Area 51",
@@ -4692,6 +5446,48 @@
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 50.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:guatemala-santa-rita",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Guatemala Santa Rita",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Cherry, orange, toffee caramel. Medium weight, medium malic acidity, round silky body",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/guatemala-santa-rita",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/9.jpg?v=1732035235&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    },
+    {
+     "size_g": 500,
+     "price": 25.0,
+     "in_stock": true,
+     "per_kg": 50.0
+    },
+    {
+     "size_g": 1000,
+     "price": 50.0,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4811,6 +5607,72 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-29",
+   "previous_per_kg": 50.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "anana:brazil-fazenda-das-pedras",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Brazil Fazenda Das Pedras",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/brazil-fazenda-das-pedras/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/07/BRAZIL-FAZENDA_orange_whiteBG_shadow_front-500x500.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    },
+    {
+     "size_g": 500,
+     "price": 25.0,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:amparo-brazil-loud-bean",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Amparo Brazil - Loud Bean",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/amparo-brazil-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/f8c6a3ae-388b-4dd4-b72e-e7c2369dbf8f/46e12183-2027-44b4-a113-758fda35e40e-Photoroom.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -4965,6 +5827,42 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:sortie-blend",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "SORTIE BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/sortie-blend",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/sortie_blend-specialtybeans-coffeebeansthessaloniki.jpg?v=1790158102&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    },
+    {
+     "size_g": 500,
+     "price": 25.2,
+     "in_stock": true,
+     "per_kg": 50.4
+    }
+   ],
+   "best_per_kg": 50.4,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "handpickers:black-condor-colombia",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -5088,6 +5986,48 @@
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 52.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "roastingwarehouse:ethiopia-murago",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Ethiopia Murago",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "red fruits like raspberry, cherry, apricot, floral like jasmine. Medium to high citric and malic acidity. Round smooth body, velvety texture",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/ethiopia-murago",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/3_3386fa57-0aca-4185-af99-fcf9e72dfd17.jpg?v=1732051677&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 54.0
+    },
+    {
+     "size_g": 500,
+     "price": 26.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    },
+    {
+     "size_g": 1000,
+     "price": 52.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5237,7 +6177,7 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.0,
    "price_changed_on": null
   },
   {
@@ -5267,7 +6207,7 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.0,
    "price_changed_on": null
   },
   {
@@ -5297,7 +6237,7 @@
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 52.0,
    "price_changed_on": null
   },
   {
@@ -5614,7 +6554,7 @@
    "best_per_kg": 54.0,
    "cheapest_bag": 13.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 54.0,
    "price_changed_on": null
   },
   {
@@ -5704,6 +6644,36 @@
    "cheapest_bag": 13.59,
    "first_seen": "2026-10-28",
    "previous_per_kg": 54.36,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:shanta-ethiopia-loud-bean",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Shanta Ethiopia - Loud Bean",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/shanta-ethiopia-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/4f46fd16-9a95-4d18-a6c1-868e65b0205f/c3108e61-f3ab-426f-9b79-dc044ad31faa-Photoroom.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 11.0,
+     "in_stock": true,
+     "per_kg": 55.0
+    }
+   ],
+   "best_per_kg": 55.0,
+   "cheapest_bag": 11.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6153,6 +7123,36 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:rwanda-gitesi-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Rwanda – Gitesi Washed",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/rwanda-aime-gahizi-gitesi-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rwanda.jpg?v=1789202519&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.5,
+     "in_stock": true,
+     "per_kg": 58.0
+    }
+   ],
+   "best_per_kg": 58.0,
+   "cheapest_bag": 14.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "spiri:bolivia",
    "roaster_id": "spiri",
    "roaster": "Spiri",
@@ -6179,7 +7179,7 @@
    "best_per_kg": 58.0,
    "cheapest_bag": 14.5,
    "first_seen": "2026-10-29",
-   "previous_per_kg": null,
+   "previous_per_kg": 58.0,
    "price_changed_on": null
   },
   {
@@ -6636,6 +7636,36 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:santa-clara-brazil-three-marks",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Santa Clara Brazil - Three Marks",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/santa-clara-brazil-three-marks",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/62e4fa34-17c5-4414-8bc0-409379f83810/MMM_SantaClara250_B.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 60.0
+    }
+   ],
+   "best_per_kg": 60.0,
+   "cheapest_bag": 15.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:honduras-caballero-washed",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -6812,6 +7842,42 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 61.92,
    "price_changed_on": "2026-10-29"
+  },
+  {
+   "id": "anana:kenya-kiamugumo-pb",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Kenya Kiamugumo PB",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/kenya-kiamugumo-pb/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/09/KENYA-KIAMUGUMO-PB_white_orange_BG_shadow_front-500x500.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 64.0
+    },
+    {
+     "size_g": 500,
+     "price": 31.0,
+     "in_stock": true,
+     "per_kg": 62.0
+    }
+   ],
+   "best_per_kg": 62.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "kolektiva:trip-to-ethiopia-nyala",
@@ -7507,6 +8573,66 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:el-salvador-ilamatepec-double-soaked-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "El Salvador - Ilamatepec Double Soaked Washed",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Baked pears & apple, caramel, yellow fruit, brown sugar",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/los-luchadores-1",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/elsalvador.jpg?v=1789806765&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "motiv:ethiopia-yirgacheffe-natural",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Ethiopia - Yirgacheffe Natural",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Dense, juicy and intense. Cherry, red grapes and red fruits. Bright, winey and sweet from start to finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/ethiopia-yirgacheffe-chelbesa-3",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/eth.jpg?v=1789806552&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "samba:la-lindosa-colombia",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -7624,6 +8750,78 @@
    "cheapest_bag": 16.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 66.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "anana:kenya-kiangoi-aa",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Kenya Kiangoi AA",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/kenya-kiangoi-aa/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/09/KENYA-KIANGOI-AA_white_orange_BG_shadow_front-500x500.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    },
+    {
+     "size_g": 500,
+     "price": 33.0,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "anana:colombia-luz-helena-salazar",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Colombia Luz Helena Salazar",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/colombia-luz-helena-salazar/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/07/COLOMBIA-LUZ-HELENA-SALAZAR_orange_whiteBG_shadow_front-500x500.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    },
+    {
+     "size_g": 500,
+     "price": 33.0,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -7832,6 +9030,156 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-10-29",
+   "previous_per_kg": 68.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:decaf-colombia",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Decaf Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/decaf-colombia/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Decaf-Colombia-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:peru",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Peru",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/peru/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Peru-900x900.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": false,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:decaf-colombia-three-marks",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Decaf Colombia - Three Marks",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "Chocolate, Sugar Cane, Dry Fruits",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/decaf-colombia-three-marks",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/a589d5b0-5645-4021-8857-f17e2fce1735/FrontalView_f48a9e67-ccce-4846-8786-853b910ca5c4.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:colombia-cosmo-plum-dak",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Colombia Cosmo Plum - DAK",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/colombia-cosmo-plum-dak",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/369e73b3-af21-41ab-92fb-7624b966b5c9/528a13aa-c07c-440a-83fe-0980b162bf9b.png",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": false,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:rwanda-the-alchemist-dak",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Rwanda - The Alchemist DAK",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/65mmvamyyaa41br5trni8dvxb7ca2x",
+   "image": "https://static1.squarespace.com/static/5e8dfa499db7b95a5c76529d/5e9385ab72f3495f04f520de/662e4f2565c223704266119c/1791890234809/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -8016,6 +9364,114 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:guatemala",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "GUATEMALA",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Cherry • Liqueur • Chocolate syrup • Melon • Passion fruit",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/guatemala",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/guatemala.heic?v=1792219727&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    },
+    {
+     "size_g": 500,
+     "price": 34.2,
+     "in_stock": true,
+     "per_kg": 68.4
+    }
+   ],
+   "best_per_kg": 68.4,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "sortie:rwanda-ab-coproca",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "RWANDA AB COPROCA",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Butterscotch caramel • Dried fruits • Raisin • Tangerine",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/rwanda-ab-coproca",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/rwanda-ab.jpgguatemala.heic?v=1792219090&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    },
+    {
+     "size_g": 500,
+     "price": 34.2,
+     "in_stock": true,
+     "per_kg": 68.4
+    }
+   ],
+   "best_per_kg": 68.4,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "sortie:colombia-finca-las-penas",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "COLOMBIA FINCA LAS PENAS",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Chocolate • Banana • Velvety body • Spices",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/colombia-finca-las-penas",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/colombia.las.penas.specialtybeans-in_Thessaloniki.jpg?v=1790157921&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": false,
+     "per_kg": 76.0
+    },
+    {
+     "size_g": 500,
+     "price": 34.2,
+     "in_stock": false,
+     "per_kg": 68.4
+    }
+   ],
+   "best_per_kg": 68.4,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:gargari-gutity-supernatural-ethiopia",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -8102,6 +9558,36 @@
    "cheapest_bag": 14.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 70.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "motiv:kenya-rung-eto-kii-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Kenya - Rung'Eto Kii Washed",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Violet, rose, dark jammy fruit, plum, molasses, layered sticky finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/kenya-rungeto-kii",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/kenya.jpg?v=1789806037&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.5,
+     "in_stock": true,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 17.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -8255,6 +9741,108 @@
    "price_changed_on": null
   },
   {
+   "id": "anana:colombia-la-piragua",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Colombia La Piragua",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/colombia-la-piragua/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/09/COLOMBIA-LA-PIRAGUA_orange_whiteBG_shadow_front-500x500.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    },
+    {
+     "size_g": 500,
+     "price": 35.0,
+     "in_stock": true,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "anana:ethiopia-gerse-kebele",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Ethiopia Gerse Kebele",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/ethiopia-gerse-kebele/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/08/ETHIOPIA-GERSE-KEBELE_white_orange_BG_shadow_front-500x500.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    },
+    {
+     "size_g": 500,
+     "price": 35.0,
+     "in_stock": true,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:golba-ethiopia-loud-bean",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Golba Ethiopia - Loud Bean",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/golba-ethiopia-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fb0f3abc-d0fa-4a3a-b8fc-877c7f1605b3/5fc19d86-dd95-47f5-b351-15af697cd5de-Photoroom.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:kenya-gaikundo",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -8370,6 +9958,72 @@
    "cheapest_bag": 18.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": 72.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:caballero-el-pantanal",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Caballero El Pantanal",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/caballero-el-pantanal/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/08/Caballero-El-Pantanal-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    },
+    {
+     "size_g": 1000,
+     "price": 72.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:albuls-espresso-ethiopia-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Albuls ESPRESSO Ethiopia - Coffee Collective",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.foyerespressobar.com/shop/p/albuls-espresso-ethiopia-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/7e12981d-2713-4333-8ab7-4dd700186101/GREY_Albuls_250_g_front.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": false,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -8493,6 +10147,42 @@
    "price_changed_on": null
   },
   {
+   "id": "anana:guatemala-el-anonal",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Guatemala El Anonal",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/guatemala-el-anonal/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/09/GUATEMALA-EL-ANONAL_white_orange_BG_shadow_front-500x500.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    },
+    {
+     "size_g": 500,
+     "price": 37.0,
+     "in_stock": true,
+     "per_kg": 74.0
+    }
+   ],
+   "best_per_kg": 74.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kolektiva:trip-to-ethiopia-ayice",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -8583,6 +10273,42 @@
    "price_changed_on": null
   },
   {
+   "id": "sortie:burundi-gaharo-hill",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "BURUNDI GAHARO HILL",
+   "origin": "Burundi",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Black Tea • Vanilla • Tropical Fruits • Citrus • Winey Notes",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/burundi-gaharo-hill",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/burundi.coffeebeans.specialtybeansthessaloniki.heic?v=1789748396&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 21.0,
+     "in_stock": false,
+     "per_kg": 84.0
+    },
+    {
+     "size_g": 500,
+     "price": 37.8,
+     "in_stock": false,
+     "per_kg": 75.6
+    }
+   ],
+   "best_per_kg": 75.6,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "mokka:αιθιοπ-α-ethiopia-yirgacheffe-gr1-beautiful-series-orange",
    "roaster_id": "mokka",
    "roaster": "Mokka",
@@ -8640,6 +10366,156 @@
    "cheapest_bag": 18.9,
    "first_seen": "2026-10-28",
    "previous_per_kg": 75.6,
+   "price_changed_on": null
+  },
+  {
+   "id": "motiv:peru-san-ignasio-geisha-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Peru – San Ignasio Geisha Washed",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/peru-la-chirimoya-san-ignasio-geisha-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/peru.jpg?v=1789204194&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": false,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:daterra-espresso-brazil-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Daterra Espresso Brazil - Coffee Collective",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.foyerespressobar.com/shop/p/daterra-espresso-brazil-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/530fa6d3-ae71-4ace-9ecc-8e25c321ba26/GREY_Daterra_250_g_front.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:uganda-mubuku-kb",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Uganda Mubuku - KB",
+   "origin": "Uganda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Cherry, tropical fruits, praline, milk chocolate",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/uganda-mubuku-kb",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/84bf2483-dbbc-4c5a-aa5c-4be9c40609b1/Uganda-Mbuku-NaturelAnaerobic-KBCoffeeRoasters-torrefactioncafeParis-BackinBlackcafe-cafedespecialite-France-MontmartrePigalleBastilleParis-cafe75011-cafe75009.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:plum-butter-dak",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Plum Butter - DAK",
+   "origin": "Uganda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Cacao, Dark Plum, Grape Cordial",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/plum-butter-dak",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/a21abad5-68c8-445c-8080-41bc2d120e7c/Plum-Butter_Render_Front_89x89-2048x1434.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:ethiopia-lemon-spritz-dak",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Ethiopia Lemon Spritz - DAK",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/ethiopia-lemon-spritz-dak",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fa6b651c-bdd9-4011-9afb-c9e42de7bd44/a8798afa-7c8a-4750-8089-1de0c5ab3c81.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 76.0
+    }
+   ],
+   "best_per_kg": 76.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9051,6 +10927,168 @@
    "price_changed_on": null
   },
   {
+   "id": "hue:dhilgee-danche",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Dhilgee Danche",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/dhilgee-danche/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/08/Dhilgee-Danche-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    },
+    {
+     "size_g": 1000,
+     "price": 80.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:aa-rung-eto-karimikui",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "AA Rung’eto Karimikui",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/aa-rungeto-karimikui/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/08/AA-Rungeto-Karimikui-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    },
+    {
+     "size_g": 1000,
+     "price": 80.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:kangocho-kenya-loud-bean",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Kangocho Kenya - Loud Bean",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/kangocho-kenya-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/54e9b789-666c-4342-b11f-216877e4d810/f1958fa0-f8b0-4b96-aed1-8d7777193da9-Photoroom.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 16.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 16.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:mulugeta-espresso-ethiopia-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Mulugeta Espresso Ethiopia - Coffee Collective",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.foyerespressobar.com/shop/p/mulugeta-espresso-ethiopia-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/0d179daf-829e-4700-ac9d-df12521fe86d/GREY_Mulugeta_250_g_front.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:kangocho-kenya-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Kangocho Kenya - Coffee Collective",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/kangocho-kenya-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/8571646b-3566-464a-a7b7-e4b1c0a73ec2/KangochoAA250gfront.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kolektiva:trip-to-ethiopia-baboon",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -9114,6 +11152,96 @@
    "cheapest_bag": 26.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 83.8,
+   "price_changed_on": null
+  },
+  {
+   "id": "motiv:colombia-tolima-geisha-natural",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Colombia - Tolima Geisha Natural",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Lemongrass & lime, apricot",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/colombia-la-roca",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rojas.jpg?v=1790080952&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 84.0
+    }
+   ],
+   "best_per_kg": 84.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:juice-box-colombia-dak",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Juice Box Colombia - DAK",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/juice-box-colombia-dak",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/3ec1e211-695b-44c7-9cac-cd30eba672c2/kawa-dak-juice-box-colombia-urrao-washed-2026-06_1920x1920.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 84.0
+    }
+   ],
+   "best_per_kg": 84.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:gichathaini-kenya-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Gichathaini Kenya - Coffee Collective",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/gichathaini-kenya-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/362406bb-1e8b-4aff-b319-0388b2cf11df/Gichathaini250gfront_48352d08-80e7-4ef5-8308-306aee51075e.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 84.0
+    }
+   ],
+   "best_per_kg": 84.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9393,6 +11521,66 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:basha-ethiopia-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Basha Ethiopia - Coffee Collective",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/basha-ethiopia-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/cf7b4764-7adf-4be1-b015-a42e03913886/Basha250gfront.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 22.0,
+     "in_stock": true,
+     "per_kg": 88.0
+    }
+   ],
+   "best_per_kg": 88.0,
+   "cheapest_bag": 22.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:indonesia-de-berman-kb",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Indonesia De Berman - KB",
+   "origin": "Indonesia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Pineapple, tropical fruits, orange, rum",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/indonesia-from-berman-kb",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fab5dc11-59cc-412a-aed1-216ae9b206b0/Indonesia-DeBerman-Naturalanaerobic-KBCoffeeRoasters-torrefactioncafeParis-BackinBlackcafe-cafedespecialite-France-MontmartrePigalleBastilleParis-cafe75011-cafe75009..webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 22.0,
+     "in_stock": true,
+     "per_kg": 88.0
+    }
+   ],
+   "best_per_kg": 88.0,
+   "cheapest_bag": 22.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "roosters:no-67-finca-la-maria",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -9462,6 +11650,36 @@
    "cheapest_bag": 27.9,
    "first_seen": "2026-10-28",
    "previous_per_kg": 89.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:iria-ini-kiamwangi-three-marks",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Iria‑Ini Kiamwangi - Three Marks",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/iriaini-kiamwangi-three-marks",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/1f238528-0176-4a03-adb5-3605f2e69052/FrontalView_401f5351-7f3b-4235-94e1-96de9828039b.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 23.0,
+     "in_stock": true,
+     "per_kg": 92.0
+    }
+   ],
+   "best_per_kg": 92.0,
+   "cheapest_bag": 23.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9555,6 +11773,42 @@
    "price_changed_on": null
   },
   {
+   "id": "anana:colombia-villa-pastora",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Colombia Villa Pastora",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/colombia-villa-pastora-aji/",
+   "image": "https://anana.coffee/wp-content/uploads/2026/09/COLOMBIA-VILLA-PASTORA_white_orange_BG_shadow_front-500x500.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.0,
+     "in_stock": true,
+     "per_kg": 96.0
+    },
+    {
+     "size_g": 500,
+     "price": 47.0,
+     "in_stock": true,
+     "per_kg": 94.0
+    }
+   ],
+   "best_per_kg": 94.0,
+   "cheapest_bag": 24.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "conte:juicy-strawberry-colombia",
    "roaster_id": "conte",
    "roaster": "Conte",
@@ -9582,6 +11836,36 @@
    "cheapest_bag": 19.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 95.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:el-encanto-colombia-loud-bean",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "El Encanto Colombia - Loud Bean",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/el-encanto-colombia-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/b36ce143-fcbf-4bfa-b002-d6d0aef90c68/2e704eed-9122-4dfd-884b-bfabf51104a7-Photoroom.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": 95.0
+    }
+   ],
+   "best_per_kg": 95.0,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -10218,6 +12502,36 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:mulugeta-anaerobic-ethiopia-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Mulugeta anaerobic Ethiopia - Coffee Collective",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/mulugeta-anaerobic-ethiopia-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/b6292214-07f8-4db7-97be-1111aa878c03/Mulugeta200gfront_b3980666-5076-49df-b2e5-47bf857acf9a.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 23.0,
+     "in_stock": false,
+     "per_kg": 115.0
+    }
+   ],
+   "best_per_kg": 115.0,
+   "cheapest_bag": 23.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "area51:colombia-ombligon",
    "roaster_id": "area51",
    "roaster": "Area 51",
@@ -10278,6 +12592,36 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:danche-ethiopia-sey",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Danche Ethiopia - SEY",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/danche-ethiopia-sey",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/5268c66d-7d2d-4cd1-86b3-16fb21a66480/2026Danche_2ndSelection-Ethiopia_2560x.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 30.4,
+     "in_stock": true,
+     "per_kg": 121.6
+    }
+   ],
+   "best_per_kg": 121.6,
+   "cheapest_bag": 30.4,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "kudu:ethiopia-sheka-gr1",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -10335,6 +12679,36 @@
    "cheapest_bag": 25.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 125.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:argote-colombia",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Argote Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/argote-colombia/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Argote-Colombia-900x900.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 25.0,
+     "in_stock": false,
+     "per_kg": 125.0
+    }
+   ],
+   "best_per_kg": 125.0,
+   "cheapest_bag": 25.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -10428,6 +12802,144 @@
    "price_changed_on": null
   },
   {
+   "id": "hue:penas-blancas-geisha",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Penas Blancas Geisha",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/penas-blancas-geisha/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/06/Penas-Blancas-Geisha--900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 135.0
+    },
+    {
+     "size_g": 1000,
+     "price": 135.0,
+     "in_stock": false,
+     "per_kg": 135.0
+    }
+   ],
+   "best_per_kg": 135.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:las-flores-java",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Las Flores Java",
+   "origin": "Indonesia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/las-flores-java/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/06/Las-Flores-Java-900x900.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 27.0,
+     "in_stock": false,
+     "per_kg": 135.0
+    },
+    {
+     "size_g": 1000,
+     "price": 135.0,
+     "in_stock": false,
+     "per_kg": 135.0
+    }
+   ],
+   "best_per_kg": 135.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:nestor-lasso-typica-mejorado",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Nestor Lasso Typica Mejorado",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/nestor-lasso-typica-mejorado/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/06/Nestor-Lasso-Typica-Mejorado-900x900.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 27.0,
+     "in_stock": false,
+     "per_kg": 135.0
+    },
+    {
+     "size_g": 1000,
+     "price": 135.0,
+     "in_stock": false,
+     "per_kg": 135.0
+    }
+   ],
+   "best_per_kg": 135.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:mate-matiwos-ethiopia-sey",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Mate Matiwos Ethiopia - SEY",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/mate-matiwos-ethiopia-sey",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/7fa956ea-36d6-4da4-95f6-bf5ca81ee95b/2026MateMatiwos_Keramo-Ethiopia_2560x.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 34.0,
+     "in_stock": true,
+     "per_kg": 136.0
+    }
+   ],
+   "best_per_kg": 136.0,
+   "cheapest_bag": 34.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "mokka:παναμ-panama-geisha-honey-lighter-roast",
    "roaster_id": "mokka",
    "roaster": "Mokka",
@@ -10515,6 +13027,36 @@
    "cheapest_bag": 28.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 140.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:ngacha-estate-yellow-honey-kenya-tanat",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Ngacha Estate [Yellow Honey] Kenya - Tanat",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/ngacha-estate-yellow-honey-kenya-tanat",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/977100bc-3788-4b3d-8416-964fd6f81ddf/PAQUETWEB-ngachaestateyh.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 28.0,
+     "in_stock": true,
+     "per_kg": 140.0
+    }
+   ],
+   "best_per_kg": 140.0,
+   "cheapest_bag": 28.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -11086,6 +13628,84 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:takesi-java-bolivia-collective",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Takesi Java Bolivia - Coffee Collective",
+   "origin": "Indonesia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/takesi-java-bolivia-coffee-collective",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/170f2eda-7ffd-49b7-abd5-0cc4d9bcf122/TakesiJava200gfront.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 39.0,
+     "in_stock": true,
+     "per_kg": 195.0
+    }
+   ],
+   "best_per_kg": 195.0,
+   "cheapest_bag": 39.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:colombia",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/colombia-las-flores/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/03/Rwanda--900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 200.0
+    },
+    {
+     "size_g": 200,
+     "price": 20.0,
+     "in_stock": false,
+     "per_kg": 100.0
+    },
+    {
+     "size_g": 250,
+     "price": 50.0,
+     "in_stock": true,
+     "per_kg": 200.0
+    },
+    {
+     "size_g": 1000,
+     "price": 100.0,
+     "in_stock": false,
+     "per_kg": 100.0
+    }
+   ],
+   "best_per_kg": 200.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:jamaica-blue-mountain",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -11140,6 +13760,36 @@
    "best_per_kg": 217.69,
    "cheapest_bag": 28.3,
    "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:sidra-ecuador-la-reserva-amoc",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "SIDRA Ecuador La Reserva - AMOC",
+   "origin": "Ecuador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/sidra-ecuador-la-reserva-amoc",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/e422e78b-21f8-4057-a0bd-3871d05784ef/template-sidra-705x705.png.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 100,
+     "price": 22.0,
+     "in_stock": true,
+     "per_kg": 220.0
+    }
+   ],
+   "best_per_kg": 220.0,
+   "cheapest_bag": 22.0,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -11382,6 +14032,36 @@
    "price_changed_on": null
   },
   {
+   "id": "roastingwarehouse:abu-geisha",
+   "roaster_id": "roastingwarehouse",
+   "roaster": "Roasting Warehouse",
+   "name": "Abu Coffee Geisha",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "mango, passion fruit, pineapple, apricot. Medium to high malic and citric acidity, medium juicy weight",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.roastingwarehouse.gr/products/abu-coffee-geisha",
+   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/11.jpg?v=1732034635&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 150,
+     "price": 55.0,
+     "in_stock": true,
+     "per_kg": 366.67
+    }
+   ],
+   "best_per_kg": 366.67,
+   "cheapest_bag": 55.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:panama-geisha-washed",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -11590,6 +14270,36 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:mexico-chiapas-swiss-water-decaf",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Mexico - Chiapas Swiss Water Decaf",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Decaf",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 8.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 8.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "samba:rwanda-shyira-washed-filter",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -11676,6 +14386,636 @@
    "best_per_kg": null,
    "cheapest_bag": 11.8,
    "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:colombia-finca-penas-blancas",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Finca Penas Blancas",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-finca-penas-blancas/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/08/DARG_12_Colombia_Finca_Penas_Blancas-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:brazil-sul-de-minas",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Brazil Sul de Minas",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/brazil-sul-de-minas/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_02_Brazil-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 9.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 9.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:colombia-decaf-huila",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Decaf Huila",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-decaf-huila/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_03_Colombia_Decaf_Huila-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:ethiopia-guji-uraga",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Ethiopia Guji Uraga",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/ethiopia-guji-uraga/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_04_Ethiopia_Guji_Uraga-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:nicaragua-gustavo-ortez",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Nicaragua Gustavo Ortez",
+   "origin": "Nicaragua",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/nicaragua-gustavo-ortez/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_06_Nicaragua_Gustavo_Ortez-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:rwanda-kizi-rift",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Rwanda Kizi Rift",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/rwanda-kizi-rift/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_10_Rwanda_Kizi_Rift-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:peru-cajamarca",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Peru Cajamarca",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/peru-cajamarca/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_09_Peru_Cajamarca-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:papua-lamala-a",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Papua Lamala A",
+   "origin": "Papua New Guinea",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/papua-lamala-a/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_08_Papua_Lamala_A-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:colombia-finca-el-bosque",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Finca El Bosque",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-finca-el-bosque/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_05_Colombia_Finca_El_Bosque-1-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:guatemala-santa-rita",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Guatemala Santa Rita",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/guatemala-santa-rita/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_07_Guatemala_Santa_Rita-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:costa-rica-limited-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COSTA RICA – LIMITED – FILTER COFFEE & ESPRESSO",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "PEACH, CARAMEL, DARK CHOCOLATE, NECTARINE , DRIED FRUITS",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/costa-rica-limited-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2026/08/valenio-costa-rica-1-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 19.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 19.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:rwanda-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "RWANDA – FILTER COFFEE & ESPRESSO",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "RED BERRIES, MARASCHINO, MILK CHOCOLATE, NOTES OF LYCHEE",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/rwanda-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2026/04/RWANDA-limited-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:ethiopia-sidamo-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "ETHIOPIA SIDAMO – FILTER COFFEE & ESPRESSO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "PRUNE, BLACKBERRY, GREEN TEA, LAVENDER, NOTES OF HONEY",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/ethiopia-sidamo-filter-coffee-espresso-2/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/ETHIOPIA-PINK-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:guatemala-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "GUATEMALA – FILTER COFFEE & ESPRESSO",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Tangerine, Toffee, Milk Chocolate, Nuts, Molasses",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/guatemala-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/GUATEMALA-COFFEE-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:colombia-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COLOMBIA – FILTER COFFEE & ESPRESSO",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Lemon Pie, Jasmine, Cocoa, Notes Of Nutmeg, Caramel",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/colombia-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/valenio-coffee-COLOMBIA-ESPRESSOFILTER-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:kenya-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "KENYA – FILTER COFFEE & ESPRESSO",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Pineapple, Tangerine, Orange Blossom, Toffee, Bery Jam, Citrusy notes of limeade",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/kenya-filter-coffee-espresso/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/KENYA-NYERI-2025-2026-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:brazil-monte-alegre-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "BRAZIL MONTE ALEGRE – FILTER COFFEE & ESPRESSO",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Raisin, Dried Fruits, Hazelnut, Caramel, Vanilla, Milk Chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/brazil-monte-alegre-filter-coffee-espresso-1/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-MONTE-ALEGRE-NEW-2025-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:brazil-geisha-super-limited",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "BRAZIL GEISHA – SUPER LIMITED",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Blueberry, Jasmine, Notes of honey, Earl grey, Hints of orange peel",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.valenio.coffee/product/brazil-geisha-super-limited-1/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/BRAZIL-GEISHA-SUPER-LTD-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:colombia-huila-decaf-co2-espresso-filter-ibrik",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "COLOMBIA HUILA Decaf Co2 ESPRESSO – FILTER – IBRIK",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Natural",
+   "notes": "Honey, Milk Chocolate, Berry Fruits",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/colombia-huila-decaf-co2-espresso-filter-ibrik/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/3.COLOMBIA-HUILA-Decaf-Co2-ESPRESSO-–-FILTER-–-IBRIK-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:ethiopia-banko-filter-espresso",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "ETHIOPIA BANKO – FILTER COFFEE & ESPRESSO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Prune, Blueberry, Lime, Bergamot, Lavender, Notes Of Honey",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Inferred: filter roast",
+   "url": "https://www.valenio.coffee/product/ethiopia-banko-filter-coffee-espresso-2/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Ethiopia-filter-1-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "valenio:north-specialty-signature-espresso-blend",
+   "roaster_id": "valenio",
+   "roaster": "Valenio",
+   "name": "NORTH – SPECIALTY SIGNATURE ESPRESSO BLEND",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural",
+   "notes": "CHOCOLATE, ALMOND, RAISIN, STONE FRUITS, VANILLA, SUGARCANE",
+   "taste": "Chocolate / nutty",
+   "roast": "Medium",
+   "roast_basis": "Inferred: espresso roast",
+   "url": "https://www.valenio.coffee/product/north-specialty-signature-espresso-blend-3/",
+   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Valenio-Coffee-North-Espresso-v2-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 12.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 12.0,
+   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
