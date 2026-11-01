@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T11:19+00:00",
+ "generated_at": "2026-11-01T14:44+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -193,9 +193,9 @@
    "source": "live",
    "last_checked": "2026-11-01",
    "error": null,
-   "coffees": 20,
+   "coffees": 16,
    "cheapest_per_kg": 28.0,
-   "median_per_kg": 29.7
+   "median_per_kg": 44.0
   },
   {
    "id": "monogram",
@@ -489,26 +489,8 @@
      "per_kg": 27.2
     },
     {
-     "size_g": 250,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 27.2
-    },
-    {
      "size_g": 500,
      "price": 13.5,
-     "in_stock": true,
-     "per_kg": 27.0
-    },
-    {
-     "size_g": 500,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": 27.0
-    },
-    {
-     "size_g": 1000,
-     "price": 27.0,
      "in_stock": true,
      "per_kg": 27.0
     },
@@ -1530,12 +1512,6 @@
      "price": 8.48,
      "in_stock": true,
      "per_kg": 33.92
-    },
-    {
-     "size_g": 250,
-     "price": 8.48,
-     "in_stock": true,
-     "per_kg": 33.92
     }
    ],
    "best_per_kg": 33.92,
@@ -1561,12 +1537,6 @@
    "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.013-1-300x240.jpg",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 250,
-     "price": 8.48,
-     "in_stock": true,
-     "per_kg": 33.92
-    },
     {
      "size_g": 250,
      "price": 8.48,
@@ -1680,12 +1650,6 @@
      "price": 34.15,
      "in_stock": true,
      "per_kg": 34.15
-    },
-    {
-     "size_g": 1000,
-     "price": 34.15,
-     "in_stock": true,
-     "per_kg": 34.15
     }
    ],
    "best_per_kg": 34.15,
@@ -1752,6 +1716,36 @@
    "cheapest_bag": 17.4,
    "first_seen": "2026-10-28",
    "previous_per_kg": 34.8,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:decaf-colombia-tumbaga",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "DECAF COLOMBIA TUMBAGA",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/decaf/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/decaf-colombia.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.9,
+     "in_stock": true,
+     "per_kg": 35.6
+    }
+   ],
+   "best_per_kg": 35.6,
+   "cheapest_bag": 8.9,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -2086,12 +2080,6 @@
      "price": 37.45,
      "in_stock": true,
      "per_kg": 37.45
-    },
-    {
-     "size_g": 1000,
-     "price": 37.45,
-     "in_stock": true,
-     "per_kg": 37.45
     }
    ],
    "best_per_kg": 37.45,
@@ -2122,12 +2110,6 @@
      "price": 9.6,
      "in_stock": true,
      "per_kg": 38.4
-    },
-    {
-     "size_g": 1000,
-     "price": 37.45,
-     "in_stock": true,
-     "per_kg": 37.45
     },
     {
      "size_g": 1000,
@@ -2355,12 +2337,6 @@
      "price": 9.61,
      "in_stock": true,
      "per_kg": 38.44
-    },
-    {
-     "size_g": 250,
-     "price": 9.61,
-     "in_stock": true,
-     "per_kg": 38.44
     }
    ],
    "best_per_kg": 38.44,
@@ -2565,12 +2541,6 @@
      "price": 38.9,
      "in_stock": true,
      "per_kg": 38.9
-    },
-    {
-     "size_g": 1000,
-     "price": 38.9,
-     "in_stock": true,
-     "per_kg": 38.9
     }
    ],
    "best_per_kg": 38.9,
@@ -2637,12 +2607,6 @@
      "price": 10.0,
      "in_stock": true,
      "per_kg": 40.0
-    },
-    {
-     "size_g": 1000,
-     "price": 39.0,
-     "in_stock": true,
-     "per_kg": 39.0
     },
     {
      "size_g": 1000,
@@ -2800,12 +2764,6 @@
    "image": "https://cafeistas.com/wp-content/uploads/2025/11/BRAZIL-ARACACU-BASIC-1-300x300.png",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 250,
-     "price": 10.0,
-     "in_stock": true,
-     "per_kg": 40.0
-    },
     {
      "size_g": 250,
      "price": 10.0,
@@ -3057,12 +3015,6 @@
      "price": 10.17,
      "in_stock": true,
      "per_kg": 40.68
-    },
-    {
-     "size_g": 250,
-     "price": 10.17,
-     "in_stock": true,
-     "per_kg": 40.68
     }
    ],
    "best_per_kg": 40.68,
@@ -3088,12 +3040,6 @@
    "image": "https://delmocca.gr/wp-content/uploads/2022/10/101.01.017-1-300x240.jpg",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 250,
-     "price": 10.17,
-     "in_stock": true,
-     "per_kg": 40.68
-    },
     {
      "size_g": 250,
      "price": 10.17,
@@ -3257,18 +3203,6 @@
      "per_kg": 42.0
     },
     {
-     "size_g": 250,
-     "price": 10.5,
-     "in_stock": true,
-     "per_kg": 42.0
-    },
-    {
-     "size_g": 1000,
-     "price": 41.25,
-     "in_stock": true,
-     "per_kg": 41.25
-    },
-    {
      "size_g": 1000,
      "price": 41.25,
      "in_stock": true,
@@ -3303,18 +3237,6 @@
      "price": 10.5,
      "in_stock": true,
      "per_kg": 42.0
-    },
-    {
-     "size_g": 250,
-     "price": 10.5,
-     "in_stock": true,
-     "per_kg": 42.0
-    },
-    {
-     "size_g": 1000,
-     "price": 41.25,
-     "in_stock": true,
-     "per_kg": 41.25
     },
     {
      "size_g": 1000,
@@ -3447,12 +3369,6 @@
      "price": 41.7,
      "in_stock": true,
      "per_kg": 41.7
-    },
-    {
-     "size_g": 1000,
-     "price": 41.7,
-     "in_stock": true,
-     "per_kg": 41.7
     }
    ],
    "best_per_kg": 41.7,
@@ -3495,6 +3411,36 @@
    "cheapest_bag": 13.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 42.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ethiopia-masina-gr1",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ETHIOPIA MASINA GR1",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-masina-gr1/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/08/ethiopia-masina.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.5,
+     "in_stock": false,
+     "per_kg": 42.0
+    }
+   ],
+   "best_per_kg": 42.0,
+   "cheapest_bag": 10.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -3705,12 +3651,6 @@
      "price": 10.74,
      "in_stock": true,
      "per_kg": 42.96
-    },
-    {
-     "size_g": 250,
-     "price": 10.74,
-     "in_stock": true,
-     "per_kg": 42.96
     }
    ],
    "best_per_kg": 42.96,
@@ -3863,18 +3803,6 @@
      "per_kg": 43.4
     },
     {
-     "size_g": 250,
-     "price": 10.85,
-     "in_stock": true,
-     "per_kg": 43.4
-    },
-    {
-     "size_g": 500,
-     "price": 21.7,
-     "in_stock": true,
-     "per_kg": 43.4
-    },
-    {
      "size_g": 500,
      "price": 21.7,
      "in_stock": true,
@@ -3915,6 +3843,36 @@
    "cheapest_bag": 10.9,
    "first_seen": "2026-10-28",
    "previous_per_kg": 43.6,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:burundi",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "BURUNDI",
+   "origin": "Burundi",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/burundi/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/BURUNDI.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.0,
+     "in_stock": true,
+     "per_kg": 44.0
+    }
+   ],
+   "best_per_kg": 44.0,
+   "cheapest_bag": 11.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -4077,12 +4035,6 @@
      "price": 44.5,
      "in_stock": true,
      "per_kg": 44.5
-    },
-    {
-     "size_g": 1000,
-     "price": 44.5,
-     "in_stock": true,
-     "per_kg": 44.5
     }
    ],
    "best_per_kg": 44.5,
@@ -4113,12 +4065,6 @@
      "price": 11.6,
      "in_stock": true,
      "per_kg": 46.4
-    },
-    {
-     "size_g": 1000,
-     "price": 44.5,
-     "in_stock": true,
-     "per_kg": 44.5
     },
     {
      "size_g": 1000,
@@ -4367,6 +4313,36 @@
    "price_changed_on": null
   },
   {
+   "id": "spiri:kenya-aa-embu",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "KENYA AA EMBU",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kenya/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/02/KENYA-1-e1733469166667.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taf:finca-guayabales-guatemala-single-estate",
    "roaster_id": "taf",
    "roaster": "Taf",
@@ -4514,12 +4490,6 @@
    "image": "https://delmocca.gr/wp-content/uploads/2023/01/101.01.015-300x240.jpg",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 250,
-     "price": 11.87,
-     "in_stock": true,
-     "per_kg": 47.48
-    },
     {
      "size_g": 250,
      "price": 11.87,
@@ -4746,12 +4716,6 @@
      "price": 12.5,
      "in_stock": true,
      "per_kg": 50.0
-    },
-    {
-     "size_g": 250,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": 50.0
     }
    ],
    "best_per_kg": 50.0,
@@ -4777,12 +4741,6 @@
    "image": "https://cafeistas.com/wp-content/uploads/2026/06/BURUNDI-KIBINGO-BASIC-MEW-300x300.png",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 250,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": 50.0
-    },
     {
      "size_g": 250,
      "price": 12.5,
@@ -4818,7 +4776,31 @@
      "price": 12.5,
      "in_stock": true,
      "per_kg": 50.0
-    },
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 50.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:colombia-huila",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "COLOMBIA HUILA",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/colombia-huila/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/01/colombia-huila-1.webp",
+   "in_stock": true,
+   "options": [
     {
      "size_g": 250,
      "price": 12.5,
@@ -4828,8 +4810,8 @@
    ],
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 50.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5220,7 +5202,31 @@
      "price": 13.0,
      "in_stock": false,
      "per_kg": 52.0
-    },
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 52.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:el-salvador-finca-san-cayetano-ethiozar",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "EL SALVADOR FINCA SAN CAYETANO ETHIOZAR",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/el-salvador/",
+   "image": "https://spiri.gr/wp-content/uploads/2024/10/san-caytamo.webp",
+   "in_stock": false,
+   "options": [
     {
      "size_g": 250,
      "price": 13.0,
@@ -5230,8 +5236,68 @@
    ],
    "best_per_kg": 52.0,
    "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 52.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:kennya-kaguyu",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "KENNYA Kaguyu",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kennya-kaguyu/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/10/KENNYA.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:rwanta",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "RWANTA",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/rwanta/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/RWANDA.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.0,
+     "in_stock": true,
+     "per_kg": 52.0
+    }
+   ],
+   "best_per_kg": 52.0,
+   "cheapest_bag": 13.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5513,18 +5579,42 @@
      "price": 13.5,
      "in_stock": true,
      "per_kg": 54.0
-    },
-    {
-     "size_g": 250,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": 54.0
     }
    ],
    "best_per_kg": 54.0,
    "cheapest_bag": 13.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 54.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:mexico",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "MEXICO",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/mexico/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/MEXICO.png",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.5,
+     "in_stock": false,
+     "per_kg": 54.0
+    }
+   ],
+   "best_per_kg": 54.0,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6060,6 +6150,36 @@
    "cheapest_bag": 14.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 58.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:bolivia",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "BOLIVIA",
+   "origin": "Bolivia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/bolivia/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/08/bolivia-site.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.5,
+     "in_stock": true,
+     "per_kg": 58.0
+    }
+   ],
+   "best_per_kg": 58.0,
+   "cheapest_bag": 14.5,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6715,12 +6835,6 @@
      "price": 16.0,
      "in_stock": true,
      "per_kg": 64.0
-    },
-    {
-     "size_g": 1000,
-     "price": 62.0,
-     "in_stock": true,
-     "per_kg": 62.0
     },
     {
      "size_g": 1000,
@@ -7689,6 +7803,36 @@
    "cheapest_bag": 17.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 68.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ethiopia",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ETHIOPIA",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-2/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/09/ETHIOPIA.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 17.0,
+     "in_stock": true,
+     "per_kg": 68.0
+    }
+   ],
+   "best_per_kg": 68.0,
+   "cheapest_bag": 17.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9240,12 +9384,6 @@
      "price": 22.0,
      "in_stock": true,
      "per_kg": 88.0
-    },
-    {
-     "size_g": 250,
-     "price": 22.0,
-     "in_stock": true,
-     "per_kg": 88.0
     }
    ],
    "best_per_kg": 88.0,
@@ -10251,12 +10389,6 @@
      "price": 33.0,
      "in_stock": false,
      "per_kg": 132.0
-    },
-    {
-     "size_g": 250,
-     "price": 33.0,
-     "in_stock": false,
-     "per_kg": 132.0
     }
    ],
    "best_per_kg": 132.0,
@@ -10732,12 +10864,6 @@
    "image": "https://www.krosscoffeeroasters.com/wp-content/uploads/2026/10/Mockup-100g-AmedararoKonga-Supernatural-front-white-1500-500x500.jpg",
    "in_stock": true,
    "options": [
-    {
-     "size_g": 100,
-     "price": 15.0,
-     "in_stock": true,
-     "per_kg": 150.0
-    },
     {
      "size_g": 100,
      "price": 15.0,
@@ -11550,456 +11676,6 @@
    "best_per_kg": null,
    "cheapest_bag": 11.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:el-salvador-finca-san-cayetano-ethiozar",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "EL SALVADOR FINCA SAN CAYETANO ETHIOZAR",
-   "origin": "El Salvador",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/el-salvador/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/10/san-caytamo.webp",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.0,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:bolivia",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "BOLIVIA",
-   "origin": "Bolivia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/bolivia/",
-   "image": "https://spiri.gr/wp-content/uploads/2026/08/bolivia-site.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 14.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 14.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:burundi",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "BURUNDI",
-   "origin": "Burundi",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/burundi/",
-   "image": "https://spiri.gr/wp-content/uploads/2025/09/BURUNDI.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 11.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 11.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:colombia-huila",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "COLOMBIA HUILA",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/colombia-huila/",
-   "image": "https://spiri.gr/wp-content/uploads/2026/01/colombia-huila-1.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:ethiopia",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "ETHIOPIA",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-2/",
-   "image": "https://spiri.gr/wp-content/uploads/2025/09/ETHIOPIA.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 17.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 17.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:kennya-kaguyu",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "KENNYA Kaguyu",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kennya-kaguyu/",
-   "image": "https://spiri.gr/wp-content/uploads/2025/10/KENNYA.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:mexico",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "MEXICO",
-   "origin": "Mexico",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/mexico/",
-   "image": "https://spiri.gr/wp-content/uploads/2025/09/MEXICO.png",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.5,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:rwanta",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "RWANTA",
-   "origin": "Rwanda",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/rwanta/",
-   "image": "https://spiri.gr/wp-content/uploads/2025/09/RWANDA.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:ethiopia-masina-gr1",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "ETHIOPIA MASINA GR1",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-masina-gr1/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/08/ethiopia-masina.webp",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": null,
-     "price": 10.5,
-     "in_stock": false,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 10.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:kenya-aa-embu",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "KENYA AA EMBU",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/kenya/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/KENYA-1-e1733469166667.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 11.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 11.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:decaf-colombia-tumbaga",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "DECAF COLOMBIA TUMBAGA",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Decaf",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/decaf/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/decaf-colombia.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 8.9,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 8.9,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:ποτηρια-380ml",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "ΠΟΤΗΡΙΑ 380ML",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/potiria-380-ml/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/BLACK.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 25.8,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 25.8,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:ποτηρια-710ml",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "ΠΟΤΗΡΙΑ 710ML",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/potiria-710ml/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/CAMPER-710-HOT.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 30.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 30.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:pezzetti-moka-3-cups-6-cups",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "PEZZETTI MOKA 3 CUPS – 6 CUPS",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/pezzetti-moka-3-cups-6-cups/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/SILVER-2-SIZES.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 22.5,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 22.5,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "spiri:aeropress-aerobie",
-   "roaster_id": "spiri",
-   "roaster": "Spiri",
-   "name": "AEROPRESS AEROBIE",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/axesouar-kafe/aeropress-aerobie/",
-   "image": "https://spiri.gr/wp-content/uploads/2024/02/AEROPRESS.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 47.8,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 47.8,
-   "first_seen": "2026-10-29",
    "previous_per_kg": null,
    "price_changed_on": null
   },
