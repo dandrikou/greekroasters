@@ -326,4 +326,59 @@ def jsonld(client, roaster):
     return products
 
 
-ADAPTERS = {"shopify": shopify, "woocommerce": woocommerce, "jsonld": jsonld}
+# --- Squarespace commerce ---------------------------------------------------------------------------
+
+def _sqs_money(variant, key):
+    """Prices come as priceMoney {"value": "16.00"} on newer sites and integer cents on older ones."""
+    money = variant.get(key + "Money")
+    if isinstance(money, dict) and money.get("value") not in (None, ""):
+        return float(money["value"])
+    cents = variant.get(key)
+    return cents / 100 if isinstance(cents, (int, float)) else None
+
+
+def parse_squarespace_item(item, base_url):
+    name = strip_html(item.get("title", ""))
+    if is_excluded(name):
+        return None
+    text = strip_html(item.get("excerpt", "")) + "\n" + strip_html(item.get("body", ""))
+    options = []
+    for variant in (item.get("structuredContent") or {}).get("variants", []) or item.get("variants", []):
+        price = _sqs_money(variant, "salePrice") if variant.get("onSale") else None
+        price = price or _sqs_money(variant, "price")
+        if not price:
+            continue
+        attrs = " ".join(str(v) for v in (variant.get("attributes") or {}).values())
+        size = parse_size_g(attrs, name, text)
+        in_stock = bool(variant.get("unlimited")) or (variant.get("qtyInStock") or 0) > 0
+        options.append(_option(size, price, in_stock))
+    options = [o for o in options if o["price"] > 0]  # unpriced variations aren't for sale
+    if not options:
+        return None
+    return {
+        "name": name,
+        "url": urljoin(base_url, item.get("fullUrl", "")),
+        "image": item.get("assetUrl", ""),
+        "text": text.strip(),
+        "categories": item.get("categories", []) or [],
+        "in_stock": any(o["in_stock"] for o in options),
+        "options": _dedupe_options(options),
+    }
+
+
+def squarespace(client, roaster):
+    url = urljoin(roaster["website"], roaster["collection_path"])
+    products, offset = [], None
+    for _ in range(MAX_PAGES):
+        params = {"format": "json"}
+        if offset:
+            params["offset"] = offset
+        page = client.get_json(url, params=params)
+        products.extend(p for p in (parse_squarespace_item(i, roaster["website"]) for i in page.get("items", [])) if p)
+        offset = (page.get("pagination") or {}).get("nextPageOffset")
+        if not offset:
+            break
+    return products
+
+
+ADAPTERS = {"shopify": shopify, "woocommerce": woocommerce, "jsonld": jsonld, "squarespace": squarespace}

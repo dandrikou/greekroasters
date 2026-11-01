@@ -11,8 +11,8 @@ SIZE_RE = re.compile(
 EXCLUDE_RE = re.compile(
     r"capsul|κάψουλ|καψουλ|капсул|\bpods?\b|drip ?bag|cold ?brew|\bml\b|t-?shirt|socks|\bmugs?\b|glass|"
     r"machine|grinder|kettle|dripper|\bkit\b|gift|bundle|subscription|συνδρομ|абонамент|advent|ticket|"
-    r"\btea\b|matcha|milk|ελληνικός|ελληνικο|greek coffee|ibrik|\bese\b|дози|кутия|discovery|seasoning|"
-    r"sample|tasting pack|\bset\b|\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine|"
+    r"\btea\b|matcha|milk|ελληνικός|ελληνικο|greek coffee|\bese\b|дози|кутия|discovery|seasoning|"
+    r"sample|tasting pack|\bset\b|(?<!juice )\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine|"
     r"drinking chocolate|\bdrink\b|reusable cup|ποτήρι|μπρελόκ|keychain|τσάντα|κανάτα|φίλτρα|εργαλείο|kalita|\bv60\b|"
     r"σεμινάρ|seminar|workshop|με γεύση|flavou?red|ποτηρι|aeropress|pezzetti|\bmoka\b",
     re.IGNORECASE,
@@ -91,7 +91,13 @@ def parse_size_g(*texts):
     return None
 
 
+IBRIK_RE = re.compile(r"ibrik|cezve|μπρίκι", re.IGNORECASE)
+MULTI_USE_RE = re.compile(r"espresso|filter", re.IGNORECASE)
+
+
 def is_excluded(name, extra=""):
+    if IBRIK_RE.search(name) and not MULTI_USE_RE.search(name):
+        return True  # Greek/ibrik coffee, unless it's also sold for espresso or filter
     return bool(EXCLUDE_RE.search(name)) or bool(EXCLUDE_RE.search(extra or ""))
 
 
