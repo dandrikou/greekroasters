@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 from .http import Client
-from .platforms import ADAPTERS
+from .platforms import ADAPTERS, _dedupe_options
 from .text import SIZE_RE, find_notes, find_origin, find_process, find_type, roast_level, taste_group
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -111,7 +111,7 @@ def merge_same_coffee(raw_products):
         key = name_key(product["name"])
         if key in merged:
             target = merged[key]
-            target["options"] = sorted(target["options"] + product["options"], key=lambda o: o.get("size_g") or 0)
+            target["options"] = _dedupe_options(target["options"] + product["options"])
             target["in_stock"] = target["in_stock"] or product["in_stock"]
             target["image"] = target.get("image") or product.get("image", "")
         else:

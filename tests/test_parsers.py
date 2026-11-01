@@ -231,3 +231,13 @@ def test_beans_and_ground_listings_merge():
     from scraper.build import name_key
     assert name_key("Καφές Espresso Si 250gr Σπυρί") == name_key("Καφές Espresso Si 250gr Αλεσμένος")
     assert is_excluded("Καφές Φίλτρου με Γεύση Καραμέλα 250gr Αλεσμένος")
+
+
+def test_merged_listings_keep_one_option_per_size():
+    from scraper.build import merge_same_coffee
+    raw = [{"name": "Καφές Espresso Si 250gr Σπυρί", "url": "u1", "in_stock": True,
+            "options": [{"size_g": 250, "price": 10.17, "in_stock": True}]},
+           {"name": "Καφές Espresso Si 250gr Αλεσμένος", "url": "u2", "in_stock": True,
+            "options": [{"size_g": 250, "price": 10.17, "in_stock": True}]}]
+    assert [o["size_g"] for o in merge_same_coffee(raw)[0]["options"]] == [250]
+    assert is_excluded("ΠΟΤΗΡΙΑ 380ML") and is_excluded("AEROPRESS AEROBIE") and is_excluded("PEZZETTI MOKA 3 CUPS – 6 CUPS")
