@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:18+00:00",
+ "generated_at": "2026-11-02T12:25+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,9 +9,9 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
-   "coffees": 22,
+   "coffees": 23,
    "cheapest_per_kg": 31.6,
    "median_per_kg": 54.0
   },
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 34.0,
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 39.6,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 15.5,
@@ -92,10 +92,10 @@
    "website": "https://www.sambacafe.gr",
    "free_shipping_eur": 35,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "coffees": 21,
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
+   "coffees": 20,
    "cheapest_per_kg": 34.8,
    "median_per_kg": 68.0
   },
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -120,9 +120,9 @@
    "website": "https://www.krosscoffeeroasters.com",
    "free_shipping_eur": 30,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
    "median_per_kg": 150.0
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -148,12 +148,12 @@
    "website": "https://area51coffeeroasters.com",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "coffees": 5,
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
+   "coffees": 4,
    "cheapest_per_kg": 49.76,
-   "median_per_kg": 50.36
+   "median_per_kg": 117.73
   },
   {
    "id": "taresso",
@@ -162,9 +162,9 @@
    "website": "https://www.taresso.com",
    "free_shipping_eur": 20,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 20,
    "cheapest_per_kg": 38.42,
    "median_per_kg": 84.19
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 33.2,
@@ -205,11 +205,11 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 46.0,
-   "median_per_kg": 67.5
+   "median_per_kg": 66.0
   },
   {
    "id": "cafeistas",
@@ -218,9 +218,9 @@
    "website": "https://cafeistas.com",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
    "median_per_kg": 50.0
@@ -232,9 +232,9 @@
    "website": "https://spiri.gr",
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "no products found",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 16,
    "cheapest_per_kg": 28.0,
    "median_per_kg": 44.0
@@ -246,9 +246,9 @@
    "website": "https://www.monogramroasters.gr",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
    "median_per_kg": 64.0
@@ -260,9 +260,9 @@
    "website": "https://delmocca.gr",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
    "median_per_kg": 40.68
@@ -275,11 +275,11 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
-   "coffees": 8,
+   "coffees": 9,
    "cheapest_per_kg": 50.0,
-   "median_per_kg": 70.0
+   "median_per_kg": 66.0
   },
   {
    "id": "darg",
@@ -288,12 +288,12 @@
    "website": "https://www.dargcoffee.shop",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 10,
-   "cheapest_per_kg": null,
-   "median_per_kg": null
+   "cheapest_per_kg": 36.0,
+   "median_per_kg": 72.0
   },
   {
    "id": "valenio",
@@ -303,11 +303,11 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
-   "coffees": 11,
+   "coffees": 10,
    "cheapest_per_kg": 40.0,
-   "median_per_kg": 56.0
+   "median_per_kg": 68.0
   },
   {
    "id": "hue",
@@ -317,10 +317,10 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 11,
-   "cheapest_per_kg": 48.0,
+   "cheapest_per_kg": 47.5,
    "median_per_kg": 80.0
   },
   {
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 27,
    "cheapest_per_kg": 50.0,
@@ -344,9 +344,9 @@
    "website": "https://roasters-kolektiva.com",
    "free_shipping_eur": 50,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 31,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 68.0
@@ -358,9 +358,9 @@
    "website": "https://handpickerscoffee.gr",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "no products found",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 33,
    "cheapest_per_kg": 32.28,
    "median_per_kg": 61.92
@@ -372,9 +372,9 @@
    "website": "https://mokka.coffee",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-01",
-   "error": "no products found",
+   "source": "live",
+   "last_checked": "2026-11-02",
+   "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
    "median_per_kg": 55.2
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-01",
+   "last_checked": "2026-11-02",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -1749,7 +1749,7 @@
    "best_per_kg": 34.0,
    "cheapest_bag": 8.5,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 34.0,
    "price_changed_on": null
   },
   {
@@ -2008,6 +2008,36 @@
    "cheapest_bag": 9.0,
    "first_seen": "2026-10-29",
    "previous_per_kg": 36.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:brazil-sul-de-minas",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Brazil Sul de Minas",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/brazil-sul-de-minas/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_02_Brazil-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.0,
+     "in_stock": true,
+     "per_kg": 36.0
+    }
+   ],
+   "best_per_kg": 36.0,
+   "cheapest_bag": 9.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -3106,6 +3136,36 @@
    "price_changed_on": null
   },
   {
+   "id": "darg:colombia-decaf-huila",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Decaf Huila",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-decaf-huila/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_03_Colombia_Decaf_Huila-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.0,
+     "in_stock": true,
+     "per_kg": 40.0
+    }
+   ],
+   "best_per_kg": 40.0,
+   "cheapest_bag": 10.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "valenio:brazil-monte-alegre-filter-espresso",
    "roaster_id": "valenio",
    "roaster": "Valenio",
@@ -3132,7 +3192,7 @@
    "best_per_kg": 40.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 40.0,
    "price_changed_on": null
   },
   {
@@ -4015,36 +4075,6 @@
    "cheapest_bag": 10.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": 43.2,
-   "price_changed_on": null
-  },
-  {
-   "id": "samba:el-cerro-estate-blend",
-   "roaster_id": "samba",
-   "roaster": "Samba",
-   "name": "El Cerro Estate Blend",
-   "origin": "El Salvador",
-   "region": "Apaneca-Ilamatepec",
-   "type": "Blend",
-   "process": "Natural, Washed",
-   "notes": "butterscotch, orange zest, molasses, apricot",
-   "taste": "Balanced",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.sambacafe.gr/product/el-cerro-estate-blend/",
-   "image": "https://www.sambacafe.gr/wp-content/uploads/2025/04/EL-CERRO-blend-samba-coffee-roasters-site-card-bag-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 10.85,
-     "in_stock": true,
-     "per_kg": 43.4
-    }
-   ],
-   "best_per_kg": 43.4,
-   "cheapest_bag": 10.85,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 43.4,
    "price_changed_on": null
   },
   {
@@ -5126,6 +5156,42 @@
    "price_changed_on": null
   },
   {
+   "id": "hue:brazil",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Brazil",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/brazil/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/01/Brazil-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 9.5,
+     "in_stock": true,
+     "per_kg": 47.5
+    },
+    {
+     "size_g": 1000,
+     "price": 48.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    }
+   ],
+   "best_per_kg": 47.5,
+   "cheapest_bag": 9.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 48.0,
+   "price_changed_on": "2026-11-02"
+  },
+  {
    "id": "earth:ethnic-blend",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -5253,42 +5319,6 @@
     {
      "size_g": 250,
      "price": 12.0,
-     "in_stock": true,
-     "per_kg": 48.0
-    }
-   ],
-   "best_per_kg": 48.0,
-   "cheapest_bag": 12.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "hue:brazil",
-   "roaster_id": "hue",
-   "roaster": "Hue Roastery",
-   "name": "Brazil",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://hueroastery.com/product/brazil/",
-   "image": "https://hueroastery.com/wp-content/uploads/2026/01/Brazil-900x900.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.0,
-     "in_stock": true,
-     "per_kg": 48.0
-    },
-    {
-     "size_g": 1000,
-     "price": 48.0,
      "in_stock": true,
      "per_kg": 48.0
     }
@@ -5854,36 +5884,6 @@
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 50.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "area51:el-salvador",
-   "roaster_id": "area51",
-   "roaster": "Area 51",
-   "name": "El Salvador",
-   "origin": "El Salvador",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/el-salvador-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
-   "image": "https://area51coffeeroasters.com/wp-content/uploads/Coffee_Area51ElSalvador-WholeBeans-250g_P01A-1080w.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.59,
-     "in_stock": true,
-     "per_kg": 50.36
-    }
-   ],
-   "best_per_kg": 50.36,
-   "cheapest_bag": 12.59,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 50.36,
    "price_changed_on": null
   },
   {
@@ -6648,36 +6648,6 @@
    "price_changed_on": null
   },
   {
-   "id": "valenio:ethiopia-sidamo-filter-espresso",
-   "roaster_id": "valenio",
-   "roaster": "Valenio",
-   "name": "ETHIOPIA SIDAMO – FILTER COFFEE & ESPRESSO",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "PRUNE, BLACKBERRY, GREEN TEA, LAVENDER, NOTES OF HONEY",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://www.valenio.coffee/product/ethiopia-sidamo-filter-coffee-espresso-2/",
-   "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/ETHIOPIA-PINK-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": 54.0
-    }
-   ],
-   "best_per_kg": 54.0,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
    "id": "dabov:house-blend-impressions",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -7061,7 +7031,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.0,
    "price_changed_on": null
   },
   {
@@ -7091,7 +7061,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.0,
    "price_changed_on": null
   },
   {
@@ -7121,7 +7091,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.0,
    "price_changed_on": null
   },
   {
@@ -7390,6 +7360,42 @@
    "cheapest_bag": 14.5,
    "first_seen": "2026-10-29",
    "previous_per_kg": 58.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "anana:colombia-popayan-decaf",
+   "roaster_id": "anana",
+   "roaster": "Anana",
+   "name": "Colombia Popayan Decaf",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://anana.coffee/product/colombia-popayan-decaf/",
+   "image": "https://anana.coffee/wp-content/uploads/2025/09/COLOMBIA_orange_whiteBG_shadow_front-500x500.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.0,
+     "in_stock": true,
+     "per_kg": 60.0
+    },
+    {
+     "size_g": 500,
+     "price": 29.0,
+     "in_stock": true,
+     "per_kg": 58.0
+    }
+   ],
+   "best_per_kg": 58.0,
+   "cheapest_bag": 15.0,
+   "first_seen": "2026-11-02",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -9124,6 +9130,36 @@
    "price_changed_on": null
   },
   {
+   "id": "hue:decaf-colombia",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Decaf Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Decaf",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/decaf-colombia/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Decaf-Colombia-900x900.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 13.5,
+     "in_stock": true,
+     "per_kg": 67.5
+    }
+   ],
+   "best_per_kg": 67.5,
+   "cheapest_bag": 13.5,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 68.0,
+   "price_changed_on": "2026-11-02"
+  },
+  {
    "id": "samba:la-guitarra-guatemala",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -9270,7 +9306,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9288,36 +9324,6 @@
    "roast_basis": "Inferred: filter roast",
    "url": "https://www.valenio.coffee/product/ethiopia-banko-filter-coffee-espresso-2/",
    "image": "https://www.valenio.coffee/wp-content/uploads/2025/10/Ethiopia-filter-1-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 17.0,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 17.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "hue:decaf-colombia",
-   "roaster_id": "hue",
-   "roaster": "Hue Roastery",
-   "name": "Decaf Colombia",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Decaf",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://hueroastery.com/product/decaf-colombia/",
-   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Decaf-Colombia-900x900.webp",
    "in_stock": true,
    "options": [
     {
@@ -10231,6 +10237,186 @@
    "price_changed_on": null
   },
   {
+   "id": "darg:ethiopia-guji-uraga",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Ethiopia Guji Uraga",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/ethiopia-guji-uraga/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_04_Ethiopia_Guji_Uraga-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:nicaragua-gustavo-ortez",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Nicaragua Gustavo Ortez",
+   "origin": "Nicaragua",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/nicaragua-gustavo-ortez/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_06_Nicaragua_Gustavo_Ortez-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:rwanda-kizi-rift",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Rwanda Kizi Rift",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/rwanda-kizi-rift/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_10_Rwanda_Kizi_Rift-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:peru-cajamarca",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Peru Cajamarca",
+   "origin": "Peru",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/peru-cajamarca/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_09_Peru_Cajamarca-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:papua-lamala-a",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Papua Lamala A",
+   "origin": "Papua New Guinea",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/papua-lamala-a/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_08_Papua_Lamala_A-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:guatemala-santa-rita",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Guatemala Santa Rita",
+   "origin": "Guatemala",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/guatemala-santa-rita/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_07_Guatemala_Santa_Rita-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "valenio:kenya-filter-espresso",
    "roaster_id": "valenio",
    "roaster": "Valenio",
@@ -10257,7 +10443,7 @@
    "best_per_kg": 72.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -10278,10 +10464,10 @@
    "in_stock": true,
    "options": [
     {
-     "size_g": 250,
-     "price": 18.0,
+     "size_g": 200,
+     "price": 14.5,
      "in_stock": true,
-     "per_kg": 72.0
+     "per_kg": 72.5
     },
     {
      "size_g": 1000,
@@ -10291,7 +10477,7 @@
     }
    ],
    "best_per_kg": 72.0,
-   "cheapest_bag": 18.0,
+   "cheapest_bag": 14.5,
    "first_seen": "2026-11-01",
    "previous_per_kg": 72.0,
    "price_changed_on": null
@@ -10725,7 +10911,7 @@
    "best_per_kg": 76.0,
    "cheapest_bag": 19.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 76.0,
    "price_changed_on": null
   },
   {
@@ -11283,7 +11469,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11304,8 +11490,8 @@
    "in_stock": true,
    "options": [
     {
-     "size_g": 250,
-     "price": 20.0,
+     "size_g": 200,
+     "price": 16.0,
      "in_stock": true,
      "per_kg": 80.0
     },
@@ -11317,7 +11503,7 @@
     }
    ],
    "best_per_kg": 80.0,
-   "cheapest_bag": 20.0,
+   "cheapest_bag": 16.0,
    "first_seen": "2026-11-01",
    "previous_per_kg": 80.0,
    "price_changed_on": null
@@ -11340,8 +11526,8 @@
    "in_stock": true,
    "options": [
     {
-     "size_g": 250,
-     "price": 20.0,
+     "size_g": 200,
+     "price": 16.0,
      "in_stock": true,
      "per_kg": 80.0
     },
@@ -11353,7 +11539,7 @@
     }
    ],
    "best_per_kg": 80.0,
-   "cheapest_bag": 20.0,
+   "cheapest_bag": 16.0,
    "first_seen": "2026-11-01",
    "previous_per_kg": 80.0,
    "price_changed_on": null
@@ -12697,12 +12883,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-natural-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/flw-03.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 21.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 105.0
     }
    ],
@@ -12710,6 +12896,66 @@
    "cheapest_bag": 21.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 105.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:colombia-finca-penas-blancas",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Finca Penas Blancas",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-finca-penas-blancas/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/08/DARG_12_Colombia_Finca_Penas_Blancas-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 108.0
+    }
+   ],
+   "best_per_kg": 108.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:colombia-finca-el-bosque",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Finca El Bosque",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-finca-el-bosque/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_05_Colombia_Finca_El_Bosque-1-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 108.0
+    }
+   ],
+   "best_per_kg": 108.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -13039,6 +13285,36 @@
    "cheapest_bag": 25.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 125.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "kudu:panama-finca-bonita-springs",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Panama Finca Bonita Springs (200g)",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/panama-finca-bonita-springs-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Panama_Bonita_Springs.jpg?v=1766340146&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 25.0,
+     "in_stock": true,
+     "per_kg": 125.0
+    }
+   ],
+   "best_per_kg": 125.0,
+   "cheapest_bag": 25.0,
+   "first_seen": "2026-11-02",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -14716,306 +14992,6 @@
    "best_per_kg": null,
    "cheapest_bag": 11.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:colombia-finca-penas-blancas",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Colombia Finca Penas Blancas",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/colombia-finca-penas-blancas/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/08/DARG_12_Colombia_Finca_Penas_Blancas-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 27.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 27.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:brazil-sul-de-minas",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Brazil Sul de Minas",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/brazil-sul-de-minas/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_02_Brazil-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 9.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 9.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:colombia-decaf-huila",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Colombia Decaf Huila",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Decaf",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/colombia-decaf-huila/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_03_Colombia_Decaf_Huila-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 10.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 10.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:ethiopia-guji-uraga",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Ethiopia Guji Uraga",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/ethiopia-guji-uraga/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_04_Ethiopia_Guji_Uraga-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:nicaragua-gustavo-ortez",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Nicaragua Gustavo Ortez",
-   "origin": "Nicaragua",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/nicaragua-gustavo-ortez/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_06_Nicaragua_Gustavo_Ortez-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:rwanda-kizi-rift",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Rwanda Kizi Rift",
-   "origin": "Rwanda",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/rwanda-kizi-rift/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_10_Rwanda_Kizi_Rift-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:peru-cajamarca",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Peru Cajamarca",
-   "origin": "Peru",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/peru-cajamarca/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_09_Peru_Cajamarca-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:papua-lamala-a",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Papua Lamala A",
-   "origin": "Papua New Guinea",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/papua-lamala-a/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_08_Papua_Lamala_A-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:colombia-finca-el-bosque",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Colombia Finca El Bosque",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/colombia-finca-el-bosque/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_05_Colombia_Finca_El_Bosque-1-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 27.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 27.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:guatemala-santa-rita",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Guatemala Santa Rita",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/guatemala-santa-rita/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_07_Guatemala_Santa_Rita-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": null,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": null
-    }
-   ],
-   "best_per_kg": null,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
    "previous_per_kg": null,
    "price_changed_on": null
   },
