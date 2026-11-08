@@ -5,22 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roasters · Greek Roasters</title>
   <meta name="description" content="Greek specialty coffee roasters with online shops: coffees, prices per kg and shipping.">
+  <meta name="theme-color" content="#2a1a11">
+  <link rel="preload" href="fonts/fira-xc-extrabold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14m-6-6 6 6 6-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h10m4 0h2M4 17h4m4 0h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  </svg>
   <nav class="nav" aria-label="Main">
     <div class="wrap nav-row">
-      <a class="brand" href="index.html">Greek Roasters</a>
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="9.5" ry="13" transform="rotate(35 16 16)" fill="#e2a62a"/><path d="M10.2 25.4c3.4-3.2 2.6-6.2 4.4-9.2s4.8-4.6 7.2-9.6" fill="none" stroke="#2a1a11" stroke-width="2.2" stroke-linecap="round"/></svg>
+        Greek Roasters
+      </a>
       <ul class="menu">
         <li><a href="index.html" data-nav="home">Αρχική</a></li>
         <li><a href="roasters.html" data-nav="roasters">Roasters</a></li>
-        <li><details class="drop"><summary data-nav="coffee">Coffee</summary>
+        <li><details class="drop"><summary data-nav="coffee">Coffee <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
           <ul>
             <li><a href="index.html?type=Blend">Blends</a></li>
             <li><a href="index.html?type=Single+origin">Single Origin</a></li>
             <li><a href="index.html?type=Decaf">Decaf</a></li>
           </ul></details></li>
-        <li><details class="drop"><summary data-nav="single">Single Origin</summary>
+        <li><details class="drop"><summary data-nav="single">Single Origin <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
           <ul>
             <li><a href="index.html?type=Single+origin&amp;group=origin">Sort per origin</a></li>
             <li><a href="index.html?type=Single+origin&amp;group=taste">Sort per flavour profile</a></li>
@@ -29,23 +42,27 @@
     </div>
   </nav>
   <header class="top">
-    <div class="wrap">
-      <h1>Roasters</h1>
-      <p class="lede">Every roaster we track, with how many coffees they sell online and what they cost per kg.</p>
-      <p class="meta" id="updated"></p>
+    <div class="wrap top-row">
+      <div>
+        <h1>Roasters</h1>
+        <p class="lede">Every roaster we track, how many coffees they sell online, and what their beans cost per kilo.</p>
+        <p class="meta" id="updated"></p>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
     <div class="filters roaster-filters">
       <input id="rq" type="search" placeholder="Search roaster or city…" aria-label="Search roasters">
-      <select id="rsort" aria-label="Sort roasters">
+      <label class="field"><span>Sort</span><select id="rsort">
         <option value="name">Name A–Z</option>
         <option value="cheapest">Cheapest per kg</option>
         <option value="median">Lowest median per kg</option>
         <option value="count">Most coffees</option>
-      </select>
+      </select></label>
     </div>
+    <h2 class="sr-only">All roasters</h2>
+    <p class="count" id="rcount" aria-live="polite"></p>
     <section id="roasterList" class="grid roaster-grid"></section>
     <p class="fine">Prices per kg don't include shipping. Roasters marked "last good update" couldn't be read today, so their prices are from the last successful check.</p>
   </main>
@@ -53,12 +70,14 @@
   <template id="roasterCard">
     <article class="card roaster">
       <div class="head">
-        <div>
-          <h3><a target="_blank" rel="noopener"></a></h3>
-          <p class="sub"></p>
-        </div>
-        <div class="kg"><strong></strong><span>from, per kg</span></div>
+        <div class="tag"><strong class="num"></strong><span>from, per kg</span></div>
+        <h3><a target="_blank" rel="noopener"></a></h3>
+        <p class="sub"></p>
       </div>
+      <figure class="scale">
+        <div class="scale-track"><span class="scale-mark"></span></div>
+        <figcaption><b></b> of coffees in stock</figcaption>
+      </figure>
       <dl class="facts"></dl>
       <p class="status"></p>
       <a class="more" href="#"></a>
