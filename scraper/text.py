@@ -14,7 +14,7 @@ EXCLUDE_RE = re.compile(
     r"\btea\b|matcha|milk|ελληνικός|ελληνικο|greek coffee|\bese\b|дози|кутия|discovery|seasoning|"
     r"sample|tasting pack|\bset\b|(?<!juice )\bbox\b|cascara|τσάι|σοκολάτ|choco drink|powder|paper filter|filters\b|tote|\btee\b|magazine|"
     r"drinking chocolate|\bdrink\b|reusable cup|ποτήρι|μπρελόκ|keychain|τσάντα|κανάτα|φίλτρα|εργαλείο|kalita|\bv60\b|"
-    r"σεμινάρ|seminar|workshop|με γεύση|flavou?red|ποτηρι|aeropress|pezzetti|\bmoka\b",
+    r"σεμινάρ|seminar|workshop|με γεύση|flavou?red|ποτηρι|aeropress|pezzetti|\bmoka\b|καφετιέρ|καφετιερ|moccamaster|^chocolate\b",
     re.IGNORECASE,
 )
 
@@ -93,6 +93,18 @@ def parse_size_g(*texts):
 
 IBRIK_RE = re.compile(r"ibrik|cezve|μπρίκι", re.IGNORECASE)
 MULTI_USE_RE = re.compile(r"espresso|filter", re.IGNORECASE)
+
+
+# Shop categories that never hold coffee beans (tea, herbal blends, chocolate, equipment).
+NON_COFFEE_CATEGORY_RE = re.compile(
+    r"\btea\b|τσάι|τσαι|αφέψημ|αφεψημ|βότανα|βοτανα|herbal|infusion|chocolate|σοκολάτ|σοκολατ|"
+    r"equipment|εξοπλισμ|accessor|αξεσουάρ|αξεσουαρ|καφετιέρ|καφετιερ|merch",
+    re.IGNORECASE,
+)
+
+
+def is_non_coffee_category(categories):
+    return any(NON_COFFEE_CATEGORY_RE.search(c or "") for c in categories or [])
 
 
 def is_excluded(name, extra=""):
