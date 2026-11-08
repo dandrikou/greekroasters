@@ -1,305 +1,301 @@
 ---
 name: Greek Roasters
-description: Every Greek specialty coffee, priced per kilo, on one grocer's counter.
+description: The Greek specialty-coffee market, printed per kilo on a risograph poster wall.
 colors:
-  espresso: "#2a1a11"
-  espresso-2: "#3b261a"
-  on-espresso: "#e9d7b6"
-  on-espresso-2: "#bfa47c"
-  ground: "#d2b78c"
-  band: "#c7a87a"
-  bag: "#f1e5cd"
-  bag-line: "#c9b088"
-  window: "#ffffff"
-  ink: "#23170f"
-  ink-2: "#4e3726"
-  ink-3: "#5e4733"
-  ochre: "#e2a62a"
-  ochre-deep: "#b9811a"
-  on-ochre: "#1f140c"
-  olive: "#4c5a20"
-  olive-soft: "#dfe1c3"
-  terracotta: "#8f3621"
-  terracotta-soft: "#f0d2c4"
-  cherry: "#8e2433"
-  cocoa: "#5b3a24"
+  paper: "#f2e8d3"
+  paper-2: "#ebdfc5"
+  sheet: "#f8f1e2"
+  field: "#fffaf0"
+  riso-blue: "#2140b8"
+  fluoro-pink: "#e43f7e"
+  pink-ink: "#b8205a"
+  pink-soft: "#fbd6e4"
+  riso-yellow: "#f5c330"
+  teal: "#0f6e60"
+  teal-soft: "#d3eee6"
+  ink: "#1f2f8f"
+  ink-2: "#46508f"
+  on-pink: "#ffffff"
+  on-yellow: "#1f2f8f"
 typography:
   display:
     fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "clamp(1.9rem, 1.3rem + 2.4vw, 3rem)"
-    fontWeight: 800
-    lineHeight: 1.02
+    fontSize: "clamp(2.6rem, 1.6rem + 4.2vw, 5.4rem)"
+    fontWeight: 900
+    lineHeight: 0.9
+    letterSpacing: "-0.005em"
+  wordmark:
+    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
+    fontSize: "2.55rem"
+    fontWeight: 900
+    lineHeight: 0.86
     letterSpacing: "-0.01em"
   headline:
     fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "1.7rem"
-    fontWeight: 800
-    lineHeight: 1.1
-  price:
-    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "1.7rem"
-    fontWeight: 800
+    fontSize: "2.3rem"
+    fontWeight: 900
     lineHeight: 1
-    letterSpacing: "-0.01em"
-    fontFeature: "\"tnum\""
   title:
     fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "1.28rem"
-    fontWeight: 700
-    lineHeight: 1.12
+    fontSize: "1.4rem"
+    fontWeight: 800
+    lineHeight: 1.02
     letterSpacing: "0.005em"
+  price:
+    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
+    fontSize: "1.85rem"
+    fontWeight: 900
+    lineHeight: 0.95
+    letterSpacing: "-0.005em"
+    fontFeature: "\"tnum\" 1"
   nav:
     fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "1.05rem"
-    fontWeight: 600
-    lineHeight: 1.2
-    letterSpacing: "0.01em"
+    fontSize: "1.2rem"
+    fontWeight: 700
+    lineHeight: 1.15
+    letterSpacing: "0.03em"
+  label:
+    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
+    fontSize: "0.85rem"
+    fontWeight: 700
+    lineHeight: 1
+    letterSpacing: "0.05em"
   body:
     fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
     fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.5
-  body-small:
+  small:
     fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
     fontSize: "0.88rem"
     fontWeight: 400
-    lineHeight: 1.5
-  label:
-    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "0.82rem"
-    fontWeight: 600
-    lineHeight: 1
-    letterSpacing: "0.04em"
-  tag-unit:
-    fontFamily: "Fira XC, Arial Narrow, system-ui, sans-serif"
-    fontSize: "0.72rem"
-    fontWeight: 700
-    lineHeight: 1
-    letterSpacing: "0.08em"
+    lineHeight: 1.4
 rounded:
-  chip: "4px"
-  control: "6px"
-  menu: "8px"
-  container: "10px"
-  pill: "50%"
+  none: "0px"
+  dot: "50%"
 spacing:
-  hair: "4px"
-  tight: "6px"
-  gap: "10px"
-  pad: "14px"
-  gutter: "16px"
+  xs: "6px"
+  sm: "10px"
+  md: "14px"
+  lg: "18px"
+  xl: "24px"
+  2xl: "36px"
+  section: "40px"
 components:
-  nav-link:
-    textColor: "{colors.on-espresso}"
-    typography: "{typography.nav}"
-    rounded: "{rounded.control}"
-    padding: "8px 12px"
-  nav-link-hover:
-    backgroundColor: "{colors.espresso-2}"
-  nav-link-active:
-    textColor: "{colors.ochre}"
-  kilo-tag:
-    backgroundColor: "{colors.ochre}"
-    textColor: "{colors.on-ochre}"
+  price-tag:
+    backgroundColor: "{colors.riso-yellow}"
+    textColor: "{colors.on-yellow}"
     typography: "{typography.price}"
-    padding: "6px 12px 7px 22px"
-  bag-card:
-    backgroundColor: "{colors.bag}"
+    rounded: "{rounded.none}"
+    padding: "6px 10px 7px"
+  card:
+    backgroundColor: "{colors.sheet}"
     textColor: "{colors.ink}"
-    rounded: "{rounded.container}"
-    padding: "{spacing.pad}"
-  counter:
-    backgroundColor: "{colors.bag}"
-    rounded: "{rounded.container}"
-    padding: "{spacing.pad}"
-  input-field:
-    backgroundColor: "{colors.window}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.control}"
-    padding: "9px 12px"
-    height: "42px"
+    rounded: "{rounded.none}"
+    padding: "14px"
   chip:
-    backgroundColor: "{colors.ground}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.chip}"
+    textColor: "{colors.riso-blue}"
+    typography: "{typography.label}"
+    rounded: "{rounded.none}"
     padding: "2px 8px"
   chip-drop:
-    backgroundColor: "{colors.olive-soft}"
-    textColor: "{colors.olive}"
+    backgroundColor: "{colors.teal-soft}"
+    textColor: "{colors.teal}"
   chip-rise:
-    backgroundColor: "{colors.terracotta-soft}"
-    textColor: "{colors.terracotta}"
+    backgroundColor: "{colors.pink-soft}"
+    textColor: "{colors.pink-ink}"
   chip-sold:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.bag}"
+    backgroundColor: "{colors.riso-blue}"
+    textColor: "{colors.paper}"
+  input-field:
+    backgroundColor: "{colors.field}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.none}"
+    padding: "9px 12px"
+    height: "44px"
   button-primary:
-    backgroundColor: "{colors.olive}"
-    textColor: "{colors.bag}"
-    rounded: "{rounded.control}"
-    padding: "10px 16px"
-  link-more:
-    textColor: "{colors.olive}"
+    backgroundColor: "{colors.pink-ink}"
+    textColor: "{colors.on-pink}"
+    rounded: "{rounded.none}"
+    padding: "12px 20px"
+  nav-link:
+    textColor: "{colors.riso-blue}"
+    typography: "{typography.nav}"
     padding: "6px 0"
+  nav-link-active:
+    textColor: "{colors.pink-ink}"
+  ledger-cell:
+    backgroundColor: "{colors.sheet}"
+    textColor: "{colors.ink-2}"
+    typography: "{typography.label}"
+    padding: "8px 14px 10px"
 ---
 
 # Design System: Greek Roasters
 
 ## Overview
 
-**Creative North Star: "The Bakaliko Counter"**
+**Creative North Star: "The Riso Poster Wall"**
 
-The site is an old Greek grocer's shop where everything is sold by the kilo. An espresso-brown shop rail runs across the top, the floor is kraft-paper tan, and every coffee sits on the counter as a pale paper bag with a stitched seam and an ochre price tag hanging off its edge. The kilo price is the first thing you read on every bag, set in heavy condensed numerals on that tag, and directly under it a small graduated scale shows where the price sits in today's market, from olive (cheap) through ochre to terracotta (dear).
+The site is a risograph print shop's wall with the Greek coffee market pinned up on it. Everything is printed in three inks (fluorescent pink, riso blue, sunflower yellow) on warm cream paper, overprinted with multiply blending so where two inks cross a third colour appears, and a fixed grain sheet lies over the whole print. Headings are giant black-weight condensed caps in blue with a pink plate printed a few pixels out of register. The kilo price is the loudest ink on every sheet: a yellow block with blue numerals.
 
-The density is a working shop, not a showroom: a full filter counter, a four-up grid of bags on desktop, everything scannable on a phone. Condensed grotesk carries the voice (prices, names, labels, navigation); a system UI face carries everything you read at length. Colour is earthy and warm throughout, with ochre reserved for price and the current place, olive for action and falling prices, terracotta for rising prices and stale data.
-
-The world deliberately refuses the category default of a white e-commerce grid with a brown accent. White appears only as the "window" inside controls and behind product photos in dark mode, never as the ground.
+Density is a working market list, not a showroom. A printed left rail carries the wordmark, a geometric mark, the menu and a shape legend; the page to the right opens with a poster header (overprinting circles, triangles and blocks behind the title) and then goes straight to filters and a tight card grid. Corners are square everywhere; rules are 1.5-2px ink lines. Depth only ever comes from ink: overprint, misregistration offset, grain. In dark mode the same press runs on navy paper, the inks lighten and blend by screen instead of multiply.
 
 **Key Characteristics:**
-- Kraft ground, espresso rail, bag-paper cards with a dashed stitched seam.
-- The ochre kilo tag with a punched hole, hung off the card's right edge, holds the headline price.
-- A per-card market scale (olive to ochre to terracotta) with a tag-shaped marker.
-- Condensed Fira Sans Extra Condensed for numerals and labels; system UI for body text.
-- Tabular numerals wherever prices or counts line up.
-- Full light and dark schemes from one token set; dark is roasted, not inverted grey.
+- Cream paper (`paper`) under a fixed fractal-noise grain at 16% opacity (10% in dark).
+- Three inks only, plus a teal signal ink reserved for "fresh" and "price dropped".
+- Fira Sans Extra Condensed, uppercase, 700-900, for every heading, label, number and nav item; the system UI face for reading text.
+- Pink misregistration (3px text-shadow on display type, 3-4px offset on the price tag) as the signature print artefact.
+- Overprinting flat geometric shapes (circle, triangle, square/block) with `mix-blend-mode: multiply` (screen in dark).
+- Square corners, 1.5-2px ink rules, no soft shadows, no gradients except the three-band price scale.
 
 ## Colors
 
-An earth palette of roasted browns and kraft paper, with three market colours (ochre, olive, terracotta) carrying meaning rather than decoration. Every token has a dark-scheme counterpart in the same CSS custom property (see the sidecar); the values below are the light scheme.
+A three-ink riso palette (pink, blue, yellow) printed on cream, with blue doubling as the text ink and a single teal reserved for good news.
 
 ### Primary
-- **Price-Tag Ochre** (ochre): the kilo tag, the scale marker, the active menu item and text selection. Ochre means "the price" or "you are here", nothing else.
-- **Burnt Ochre** (ochre-deep): the deeper ochre for ochre-on-light needs; in dark it lifts to a brighter gold.
-- **Tag Ink** (on-ochre): near-black numerals on the tag; it stays dark in both schemes because the tag stays ochre.
+- **Riso Blue** (`riso-blue`): the main ink. Display and card headings, nav links, the wordmark, input and panel keylines, chip outlines, ledger numerals, the chocolate/nutty triangle. Dark scheme lifts it to a periwinkle (#7f95ff).
+- **Fluorescent Pink** (`fluoro-pink`): the second plate. Misregistration shadow under display type, page rules (the rail's right edge, header and fine-print rules), card keylines, the price tag's offset, the scale's marker dot, the active-nav dot, the fruity circle, focus rings and range accent. Never used for body-size text on paper; that job belongs to Pink Ink.
+- **Pink Ink** (`pink-ink`): the text-strength pink. Field labels, the "last weighed" meta line, active and hovered nav, grouped-view headings, "See coffees" links, stale-status text, the only filled button.
 
 ### Secondary
-- **Grocer's Olive** (olive): the action colour (primary button, "See coffees" link, range and checkbox accent, caret) and the price-drop colour. Also the light-scheme focus ring.
-- **Olive Paper** (olive-soft): the price-drop chip background.
+- **Sunflower Yellow** (`riso-yellow`): the price ink. The kilo price tag, the middle band of the price scale, the balanced square, selection highlight, and the large poster disc. Always carries blue numerals (`on-yellow`), never white.
 
 ### Tertiary
-- **Terracotta** (terracotta): price rises and stale-data status; the dear end of the market scale.
-- **Terracotta Paper** (terracotta-soft): the price-rise chip background.
-- **Cherry** (cherry) and **Cocoa** (cocoa): flavour-profile dots only (fruity/floral and chocolate/nutty; balanced uses olive).
+- **Signal Teal** (`teal`, with `teal-soft` fill): a functional fourth ink, outside the poster palette. Only the "price dropped" chip and the fresh-data status clock.
+- **Pink Wash** (`pink-soft`): the fill behind the "price rose" chip.
 
 ### Neutral
-- **Espresso** (espresso): the sticky shop rail and the browser theme colour.
-- **Espresso Crema** (espresso-2): hover and open-menu fill on the rail.
-- **Kraft Type** (on-espresso) and **Faded Kraft** (on-espresso-2): text and chevrons on the rail.
-- **Kraft Ground** (ground): the page floor; also the plain chip fill and dropdown hover.
-- **Counter Band** (band): the title band under the rail, one step darker than the ground.
-- **Bag Paper** (bag): cards, the filter counter, dropdown menus and the empty state.
-- **Bag Seam** (bag-line): every 1px border and the dashed seam inside cards.
-- **Window** (window): the field fill inside inputs and selects. It stays light in dark mode (warm cream) so controls read as lit shop windows.
-- **Roast Ink** (ink), **Ink 2** (ink-2), **Ink 3** (ink-3): primary text, secondary text, and field labels and scale ticks.
+- **Cream Paper** (`paper`): the page ground and the mobile rail strip. Dark scheme: navy #161a3a.
+- **Kraft Shadow** (`paper-2`): photo well behind product images (images sit on it with multiply so white shop backgrounds drop out).
+- **Fresh Sheet** (`sheet`): the lighter stock for cards, the filter panel, ledger cells and the empty state.
+- **Field White** (`field`): input and select fill. Stays cream (#f2e8d3) in dark mode, so form fields always read as paper with navy text.
+- **Navy Ink** (`ink`): body text and lede. In dark mode it inverts to cream.
+- **Faded Ink** (`ink-2`): secondary text: subtitles, legend descriptions, figcaptions, fact labels, bag sizes.
 
 ### Named Rules
-**The Market Colours Rule.** Ochre is price and place, olive is action and cheaper, terracotta is dearer and stale. Never use one of these three for the other's meaning, and never as decoration.
+**The Three Inks Rule.** Decorative colour is pink, blue and yellow and nothing else. Teal is a signal, never a decoration; a fourth decorative hue breaks the press.
 
-**The Kraft Floor Rule.** The page ground is kraft tan (light) or roasted brown (dark), never white or grey. White exists only inside controls.
+**The Overprint Rule.** Ink shapes that overlap blend with `multiply` on paper and `screen` on navy (`--blend`). The crossing colour is the point; never stack opaque shapes.
+
+**The Yellow Carries Blue Rule.** Yellow is always printed with blue (`on-yellow`) on top. White or pink on yellow is never legible enough.
 
 ## Typography
 
-**Display Font:** Fira Sans Extra Condensed, self-hosted as "Fira XC" at 600/700/800 (with Arial Narrow, system-ui)
-**Body Font:** system-ui stack (-apple-system, Segoe UI, Roboto)
+**Display Font:** Fira Sans Extra Condensed, self-hosted as "Fira XC" in 600/700/800/900 (with Arial Narrow, system-ui fallback)
+**Body Font:** system UI stack (system-ui, -apple-system, Segoe UI, Roboto)
 
-**Character:** A tall, tight grocer's-sign condensed for everything that is a number, a name or a label, set against a neutral system face for anything read as a sentence. The condensed face lets a price like €128.50 sit big inside a small tag.
+**Character:** Poster caps against plain reading text. The condensed face does every job a print shop would set in wood type (titles, prices, labels, nav, counts); the system face handles sentences, notes and fine print so the long list stays fast to read on a phone.
 
 ### Hierarchy
-- **Display** (800, clamp 1.9rem to 3rem, 1.02): the page title in the counter band, balanced wrapping.
-- **Headline** (800, 1.7rem, 1.1): group headings in grouped view, ruled underneath with a 2px ink line, count set beside it in a 600 1rem condensed.
-- **Price** (800, 1.7rem, 1, tabular): the kilo-tag numeral. The ledger stats use the same face at 800 1.6rem (1.35rem on phones).
-- **Title** (700, 1.28rem, 1.12): coffee and roaster names on cards.
-- **Nav** (600, 1.05rem, 1.2): menu items and the result count. The brand is 800 1.45rem uppercase.
-- **Body** (400, 16px, 1.5): lede (max 58ch), notes and copy. **Body small** (0.88rem) for subtitles, meta lines, bag options and fine print (max 75ch).
-- **Label** (600, 0.82rem, 0.04em, uppercase): filter field labels only.
-- **Tag unit** (700, 0.72rem, 0.08em, uppercase): "PER KG" under the tag numeral.
+- **Display** (900, clamp 2.6rem to 5.4rem, 0.9): page title only, uppercase, blue with a 3px pink misregistration text-shadow, `text-wrap: balance`. Blends with multiply on paper.
+- **Wordmark** (900, 2.55rem desktop / 1.6rem in the mobile strip, 0.86): "Greek Roasters" in the rail, stacked on two lines on desktop.
+- **Headline** (900, 2.3rem / 1.9rem on phones, 1): grouped-view section headings, uppercase, pink ink, ruled underneath in blue, with a 1rem blue count beside them.
+- **Price** (900, 1.85rem, 0.95, tabular): the kilo price inside the yellow tag; ledger figures run the same weight at 1.9rem.
+- **Title** (800, 1.4rem, 1.02): coffee and roaster names on cards, uppercase blue.
+- **Nav** (700, 1.2rem desktop / 1.05rem mobile, 0.03em): rail menu, uppercase blue.
+- **Label** (700, 0.85rem, 0.05em, uppercase): field labels in pink ink, chips and ledger captions in blue; the tag's "per kg" drops to 800 at 0.72rem with 0.08em tracking.
+- **Body** (400, 16px, 1.5): lede (1.08rem, max 56ch), notes, check labels.
+- **Small** (400, 0.82-0.9rem): subtitles, captions, facts, status lines, fine print (max 75ch).
 
 ### Named Rules
-**The Condensed Numeral Rule.** Prices, counts, sizes and names are set in the condensed face; prices and anything that lines up in columns use tabular numerals.
+**The Misregistration Rule.** Only the display title gets the pink text plate (3px 3px 0). Smaller headings print in one ink; a doubled plate at card size turns to mush.
 
-**The Sentences Are System Rule.** Anything read as a sentence (lede, notes, captions, fine print) stays in the system UI face. Condensed body copy is not part of this world.
+**The Condensed Caps Rule.** Anything that is a heading, number, label or button is Fira XC in uppercase at 700 or heavier. Sentences are never set in it.
 
 ## Layout
 
-A single centred column (max 1200px, 16px side gutters) under a full-bleed sticky rail and a full-bleed counter band. The band holds the title, lede and "last weighed" line on the left and the ledger stats bottom-aligned on the right, wrapping beneath on narrow screens.
+A two-column shell: a sticky 250px printed rail on the left, ruled off by a 2px pink line, and the page column to the right. Inside the page, content sits in a 1240px max wrap with 24px gutters. The header is a poster: title block (max 760px) left, the ledger of three figures bottom-right, and an absolutely placed shape cluster (`min(32vw, 380px)`) behind the title. Below it, a filter panel spanning the width (search on its own row, then auto-fit 160px columns), a count line, and an auto-fill card grid (min 270px, 260px on the roasters page, 18px gap). Grouped view stacks sections 40px apart.
 
-The filter counter is an auto-fit grid of 160px-minimum fields with the search spanning the full row. Cards sit in an auto-fill grid (272px minimum on the coffee list, 260px on roasters) with a 16px gap. Inside a card the rhythm is 10px between blocks; the bag options or facts are pushed to the bottom (margin-top auto) behind a dashed seam so prices align along the row.
+Spacing rhythm runs on small, slightly irregular steps (6, 10, 14, 18, 24, 36px) rather than a strict 8-grid, as a print layout would.
 
-Spacing steps are small and practical: 4, 6, 10, 14 and 16px, with larger section gaps (34px between groups, 26/22px band padding) used locally.
+Responsive: at 900px the rail collapses into a sticky top strip (small mark, one-line wordmark, wrapping horizontal menu; legend and rail note hidden), gutters drop to 16px and the poster shapes move to the right edge. At 560px the filters fold into a `details` disclosure ("Filter and sort") with a two-column body, photos go 3:2 and headings step down. All touch targets in the filter panel are at least 44px.
 
-At 560px and below: the menu spreads across the full width, the filter counter collapses to one column and its controls fold into a "Filter and sort" disclosure laid out two-up, product photos switch from 4:3 to 3:2, and ledger numerals drop to 1.35rem.
+### Named Rules
+**The Rail Rule.** Navigation lives in the left rail on desktop and becomes a top strip on phones; there is no separate header bar.
 
 ## Elevation & Depth
 
-Mostly flat, paper-on-counter depth. Cards and dropdown menus carry one soft, warm two-layer shadow; the filter counter and empty state are flat with a border. The kilo tag is the one object that lifts off its surface: a drop shadow follows its notched silhouette so it reads as a tag hung on the bag.
+Flat print. There are no soft or ambient shadows anywhere. Depth comes from ink behaviour: shapes overprinting with multiply, one plate printed out of register, and the global grain overlay (fixed, `pointer-events: none`, z-index 100). The out-of-register offset is the only "shadow", always a second ink and always hard-edged.
 
 ### Shadow Vocabulary
-- **Paper lift** (`box-shadow: 0 1px 2px rgb(42 26 17 / 0.10), 0 6px 18px -8px rgb(42 26 17 / 0.30)`; dark: `0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -10px rgb(0 0 0 / 0.7)`): cards and dropdown menus.
-- **Hung tag** (`filter: drop-shadow(0 3px 4px rgb(42 26 17 / 0.35))`): the kilo tag only.
-- **Punched hole** (`box-shadow: inset 0 1px 1px rgb(0 0 0 / 0.35)`): the tag's hole, filled with the bag colour.
+- **Display misregistration** (`text-shadow: 3px 3px 0 var(--pink)`): the page title.
+- **Mark misregistration** (`filter: drop-shadow(3px 2px 0 var(--pink))`): the mountain in the brand mark and the top shape of the poster cluster.
+- **Tag offset** (`box-shadow: 4px 4px 0 var(--pink)`): the yellow price tag.
+- **Button offset** (`box-shadow: 4px 4px 0 var(--blue)`, 2px on press): the pink-ink button.
 
 ### Named Rules
-**The One Hung Object Rule.** Only the kilo tag casts a silhouette shadow. Everything else is either paper lift or flat.
+**The Second Plate Rule.** An offset is a second ink, never grey or black, never blurred, and never more than 4px.
 
 ## Shapes
 
-Softly cut paper. Containers (cards, filter counter, empty state) are 10px; dropdown menus 8px; controls, menu items, photo frames and the button 6px; chips 4px. The kilo tag is the signature silhouette: a rectangle with a notched point on its left (clip-path polygon, 10px point) and a 7px round punched hole, overhanging the card's right edge by 6px. The scale marker repeats that shape in miniature (14 by 18px, pointed bottom, with a hole), outlined in ink.
+Square corners throughout (0px): cards, tags, inputs, selects, chips, panels, buttons. The only round forms are ink dots: the scale marker, the active-nav dot, the fruity circle and the poster discs. Edges are drawn as ink keylines: 2px blue around panels, ledger cells and the rail note; 1.5px pink around cards and as internal card rules; 1.5px blue on inputs and chips; 2px pink for page-level rules; a 2px dashed pink border marks the empty state.
 
-Borders are always 1px in bag-seam colour; inside cards the seam is dashed, like a stitched bag. The active menu item has a 2px ochre underline (inset shadow) with its bottom corners squared.
+Taste is coded by shape and ink together: fruity/floral is a pink circle, chocolate/nutty a blue triangle, balanced a yellow square. The same three primitives (circle, triangle, rectangle) compose the brand mark and the per-page poster clusters, which vary between pages.
 
 ## Components
 
-### Buttons
-Sparse. The shop is navigated by links and filters; the only button is "Clear filters" in the empty state.
-- **Shape:** gently rounded (6px).
-- **Primary:** olive fill, pale cream label in 700 1rem condensed, 10px 16px padding, no border.
-- **Focus:** the global 2px focus outline, offset 2px.
-- **Text link action ("See N coffees"):** olive, 700 1.02rem condensed, trailing arrow icon, underline on hover.
+### Price Tag (signature)
+A yellow ink block pinned to the top-right corner of each card, slightly out of register.
+- **Shape:** square, 6px 10px 7px padding, right-aligned.
+- **Color:** yellow fill, navy numerals (`on-yellow`), pink 4px offset.
+- **Content:** the €/kg figure in Price type, "per kg" (or "from, per kg" on roasters) in micro caps below.
+- **Placement:** absolute 24px from the card's top-right, over the photo; on photo-less roaster cards it floats right inside the heading block.
+
+### Price Scale (signature)
+A three-ink bar under each tag: blue, yellow, pink thirds (6px tall), with an 18px pink dot ringed 2.5px in blue placed at this coffee's percentile among coffees in stock. A small caption below reads "Cheaper than N% of coffees in stock" with the phrase in bold ink.
+
+### Cards / Containers
+- **Corner Style:** square.
+- **Background:** fresh sheet on paper.
+- **Shadow Strategy:** none (see Elevation).
+- **Border:** 1.5px pink keyline; internal rules (bag options, facts) are 1.5px pink too.
+- **Internal Padding:** 14px, 10px gap between blocks.
+- **Photo well:** 4:3 (3:2 on phones), paper-2 ground, image contained and multiplied.
+- **Out of stock / not tracked:** whole card at 60% opacity.
 
 ### Chips
-- **Style:** 4px corners, 1px bag-seam border, kraft-ground fill, 0.8rem ink text, 2px 8px padding.
-- **Flavour:** an 8px dot in cherry, cocoa or olive before the label.
-- **Price change:** borderless, 600 weight: olive on olive paper with a down arrow for drops, terracotta on terracotta paper with an up arrow for rises.
-- **Sold out:** inverted, ink fill with bag-paper text; the whole card drops to 0.62 opacity.
-
-### Cards / Containers (the bag)
-- **Corner Style:** 10px.
-- **Background:** bag paper, 1px bag-seam border.
-- **Shadow Strategy:** paper lift.
-- **Internal Padding:** 14px, 10px between blocks.
-- **Anatomy:** kilo tag hung top-right; product photo in a 6px frame (contained, multiplied onto the bag in light mode, set on a light window in dark mode); title and subtitle; market scale; chips; notes; bag options behind a dashed seam with sizes in bold condensed. Roaster cards swap the photo and options for a facts list (label left, tabular value right) and a status line.
+- **Style:** square, 1.5px blue outline, condensed caps label in blue, 2px 8px padding.
+- **Taste chips:** lead with an 11px shape dot in the taste's ink.
+- **State chips:** price drop is teal on teal wash, price rise is pink ink on pink wash, sold out is paper on solid blue; state chips drop the outline. Arrow icons are inline SVG.
 
 ### Inputs / Fields
-- **Style:** 42px minimum height, window fill, 1px bag-seam border, 6px corners, 0.95rem text. Text is fixed dark ink so it stays legible on the window in both schemes. Selects use a custom chevron; search has a leading magnifier.
-- **Labels:** the uppercase condensed label style, ink-3, 4px above the control.
-- **Range and checkbox:** native, accent-colored olive; the range shows its live value right-aligned in its label row.
-- **Focus:** 2px solid focus colour (olive light, ochre dark), offset 1px.
+- **Style:** square, 1.5px blue stroke, field fill, navy text, 44px minimum height; search and select carry inline blue SVG glyphs (magnifier, chevron). Labels sit above in pink-ink caps.
+- **Focus:** 2.5px pink outline, 1px offset.
+- **Range and checkbox:** native controls tinted with `accent-color` (pink range, blue checkbox).
+- **Panel:** fields live on a fresh-sheet panel with a 2px blue keyline and 16px padding (12px on phones).
+
+### Buttons
+- **Shape:** square, 12px 20px.
+- **Primary:** pink-ink fill, white label in 800 condensed caps at 1.1rem, 4px blue offset; on press it moves 2px into the offset.
+- **Text link ("See N coffees"):** pink-ink condensed caps with a 2px underline rule and an arrow; turns blue on hover.
 
 ### Navigation
-- **Style:** sticky espresso rail, 60px minimum height. Brand at left (ochre coffee-bean mark, 800 uppercase condensed), menu at right.
-- **States:** kraft-type items; hover and open dropdowns fill espresso-2; the current page turns ochre with a 2px ochre underline. Focus outlines on the rail are ochre.
-- **Dropdowns:** native details/summary with a chevron that rotates 180deg (0.2s, cubic-bezier(0.16, 1, 0.3, 1)); the menu is a bag-paper panel with paper lift, items in body face, hover kraft ground.
-- **Mobile:** the menu spans the full width, items tighten to 8px padding.
+- **Style:** rail menu of five items, uppercase condensed 700 in blue, 6px vertical padding, closed by a 2px pink rule.
+- **Hover / Active:** pink ink; the active item gets a 9px pink dot before it and `aria-current="page"`.
+- **Mobile:** a single wrapping row in the top strip at 1.05rem, 16px apart.
 
-### Kilo Tag (signature)
-The headline price of every coffee and roaster. Ochre, notched left point, punched hole, overhanging the card edge with a hung shadow. Numeral in the price style; the unit ("per kg", "from, per kg") beneath in the tag-unit style, right-aligned.
+### Ledger
+Three figure cells in the poster header (coffees, roasters, cheapest per kg): fresh sheet, 2px blue keyline, a 900-weight blue tabular figure over a caps caption.
 
-### Market Scale (signature)
-A 6px gradient bar (olive, ochre, terracotta) with ten ink-3 tick marks under it, and a miniature tag marker positioned at the coffee's percentile. The caption states the position in words ("Cheaper than 99% of coffees in stock", bold phrase in ink). It is omitted rather than faked when there is no price or no market.
+### Taste Legend
+The rail's key to the shape code: a 26px ink shape, the taste name in blue caps, a short description in faded ink. Hidden on phones.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** put the kilo price on an ochre kilo tag on every coffee and roaster card, in 800 condensed tabular numerals.
-- **Do** keep ochre, olive and terracotta to their market meanings (The Market Colours Rule).
-- **Do** use the dashed bag-seam line to separate a card's footer facts from its body.
-- **Do** define every new colour as a custom property with both a light and a dark value.
-- **Do** keep control text and borders legible on the light window fill in both schemes.
-- **Do** show missing or stale data in words ("Not stated", stale status in terracotta) rather than hiding it.
-- **Do** use stroked SVG icons (2px stroke, round caps, 1em) from the shared sprite.
+- **Do** print every decorative mark in pink, blue or yellow, and let overlaps blend (`--blend`: multiply on paper, screen on navy).
+- **Do** keep the kilo price in the yellow tag with blue numerals and the pink 4px offset, and keep the three-ink scale under it.
+- **Do** set headings, numbers, labels, nav and buttons in Fira XC uppercase at 700-900; set sentences in the system face.
+- **Do** keep corners square and draw edges as 1.5-2px ink keylines.
+- **Do** use pink ink (`pink-ink`), not fluorescent pink, for any pink text.
+- **Do** code taste by shape and ink together (pink circle, blue triangle, yellow square).
+- **Do** keep form fields as cream paper with navy text in both schemes, at least 44px tall.
 
 ### Don't:
-- **Don't** use a white or grey page ground; the floor is kraft (The Kraft Floor Rule).
-- **Don't** give any element other than the kilo tag a silhouette drop shadow (The One Hung Object Rule).
-- **Don't** set sentences in the condensed face, or prices in the system face.
-- **Don't** use ochre for buttons or links; action is olive.
-- **Don't** add a hardcoded light-on-olive colour without checking it against the dark-scheme olive, which is light.
+- **Don't** add soft, blurred, grey or black shadows; the only offset is a second ink of up to 4px.
+- **Don't** round corners on cards, tags, chips, inputs or buttons.
+- **Don't** use teal decoratively; it means fresh data or a price drop.
+- **Don't** put the pink misregistration plate on anything smaller than the page title.
+- **Don't** print white or pink text on yellow.
+- **Don't** add gradients beyond the three-band price scale.

@@ -28,6 +28,8 @@ The only place that puts all Greek specialty roasters side by side on price per 
 ## Brand Commitments
 - Name: "Greek Roasters".
 - Dimitri asked (2026-11-08) for earth colours suited to a coffee-roasting business, replacing the current generic look.
+- Superseded the same day: Dimitri supplied a risograph print-shop reference (cream paper, pink, blue and yellow inks, huge condensed caps with offset misregistration, left sidebar nav, overprinting geometric shapes, grain). That look is binding.
+- Menu (binding): Αρχική · Roasters · Blends · Single Origin · Decaf. Blends, Single Origin and Decaf are filtered views of the coffee list.
 
 ## Evidence on Hand
 Real, live data only: around 450 coffees, 32 roasters, prices, sizes, origins, tasting notes and product photos from the shops. There are no testimonials, user counts or partnerships, and none may be invented.

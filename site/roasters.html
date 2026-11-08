@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roasters · Greek Roasters</title>
   <meta name="description" content="Greek specialty coffee roasters with online shops: coffees, prices per kg and shipping.">
-  <meta name="theme-color" content="#2a1a11">
-  <link rel="preload" href="fonts/fira-xc-extrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <meta name="theme-color" content="#f2e8d3">
+  <link rel="preload" href="fonts/fira-xc-black.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,31 +18,40 @@
     <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h10m4 0h2M4 17h4m4 0h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
   </svg>
-  <nav class="nav" aria-label="Main">
-    <div class="wrap nav-row">
-      <a class="brand" href="index.html">
-        <svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="16" rx="9.5" ry="13" transform="rotate(35 16 16)" fill="#e2a62a"/><path d="M10.2 25.4c3.4-3.2 2.6-6.2 4.4-9.2s4.8-4.6 7.2-9.6" fill="none" stroke="#2a1a11" stroke-width="2.2" stroke-linecap="round"/></svg>
-        Greek Roasters
-      </a>
+  <div class="shell">
+  <aside class="rail">
+    <a class="brand" href="index.html" aria-label="Greek Roasters, home">
+      <span class="brand-word"><span>Greek</span> <span>Roasters</span></span>
+      <svg class="brand-mark" viewBox="0 0 120 70" aria-hidden="true">
+        <circle cx="78" cy="24" r="20" fill="var(--pink)"/>
+        <circle cx="40" cy="30" r="14" fill="var(--yellow)"/>
+        <path d="M0 70 38 24 62 52 78 36 120 70Z" fill="var(--blue)"/>
+      </svg>
+    </a>
+    <nav aria-label="Main">
       <ul class="menu">
-        <li><a href="index.html" data-nav="home">Αρχική</a></li>
+        <li><a href="index.html" data-nav="home" lang="el">Αρχική</a></li>
         <li><a href="roasters.html" data-nav="roasters">Roasters</a></li>
-        <li><details class="drop"><summary data-nav="coffee">Coffee <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-          <ul>
-            <li><a href="index.html?type=Blend">Blends</a></li>
-            <li><a href="index.html?type=Single+origin">Single Origin</a></li>
-            <li><a href="index.html?type=Decaf">Decaf</a></li>
-          </ul></details></li>
-        <li><details class="drop"><summary data-nav="single">Single Origin <svg class="icon" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-          <ul>
-            <li><a href="index.html?type=Single+origin&amp;group=origin">Sort per origin</a></li>
-            <li><a href="index.html?type=Single+origin&amp;group=taste">Sort per flavour profile</a></li>
-          </ul></details></li>
+        <li><a href="index.html?type=Blend" data-nav="Blend">Blends</a></li>
+        <li><a href="index.html?type=Single+origin" data-nav="Single origin">Single Origin</a></li>
+        <li><a href="index.html?type=Decaf" data-nav="Decaf">Decaf</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+    <dl class="legend" aria-label="Flavour shapes">
+      <div><dt><span class="shape fruity"></span>Fruity / floral</dt><dd>Berries, citrus, flowers</dd></div>
+      <div><dt><span class="shape choc"></span>Chocolate / nutty</dt><dd>Cocoa, caramel, nuts</dd></div>
+      <div><dt><span class="shape balanced"></span>Balanced</dt><dd>A bit of both</dd></div>
+    </dl>
+    <p class="rail-note">Prices per kilo from every Greek specialty roaster that sells online. Updated every morning.</p>
+  </aside>
+  <div class="page">
   <header class="top">
     <div class="wrap top-row">
+      <svg class="poster-shapes" viewBox="0 0 320 240" aria-hidden="true">
+        <path d="M40 240 150 40 260 240Z" fill="var(--blue)"/>
+        <circle cx="236" cy="104" r="76" fill="var(--pink)"/>
+        <rect x="18" y="150" width="120" height="78" fill="var(--yellow)"/>
+      </svg>
       <div>
         <h1>Roasters</h1>
         <p class="lede">Every roaster we track, how many coffees they sell online, and what their beans cost per kilo.</p>
@@ -84,6 +93,8 @@
     </article>
   </template>
 
+  </div>
+  </div>
   <script src="nav.js"></script>
   <script src="roasters.js"></script>
 </body>

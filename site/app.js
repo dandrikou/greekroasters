@@ -37,6 +37,7 @@ function card(c) {
   const a = el.querySelector("h3 a");
   a.href = c.url;
   a.textContent = c.name;
+  if (/[\u0370-\u03ff]/.test(c.name)) a.lang = "el"; // Greek capitals drop their accents
   const pic = el.querySelector(".pic");
   if (c.image) {
     pic.href = c.url;
@@ -166,6 +167,11 @@ function render() {
   const title = (TYPE_TITLES[f.type] || "Specialty coffee from Greek roasters") +
     (f.group === "origin" ? " by origin" : f.group === "taste" ? " by flavour profile" : "");
   $("pageTitle").textContent = title;
+  document.querySelectorAll(".menu a").forEach((a) => {
+    const on = a.dataset.nav === (f.type || "home");
+    a.classList.toggle("active", on);
+    if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  });
   document.title = f.type || f.group ? `${title} · Greek Roasters` : "Greek Roasters";
   const params = new URLSearchParams();
   fields.forEach((k) => { const v = $(k).type === "checkbox" ? ($(k).checked ? "" : "0") : $(k).value; if (v && !(k === "max" && v === "200") && !(k === "sort" && v === "perkg")) params.set(k, v); });

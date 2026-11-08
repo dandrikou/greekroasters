@@ -1,601 +1,533 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T18:41:44+00:00",
+  "generatedAt": "2026-11-08T19:04:21+00:00",
   "title": "Design System: Greek Roasters",
   "extensions": {
     "colorMeta": {
-      "espresso": {
+      "paper": {
         "role": "neutral",
-        "displayName": "Espresso",
-        "canonical": "#2a1a11",
-        "darkScheme": "#120b07",
-        "cssVar": "--espresso",
-        "tonalRamp": [
-          "#0d0b09",
-          "#2c231e",
-          "#4e3e36",
-          "#705d52",
-          "#927d72",
-          "#b3a197",
-          "#d2c6c0",
-          "#f1eeec"
-        ]
-      },
-      "espresso-2": {
-        "role": "neutral",
-        "displayName": "Espresso Crema",
-        "canonical": "#3b261a",
-        "darkScheme": "#24170f",
-        "cssVar": "--espresso-2",
-        "tonalRamp": [
-          "#0d0a09",
-          "#2d221d",
-          "#513d32",
-          "#735b4e",
-          "#967c6e",
-          "#b7a093",
-          "#d4c6be",
-          "#f2edeb"
-        ]
-      },
-      "on-espresso": {
-        "role": "neutral",
-        "displayName": "Kraft Type",
-        "canonical": "#e9d7b6",
-        "darkScheme": "#ecdcc0",
-        "cssVar": "--on-espresso",
+        "displayName": "Cream Paper",
+        "canonical": "#f2e8d3",
+        "darkScheme": "#161a3a",
+        "cssVar": "--paper",
         "tonalRamp": [
           "#0d0b08",
-          "#2b2417",
-          "#4d4028",
-          "#6f5f41",
-          "#918062",
-          "#b2a388",
-          "#d1c8b8",
-          "#f1eee9"
+          "#28251e",
+          "#464137",
+          "#686052",
+          "#8a816f",
+          "#aca495",
+          "#cec9bc",
+          "#f2eee5"
         ]
       },
-      "on-espresso-2": {
+      "paper-2": {
         "role": "neutral",
-        "displayName": "Faded Kraft",
-        "canonical": "#bfa47c",
-        "darkScheme": "#b59b74",
-        "cssVar": "--on-espresso-2",
+        "displayName": "Kraft Shadow",
+        "canonical": "#ebdfc5",
+        "darkScheme": "#1d2248",
+        "cssVar": "--paper-2",
         "tonalRamp": [
           "#0d0b07",
-          "#2e2313",
-          "#523e1e",
-          "#755d37",
-          "#987e57",
-          "#b8a17f",
-          "#d5c7b2",
-          "#f2eee7"
+          "#29251c",
+          "#474134",
+          "#69604e",
+          "#8c816a",
+          "#ada491",
+          "#d0c8b9",
+          "#f3eee3"
         ]
       },
-      "ground": {
+      "sheet": {
         "role": "neutral",
-        "displayName": "Kraft Ground",
-        "canonical": "#d2b78c",
-        "darkScheme": "#1d140e",
-        "cssVar": "--ground",
-        "tonalRamp": [
-          "#0d0b07",
-          "#2e2312",
-          "#523e1c",
-          "#755d34",
-          "#977e55",
-          "#b8a17d",
-          "#d5c7b1",
-          "#f2eee7"
-        ]
-      },
-      "band": {
-        "role": "neutral",
-        "displayName": "Counter Band",
-        "canonical": "#c7a87a",
-        "darkScheme": "#2b1d13",
-        "cssVar": "--band",
-        "tonalRamp": [
-          "#0e0b06",
-          "#2f2310",
-          "#543d18",
-          "#785c2f",
-          "#9a7d50",
-          "#bba179",
-          "#d7c7af",
-          "#f3eee6"
-        ]
-      },
-      "bag": {
-        "role": "neutral",
-        "displayName": "Bag Paper",
-        "canonical": "#f1e5cd",
-        "darkScheme": "#2a1d14",
-        "cssVar": "--bag",
+        "displayName": "Fresh Sheet",
+        "canonical": "#f8f1e2",
+        "darkScheme": "#1b2045",
+        "cssVar": "--sheet",
         "tonalRamp": [
           "#0c0b09",
-          "#29241b",
-          "#494130",
-          "#6a604b",
-          "#8c816b",
-          "#aea490",
-          "#cec8bd",
+          "#272520",
+          "#45423a",
+          "#666156",
+          "#888274",
+          "#aaa499",
+          "#cdc9c0",
+          "#f1eee8"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "#fffaf0",
+        "darkScheme": "#f2e8d3",
+        "cssVar": "--field",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262522",
+          "#44423d",
+          "#64615a",
+          "#868279",
+          "#a8a59d",
+          "#ccc9c3",
           "#f0eeea"
         ]
       },
-      "bag-line": {
-        "role": "neutral",
-        "displayName": "Bag Seam",
-        "canonical": "#c9b088",
-        "darkScheme": "#4a3524",
-        "cssVar": "--bag-line",
+      "riso-blue": {
+        "role": "primary",
+        "displayName": "Riso Blue",
+        "canonical": "#2140b8",
+        "darkScheme": "#7f95ff",
+        "cssVar": "--blue",
         "tonalRamp": [
-          "#0d0b07",
-          "#2d2313",
-          "#513f1f",
-          "#745d38",
-          "#967e58",
-          "#b7a280",
-          "#d4c7b3",
-          "#f2eee8"
+          "#04091f",
+          "#12214d",
+          "#243c81",
+          "#3859b9",
+          "#4e78f2",
+          "#7ca1fd",
+          "#b2c9fc",
+          "#e7efff"
         ]
       },
-      "window": {
-        "role": "neutral",
-        "displayName": "Window",
-        "canonical": "#ffffff",
-        "darkScheme": "#f4ece0",
-        "cssVar": "--window",
+      "fluoro-pink": {
+        "role": "primary",
+        "displayName": "Fluorescent Pink",
+        "canonical": "#e43f7e",
+        "darkScheme": "#ff6fa5",
+        "cssVar": "--pink",
         "tonalRamp": [
-          "#0b0b0b",
-          "#252525",
-          "#424242",
-          "#616161",
-          "#828282",
-          "#a5a5a5",
-          "#c9c9c9",
-          "#eeeeee"
+          "#1b0209",
+          "#450a21",
+          "#75183c",
+          "#a82659",
+          "#dc3978",
+          "#f6749d",
+          "#ffafc4",
+          "#fee8ed"
+        ],
+        "aliases": [
+          "--rule"
+        ]
+      },
+      "pink-ink": {
+        "role": "primary",
+        "displayName": "Pink Ink",
+        "canonical": "#b8205a",
+        "darkScheme": "#ff6fa5",
+        "cssVar": "--pink-ink",
+        "tonalRamp": [
+          "#1a0309",
+          "#440e20",
+          "#721e3a",
+          "#a42f56",
+          "#d74474",
+          "#f17999",
+          "#fcb1c2",
+          "#fee8ec"
+        ]
+      },
+      "pink-soft": {
+        "role": "tertiary",
+        "displayName": "Pink Wash",
+        "canonical": "#fbd6e4",
+        "darkScheme": "#3e1d3d",
+        "cssVar": "--pink-soft",
+        "tonalRamp": [
+          "#0f090b",
+          "#2d2126",
+          "#4e3c43",
+          "#735963",
+          "#987884",
+          "#b89ca7",
+          "#d8c2ca",
+          "#f9eaef"
+        ]
+      },
+      "riso-yellow": {
+        "role": "secondary",
+        "displayName": "Sunflower Yellow",
+        "canonical": "#f5c330",
+        "darkScheme": "#ffd24a",
+        "cssVar": "--yellow",
+        "tonalRamp": [
+          "#120a00",
+          "#302300",
+          "#533f00",
+          "#775d12",
+          "#a17d05",
+          "#c6a037",
+          "#e3c67e",
+          "#feedc4"
+        ]
+      },
+      "teal": {
+        "role": "tertiary",
+        "displayName": "Signal Teal",
+        "canonical": "#0f6e60",
+        "darkScheme": "#5fd3b8",
+        "cssVar": "--teal",
+        "tonalRamp": [
+          "#020e0b",
+          "#0d2b25",
+          "#1c4b43",
+          "#2d6e62",
+          "#419384",
+          "#75b3a6",
+          "#a6d5ca",
+          "#d6f7ef"
+        ]
+      },
+      "teal-soft": {
+        "role": "tertiary",
+        "displayName": "Teal Wash",
+        "canonical": "#d3eee6",
+        "darkScheme": "#173a3d",
+        "cssVar": "--teal-soft",
+        "tonalRamp": [
+          "#080c0b",
+          "#1e2725",
+          "#384541",
+          "#536661",
+          "#708981",
+          "#96aaa4",
+          "#bdcdc8",
+          "#e6f1ee"
         ]
       },
       "ink": {
         "role": "neutral",
-        "displayName": "Roast Ink",
-        "canonical": "#23170f",
-        "darkScheme": "#f1e4cc",
+        "displayName": "Navy Ink",
+        "canonical": "#1f2f8f",
+        "darkScheme": "#f2e8d3",
         "cssVar": "--ink",
         "tonalRamp": [
-          "#0c0b0a",
-          "#2a241f",
-          "#4b3f37",
-          "#6d5e54",
-          "#8f7f75",
-          "#b0a299",
-          "#d0c7c2",
-          "#f1eeec"
+          "#050a1c",
+          "#172247",
+          "#2d3d77",
+          "#445baa",
+          "#5d7adf",
+          "#85a1f4",
+          "#b5c8fb",
+          "#e8eefe"
         ]
       },
       "ink-2": {
         "role": "neutral",
-        "displayName": "Ink 2",
-        "canonical": "#4e3726",
-        "darkScheme": "#cdb593",
+        "displayName": "Faded Ink",
+        "canonical": "#46508f",
+        "darkScheme": "#c3c9f2",
         "cssVar": "--ink-2",
         "tonalRamp": [
-          "#0d0a08",
-          "#2d221b",
-          "#513d2e",
-          "#745b49",
-          "#977c69",
-          "#b8a08f",
-          "#d5c6bc",
-          "#f2edea"
+          "#080a16",
+          "#1f233b",
+          "#383f64",
+          "#535d91",
+          "#707dbf",
+          "#95a1d9",
+          "#bdc7f3",
+          "#eaeefe"
         ]
       },
-      "ink-3": {
+      "on-pink": {
         "role": "neutral",
-        "displayName": "Ink 3",
-        "canonical": "#5e4733",
-        "darkScheme": "#b59c7a",
-        "cssVar": "--ink-3",
+        "displayName": "On Pink",
+        "canonical": "#ffffff",
+        "darkScheme": "#161a3a",
+        "cssVar": "--on-pink",
         "tonalRamp": [
-          "#0d0b08",
-          "#2d231a",
-          "#513e2d",
-          "#745c47",
-          "#967d67",
-          "#b7a08d",
-          "#d4c6bb",
-          "#f2edea"
+          "#0c0b09",
+          "#262523",
+          "#434240",
+          "#62615f",
+          "#838280",
+          "#a6a5a2",
+          "#cac9c6",
+          "#efeeeb"
         ]
       },
-      "ochre": {
-        "role": "primary",
-        "displayName": "Price-Tag Ochre",
-        "canonical": "#e2a62a",
-        "darkScheme": "#e2a62a",
-        "cssVar": "--ochre",
+      "on-yellow": {
+        "role": "neutral",
+        "displayName": "On Yellow",
+        "canonical": "#1f2f8f",
+        "darkScheme": "#161a3a",
+        "cssVar": "--on-yellow",
         "tonalRamp": [
-          "#100a02",
-          "#371f00",
-          "#643600",
-          "#8b5400",
-          "#af7600",
-          "#ce9b3a",
-          "#e3c492",
-          "#f7edde"
+          "#050a1c",
+          "#172247",
+          "#2d3d77",
+          "#445baa",
+          "#5d7adf",
+          "#85a1f4",
+          "#b5c8fb",
+          "#e8eefe"
         ]
-      },
-      "ochre-deep": {
-        "role": "primary",
-        "displayName": "Burnt Ochre",
-        "canonical": "#b9811a",
-        "darkScheme": "#f0bd52",
-        "cssVar": "--ochre-deep",
-        "tonalRamp": [
-          "#100a03",
-          "#371f00",
-          "#623700",
-          "#895400",
-          "#ad7600",
-          "#cd9b4f",
-          "#e2c49a",
-          "#f6ede0"
-        ]
-      },
-      "on-ochre": {
-        "role": "primary",
-        "displayName": "Tag Ink",
-        "canonical": "#1f140c",
-        "darkScheme": "#1f140c",
-        "cssVar": "--on-ochre",
-        "tonalRamp": [
-          "#0c0b0a",
-          "#2a241f",
-          "#4b3f38",
-          "#6c5e54",
-          "#8e7f75",
-          "#afa299",
-          "#d0c7c2",
-          "#f0eeec"
-        ]
-      },
-      "olive": {
-        "role": "secondary",
-        "displayName": "Grocer's Olive",
-        "canonical": "#4c5a20",
-        "darkScheme": "#b4c26b",
-        "cssVar": "--olive",
-        "tonalRamp": [
-          "#0a0c06",
-          "#22280f",
-          "#3c4817",
-          "#5a682f",
-          "#7a8a50",
-          "#9ead79",
-          "#c4ceaf",
-          "#edf0e6"
-        ]
-      },
-      "olive-soft": {
-        "role": "secondary",
-        "displayName": "Olive Paper",
-        "canonical": "#dfe1c3",
-        "darkScheme": "#333619",
-        "cssVar": "--olive-soft",
-        "tonalRamp": [
-          "#0b0b08",
-          "#25261b",
-          "#43442e",
-          "#626449",
-          "#838569",
-          "#a6a78f",
-          "#c9cbbc",
-          "#eeefea"
-        ]
-      },
-      "terracotta": {
-        "role": "tertiary",
-        "displayName": "Terracotta",
-        "canonical": "#8f3621",
-        "darkScheme": "#ec8a6c",
-        "cssVar": "--terracotta",
-        "tonalRamp": [
-          "#120806",
-          "#3f170e",
-          "#702615",
-          "#9b412c",
-          "#c1634d",
-          "#e08b76",
-          "#f0bbae",
-          "#fbeae6"
-        ]
-      },
-      "terracotta-soft": {
-        "role": "tertiary",
-        "displayName": "Terracotta Paper",
-        "canonical": "#f0d2c4",
-        "darkScheme": "#44221a",
-        "cssVar": "--terracotta-soft",
-        "tonalRamp": [
-          "#0d0a09",
-          "#2d221d",
-          "#513d33",
-          "#745b4f",
-          "#977c6f",
-          "#b89f94",
-          "#d5c6be",
-          "#f2edeb"
-        ]
-      },
-      "cherry": {
-        "role": "tertiary",
-        "displayName": "Cherry",
-        "canonical": "#8e2433",
-        "darkScheme": "#f08a99",
-        "cssVar": "--cherry",
-        "tonalRamp": [
-          "#130708",
-          "#411318",
-          "#751c29",
-          "#a13743",
-          "#c85a62",
-          "#e78489",
-          "#f5b7b8",
-          "#fde9e9"
-        ]
-      },
-      "cocoa": {
-        "role": "tertiary",
-        "displayName": "Cocoa",
-        "canonical": "#5b3a24",
-        "darkScheme": "#d9ab83",
-        "cssVar": "--cocoa",
-        "tonalRamp": [
-          "#0e0a08",
-          "#312117",
-          "#573b28",
-          "#7c5842",
-          "#9e7962",
-          "#bf9d88",
-          "#d9c4b8",
-          "#f4ede9"
-        ]
-      }
-    },
-    "colorSchemes": {
-      "note": "Every color is a CSS custom property on :root with a dark value under @media (prefers-color-scheme: dark). Additional rail token: --focus (light #4c5a20 olive, dark #e2a62a ochre).",
-      "focus": {
-        "light": "#4c5a20",
-        "dark": "#e2a62a"
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Page title in the counter band, balanced wrap."
+        "purpose": "Page title only; uppercase blue with the 3px pink misregistration plate."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "\"Greek Roasters\" in the rail; 1.6rem one-line in the mobile strip."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Group headings in grouped view, 2px ink rule beneath."
-      },
-      "price": {
-        "displayName": "Price",
-        "purpose": "Kilo-tag numerals; ledger stats at 1.6rem."
+        "purpose": "Grouped-view section headings in pink ink, ruled in blue."
       },
       "title": {
         "displayName": "Title",
         "purpose": "Coffee and roaster names on cards."
       },
+      "price": {
+        "displayName": "Price",
+        "purpose": "The kilo price in the yellow tag; ledger figures use the same weight at 1.9rem."
+      },
       "nav": {
         "displayName": "Nav",
-        "purpose": "Menu items and the result count."
-      },
-      "body": {
-        "displayName": "Body",
-        "purpose": "Lede, notes, all sentences."
-      },
-      "body-small": {
-        "displayName": "Body Small",
-        "purpose": "Subtitles, meta lines, bag options, fine print."
+        "purpose": "Rail menu items; 1.05rem on phones."
       },
       "label": {
         "displayName": "Label",
-        "purpose": "Uppercase filter field labels only."
+        "purpose": "Field labels, chips, ledger captions, count lines."
       },
-      "tag-unit": {
-        "displayName": "Tag Unit",
-        "purpose": "'PER KG' under the tag numeral."
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text: lede, notes, check labels."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Subtitles, captions, facts, status, fine print."
       }
     },
-    "fonts": [
-      {
-        "family": "Fira XC",
-        "source": "Fira Sans Extra Condensed, self-hosted woff2 subsets (OFL)",
-        "weights": [
-          600,
-          700,
-          800
-        ],
-        "files": [
-          "site/fonts/fira-xc-semibold.woff2",
-          "site/fonts/fira-xc-bold.woff2",
-          "site/fonts/fira-xc-extrabold.woff2"
-        ]
-      }
-    ],
     "shadows": [
       {
-        "name": "paper-lift",
-        "value": "0 1px 2px rgb(42 26 17 / 0.10), 0 6px 18px -8px rgb(42 26 17 / 0.30)",
-        "dark": "0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px -10px rgb(0 0 0 / 0.7)",
-        "purpose": "Cards and dropdown menus."
+        "name": "misregistration-display",
+        "value": "text-shadow: 3px 3px 0 var(--pink)",
+        "purpose": "Pink plate under the page title only."
       },
       {
-        "name": "hung-tag",
-        "value": "filter: drop-shadow(0 3px 4px rgb(42 26 17 / 0.35))",
-        "purpose": "The kilo tag only."
+        "name": "misregistration-mark",
+        "value": "filter: drop-shadow(3px 2px 0 var(--pink))",
+        "purpose": "Brand-mark mountain and the top poster shape."
       },
       {
-        "name": "punched-hole",
-        "value": "inset 0 1px 1px rgb(0 0 0 / 0.35)",
-        "purpose": "The tag's hole."
+        "name": "tag-offset",
+        "value": "4px 4px 0 var(--pink)",
+        "purpose": "Yellow price tag."
       },
       {
-        "name": "marker-outline",
-        "value": "filter: drop-shadow(1px 0 0 var(--ink)) drop-shadow(-1px 0 0 var(--ink)) drop-shadow(0 1px 0 var(--ink)) drop-shadow(0 -1px 0 var(--ink))",
-        "purpose": "1px ink outline around the scale marker's tag shape."
+        "name": "button-offset",
+        "value": "4px 4px 0 var(--blue)",
+        "purpose": "Pink-ink button; 2px 2px on :active."
+      }
+    ],
+    "blend": [
+      {
+        "name": "--blend",
+        "light": "multiply",
+        "dark": "screen",
+        "purpose": "Overprinting ink shapes (brand mark, poster shapes, legend shapes)."
+      },
+      {
+        "name": "--type-blend",
+        "light": "multiply",
+        "dark": "normal",
+        "purpose": "Display title."
+      },
+      {
+        "name": "--grain-blend",
+        "light": "multiply",
+        "dark": "screen",
+        "purpose": "Grain overlay."
+      },
+      {
+        "name": "--grain-opacity",
+        "light": "0.16",
+        "dark": "0.10",
+        "purpose": "Fixed fractal-noise sheet (body::after, 180px SVG tile, baseFrequency .85)."
       }
     ],
     "motion": [
       {
         "name": "ease-out-expo",
         "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "Chevron rotation on dropdowns and the mobile filter disclosure, 0.2s."
+        "purpose": "Filter disclosure chevron rotation, 0.2s."
       },
       {
         "name": "reduced-motion",
         "value": "animation: none; transition: none",
-        "purpose": "All motion removed under prefers-reduced-motion: reduce."
+        "purpose": "All motion removed under prefers-reduced-motion."
       }
     ],
     "breakpoints": [
       {
-        "name": "phone",
-        "value": "max-width: 560px"
+        "name": "rail-collapse",
+        "value": "900px",
+        "purpose": "Rail becomes a sticky top strip; legend and rail note hidden; 16px gutters."
       },
       {
-        "name": "dark",
-        "value": "prefers-color-scheme: dark"
+        "name": "phone",
+        "value": "560px",
+        "purpose": "Filters fold into a Filter and sort disclosure; photos 3:2."
       }
-    ]
+    ],
+    "layout": {
+      "rail": "250px",
+      "wrap": "1240px",
+      "gutter": "24px / 16px",
+      "cardMin": "270px (roasters 260px)",
+      "gridGap": "18px",
+      "touchMin": "44px"
+    }
   },
   "components": [
     {
-      "name": "Shop Rail Navigation",
-      "kind": "nav",
-      "refersTo": "nav-link",
-      "description": "Sticky espresso rail with brand and menu; current page in ochre with an underline.",
-      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\"><svg viewBox=\"0 0 32 32\" width=\"28\" height=\"28\" aria-hidden=\"true\"><ellipse cx=\"16\" cy=\"16\" rx=\"9.5\" ry=\"13\" transform=\"rotate(35 16 16)\" fill=\"#e2a62a\"/><path d=\"M10.2 25.4c3.4-3.2 2.6-6.2 4.4-9.2s4.8-4.6 7.2-9.6\" fill=\"none\" stroke=\"#2a1a11\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>Greek Roasters</a><ul class=\"ds-menu\"><li><a class=\"ds-active\" href=\"#\">Αρχική</a></li><li><a href=\"#\">Roasters</a></li><li><a href=\"#\">Coffee <svg viewBox=\"0 0 24 24\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></a></li></ul></nav>",
-      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:12px 20px;flex-wrap:wrap;min-height:60px;padding:0 16px;background:var(--espresso,#2a1a11);color:var(--on-espresso,#e9d7b6);}.ds-brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:800;font-size:1.45rem;line-height:1;text-transform:uppercase;letter-spacing:.02em;color:var(--on-espresso,#e9d7b6);}.ds-menu{list-style:none;margin:0;padding:0;display:flex;gap:2px;}.ds-menu a{display:flex;align-items:center;gap:6px;padding:8px 12px;border-radius:6px;color:var(--on-espresso,#e9d7b6);text-decoration:none;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:600;font-size:1.05rem;line-height:1.2;letter-spacing:.01em;}.ds-menu a svg{color:var(--on-espresso-2,#bfa47c);}.ds-menu a:hover{background:var(--espresso-2,#3b261a);}.ds-menu a:focus-visible{outline:2px solid var(--ochre,#e2a62a);outline-offset:2px;}.ds-menu a.ds-active{color:var(--ochre,#e2a62a);box-shadow:inset 0 -2px 0 var(--ochre,#e2a62a);border-radius:6px 6px 0 0;}"
-    },
-    {
-      "name": "Kilo Tag",
+      "name": "Price Tag",
       "kind": "custom",
-      "refersTo": "kilo-tag",
-      "description": "The headline price: ochre notched tag with a punched hole, hung off the card edge.",
-      "html": "<div class=\"ds-tag\"><strong>€26.60</strong><span>per kg</span></div>",
-      "css": ".ds-tag{position:relative;display:inline-block;background:var(--ochre,#e2a62a);color:var(--on-ochre,#1f140c);padding:6px 12px 7px 22px;border-radius:4px 6px 6px 4px;clip-path:polygon(10px 0,100% 0,100% 100%,10px 100%,0 50%);filter:drop-shadow(0 3px 4px rgb(42 26 17 / .35));text-align:right;line-height:1;}.ds-tag::before{content:\"\";position:absolute;left:10px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--bag,#f1e5cd);box-shadow:inset 0 1px 1px rgb(0 0 0 / .35);}.ds-tag strong{display:block;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:800;font-size:1.7rem;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.01em;}.ds-tag span{display:block;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:.72rem;line-height:1;text-transform:uppercase;letter-spacing:.08em;margin-top:2px;}"
+      "refersTo": "price-tag",
+      "description": "Yellow ink block with navy kilo price and a pink 4px misregistration offset; pinned top-right of every card.",
+      "html": "<div class=\"ds-tag\"><strong>€26.00</strong><span>per kg</span></div>",
+      "css": ".ds-tag { display: inline-block; background: var(--yellow, #f5c330); color: var(--on-yellow, #1f2f8f); padding: 6px 10px 7px; text-align: right; line-height: 1; box-shadow: 4px 4px 0 var(--pink, #e43f7e); } .ds-tag strong { display: block; font: 900 1.85rem/0.95 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); font-variant-numeric: tabular-nums; letter-spacing: -0.005em; } .ds-tag span { display: block; font: 800 0.72rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 3px; }"
     },
     {
-      "name": "Market Scale",
+      "name": "Price Scale",
       "kind": "custom",
-      "refersTo": "bag-card",
-      "description": "Where this kilo price sits in today's market, olive to terracotta, with a tag-shaped marker.",
-      "html": "<figure class=\"ds-scale\"><div class=\"ds-track\"><span class=\"ds-mark\" style=\"--pos:12%\"></span></div><figcaption><b>Cheaper than 88%</b> of coffees in stock</figcaption></figure>",
-      "css": ".ds-scale{margin:0;display:grid;gap:5px;padding-top:14px;max-width:260px;}.ds-track{position:relative;height:13px;background:repeating-linear-gradient(90deg,var(--ink-3,#5e4733) 0 1px,transparent 1px 10%) 0 100% / calc(100% + 1px) 6px no-repeat,linear-gradient(90deg,var(--olive,#4c5a20) 0%,var(--ochre,#e2a62a) 50%,var(--terracotta,#8f3621) 100%) 0 0 / 100% 6px no-repeat;}.ds-mark{position:absolute;bottom:4px;left:var(--pos,50%);width:14px;height:18px;margin-left:-7px;filter:drop-shadow(1px 0 0 var(--ink,#23170f)) drop-shadow(-1px 0 0 var(--ink,#23170f)) drop-shadow(0 1px 0 var(--ink,#23170f)) drop-shadow(0 -1px 0 var(--ink,#23170f));}.ds-mark::after{content:\"\";position:absolute;inset:0;background:radial-gradient(circle at 50% 6px,var(--on-ochre,#1f140c) 0 2px,var(--ochre,#e2a62a) 2.5px);clip-path:polygon(0 0,100% 0,100% 62%,50% 100%,0 62%);}.ds-scale figcaption{font-size:.82rem;color:var(--ink-2,#4e3726);}.ds-scale b{color:var(--ink,#23170f);font-weight:600;}"
+      "refersTo": "price-scale",
+      "description": "Three-ink band with a pink marker at this coffee's €/kg percentile among coffees in stock.",
+      "html": "<figure class=\"ds-scale\"><div class=\"ds-scale-track\"><span class=\"ds-scale-mark\" style=\"--pos: 12%\"></span></div><figcaption><b>Cheaper than 88%</b> of coffees in stock</figcaption></figure>",
+      "css": ".ds-scale { margin: 0; display: grid; gap: 6px; width: 260px; } .ds-scale-track { position: relative; height: 18px; background: linear-gradient(90deg, var(--blue, #2140b8) 0 33.33%, var(--yellow, #f5c330) 33.33% 66.66%, var(--pink, #e43f7e) 66.66% 100%) 0 50% / 100% 6px no-repeat; } .ds-scale-mark { position: absolute; top: 0; left: var(--pos, 50%); width: 18px; height: 18px; margin-left: -9px; border-radius: 50%; background: var(--pink, #e43f7e); border: 2.5px solid var(--blue, #2140b8); } .ds-scale figcaption { font: 0.82rem/1.4 system-ui, sans-serif; color: var(--ink-2, #46508f); } .ds-scale b { color: var(--ink, #1f2f8f); }"
     },
     {
-      "name": "Bag Card",
+      "name": "Coffee Card",
       "kind": "card",
-      "refersTo": "bag-card",
-      "description": "A coffee on the counter: bag paper, stitched seam footer, kilo tag overhanging the right edge.",
-      "html": "<article class=\"ds-card\"><div class=\"ds-ctag\"><strong>€25.00</strong><span>per kg</span></div><h3><a href=\"#\">Spinos Presidente</a></h3><p class=\"ds-sub\">Spinos</p><p class=\"ds-notes\">Milk chocolate, hazelnut, caramel.</p><ul class=\"ds-opts\"><li><b>250 g</b> €6.30</li><li><b>500 g</b> €12.50</li><li><b>1 kg</b> €25.00</li></ul></article>",
-      "css": ".ds-card{position:relative;max-width:280px;background:var(--bag,#f1e5cd);color:var(--ink,#23170f);border:1px solid var(--bag-line,#c9b088);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 2px rgb(42 26 17 / .10),0 6px 18px -8px rgb(42 26 17 / .30);font:16px/1.5 system-ui,sans-serif;}.ds-card h3{margin:0;padding-right:96px;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:1.28rem;line-height:1.12;}.ds-card h3 a{color:inherit;text-decoration:none;}.ds-card h3 a:hover{text-decoration:underline;}.ds-card h3 a:focus-visible{outline:2px solid var(--focus,#4c5a20);outline-offset:2px;border-radius:4px;}.ds-sub{margin:-7px 0 0;font-size:.88rem;color:var(--ink-2,#4e3726);}.ds-notes{margin:0;font-size:.9rem;color:var(--ink-2,#4e3726);}.ds-opts{list-style:none;margin:0;padding:10px 0 0;border-top:1px dashed var(--bag-line,#c9b088);display:flex;flex-wrap:wrap;gap:4px 16px;font-size:.88rem;color:var(--ink-2,#4e3726);font-variant-numeric:tabular-nums;}.ds-opts b{color:var(--ink,#23170f);font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:.95rem;margin-right:3px;}.ds-ctag{position:absolute;top:10px;right:-6px;background:var(--ochre,#e2a62a);color:var(--on-ochre,#1f140c);padding:6px 12px 7px 22px;border-radius:4px 6px 6px 4px;clip-path:polygon(10px 0,100% 0,100% 100%,10px 100%,0 50%);filter:drop-shadow(0 3px 4px rgb(42 26 17 / .35));text-align:right;line-height:1;}.ds-ctag::before{content:\"\";position:absolute;left:10px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--bag,#f1e5cd);box-shadow:inset 0 1px 1px rgb(0 0 0 / .35);}.ds-ctag strong{display:block;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:800;font-size:1.7rem;font-variant-numeric:tabular-nums;}.ds-ctag span{display:block;font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;margin-top:2px;}"
-    },
-    {
-      "name": "Filter Field",
-      "kind": "input",
-      "refersTo": "input-field",
-      "description": "Labelled select on the window fill, uppercase condensed label above.",
-      "html": "<label class=\"ds-field\"><span>Origin</span><select class=\"ds-select\"><option>All origins</option><option>Ethiopia</option></select></label>",
-      "css": ".ds-field{display:flex;flex-direction:column;gap:4px;max-width:220px;}.ds-field>span{font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:600;font-size:.82rem;line-height:1;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3,#5e4733);}.ds-select{width:100%;min-height:42px;padding:9px 34px 9px 12px;border:1px solid var(--bag-line,#c9b088);border-radius:6px;background-color:var(--window,#fff);color:#23170f;font:inherit;font-size:.95rem;appearance:none;background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b4331' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E\");background-repeat:no-repeat;background-position:right 10px center;background-size:16px;}.ds-select:focus-visible{outline:2px solid var(--focus,#4c5a20);outline-offset:1px;}"
-    },
-    {
-      "name": "Search Input",
-      "kind": "input",
-      "refersTo": "input-field",
-      "description": "Full-width search on the filter counter with a leading magnifier.",
-      "html": "<input class=\"ds-search\" type=\"search\" placeholder=\"Search coffee, roaster, notes, farm…\" aria-label=\"Search\">",
-      "css": ".ds-search{width:100%;max-width:420px;min-height:42px;padding:9px 12px 9px 38px;border:1px solid var(--bag-line,#c9b088);border-radius:6px;background-color:var(--window,#fff);color:#23170f;font:inherit;font-size:.95rem;background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b4331' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E\");background-repeat:no-repeat;background-position:12px center;background-size:17px;}.ds-search::placeholder{color:#7a634e;}.ds-search:focus-visible{outline:2px solid var(--focus,#4c5a20);outline-offset:1px;}"
+      "refersTo": "card",
+      "description": "Fresh-sheet tile in a 1.5px pink keyline, square corners, 14px padding.",
+      "html": "<article class=\"ds-card\"><h3><a href=\"#\">Guatemala Finca Miralvalle</a></h3><p class=\"ds-sub\">Spinos · Guatemala</p><ul class=\"ds-opts\"><li><b>250 g</b> €6.50</li><li><b>500 g</b> €13.00</li></ul></article>",
+      "css": ".ds-card { background: var(--sheet, #f8f1e2); border: 1.5px solid var(--pink, #e43f7e); padding: 14px; display: flex; flex-direction: column; gap: 10px; width: 280px; } .ds-card h3 { margin: 0; font: 800 1.4rem/1.02 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; color: var(--blue, #2140b8); } .ds-card h3 a { color: inherit; text-decoration: none; } .ds-card h3 a:hover { text-decoration: underline; text-decoration-color: var(--pink, #e43f7e); } .ds-card h3 a:focus-visible { outline: 2.5px solid var(--pink, #e43f7e); outline-offset: 2px; } .ds-sub { margin: 0; font: 0.88rem/1.4 system-ui, sans-serif; color: var(--ink-2, #46508f); } .ds-opts { list-style: none; margin: 0; padding: 10px 0 0; border-top: 1.5px solid var(--pink, #e43f7e); display: flex; gap: 4px 16px; font: 0.88rem system-ui, sans-serif; color: var(--ink-2, #46508f); } .ds-opts b { color: var(--blue, #2140b8); font: 800 1rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); margin-right: 3px; }"
     },
     {
       "name": "Chips",
       "kind": "chip",
       "refersTo": "chip",
-      "description": "Flavour, roast and price-change chips; price changes carry market colours.",
-      "html": "<p class=\"ds-chips\"><span class=\"ds-chip ds-drop\"><svg viewBox=\"0 0 24 24\" width=\"13\" height=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14m-6-6 6 6 6-6\"/></svg>8% since last check</span><span class=\"ds-chip ds-rise\"><svg viewBox=\"0 0 24 24\" width=\"13\" height=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 19V5m-6 6 6-6 6 6\"/></svg>5% since last check</span><span class=\"ds-chip\"><span class=\"ds-dot\" style=\"color:var(--cherry,#8e2433)\"></span>Fruity / floral</span><span class=\"ds-chip\">Light roast</span><span class=\"ds-chip ds-sold\">Sold out</span></p>",
-      "css": ".ds-chips{margin:0;display:flex;flex-wrap:wrap;gap:6px;}.ds-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--bag-line,#c9b088);border-radius:4px;padding:2px 8px;font:.8rem/1.5 system-ui,sans-serif;color:var(--ink,#23170f);background:var(--ground,#d2b78c);}.ds-dot{width:8px;height:8px;border-radius:50%;background:currentColor;}.ds-drop{background:var(--olive-soft,#dfe1c3);border-color:transparent;color:var(--olive,#4c5a20);font-weight:600;}.ds-rise{background:var(--terracotta-soft,#f0d2c4);border-color:transparent;color:var(--terracotta,#8f3621);font-weight:600;}.ds-sold{background:var(--ink,#23170f);color:var(--bag,#f1e5cd);border-color:transparent;font-weight:600;}"
+      "description": "Square outlined caps chips; taste chips lead with an ink shape, state chips are filled washes.",
+      "html": "<p class=\"ds-chips\"><span class=\"ds-chip\"><span class=\"ds-dot ds-fruity\"></span>Fruity / floral</span><span class=\"ds-chip\"><span class=\"ds-dot ds-choc\"></span>Chocolate / nutty</span><span class=\"ds-chip ds-drop\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5v14m-6-6 6 6 6-6\"/></svg>12% since last check</span><span class=\"ds-chip ds-rise\">5% since last check</span><span class=\"ds-chip ds-sold\">Sold out</span></p>",
+      "css": ".ds-chips { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; } .ds-chip { display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid var(--blue, #2140b8); padding: 2px 8px; font: 700 0.85rem/1.3 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.03em; color: var(--blue, #2140b8); } .ds-dot { width: 11px; height: 11px; } .ds-fruity { background: var(--pink, #e43f7e); border-radius: 50%; } .ds-choc { background: var(--blue, #2140b8); clip-path: polygon(50% 0, 100% 100%, 0 100%); } .ds-drop { background: var(--teal-soft, #d3eee6); border-color: transparent; color: var(--teal, #0f6e60); } .ds-rise { background: var(--pink-soft, #fbd6e4); border-color: transparent; color: var(--pink-ink, #b8205a); } .ds-sold { background: var(--blue, #2140b8); border-color: transparent; color: var(--paper, #f2e8d3); }"
     },
     {
-      "name": "Clear Filters Button",
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Square cream field with a 1.5px blue stroke, pink-ink caps label, pink focus ring.",
+      "html": "<label class=\"ds-field\"><span>Origin</span><input type=\"search\" placeholder=\"Search coffee, roaster, notes, farm…\"></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 5px; width: 300px; } .ds-field > span { font: 700 0.85rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); letter-spacing: 0.05em; text-transform: uppercase; color: var(--pink-ink, #b8205a); } .ds-field input { min-height: 44px; padding: 9px 12px; border: 1.5px solid var(--blue, #2140b8); border-radius: 0; background: var(--field, #fffaf0); color: #1f2f8f; font: 1rem system-ui, sans-serif; } .ds-field input::placeholder { color: #5a6399; } .ds-field input:focus-visible { outline: 2.5px solid var(--pink, #e43f7e); outline-offset: 1px; }"
+    },
+    {
+      "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The only button: olive action in the empty state.",
-      "html": "<button class=\"ds-btn\" type=\"button\">Clear filters</button>",
-      "css": ".ds-btn{font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:1rem;line-height:1;padding:10px 16px;border-radius:6px;border:0;background:var(--olive,#4c5a20);color:var(--bag,#f1e5cd);cursor:pointer;}.ds-btn:focus-visible{outline:2px solid var(--focus,#4c5a20);outline-offset:2px;}"
+      "description": "The one filled button (empty-state reset): pink-ink block with a 4px blue offset that it presses into.",
+      "html": "<button class=\"ds-btn\">Clear filters</button>",
+      "css": ".ds-btn { font: 800 1.1rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.04em; padding: 12px 20px; border: 0; border-radius: 0; background: var(--pink-ink, #b8205a); color: var(--on-pink, #fff); box-shadow: 4px 4px 0 var(--blue, #2140b8); cursor: pointer; } .ds-btn:focus-visible { outline: 2.5px solid var(--pink, #e43f7e); outline-offset: 2px; } .ds-btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--blue, #2140b8); }"
     },
     {
-      "name": "See Coffees Link",
-      "kind": "custom",
+      "name": "Text Link",
+      "kind": "button",
       "refersTo": "link-more",
-      "description": "Olive condensed text action with a trailing arrow on roaster cards.",
-      "html": "<a class=\"ds-more\" href=\"#\">See 14 coffees <svg viewBox=\"0 0 24 24\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
-      "css": ".ds-more{display:inline-flex;align-items:center;gap:6px;color:var(--olive,#4c5a20);font-family:\"Fira XC\",\"Arial Narrow\",system-ui,sans-serif;font-weight:700;font-size:1.02rem;line-height:1;text-decoration:none;padding:6px 0;}.ds-more:hover{text-decoration:underline;}.ds-more:focus-visible{outline:2px solid var(--focus,#4c5a20);outline-offset:2px;border-radius:4px;}"
+      "description": "Pink-ink caps link with a 2px underline rule and arrow; blue on hover.",
+      "html": "<a class=\"ds-more\" href=\"#\">See 14 coffees <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-more { display: inline-flex; align-items: center; gap: 8px; color: var(--pink-ink, #b8205a); font: 800 1.05rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.04em; text-decoration: none; padding: 6px 0; border-bottom: 2px solid currentColor; } .ds-more:hover { color: var(--blue, #2140b8); } .ds-more:focus-visible { outline: 2.5px solid var(--pink, #e43f7e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Left-rail menu in blue condensed caps; active item in pink ink with a pink dot; closed by a 2px pink rule.",
+      "html": "<ul class=\"ds-menu\"><li><a href=\"#\" class=\"ds-active\" aria-current=\"page\" lang=\"el\">Αρχική</a></li><li><a href=\"#\">Roasters</a></li><li><a href=\"#\">Blends</a></li><li><a href=\"#\">Single Origin</a></li><li><a href=\"#\">Decaf</a></li></ul>",
+      "css": ".ds-menu { list-style: none; margin: 0; padding: 0 0 22px; width: 200px; display: flex; flex-direction: column; gap: 2px; border-bottom: 2px solid var(--pink, #e43f7e); } .ds-menu a { display: block; padding: 6px 0; color: var(--blue, #2140b8); text-decoration: none; font: 700 1.2rem/1.15 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.03em; } .ds-menu a:hover, .ds-menu a.ds-active { color: var(--pink-ink, #b8205a); } .ds-menu a.ds-active::before { content: ''; display: inline-block; width: 9px; height: 9px; margin: 0 8px 2px 0; border-radius: 50%; background: var(--pink, #e43f7e); vertical-align: middle; } .ds-menu a:focus-visible { outline: 2.5px solid var(--pink, #e43f7e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ledger",
+      "kind": "custom",
+      "refersTo": "ledger-cell",
+      "description": "Poster-header figure cells: fresh sheet, 2px blue keyline, 900 tabular figure over a caps caption.",
+      "html": "<ul class=\"ds-ledger\"><li><b>460</b>Coffees</li><li><b>31</b>Roasters</li><li><b>€15.50</b>Cheapest per kg</li></ul>",
+      "css": ".ds-ledger { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; } .ds-ledger li { background: var(--sheet, #f8f1e2); border: 2px solid var(--blue, #2140b8); padding: 8px 14px 10px; font: 700 0.85rem/1.1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-2, #46508f); } .ds-ledger b { display: block; font: 900 1.9rem/1 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); color: var(--blue, #2140b8); font-variant-numeric: tabular-nums; letter-spacing: 0; }"
+    },
+    {
+      "name": "Display Title",
+      "kind": "custom",
+      "refersTo": "typography.display",
+      "description": "Giant condensed caps in blue with a 3px pink misregistration plate, multiplied onto paper.",
+      "html": "<h1 class=\"ds-h1\">Specialty coffee from Greek roasters</h1>",
+      "css": ".ds-h1 { margin: 0; max-width: 640px; font: 900 4rem/0.9 var(--display, 'Fira XC', 'Arial Narrow', sans-serif); text-transform: uppercase; letter-spacing: -0.005em; color: var(--blue, #2140b8); text-shadow: 3px 3px 0 var(--pink, #e43f7e); text-wrap: balance; mix-blend-mode: var(--type-blend, multiply); }"
     }
   ],
   "narrative": {
-    "northStar": "The Bakaliko Counter",
-    "overview": "The site is an old Greek grocer's shop where everything is sold by the kilo. An espresso-brown shop rail runs across the top, the floor is kraft-paper tan, and every coffee sits on the counter as a pale paper bag with a stitched seam and an ochre price tag hanging off its edge. The kilo price is the first thing you read on every bag, set in heavy condensed numerals on that tag, and directly under it a small graduated scale shows where the price sits in today's market, from olive (cheap) through ochre to terracotta (dear).\n\nThe density is a working shop, not a showroom: a full filter counter, a four-up grid of bags on desktop, everything scannable on a phone. Condensed grotesk carries the voice (prices, names, labels, navigation); a system UI face carries everything you read at length. Colour is earthy and warm throughout, with ochre reserved for price and the current place, olive for action and falling prices, terracotta for rising prices and stale data.\n\nThe world deliberately refuses the category default of a white e-commerce grid with a brown accent. White appears only as the \"window\" inside controls and behind product photos in dark mode, never as the ground.",
+    "northStar": "The Riso Poster Wall",
+    "overview": "The site is a risograph print shop's wall with the Greek coffee market pinned up on it. Everything is printed in three inks (fluorescent pink, riso blue, sunflower yellow) on warm cream paper, overprinted with multiply blending so where two inks cross a third colour appears, and a fixed grain sheet lies over the whole print. Headings are giant black-weight condensed caps in blue with a pink plate printed a few pixels out of register. The kilo price is the loudest ink on every sheet: a yellow block with blue numerals.\n\nDensity is a working market list, not a showroom. A printed left rail carries the wordmark, a geometric mark, the menu and a shape legend; the page to the right opens with a poster header (overprinting circles, triangles and blocks behind the title) and then goes straight to filters and a tight card grid. Corners are square everywhere; rules are 1.5-2px ink lines. Depth only ever comes from ink: overprint, misregistration offset, grain. In dark mode the same press runs on navy paper, the inks lighten and blend by screen instead of multiply.",
     "keyCharacteristics": [
-      "Kraft ground, espresso rail, bag-paper cards with a dashed stitched seam.",
-      "The ochre kilo tag with a punched hole, hung off the card's right edge, holds the headline price.",
-      "A per-card market scale (olive to ochre to terracotta) with a tag-shaped marker.",
-      "Condensed Fira Sans Extra Condensed for numerals and labels; system UI for body text.",
-      "Tabular numerals wherever prices or counts line up.",
-      "Full light and dark schemes from one token set; dark is roasted, not inverted grey."
+      "Cream paper (`paper`) under a fixed fractal-noise grain at 16% opacity (10% in dark).",
+      "Three inks only, plus a teal signal ink reserved for \"fresh\" and \"price dropped\".",
+      "Fira Sans Extra Condensed, uppercase, 700-900, for every heading, label, number and nav item; the system UI face for reading text.",
+      "Pink misregistration (3px text-shadow on display type, 3-4px offset on the price tag) as the signature print artefact.",
+      "Overprinting flat geometric shapes (circle, triangle, square/block) with `mix-blend-mode: multiply` (screen in dark).",
+      "Square corners, 1.5-2px ink rules, no soft shadows, no gradients except the three-band price scale."
     ],
     "rules": [
       {
-        "name": "The Market Colours Rule",
-        "body": "Ochre is price and place, olive is action and cheaper, terracotta is dearer and stale. Never use one of these three for the other's meaning, and never as decoration.",
+        "name": "The Three Inks Rule",
+        "body": "Decorative colour is pink, blue and yellow and nothing else. Teal is a signal, never a decoration; a fourth decorative hue breaks the press.",
         "section": "colors"
       },
       {
-        "name": "The Kraft Floor Rule",
-        "body": "The page ground is kraft tan (light) or roasted brown (dark), never white or grey. White exists only inside controls.",
+        "name": "The Overprint Rule",
+        "body": "Ink shapes that overlap blend with `multiply` on paper and `screen` on navy (`--blend`). The crossing colour is the point; never stack opaque shapes.",
         "section": "colors"
       },
       {
-        "name": "The Condensed Numeral Rule",
-        "body": "Prices, counts, sizes and names are set in the condensed face; prices and anything that lines up in columns use tabular numerals.",
+        "name": "The Yellow Carries Blue Rule",
+        "body": "Yellow is always printed with blue (`on-yellow`) on top. White or pink on yellow is never legible enough.",
+        "section": "colors"
+      },
+      {
+        "name": "The Misregistration Rule",
+        "body": "Only the display title gets the pink text plate (3px 3px 0). Smaller headings print in one ink; a doubled plate at card size turns to mush.",
         "section": "typography"
       },
       {
-        "name": "The Sentences Are System Rule",
-        "body": "Anything read as a sentence (lede, notes, captions, fine print) stays in the system UI face. Condensed body copy is not part of this world.",
+        "name": "The Condensed Caps Rule",
+        "body": "Anything that is a heading, number, label or button is Fira XC in uppercase at 700 or heavier. Sentences are never set in it.",
         "section": "typography"
       },
       {
-        "name": "The One Hung Object Rule",
-        "body": "Only the kilo tag casts a silhouette shadow. Everything else is either paper lift or flat.",
+        "name": "The Rail Rule",
+        "body": "Navigation lives in the left rail on desktop and becomes a top strip on phones; there is no separate header bar.",
+        "section": "layout"
+      },
+      {
+        "name": "The Second Plate Rule",
+        "body": "An offset is a second ink, never grey or black, never blurred, and never more than 4px.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "**Do** put the kilo price on an ochre kilo tag on every coffee and roaster card, in 800 condensed tabular numerals.",
-      "**Do** keep ochre, olive and terracotta to their market meanings (The Market Colours Rule).",
-      "**Do** use the dashed bag-seam line to separate a card's footer facts from its body.",
-      "**Do** define every new colour as a custom property with both a light and a dark value.",
-      "**Do** keep control text and borders legible on the light window fill in both schemes.",
-      "**Do** show missing or stale data in words (\"Not stated\", stale status in terracotta) rather than hiding it.",
-      "**Do** use stroked SVG icons (2px stroke, round caps, 1em) from the shared sprite."
+      "**Do** print every decorative mark in pink, blue or yellow, and let overlaps blend (`--blend`: multiply on paper, screen on navy).",
+      "**Do** keep the kilo price in the yellow tag with blue numerals and the pink 4px offset, and keep the three-ink scale under it.",
+      "**Do** set headings, numbers, labels, nav and buttons in Fira XC uppercase at 700-900; set sentences in the system face.",
+      "**Do** keep corners square and draw edges as 1.5-2px ink keylines.",
+      "**Do** use pink ink (`pink-ink`), not fluorescent pink, for any pink text.",
+      "**Do** code taste by shape and ink together (pink circle, blue triangle, yellow square).",
+      "**Do** keep form fields as cream paper with navy text in both schemes, at least 44px tall."
     ],
     "donts": [
-      "**Don't** use a white or grey page ground; the floor is kraft (The Kraft Floor Rule).",
-      "**Don't** give any element other than the kilo tag a silhouette drop shadow (The One Hung Object Rule).",
-      "**Don't** set sentences in the condensed face, or prices in the system face.",
-      "**Don't** use ochre for buttons or links; action is olive.",
-      "**Don't** add a hardcoded light-on-olive colour without checking it against the dark-scheme olive, which is light."
+      "**Don't** add soft, blurred, grey or black shadows; the only offset is a second ink of up to 4px.",
+      "**Don't** round corners on cards, tags, chips, inputs or buttons.",
+      "**Don't** use teal decoratively; it means fresh data or a price drop.",
+      "**Don't** put the pink misregistration plate on anything smaller than the page title.",
+      "**Don't** print white or pink text on yellow.",
+      "**Don't** add gradients beyond the three-band price scale."
     ]
   }
 }
