@@ -262,3 +262,23 @@ def test_coffee_names_that_mention_ibrik_or_box():
     assert not is_excluded("Juice Box Colombia - DAK")
     assert is_excluded("BRAZIL – ETHIOPIA CEZVE/IBRIK SPECIALTY COFFEE")
     assert is_excluded("Gift box")
+
+
+def test_tea_chocolate_and_coffee_makers_excluded():
+    from scraper.text import is_excluded, is_non_coffee_category
+    from scraper.build import keep
+    assert is_excluded("Chocolate 1kg")
+    assert not is_excluded("Ethiopia Guji chocolate notes")
+    assert is_excluded("Καφετιέρα Φίλτρου Moccamaster KBG Select Πράσινη")
+    assert is_non_coffee_category(["Τσάι & Αφεψήματα"])
+    assert not is_non_coffee_category(["Specialty Coffee", "Espresso"])
+    kolektiva = {"exclude": ["Cold Remedy", "Exotic Touch"]}
+    assert not keep(kolektiva, {"name": "Cold Remedy Bio"})
+    assert keep(kolektiva, {"name": "Trip to Peru #Jaguar"})
+
+
+def test_woo_product_in_tea_category_skipped():
+    from scraper.platforms import parse_woo_product
+    product = {"name": "Sunny Twist", "categories": [{"name": "Tea"}],
+               "prices": {"price": "680", "currency_minor_unit": 2}, "permalink": "x"}
+    assert parse_woo_product(product) is None

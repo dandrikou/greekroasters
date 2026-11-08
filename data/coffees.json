@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T11:21+00:00",
+ "generated_at": "2026-11-08T18:51+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -81,9 +81,9 @@
    "source": "live",
    "last_checked": "2026-11-08",
    "error": null,
-   "coffees": 11,
-   "cheapest_per_kg": 15.5,
-   "median_per_kg": 46.0
+   "coffees": 10,
+   "cheapest_per_kg": 44.0,
+   "median_per_kg": 48.5
   },
   {
    "id": "samba",
@@ -347,9 +347,9 @@
    "source": "live",
    "last_checked": "2026-11-08",
    "error": null,
-   "coffees": 31,
+   "coffees": 20,
    "cheapest_per_kg": 34.15,
-   "median_per_kg": 68.0
+   "median_per_kg": 61.6
   },
   {
    "id": "handpickers",
@@ -451,36 +451,6 @@
   }
  ],
  "coffees": [
-  {
-   "id": "roastingwarehouse:chocolate",
-   "roaster_id": "roastingwarehouse",
-   "roaster": "Roasting Warehouse",
-   "name": "Chocolate 1kg",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.roastingwarehouse.gr/products/chocolate-1kg",
-   "image": "https://cdn.shopify.com/s/files/1/0836/5057/6719/files/362a2a60f78b0d8be57379f7c3b54150.jpg?v=1732290466&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 1000,
-     "price": 15.5,
-     "in_stock": true,
-     "per_kg": 15.5
-    }
-   ],
-   "best_per_kg": 15.5,
-   "cheapest_bag": 15.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 15.5,
-   "price_changed_on": null
-  },
   {
    "id": "spinos:spinos-presidente",
    "roaster_id": "spinos",
@@ -9370,186 +9340,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:exotic-touch",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Exotic Touch",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/exotic-touch/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/exotic-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:sunny-twist",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Sunny Twist",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/sunny-twist/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/sunny-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:spicy-sip",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Spicy Sip",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/spicy-sip/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/spicy-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:red-forest",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Red Forest",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/rose-bloom/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/redf-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:citrus-garden",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Citrus Garden",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/citrus-garden/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/citrus-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:autumn-moment",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Autumn Moment",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/autumn-moment/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/autumn-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 100,
-     "price": 6.8,
-     "in_stock": true,
-     "per_kg": 68.0
-    }
-   ],
-   "best_per_kg": 68.0,
-   "cheapest_bag": 6.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 68.0,
-   "price_changed_on": null
-  },
-  {
    "id": "sortie:guatemala",
    "roaster_id": "sortie",
    "roaster": "Sortie",
@@ -12228,126 +12018,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-πορτοκαλ",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Πορτοκαλί",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-portokali/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/10/kafetiera_moccamaster_orange-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 2800,
-     "price": 279.0,
-     "in_stock": true,
-     "per_kg": 99.64
-    }
-   ],
-   "best_per_kg": 99.64,
-   "cheapest_bag": 279.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 99.64,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-πρ-σινη",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Πράσινη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-prasini/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/10/moccamaster-coffee-machine-kbg-select-forest-green-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 2800,
-     "price": 279.0,
-     "in_stock": true,
-     "per_kg": 99.64
-    }
-   ],
-   "best_per_kg": 99.64,
-   "cheapest_bag": 279.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 99.64,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-κ-κκινη",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Κόκκινη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://roasters-kolektiva.com/product/kafetiera-filtrou-moccamaster-kbg-select-kokkini/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/09/kafetiera_moccamaster_red-407x407.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 2800,
-     "price": 279.0,
-     "in_stock": true,
-     "per_kg": 99.64
-    }
-   ],
-   "best_per_kg": 99.64,
-   "cheapest_bag": 279.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 99.64,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:καφετι-ρα-φ-λτρου-moccamaster-kbg-select-παστ-λ-πρ-σινη",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Καφετιέρα Φίλτρου Moccamaster KBG Select Παστέλ Πράσινη",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Light",
-   "roast_basis": "Inferred: filter roast",
-   "url": "https://roasters-kolektiva.com/product/kafetiera-filrtou-moccamaster-kbg-select-pastel-prasini/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2024/12/moccamaster-pastel-green-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 2800,
-     "price": 279.0,
-     "in_stock": true,
-     "per_kg": 99.64
-    }
-   ],
-   "best_per_kg": 99.64,
-   "cheapest_bag": 279.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 99.64,
-   "price_changed_on": null
-  },
-  {
    "id": "underdog:colombia-jairo-arcila-peach",
    "roaster_id": "underdog",
    "roaster": "The Underdog",
@@ -13801,36 +13471,6 @@
    "cheapest_bag": 16.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 160.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kolektiva:cold-remedy-bio",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Cold Remedy Bio",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/cold-remedy-bio/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2018/09/cold-407x407.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 35,
-     "price": 6.5,
-     "in_stock": true,
-     "per_kg": 185.71
-    }
-   ],
-   "best_per_kg": 185.71,
-   "cheapest_bag": 6.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 185.71,
    "price_changed_on": null
   },
   {

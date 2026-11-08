@@ -10,7 +10,7 @@ import json
 import re
 from urllib.parse import urljoin
 
-from .text import is_excluded, parse_size_g, strip_html
+from .text import is_excluded, is_non_coffee_category, parse_size_g, strip_html
 
 MAX_PAGES = 20
 
@@ -109,7 +109,7 @@ def parse_woo_product(product, variation_lookup=None):
     """variation_lookup(variation_id) -> Store API product dict, used for per-size prices."""
     name = strip_html(product.get("name", ""))
     categories = [c.get("name", "") for c in product.get("categories", [])]
-    if is_excluded(name):
+    if is_excluded(name) or is_non_coffee_category(categories):
         return None
     text = strip_html(product.get("short_description", "")) + "\n" + strip_html(product.get("description", ""))
     attrs_text = "\n".join(

@@ -14,7 +14,7 @@ from urllib.parse import unquote, urlsplit
 
 from .http import Client
 from .platforms import ADAPTERS, _dedupe_options
-from .text import SIZE_RE, find_notes, find_origin, find_process, find_type, roast_level, taste_group
+from .text import SIZE_RE, is_excluded, find_notes, find_origin, find_process, find_type, roast_level, taste_group
 
 ROOT = Path(__file__).resolve().parent.parent
 ROASTERS_FILE = ROOT / "roasters.json"
@@ -135,6 +135,16 @@ def seed_products(roaster_id, seed):
     return [p for p in grouped.values() if p["options"]]
 
 
+def keep(roaster, item):
+    """Drop non-coffee items: the shared exclusion rules plus the roaster's own "exclude" name list.
+    Also applied to carried-over data, so a new rule takes effect even when a shop is down."""
+    name = item.get("name", "")
+    if is_excluded(name):
+        return False
+    lowered = name.lower()
+    return not any(word.lower() in lowered for word in roaster.get("exclude", []))
+
+
 def run(only=None, offline=False):
     today = dt.date.today().isoformat()
     roasters = load_json(ROASTERS_FILE, [])
@@ -176,6 +186,7 @@ def run(only=None, offline=False):
                 items = [enrich(roaster, r, s_url, s_name) for r in merge_same_coffee(seed_products(rid, seed))]
                 status.update(source="manual", last_checked=max((i.get("checked", "") for i in seed if i["roaster_id"] == rid), default=None))
             status["error"] = error or (None if (not adapter or offline) else "no products found")
+        items = [i for i in items if keep(roaster, i)]
         for item in items:
             old = prev_coffees.get(item["id"])
             item["first_seen"] = (old or {}).get("first_seen", today)
