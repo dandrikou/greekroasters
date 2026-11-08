@@ -5,85 +5,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Greek Roasters</title>
   <meta name="description" content="Specialty coffee beans from Greek roasters, compared by price per kg and updated daily.">
+  <meta name="theme-color" content="#f2e8d3">
+  <link rel="preload" href="fonts/fira-xc-black.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav" aria-label="Main">
-    <div class="wrap nav-row">
-      <a class="brand" href="index.html">Greek Roasters</a>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14m-6-6 6 6 6-6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h10m4 0h2M4 17h4m4 0h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  </svg>
+  <div class="shell">
+  <aside class="rail">
+    <a class="brand" href="index.html" aria-label="Greek Roasters, home">
+      <span class="brand-word"><span>Greek</span> <span>Roasters</span></span>
+      <svg class="brand-mark" viewBox="0 0 120 70" aria-hidden="true">
+        <circle cx="78" cy="24" r="20" fill="var(--pink)"/>
+        <circle cx="40" cy="30" r="14" fill="var(--yellow)"/>
+        <path d="M0 70 38 24 62 52 78 36 120 70Z" fill="var(--blue)"/>
+      </svg>
+    </a>
+    <nav aria-label="Main">
       <ul class="menu">
-        <li><a href="index.html" data-nav="home">Αρχική</a></li>
+        <li><a href="index.html" data-nav="home" lang="el">Αρχική</a></li>
         <li><a href="roasters.html" data-nav="roasters">Roasters</a></li>
-        <li><details class="drop"><summary data-nav="coffee">Coffee</summary>
-          <ul>
-            <li><a href="index.html?type=Blend">Blends</a></li>
-            <li><a href="index.html?type=Single+origin">Single Origin</a></li>
-            <li><a href="index.html?type=Decaf">Decaf</a></li>
-          </ul></details></li>
-        <li><details class="drop"><summary data-nav="single">Single Origin</summary>
-          <ul>
-            <li><a href="index.html?type=Single+origin&amp;group=origin">Sort per origin</a></li>
-            <li><a href="index.html?type=Single+origin&amp;group=taste">Sort per flavour profile</a></li>
-          </ul></details></li>
+        <li><a href="index.html?type=Blend" data-nav="Blend">Blends</a></li>
+        <li><a href="index.html?type=Single+origin" data-nav="Single origin">Single Origin</a></li>
+        <li><a href="index.html?type=Decaf" data-nav="Decaf">Decaf</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+    <dl class="legend" aria-label="Flavour shapes">
+      <div><dt><span class="shape fruity"></span>Fruity / floral</dt><dd>Berries, citrus, flowers</dd></div>
+      <div><dt><span class="shape choc"></span>Chocolate / nutty</dt><dd>Cocoa, caramel, nuts</dd></div>
+      <div><dt><span class="shape balanced"></span>Balanced</dt><dd>A bit of both</dd></div>
+    </dl>
+    <p class="rail-note">Prices per kilo from every Greek specialty roaster that sells online. Updated every morning.</p>
+  </aside>
+  <div class="page">
   <header class="top">
-    <div class="wrap">
-      <h1 id="pageTitle">Specialty coffee from Greek roasters</h1>
-      <p class="lede">Specialty beans from Greek online roasters, compared by price per kg. Prices refresh every morning.</p>
-      <p class="meta" id="updated"></p>
+    <div class="wrap top-row">
+      <svg class="poster-shapes" viewBox="0 0 320 240" aria-hidden="true">
+        <circle cx="200" cy="96" r="84" fill="var(--yellow)"/>
+        <path d="M70 120 292 88 320 232 46 240Z" fill="var(--pink)"/>
+        <circle cx="96" cy="70" r="30" fill="var(--blue)"/>
+      </svg>
+      <div>
+        <h1 id="pageTitle">Specialty coffee from Greek roasters</h1>
+        <p class="lede">Every bean from Greek online roasters, priced per kilo so you can compare bags of any size. Prices refresh every morning.</p>
+        <p class="meta" id="updated"></p>
+      </div>
+      <ul class="ledger" id="ledger" aria-label="Today's market"></ul>
     </div>
   </header>
 
   <main class="wrap">
     <section class="filters" aria-label="Filters">
-      <input id="q" type="search" placeholder="Search coffee, notes, farm…" aria-label="Search">
-      <select id="origin" aria-label="Origin"><option value="">All origins</option></select>
-      <select id="taste" aria-label="Taste"><option value="">All tastes</option></select>
-      <select id="roast" aria-label="Roast"><option value="">All roasts</option></select>
-      <select id="type" aria-label="Type"><option value="">All types</option></select>
-      <select id="roaster" aria-label="Roaster"><option value="">All roasters</option></select>
-      <label class="range">Max €/kg <output id="maxOut"></output>
-        <input id="max" type="range" min="20" max="200" step="5" value="200">
-      </label>
-      <label class="check"><input id="stock" type="checkbox" checked> In stock only</label>
-      <select id="group" aria-label="Group">
+      <input id="q" type="search" placeholder="Search coffee, roaster, notes, farm…" aria-label="Search">
+      <details class="panel" id="filterPanel"><summary><svg class="icon" aria-hidden="true"><use href="#i-sliders"/></svg> Filter and sort <svg class="icon chev" aria-hidden="true"><use href="#i-chev"/></svg></summary>
+      <div class="panel-body">
+      <label class="field"><span>Origin</span><select id="origin"><option value="">All origins</option></select></label>
+      <label class="field"><span>Flavour</span><select id="taste"><option value="">All flavours</option></select></label>
+      <label class="field"><span>Roast</span><select id="roast"><option value="">All roasts</option></select></label>
+      <label class="field"><span>Type</span><select id="type"><option value="">All types</option></select></label>
+      <label class="field"><span>Roaster</span><select id="roaster"><option value="">All roasters</option></select></label>
+      <label class="field"><span>Group</span><select id="group">
         <option value="">No grouping</option>
-        <option value="origin">Group by origin</option>
-        <option value="taste">Group by flavour profile</option>
-      </select>
-      <select id="sort" aria-label="Sort">
+        <option value="origin">By origin</option>
+        <option value="taste">By flavour profile</option>
+      </select></label>
+      <label class="field"><span>Sort</span><select id="sort">
         <option value="perkg">Cheapest per kg</option>
         <option value="bag">Cheapest bag</option>
         <option value="drop">Biggest price drop</option>
         <option value="new">Newest first</option>
         <option value="name">Name A–Z</option>
-      </select>
+      </select></label>
+      <label class="range"><span>Max per kg <output id="maxOut"></output></span>
+        <input id="max" type="range" min="20" max="200" step="5" value="200">
+      </label>
+      <label class="check"><input id="stock" type="checkbox" checked> In stock only</label>
+      </div></details>
     </section>
 
+    <h2 class="sr-only">Coffees</h2>
     <p class="count" id="count" aria-live="polite"></p>
     <section id="list" class="grid"></section>
 
-    <p class="fine">Taste groups come from each roaster's tasting notes. Most roasters don't state a roast level, so filter roasts are counted as Light and espresso roasts as Medium unless the shop says otherwise. Shipping isn't included in price per kg.</p>
+    <p class="fine">Prices per kg don't include shipping. Flavour groups come from each roaster's tasting notes. Most roasters don't state a roast level, so filter roasts count as Light and espresso roasts as Medium unless the shop says otherwise (marked *). The price scale on each coffee shows how its price per kg compares with every other coffee in stock today.</p>
   </main>
 
   <template id="card">
     <article class="card">
+      <div class="tag"><strong class="num"></strong><span>per kg</span></div>
       <a class="pic" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a>
       <div class="head">
-        <div>
-          <h3><a target="_blank" rel="noopener"></a></h3>
-          <p class="sub"></p>
-        </div>
-        <div class="kg"><strong></strong><span>per kg</span></div>
+        <h3><a target="_blank" rel="noopener"></a></h3>
+        <p class="sub"></p>
       </div>
+      <figure class="scale">
+        <div class="scale-track"><span class="scale-mark"></span></div>
+        <figcaption><b></b> of coffees in stock</figcaption>
+      </figure>
       <p class="chips"></p>
       <p class="notes"></p>
       <ul class="opts"></ul>
     </article>
   </template>
 
+  </div>
+  </div>
   <script src="nav.js"></script>
   <script src="app.js"></script>
 </body>
