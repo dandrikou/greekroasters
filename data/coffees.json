@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T19:19+00:00",
+ "generated_at": "2026-11-09T12:53+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 31.6,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 34.0,
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 39.6,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,9 +93,9 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
-   "coffees": 20,
+   "coffees": 23,
    "cheapest_per_kg": 34.8,
    "median_per_kg": 68.0
   },
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,11 +149,11 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
-   "coffees": 4,
-   "cheapest_per_kg": 49.76,
-   "median_per_kg": 117.73
+   "coffees": 7,
+   "cheapest_per_kg": 44.84,
+   "median_per_kg": 50.36
   },
   {
    "id": "taresso",
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 20,
    "cheapest_per_kg": 38.42,
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 33.2,
@@ -205,11 +205,11 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 15,
-   "cheapest_per_kg": 46.0,
-   "median_per_kg": 67.5
+   "cheapest_per_kg": 52.0,
+   "median_per_kg": 92.5
   },
   {
    "id": "cafeistas",
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -275,7 +275,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 50.0,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 55.0,
@@ -345,7 +345,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 20,
    "cheapest_per_kg": 34.15,
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 34,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-08",
+   "last_checked": "2026-11-09",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -4467,6 +4467,36 @@
    "price_changed_on": null
   },
   {
+   "id": "area51:brazil",
+   "roaster_id": "area51",
+   "roaster": "Area 51",
+   "name": "Brazil",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/brazil-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
+   "image": "https://area51coffeeroasters.com/wp-content/uploads/Coffee_Area51Brazil-WholeBeans-250g_P01A-1080w.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.21,
+     "in_stock": true,
+     "per_kg": 44.84
+    }
+   ],
+   "best_per_kg": 44.84,
+   "cheapest_bag": 11.21,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "taresso:ethiopia-yirgacheffe-natural-gr1",
    "roaster_id": "taresso",
    "roaster": "Taresso",
@@ -4751,12 +4781,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/india-attikan-estate-250gr-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/01/1-600x600.png",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 11.5,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 46.0
     }
    ],
@@ -5725,6 +5755,36 @@
    "price_changed_on": null
   },
   {
+   "id": "area51:indonesia",
+   "roaster_id": "area51",
+   "roaster": "Area 51",
+   "name": "Indonesia",
+   "origin": "Indonesia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/indonesia-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
+   "image": "https://area51coffeeroasters.com/wp-content/uploads/Coffee_Area51Indonesia-WholeBeans-250g_P01A-1080w.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.59,
+     "in_stock": true,
+     "per_kg": 50.36
+    }
+   ],
+   "best_per_kg": 50.36,
+   "cheapest_bag": 12.59,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "area51:ethiopia",
    "roaster_id": "area51",
    "roaster": "Area 51",
@@ -5752,6 +5812,36 @@
    "cheapest_bag": 12.59,
    "first_seen": "2026-10-28",
    "previous_per_kg": 50.36,
+   "price_changed_on": null
+  },
+  {
+   "id": "area51:costa-rica",
+   "roaster_id": "area51",
+   "roaster": "Area 51",
+   "name": "Costa Rica",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/costa-rica-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
+   "image": "https://area51coffeeroasters.com/wp-content/uploads/Coffee_Area51CostaRica-WholeBeans-250g_P01A-1080w.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.59,
+     "in_stock": true,
+     "per_kg": 50.36
+    }
+   ],
+   "best_per_kg": 50.36,
+   "cheapest_bag": 12.59,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -8803,12 +8893,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/mango-muse-ethiopia-conte-coffee-roasters/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/fruity-03.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 16.5,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 66.0
     }
    ],
@@ -9024,12 +9114,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/supernatural-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/flw-02.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 13.5,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 67.5
     }
    ],
@@ -11853,12 +11943,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/bestsellers/juicy-strawberry-colombia-200gr-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2025/10/colombia-600x600.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 19.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 95.0
     }
    ],
@@ -12247,12 +12337,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-washed-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/fruity-01.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 21.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 105.0
     }
    ],
@@ -14255,6 +14345,96 @@
    "cheapest_bag": 101.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 1017.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "samba:rocket-flower-colombia",
+   "roaster_id": "samba",
+   "roaster": "Samba",
+   "name": "Rocket Flower | Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Lime zest, jasmine, strawberry, medium to full body, malic acidity",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.sambacafe.gr/product/rocket-flower-colombia/",
+   "image": "https://www.sambacafe.gr/wp-content/uploads/2026/11/rocket-flower-pack-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "samba:el-arbol-nicaragua",
+   "roaster_id": "samba",
+   "roaster": "Samba",
+   "name": "El Arbol | Nicaragua",
+   "origin": "Nicaragua",
+   "region": "",
+   "type": "Single origin",
+   "process": "Carbonic maceration",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.sambacafe.gr/product/el-arbol-nicaragua-2/",
+   "image": "https://www.sambacafe.gr/wp-content/uploads/2026/11/arbol-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 17.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 17.5,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "samba:finca-resinas-colombia",
+   "roaster_id": "samba",
+   "roaster": "Samba",
+   "name": "Finca Resinas | Colombia",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Pulped natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.sambacafe.gr/product/finca-resinas-colombia/",
+   "image": "https://www.sambacafe.gr/wp-content/uploads/2026/11/finca-300x300.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 17.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 17.5,
+   "first_seen": "2026-11-09",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
