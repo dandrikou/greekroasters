@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T12:53+00:00",
+ "generated_at": "2026-11-10T12:40+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 31.6,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 34.0,
@@ -65,11 +65,11 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 39.6,
-   "median_per_kg": 46.8
+   "median_per_kg": 48.6
   },
   {
    "id": "roastingwarehouse",
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 44.84,
@@ -163,11 +163,11 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
-   "coffees": 20,
+   "coffees": 19,
    "cheapest_per_kg": 38.42,
-   "median_per_kg": 84.19
+   "median_per_kg": 77.47
   },
   {
    "id": "roosters",
@@ -177,9 +177,9 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
-   "coffees": 19,
+   "coffees": 18,
    "cheapest_per_kg": 33.2,
    "median_per_kg": 44.65
   },
@@ -205,7 +205,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 52.0,
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -275,7 +275,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 50.0,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,11 +331,11 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
-   "coffees": 22,
-   "cheapest_per_kg": 55.0,
-   "median_per_kg": 84.0
+   "coffees": 17,
+   "cheapest_per_kg": 50.0,
+   "median_per_kg": 80.0
   },
   {
    "id": "kolektiva",
@@ -345,7 +345,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 20,
    "cheapest_per_kg": 34.15,
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 34,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-09",
+   "last_checked": "2026-11-10",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -4402,42 +4402,6 @@
    "price_changed_on": null
   },
   {
-   "id": "roosters:no-59-rwanda-gitesi",
-   "roaster_id": "roosters",
-   "roaster": "The Roosters",
-   "name": "No 59 Rwanda Gitesi",
-   "origin": "Rwanda",
-   "region": "Southern Province",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "candy, caramel, florals, black tea",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://theroosters.gr/product/no-59-rwanda-gitesi/",
-   "image": "https://theroosters.gr/wp-content/uploads/2025/06/7.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 52.0
-    },
-    {
-     "size_g": 1000,
-     "price": 44.65,
-     "in_stock": true,
-     "per_kg": 44.65
-    }
-   ],
-   "best_per_kg": 44.65,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 44.65,
-   "price_changed_on": null
-  },
-  {
    "id": "taf:edelmira-mexico-single-estate",
    "roaster_id": "taf",
    "roaster": "Taf",
@@ -4493,7 +4457,7 @@
    "best_per_kg": 44.84,
    "cheapest_bag": 11.21,
    "first_seen": "2026-11-09",
-   "previous_per_kg": null,
+   "previous_per_kg": 44.84,
    "price_changed_on": null
   },
   {
@@ -5649,12 +5613,12 @@
    "roast_basis": "",
    "url": "https://www.foyerespressobar.com/shop/p/amparo-brazil-loud-bean",
    "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/f8c6a3ae-388b-4dd4-b72e-e7c2369dbf8f/46e12183-2027-44b4-a113-758fda35e40e-Photoroom.png",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 200,
      "price": 10.0,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 50.0
     }
    ],
@@ -5781,7 +5745,7 @@
    "best_per_kg": 50.36,
    "cheapest_bag": 12.59,
    "first_seen": "2026-11-09",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.36,
    "price_changed_on": null
   },
   {
@@ -5841,7 +5805,7 @@
    "best_per_kg": 50.36,
    "cheapest_bag": 12.59,
    "first_seen": "2026-11-09",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.36,
    "price_changed_on": null
   },
   {
@@ -6601,36 +6565,6 @@
    "best_per_kg": 55.0,
    "cheapest_bag": 11.0,
    "first_seen": "2026-11-03",
-   "previous_per_kg": 55.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:shanta-ethiopia-loud-bean",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Shanta Ethiopia - Loud Bean",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/shanta-ethiopia-loud-bean",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/4f46fd16-9a95-4d18-a6c1-868e65b0205f/c3108e61-f3ab-426f-9b79-dc044ad31faa-Photoroom.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 11.0,
-     "in_stock": true,
-     "per_kg": 55.0
-    }
-   ],
-   "best_per_kg": 55.0,
-   "cheapest_bag": 11.0,
-   "first_seen": "2026-11-01",
    "previous_per_kg": 55.0,
    "price_changed_on": null
   },
@@ -7822,11 +7756,11 @@
    "price_changed_on": null
   },
   {
-   "id": "foyer:santa-clara-brazil-three-marks",
+   "id": "foyer:shanta-ethiopia-loud-bean",
    "roaster_id": "foyer",
    "roaster": "Foyer Espresso Bar",
-   "name": "Santa Clara Brazil - Three Marks",
-   "origin": "Brazil",
+   "name": "Shanta Ethiopia - Loud Bean",
+   "origin": "Ethiopia",
    "region": "",
    "type": "Single origin",
    "process": "Natural",
@@ -7834,22 +7768,22 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/santa-clara-brazil-three-marks",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/62e4fa34-17c5-4414-8bc0-409379f83810/MMM_SantaClara250_B.webp",
+   "url": "https://www.foyerespressobar.com/shop/p/shanta-ethiopia-loud-bean",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/4f46fd16-9a95-4d18-a6c1-868e65b0205f/c3108e61-f3ab-426f-9b79-dc044ad31faa-Photoroom.png",
    "in_stock": true,
    "options": [
     {
-     "size_g": 250,
-     "price": 15.0,
+     "size_g": 200,
+     "price": 12.0,
      "in_stock": true,
      "per_kg": 60.0
     }
    ],
    "best_per_kg": 60.0,
-   "cheapest_bag": 15.0,
+   "cheapest_bag": 12.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 60.0,
-   "price_changed_on": null
+   "previous_per_kg": 55.0,
+   "price_changed_on": "2026-11-10"
   },
   {
    "id": "dabov:honduras-caballero-washed",
@@ -9444,18 +9378,18 @@
    "roast_basis": "",
    "url": "https://sortiecoffee.gr/products/guatemala",
    "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/guatemala.heic?v=1792219727&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 19.0,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 76.0
     },
     {
      "size_g": 500,
      "price": 34.2,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 68.4
     }
    ],
@@ -10713,12 +10647,12 @@
    "roast_basis": "",
    "url": "https://www.foyerespressobar.com/shop/p/ethiopia-lemon-spritz-dak",
    "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fa6b651c-bdd9-4011-9afb-c9e42de7bd44/a8798afa-7c8a-4750-8089-1de0c5ab3c81.png",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 19.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 76.0
     }
    ],
@@ -11239,36 +11173,6 @@
    "price_changed_on": null
   },
   {
-   "id": "foyer:kangocho-kenya-collective",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Kangocho Kenya - Coffee Collective",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/kangocho-kenya-coffee-collective",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/8571646b-3566-464a-a7b7-e4b1c0a73ec2/KangochoAA250gfront.webp",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 20.0,
-     "in_stock": false,
-     "per_kg": 80.0
-    }
-   ],
-   "best_per_kg": 80.0,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 80.0,
-   "price_changed_on": null
-  },
-  {
    "id": "kolektiva:trip-to-ethiopia-baboon",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -11365,36 +11269,6 @@
    "price_changed_on": null
   },
   {
-   "id": "foyer:gichathaini-kenya-collective",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Gichathaini Kenya - Coffee Collective",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/gichathaini-kenya-coffee-collective",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/362406bb-1e8b-4aff-b319-0388b2cf11df/Gichathaini250gfront_48352d08-80e7-4ef5-8308-306aee51075e.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 21.0,
-     "in_stock": true,
-     "per_kg": 84.0
-    }
-   ],
-   "best_per_kg": 84.0,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 84.0,
-   "price_changed_on": null
-  },
-  {
    "id": "taresso:el-salvador-finca-noruega-geisha-natural-anaerobic",
    "roaster_id": "taresso",
    "roaster": "Taresso",
@@ -11428,36 +11302,6 @@
    "cheapest_bag": 21.62,
    "first_seen": "2026-10-28",
    "previous_per_kg": 84.19,
-   "price_changed_on": null
-  },
-  {
-   "id": "taresso:guatemala-gesha-natural-finca-la-hermosa",
-   "roaster_id": "taresso",
-   "roaster": "Taresso",
-   "name": "GUATEMALA GESHA NATURAL FINCA LA HERMOSA",
-   "origin": "Guatemala",
-   "region": "Acatenango",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "τροπικά φρούτα, κόκκινα μούρα, αρώματα από άνθη, επίγευση μελιού και εκλεπτυσμένου κρασιού",
-   "taste": "Balanced",
-   "roast": "Medium-light",
-   "roast_basis": "Stated",
-   "url": "https://www.taresso.com/product/guatemala-natural-gesha-finca-la-hermosa/",
-   "image": "https://www.taresso.com/wp-content/uploads/2025/06/SingleOrigin_250_Quarter-scaled-2-600x946.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 21.19,
-     "in_stock": true,
-     "per_kg": 84.76
-    }
-   ],
-   "best_per_kg": 84.76,
-   "cheapest_bag": 21.19,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 84.76,
    "price_changed_on": null
   },
   {
@@ -11671,36 +11515,6 @@
    "price_changed_on": null
   },
   {
-   "id": "foyer:basha-ethiopia-collective",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Basha Ethiopia - Coffee Collective",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/basha-ethiopia-coffee-collective",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/cf7b4764-7adf-4be1-b015-a42e03913886/Basha250gfront.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 22.0,
-     "in_stock": true,
-     "per_kg": 88.0
-    }
-   ],
-   "best_per_kg": 88.0,
-   "cheapest_bag": 22.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 88.0,
-   "price_changed_on": null
-  },
-  {
    "id": "roosters:no-67-finca-la-maria",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -11770,36 +11584,6 @@
    "cheapest_bag": 27.9,
    "first_seen": "2026-10-28",
    "previous_per_kg": 89.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:iria-ini-kiamwangi-three-marks",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Iria‑Ini Kiamwangi - Three Marks",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/iriaini-kiamwangi-three-marks",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/1f238528-0176-4a03-adb5-3605f2e69052/FrontalView_401f5351-7f3b-4235-94e1-96de9828039b.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 23.0,
-     "in_stock": true,
-     "per_kg": 92.0
-    }
-   ],
-   "best_per_kg": 92.0,
-   "cheapest_bag": 23.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 92.0,
    "price_changed_on": null
   },
   {
