@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T12:48+00:00",
+ "generated_at": "2026-11-17T13:22+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 31.6,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 34.0,
@@ -65,9 +65,9 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
-   "coffees": 12,
+   "coffees": 9,
    "cheapest_per_kg": 40.4,
    "median_per_kg": 48.6
   },
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 44.84,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 33.2,
@@ -205,7 +205,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 52.0,
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
@@ -233,11 +233,11 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
-   "coffees": 13,
+   "coffees": 14,
    "cheapest_per_kg": 28.0,
-   "median_per_kg": 48.0
+   "median_per_kg": 50.0
   },
   {
    "id": "monogram",
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -275,7 +275,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 50.0,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 40.0,
@@ -316,9 +316,9 @@
    "website": "https://hueroastery.com",
    "free_shipping_eur": null,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-15",
-   "error": "ConnectTimeout: HTTPSConnectionPool(host='hueroastery.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1&category=espresso (Caused by ConnectTimeoutError(<HTTPSConnection(host='hueroastery.com', port=443) at 0x76b40b045970>, 'Connection to hueroastery.com timed out. (connect timeout=30)'))",
+   "source": "live",
+   "last_checked": "2026-11-17",
+   "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
    "median_per_kg": 80.0
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 20,
    "cheapest_per_kg": 50.0,
@@ -345,9 +345,9 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
-   "coffees": 20,
+   "coffees": 19,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 61.6
   },
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 34,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-16",
+   "last_checked": "2026-11-17",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -740,10 +740,10 @@
    "price_changed_on": null
   },
   {
-   "id": "spiri:brazil-brazil-mantiqueira-de-minas",
+   "id": "spiri:brazil-mantiqueira-de-minas",
    "roaster_id": "spiri",
    "roaster": "Spiri",
-   "name": "BRAZIL BRAZIL MANTIQUEIRA DE MINAS",
+   "name": "BRAZIL MANTIQUEIRA DE MINAS",
    "origin": "Brazil",
    "region": "",
    "type": "Single origin",
@@ -771,8 +771,8 @@
    ],
    "best_per_kg": 29.0,
    "cheapest_bag": 7.25,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": 29.0,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -3148,9 +3148,9 @@
    "options": [
     {
      "size_g": 250,
-     "price": 11.6,
+     "price": 11.8,
      "in_stock": true,
-     "per_kg": 46.4
+     "per_kg": 47.2
     },
     {
      "size_g": 500,
@@ -3160,9 +3160,9 @@
     }
    ],
    "best_per_kg": 40.4,
-   "cheapest_bag": 11.6,
+   "cheapest_bag": 11.8,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 39.6,
+   "previous_per_kg": 40.4,
    "price_changed_on": "2026-11-16"
   },
   {
@@ -4827,42 +4827,6 @@
    "price_changed_on": null
   },
   {
-   "id": "sortie:colombia-popayan-supremo",
-   "roaster_id": "sortie",
-   "roaster": "Sortie",
-   "name": "COLOMBIA POPAYAN SUPREMO",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "Hazelnut • Toasted Caramel • Chocolate",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://sortiecoffee.gr/products/colombia-popayan-supremo",
-   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/colombia-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642835&width=480",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.8,
-     "in_stock": false,
-     "per_kg": 51.2
-    },
-    {
-     "size_g": 500,
-     "price": 23.04,
-     "in_stock": false,
-     "per_kg": 46.08
-    }
-   ],
-   "best_per_kg": 46.08,
-   "cheapest_bag": 12.8,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 46.08,
-   "price_changed_on": null
-  },
-  {
    "id": "taf:finca-guayabales-guatemala-single-estate",
    "roaster_id": "taf",
    "roaster": "Taf",
@@ -5162,11 +5126,11 @@
    "price_changed_on": null
   },
   {
-   "id": "spiri:peru",
+   "id": "spiri:brazil-mantiqueira",
    "roaster_id": "spiri",
    "roaster": "Spiri",
-   "name": "PERU",
-   "origin": "Peru",
+   "name": "BRAZIL MANTIQUEIRA",
+   "origin": "Brazil",
    "region": "",
    "type": "Single origin",
    "process": "Natural",
@@ -5174,8 +5138,8 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/peru/",
-   "image": "https://spiri.gr/wp-content/uploads/2026/11/peru-jaen-1800.webp",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/brazil-mantiqueira/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/11/brazil-mantiqueira-1200.webp",
    "in_stock": true,
    "options": [
     {
@@ -5188,8 +5152,8 @@
    "best_per_kg": 48.0,
    "cheapest_bag": 12.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": null,
-   "price_changed_on": null
+   "previous_per_kg": 56.0,
+   "price_changed_on": "2026-11-17"
   },
   {
    "id": "valenio:north-specialty-signature-espresso-blend",
@@ -5362,42 +5326,6 @@
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "sortie:uganda-embogo",
-   "roaster_id": "sortie",
-   "roaster": "Sortie",
-   "name": "UGANDA EMBOGO",
-   "origin": "Uganda",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "Strawberry • Citrus • Floral • Wine intensity",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://sortiecoffee.gr/products/uganda-embogo",
-   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/uganda-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642411&width=480",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.8,
-     "in_stock": false,
-     "per_kg": 55.2
-    },
-    {
-     "size_g": 500,
-     "price": 24.8,
-     "in_stock": false,
-     "per_kg": 49.6
-    }
-   ],
-   "best_per_kg": 49.6,
-   "cheapest_bag": 13.8,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 49.6,
    "price_changed_on": null
   },
   {
@@ -5620,6 +5548,36 @@
    "cheapest_bag": 12.5,
    "first_seen": "2026-10-29",
    "previous_per_kg": 50.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "spiri:ethiopia-gediyo",
+   "roaster_id": "spiri",
+   "roaster": "Spiri",
+   "name": "ETHIOPIA GEDIYO",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/ethiopia-gagari/",
+   "image": "https://spiri.gr/wp-content/uploads/2025/10/coffe-ethiopia-gargari.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.5,
+     "in_stock": true,
+     "per_kg": 50.0
+    }
+   ],
+   "best_per_kg": 50.0,
+   "cheapest_bag": 12.5,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -6897,11 +6855,11 @@
    "price_changed_on": null
   },
   {
-   "id": "spiri:brazil-mantiqueira",
+   "id": "spiri:peru",
    "roaster_id": "spiri",
    "roaster": "Spiri",
-   "name": "BRAZIL MANTIQUEIRA",
-   "origin": "Brazil",
+   "name": "PERU",
+   "origin": "Peru",
    "region": "",
    "type": "Single origin",
    "process": "Natural",
@@ -6909,8 +6867,8 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/brazil-mantiqueira/",
-   "image": "https://spiri.gr/wp-content/uploads/2026/11/brazil-mantiqueira-1200.webp",
+   "url": "https://spiri.gr/shop/kafes-ellinikos-espresso-filtrou/monopoikiliaka/peru/",
+   "image": "https://spiri.gr/wp-content/uploads/2026/11/peru-jaen-1800.webp",
    "in_stock": true,
    "options": [
     {
@@ -6923,8 +6881,8 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": null,
-   "price_changed_on": null
+   "previous_per_kg": 48.0,
+   "price_changed_on": "2026-11-17"
   },
   {
    "id": "valenio:guatemala-filter-espresso",
@@ -7479,36 +7437,6 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 58.88,
    "price_changed_on": "2026-10-29"
-  },
-  {
-   "id": "kolektiva:trip-to-kenya-ayaan",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Trip To Kenya #Ayaan 200gr",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/trip-to-kenya-ayaan-200gr/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2025/04/TRIP-TO-KENYA_-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 11.8,
-     "in_stock": true,
-     "per_kg": 59.0
-    }
-   ],
-   "best_per_kg": 59.0,
-   "cheapest_bag": 11.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 59.0,
-   "price_changed_on": null
   },
   {
    "id": "dabov:costa-rica-tarraz",
@@ -8903,6 +8831,36 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:honduras-caballero-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Honduras - Caballero Washed",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/honduras-caballero-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/honduras-caballero.jpg?v=1794892204&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "samba:la-lindosa-colombia",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -9496,78 +9454,6 @@
    "price_changed_on": null
   },
   {
-   "id": "sortie:colombia-finca-las-penas",
-   "roaster_id": "sortie",
-   "roaster": "Sortie",
-   "name": "COLOMBIA FINCA LAS PENAS",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "Chocolate • Banana • Velvety body • Spices",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://sortiecoffee.gr/products/colombia-finca-las-penas",
-   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/colombia.las.penas.specialtybeans-in_Thessaloniki.jpg?v=1790157921&width=480",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 19.0,
-     "in_stock": false,
-     "per_kg": 76.0
-    },
-    {
-     "size_g": 500,
-     "price": 34.2,
-     "in_stock": false,
-     "per_kg": 68.4
-    }
-   ],
-   "best_per_kg": 68.4,
-   "cheapest_bag": 19.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 68.4,
-   "price_changed_on": null
-  },
-  {
-   "id": "sortie:ethiopia-koke-shalaye",
-   "roaster_id": "sortie",
-   "roaster": "Sortie",
-   "name": "ETHIOPIA KOKE SHALAYE",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "Pineapple • Lime • Milk Chocolate • Papaya • Mango • Winey Notes",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://sortiecoffee.gr/products/ethiopia-koke-shalaye",
-   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/ethiopio_koke.heic?v=1794830778&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 19.0,
-     "in_stock": true,
-     "per_kg": 76.0
-    },
-    {
-     "size_g": 500,
-     "price": 34.2,
-     "in_stock": true,
-     "per_kg": 68.4
-    }
-   ],
-   "best_per_kg": 68.4,
-   "cheapest_bag": 19.0,
-   "first_seen": "2026-11-16",
-   "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
    "id": "dabov:ethiopia-by-dabov",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -9655,6 +9541,42 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 70.0,
    "price_changed_on": null
+  },
+  {
+   "id": "sortie:ethiopia-koke-shalaye",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "ETHIOPIA KOKE SHALAYE",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Pineapple • Lime • Milk Chocolate • Papaya • Mango • Winey Notes",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/ethiopia-koke-shalaye",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/ethiopio_koke.heic?v=1794830778&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    },
+    {
+     "size_g": 500,
+     "price": 35.0,
+     "in_stock": true,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-16",
+   "previous_per_kg": 68.4,
+   "price_changed_on": "2026-11-17"
   },
   {
    "id": "samba:piendamo-f-c-c-colombia-filter",
@@ -9964,36 +9886,6 @@
    "cheapest_bag": 17.97,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "monogram:uraga-haro-wachu-g1-ethiopia",
-   "roaster_id": "monogram",
-   "roaster": "Monogram Roasters",
-   "name": "URAGA Haro Wachu G1, Ethiopia",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Cherry, Pomegrante, Strawberries",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.monogramroasters.gr/product/uraga-haro-wachu/",
-   "image": "https://www.monogramroasters.gr/wp-content/uploads/2024/01/URAGA1-600x600.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": 72.0
-    }
-   ],
-   "best_per_kg": 72.0,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -10603,36 +10495,6 @@
    "price_changed_on": null
   },
   {
-   "id": "motiv:peru-san-ignasio-geisha-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Peru – San Ignasio Geisha Washed",
-   "origin": "Peru",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/peru-la-chirimoya-san-ignasio-geisha-washed",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/peru.jpg?v=1789204194&width=480",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 19.0,
-     "in_stock": false,
-     "per_kg": 76.0
-    }
-   ],
-   "best_per_kg": 76.0,
-   "cheapest_bag": 19.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 76.0,
-   "price_changed_on": null
-  },
-  {
    "id": "valenio:costa-rica-limited-filter-espresso",
    "roaster_id": "valenio",
    "roaster": "Valenio",
@@ -11129,6 +10991,66 @@
    "first_seen": "2026-10-29",
    "previous_per_kg": 80.0,
    "price_changed_on": null
+  },
+  {
+   "id": "monogram:san-isidro-costa-rica",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "SAN ISIDRO, Costa Rica",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Berries, Floral, Stone fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/chiroso-colombia/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/06/PACKSHOT-ΓΙΑ-ESHOP-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "monogram:uraga-haro-wachu-g1-ethiopia",
+   "roaster_id": "monogram",
+   "roaster": "Monogram Roasters",
+   "name": "URAGA Haro Wachu G1, Ethiopia",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "Dried Fig, Jasmine, Tropical Fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.monogramroasters.gr/product/uraga-haro-wachu/",
+   "image": "https://www.monogramroasters.gr/wp-content/uploads/2024/01/URAGA1-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 20.0,
+     "in_stock": true,
+     "per_kg": 80.0
+    }
+   ],
+   "best_per_kg": 80.0,
+   "cheapest_bag": 20.0,
+   "first_seen": "2026-10-29",
+   "previous_per_kg": 72.0,
+   "price_changed_on": "2026-11-17"
   },
   {
    "id": "hue:dhilgee-danche",
@@ -12168,36 +12090,6 @@
    "price_changed_on": null
   },
   {
-   "id": "monogram:chiroso-colombia",
-   "roaster_id": "monogram",
-   "roaster": "Monogram Roasters",
-   "name": "CHIROSO, Colombia",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Cherry, Lychee, Rose",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.monogramroasters.gr/product/chiroso-colombia/",
-   "image": "https://www.monogramroasters.gr/wp-content/uploads/2025/06/PACKSHOT-ΓΙΑ-ESHOP-ΨΗΙΡ-600x600.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": 100.0
-    }
-   ],
-   "best_per_kg": 100.0,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-10-29",
-   "previous_per_kg": 100.0,
-   "price_changed_on": null
-  },
-  {
    "id": "handpickers:villa-betulia-colombia",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -12802,36 +12694,6 @@
    "price_changed_on": null
   },
   {
-   "id": "hue:argote-colombia",
-   "roaster_id": "hue",
-   "roaster": "Hue Roastery",
-   "name": "Argote Colombia",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://hueroastery.com/product/argote-colombia/",
-   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Argote-Colombia-900x900.webp",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 25.0,
-     "in_stock": false,
-     "per_kg": 125.0
-    }
-   ],
-   "best_per_kg": 125.0,
-   "cheapest_bag": 25.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 125.0,
-   "price_changed_on": null
-  },
-  {
    "id": "kudu:colombia-los-nogales",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -13111,6 +12973,36 @@
    "cheapest_bag": 28.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 140.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "hue:quebradotas-sl28",
+   "roaster_id": "hue",
+   "roaster": "Hue Roastery",
+   "name": "Quebradotas SL28",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://hueroastery.com/product/argote-colombia/",
+   "image": "https://hueroastery.com/wp-content/uploads/2026/04/Argote-Colombia-900x900.webp",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 28.0,
+     "in_stock": false,
+     "per_kg": 140.0
+    }
+   ],
+   "best_per_kg": 140.0,
+   "cheapest_bag": 28.0,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
