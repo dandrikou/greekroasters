@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T13:22+00:00",
+ "generated_at": "2026-11-18T13:05+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 31.6,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.3,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 34.0,
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 40.4,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 44.84,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,9 +177,9 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
-   "coffees": 18,
+   "coffees": 17,
    "cheapest_per_kg": 33.2,
    "median_per_kg": 44.65
   },
@@ -205,11 +205,11 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
-   "coffees": 15,
-   "cheapest_per_kg": 52.0,
-   "median_per_kg": 92.5
+   "coffees": 16,
+   "cheapest_per_kg": 46.0,
+   "median_per_kg": 66.0
   },
   {
    "id": "cafeistas",
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 15,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -274,9 +274,9 @@
    "website": "https://anana.coffee",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-17",
-   "error": null,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://anana.coffee/wp-json/wc/store/v1/products?per_page=100&page=1&category=coffee",
    "coffees": 9,
    "cheapest_per_kg": 50.0,
    "median_per_kg": 66.0
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,11 +331,11 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
-   "coffees": 20,
+   "coffees": 23,
    "cheapest_per_kg": 50.0,
-   "median_per_kg": 80.0
+   "median_per_kg": 98.4
   },
   {
    "id": "kolektiva",
@@ -345,7 +345,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 34.15,
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 34,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-17",
+   "last_checked": "2026-11-18",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -772,7 +772,7 @@
    "best_per_kg": 29.0,
    "cheapest_bag": 7.25,
    "first_seen": "2026-11-17",
-   "previous_per_kg": null,
+   "previous_per_kg": 29.0,
    "price_changed_on": null
   },
   {
@@ -4330,42 +4330,6 @@
    "price_changed_on": null
   },
   {
-   "id": "roosters:νο-60-rwanda-gatare",
-   "roaster_id": "roosters",
-   "roaster": "The Roosters",
-   "name": "Νο 60 Rwanda Gatare",
-   "origin": "Rwanda",
-   "region": "Western Province",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "brown sugar, blackberry, caramel",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://theroosters.gr/product/no-60-rwanda-gatare/",
-   "image": "https://theroosters.gr/wp-content/uploads/2025/06/7.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.9,
-     "in_stock": true,
-     "per_kg": 51.6
-    },
-    {
-     "size_g": 1000,
-     "price": 44.52,
-     "in_stock": true,
-     "per_kg": 44.52
-    }
-   ],
-   "best_per_kg": 44.52,
-   "cheapest_bag": 12.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 44.52,
-   "price_changed_on": null
-  },
-  {
    "id": "roosters:no-66-sixty-six-blend",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -4775,12 +4739,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/india-attikan-estate-250gr-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/01/1-600x600.png",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 11.5,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 46.0
     }
    ],
@@ -5152,7 +5116,7 @@
    "best_per_kg": 48.0,
    "cheapest_bag": 12.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": 56.0,
+   "previous_per_kg": 48.0,
    "price_changed_on": "2026-11-17"
   },
   {
@@ -5577,7 +5541,7 @@
    "best_per_kg": 50.0,
    "cheapest_bag": 12.5,
    "first_seen": "2026-11-17",
-   "previous_per_kg": null,
+   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -6855,6 +6819,36 @@
    "price_changed_on": null
   },
   {
+   "id": "conte:kenya-kanjathi-aa",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "KENYA KANJATHI AA",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Tea Like, Cranberries, Honey, Blackcurrant, Orange",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/kenya-kanjathi-aa-2/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2024/09/4-600x600.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "spiri:peru",
    "roaster_id": "spiri",
    "roaster": "Spiri",
@@ -6881,7 +6875,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": 48.0,
+   "previous_per_kg": 56.0,
    "price_changed_on": "2026-11-17"
   },
   {
@@ -7802,36 +7796,6 @@
    "first_seen": "2026-11-03",
    "previous_per_kg": 60.0,
    "price_changed_on": null
-  },
-  {
-   "id": "foyer:shanta-ethiopia-loud-bean",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Shanta Ethiopia - Loud Bean",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/shanta-ethiopia-loud-bean",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/4f46fd16-9a95-4d18-a6c1-868e65b0205f/c3108e61-f3ab-426f-9b79-dc044ad31faa-Photoroom.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 12.0,
-     "in_stock": true,
-     "per_kg": 60.0
-    }
-   ],
-   "best_per_kg": 60.0,
-   "cheapest_bag": 12.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 60.0,
-   "price_changed_on": "2026-11-10"
   },
   {
    "id": "dabov:honduras-caballero-washed",
@@ -8857,7 +8821,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 16.5,
    "first_seen": "2026-11-17",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -9575,7 +9539,7 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": 68.4,
+   "previous_per_kg": 70.0,
    "price_changed_on": "2026-11-17"
   },
   {
@@ -11019,7 +10983,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-11-17",
-   "previous_per_kg": null,
+   "previous_per_kg": 80.0,
    "price_changed_on": null
   },
   {
@@ -11049,7 +11013,7 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 20.0,
    "first_seen": "2026-10-29",
-   "previous_per_kg": 72.0,
+   "previous_per_kg": 80.0,
    "price_changed_on": "2026-11-17"
   },
   {
@@ -11121,66 +11085,6 @@
    "best_per_kg": 80.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 80.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:ethiopia-megadu-la-cabra",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Ethiopia Megadu - La Cabra",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/guatemala-las-flores-de-cafe-la-cabra-p7djw-chjr2-g2cfd",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/a799e922-298c-4037-bd75-e0c918563ab8/Megadu_Natural_La_Cabra_Seasonal_Coffee_box_250g_90a5ef8b-f982-448c-beff-9f4d7164ab44.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": 80.0
-    }
-   ],
-   "best_per_kg": 80.0,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-11-14",
-   "previous_per_kg": 80.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:guatemala-las-flores-de-cafe-la-cabra",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Guatemala Las Flores de Cafe - La Cabra",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/guatemala-las-flores-de-cafe-la-cabra",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fe0d52ff-fbb2-4524-9d0a-9f3e4f348d05/Las_Flores_de_Cafe_La_Cabra_Seasonal_Coffee_box_250g.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 20.0,
-     "in_stock": true,
-     "per_kg": 80.0
-    }
-   ],
-   "best_per_kg": 80.0,
-   "cheapest_bag": 20.0,
-   "first_seen": "2026-11-14",
    "previous_per_kg": 80.0,
    "price_changed_on": null
   },
@@ -11307,36 +11211,6 @@
    "best_per_kg": 84.0,
    "cheapest_bag": 21.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 84.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:ethiopia-haji-bule-la-cabra",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Ethiopia Haji Bule - La Cabra",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/guatemala-las-flores-de-cafe-la-cabra-p7djw-chjr2",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/407e6ada-52ce-4aec-a9cc-648ef5cbff32/Haji_Bule_La_Cabra_Seasonal_Coffee_250g.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 21.0,
-     "in_stock": true,
-     "per_kg": 84.0
-    }
-   ],
-   "best_per_kg": 84.0,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-11-14",
    "previous_per_kg": 84.0,
    "price_changed_on": null
   },
@@ -11971,6 +11845,246 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:finca-tamana-colombia-espresso-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Finca Tamana Colombia ESPRESSO - Tim Wendelboe",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Caramel, chocolate & red fruits",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-8gjbl-2z6gf",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/af171880-4da9-4821-9fb3-cfdc35d69a05/FincaTamanaColombiaEspresso-WEBSHOP.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:los-pirineos-pacamara-el-slavador-christmas-edition-espresso-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Los Pirineos Pacamara El Slavador \"Christmas Edition\" ESPRESSO - Tim Wendelboe",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "Winey, stone fruits & cacao nibs",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-8gjbl",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/55960730-6a07-429c-aca1-1ec492d6d5b1/ChristmasEdition-PacamaraEspresso-Webshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:nacimiento-pacas-honduras-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Nacimiento Pacas Honduras - Tim Wendelboe",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Red berries, herbal & chocolate",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-fj2m8-rm9ln-dz9xf",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fafebfb7-2502-44ce-b371-6ffc88bb8065/NacimientoPacasFilter-Webshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:tatmara-ethiopia-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Tatmara Ethiopia - Tim Wendelboe",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Citrus, floral & stone fruits",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-fj2m8-rm9ln",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/259c5239-05a0-45d3-9d74-b0d7d073a147/TatmaraFilter-Webshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:ngerwe-kenya-christmas-edition-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Ngerwe Kenya \"Christmas Edition\" - Tim Wendelboe",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Blackcurrants, blackberries & rose hips",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-fj2m8",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/40952d38-aaf5-4e21-8b3a-cd6ce458a91b/ChristmasEdition-NgerweFilter-Webshop_78b9f246-2e70-4936-a317-7c78d2bbec3e.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:los-pirineos-pacamara-el-slavador-christmas-edition-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Los Pirineos Pacamara El Slavador \"Christmas Edition\" - Tim Wendelboe",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "Winey, stone fruits & cacao nibs",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/67514d36-a91b-4d14-bd29-caa3b53c34ec/ChristmasEdition-PacamaraFilter-Webshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:finca-el-puente-catua-honduras-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Finca El Puente Catuaí Honduras - Tim Wendelboe",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Herbal, dark chocolate & dried fruits",
+   "taste": "Balanced",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/2be31ad8-d70b-42a9-abc8-cde7a2a58628/Catuai-Filter-Webshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "foyer:echemo-ethiopia-tim-wendelboe",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Echemo Ethiopia - Tim Wendelboe",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Floral, white tea & stone fruits",
+   "taste": "Fruity / floral",
+   "roast": "Light",
+   "roast_basis": "Stated",
+   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe",
+   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/52ee0af9-573c-4237-b0cc-6cc3fcda959f/EchemoFilterWebshop.webp",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 24.6,
+     "in_stock": true,
+     "per_kg": 98.4
+    }
+   ],
+   "best_per_kg": 98.4,
+   "cheapest_bag": 24.6,
+   "first_seen": "2026-11-18",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "dabov:ethiopia-karamo-washed",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -12259,12 +12373,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-natural-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/flw-03.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 21.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 105.0
     }
    ],
@@ -12976,10 +13090,10 @@
    "price_changed_on": null
   },
   {
-   "id": "hue:quebradotas-sl28",
+   "id": "hue:quebraditas-sl28",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
-   "name": "Quebradotas SL28",
+   "name": "Quebraditas SL28",
    "origin": "Kenya",
    "region": "",
    "type": "Single origin",
@@ -12990,18 +13104,18 @@
    "roast_basis": "",
    "url": "https://hueroastery.com/product/argote-colombia/",
    "image": "https://hueroastery.com/wp-content/uploads/2026/04/Argote-Colombia-900x900.webp",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 200,
      "price": 28.0,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 140.0
     }
    ],
    "best_per_kg": 140.0,
    "cheapest_bag": 28.0,
-   "first_seen": "2026-11-17",
+   "first_seen": "2026-11-18",
    "previous_per_kg": null,
    "price_changed_on": null
   },
@@ -13731,36 +13845,6 @@
    "cheapest_bag": 25.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 250.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:ethiope-denmark-poma",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Ethiope Denmark - Poma",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/ethiope-denmark-poma",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/b439e251-8945-4960-9c0a-04fcc211b6a9/1_a60d00ab-3c61-4e59-b6cc-cb59a6489462.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 150,
-     "price": 40.0,
-     "in_stock": true,
-     "per_kg": 266.67
-    }
-   ],
-   "best_per_kg": 266.67,
-   "cheapest_bag": 40.0,
-   "first_seen": "2026-11-03",
-   "previous_per_kg": 266.67,
    "price_changed_on": null
   },
   {
