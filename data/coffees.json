@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:57+00:00",
+ "generated_at": "2026-11-21T12:40+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 31.6,
@@ -23,11 +23,11 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 16,
-   "cheapest_per_kg": 36.3,
-   "median_per_kg": 48.0
+   "cheapest_per_kg": 36.67,
+   "median_per_kg": 59.62
   },
   {
    "id": "novelty",
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,11 +51,11 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 8,
-   "cheapest_per_kg": 34.0,
-   "median_per_kg": 66.0
+   "cheapest_per_kg": 30.6,
+   "median_per_kg": 52.8
   },
   {
    "id": "sortie",
@@ -65,10 +65,10 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 9,
-   "cheapest_per_kg": 40.4,
+   "cheapest_per_kg": 45.0,
    "median_per_kg": 48.6
   },
   {
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 44.84,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 17,
    "cheapest_per_kg": 33.2,
@@ -205,9 +205,9 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
-   "coffees": 16,
+   "coffees": 17,
    "cheapest_per_kg": 46.0,
    "median_per_kg": 92.5
   },
@@ -218,9 +218,9 @@
    "website": "https://cafeistas.com",
    "free_shipping_eur": null,
    "note": null,
-   "source": "live",
+   "source": "previous",
    "last_checked": "2026-11-20",
-   "error": null,
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "coffees": 15,
    "cheapest_per_kg": 36.0,
    "median_per_kg": 50.0
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -275,7 +275,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 50.0,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 50.0,
@@ -345,7 +345,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 34.15,
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 35,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-20",
+   "last_checked": "2026-11-21",
    "error": null,
    "coffees": 7,
    "cheapest_per_kg": 38.8,
@@ -660,6 +660,36 @@
    "first_seen": "2026-10-29",
    "previous_per_kg": 27.0,
    "price_changed_on": null
+  },
+  {
+   "id": "motiv:mexico-chiapas-swiss-water-decaf",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Mexico - Chiapas Swiss Water Decaf",
+   "origin": "Mexico",
+   "region": "",
+   "type": "Decaf",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.8,
+     "in_stock": false,
+     "per_kg": 27.2
+    }
+   ],
+   "best_per_kg": 27.2,
+   "cheapest_bag": 6.8,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 34.0,
+   "price_changed_on": "2026-11-21"
   },
   {
    "id": "spiri:outlaw-blend",
@@ -1043,6 +1073,36 @@
    "first_seen": "2026-10-29",
    "previous_per_kg": 30.5,
    "price_changed_on": null
+  },
+  {
+   "id": "motiv:colombia-tolima-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Colombia – Tolima Washed",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/colombia-bucaramanga-tolima-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/bocaramanga.jpg?v=1789202482&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.65,
+     "in_stock": true,
+     "per_kg": 30.6
+    }
+   ],
+   "best_per_kg": 30.6,
+   "cheapest_bag": 7.65,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 34.0,
+   "price_changed_on": "2026-11-21"
   },
   {
    "id": "kudu:good-cup-specialty-blend",
@@ -1663,66 +1723,6 @@
    "price_changed_on": null
   },
   {
-   "id": "motiv:colombia-tolima-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Colombia – Tolima Washed",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/colombia-bucaramanga-tolima-washed",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/bocaramanga.jpg?v=1789202482&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 8.5,
-     "in_stock": true,
-     "per_kg": 34.0
-    }
-   ],
-   "best_per_kg": 34.0,
-   "cheapest_bag": 8.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 34.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:mexico-chiapas-swiss-water-decaf",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Mexico - Chiapas Swiss Water Decaf",
-   "origin": "Mexico",
-   "region": "",
-   "type": "Decaf",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 8.5,
-     "in_stock": false,
-     "per_kg": 34.0
-    }
-   ],
-   "best_per_kg": 34.0,
-   "cheapest_bag": 8.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 34.0,
-   "price_changed_on": null
-  },
-  {
    "id": "blackbart:ghost-ship-decaf",
    "roaster_id": "blackbart",
    "roaster": "Black Bart",
@@ -2143,12 +2143,12 @@
    "roast_basis": "Omni roast or you choose",
    "url": "https://www.earthcoffeeco.shop/products/colombia-bucaramanga",
    "image": "https://cdn.shopify.com/s/files/1/0760/3945/5054/files/Earth.Bag.250.A.png?v=1781880150&width=480",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 270,
      "price": 9.8,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 36.3
     }
    ],
@@ -3128,42 +3128,6 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 40.0,
    "price_changed_on": null
-  },
-  {
-   "id": "sortie:brazil-sul-de-minas",
-   "roaster_id": "sortie",
-   "roaster": "Sortie",
-   "name": "BRAZIL SUL DE MINAS",
-   "origin": "Brazil",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "Caramel • Milk chocolate • Nutty • Raisin",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://sortiecoffee.gr/products/brazil-sul-de-minas",
-   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/brazil-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642943&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 11.8,
-     "in_stock": true,
-     "per_kg": 47.2
-    },
-    {
-     "size_g": 500,
-     "price": 20.2,
-     "in_stock": true,
-     "per_kg": 40.4
-    }
-   ],
-   "best_per_kg": 40.4,
-   "cheapest_bag": 11.8,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 40.4,
-   "price_changed_on": "2026-11-16"
   },
   {
    "id": "taresso:supremo-espresso-blend",
@@ -4856,6 +4820,36 @@
    "price_changed_on": "2026-10-28"
   },
   {
+   "id": "motiv:rwanda-gitesi-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Rwanda – Gitesi Washed",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/rwanda-aime-gahizi-gitesi-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rwanda.jpg?v=1789202519&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.6,
+     "in_stock": true,
+     "per_kg": 46.4
+    }
+   ],
+   "best_per_kg": 46.4,
+   "cheapest_bag": 11.6,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 58.0,
+   "price_changed_on": "2026-11-21"
+  },
+  {
    "id": "roosters:no-64-aa-kaguyu-kenya",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -4926,6 +4920,42 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 46.8,
    "price_changed_on": null
+  },
+  {
+   "id": "sortie:brazil-sul-de-minas",
+   "roaster_id": "sortie",
+   "roaster": "Sortie",
+   "name": "BRAZIL SUL DE MINAS",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Caramel • Milk chocolate • Nutty • Raisin",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://sortiecoffee.gr/products/brazil-sul-de-minas",
+   "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/brazil-specialty-coffee_beans-thessaloniki_jpg.jpg?v=1772642943&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.8,
+     "in_stock": true,
+     "per_kg": 47.2
+    },
+    {
+     "size_g": 500,
+     "price": 20.2,
+     "in_stock": false,
+     "per_kg": 40.4
+    }
+   ],
+   "best_per_kg": 47.2,
+   "cheapest_bag": 11.8,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 40.4,
+   "price_changed_on": "2026-11-21"
   },
   {
    "id": "novelty:nicaragua-agua-sarca",
@@ -5835,18 +5865,18 @@
    "roast_basis": "",
    "url": "https://sortiecoffee.gr/products/sortie-blend",
    "image": "https://cdn.shopify.com/s/files/1/0901/0026/9386/files/sortie_blend-specialtybeans-coffeebeansthessaloniki.jpg?v=1790158102&width=480",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 14.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 56.0
     },
     {
      "size_g": 500,
      "price": 25.2,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 50.4
     }
    ],
@@ -6268,6 +6298,96 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 52.68,
    "price_changed_on": null
+  },
+  {
+   "id": "motiv:el-salvador-ilamatepec-double-soaked-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "El Salvador - Ilamatepec Double Soaked Washed",
+   "origin": "El Salvador",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Baked pears & apple, caramel, yellow fruit, brown sugar",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/los-luchadores-1",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/elsalvador.jpg?v=1789806765&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.2,
+     "in_stock": true,
+     "per_kg": 52.8
+    }
+   ],
+   "best_per_kg": 52.8,
+   "cheapest_bag": 13.2,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 66.0,
+   "price_changed_on": "2026-11-21"
+  },
+  {
+   "id": "motiv:ethiopia-yirgacheffe-natural",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Ethiopia - Yirgacheffe Natural",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Dense, juicy and intense. Cherry, red grapes and red fruits. Bright, winey and sweet from start to finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/ethiopia-yirgacheffe-chelbesa-3",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/eth.jpg?v=1789806552&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.2,
+     "in_stock": true,
+     "per_kg": 52.8
+    }
+   ],
+   "best_per_kg": 52.8,
+   "cheapest_bag": 13.2,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 66.0,
+   "price_changed_on": "2026-11-21"
+  },
+  {
+   "id": "motiv:honduras-caballero-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Honduras - Caballero Washed",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/honduras-caballero-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/honduras-caballero.jpg?v=1794892204&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.2,
+     "in_stock": true,
+     "per_kg": 52.8
+    }
+   ],
+   "best_per_kg": 52.8,
+   "cheapest_bag": 13.2,
+   "first_seen": "2026-11-17",
+   "previous_per_kg": 66.0,
+   "price_changed_on": "2026-11-21"
   },
   {
    "id": "novelty:rwanda-nyaruguru",
@@ -6729,6 +6849,36 @@
    "price_changed_on": null
   },
   {
+   "id": "motiv:kenya-rung-eto-kii-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Kenya - Rung'Eto Kii Washed",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Violet, rose, dark jammy fruit, plum, molasses, layered sticky finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/kenya-rungeto-kii",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/kenya.jpg?v=1789806037&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 14.0,
+     "in_stock": true,
+     "per_kg": 56.0
+    }
+   ],
+   "best_per_kg": 56.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 70.0,
+   "price_changed_on": "2026-11-21"
+  },
+  {
    "id": "samba:ethiopia-guji-jigesa",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -7173,36 +7323,6 @@
    "best_per_kg": 58.0,
    "cheapest_bag": 14.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 58.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:rwanda-gitesi-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Rwanda – Gitesi Washed",
-   "origin": "Rwanda",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/rwanda-aime-gahizi-gitesi-washed",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rwanda.jpg?v=1789202519&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 14.5,
-     "in_stock": true,
-     "per_kg": 58.0
-    }
-   ],
-   "best_per_kg": 58.0,
-   "cheapest_bag": 14.5,
-   "first_seen": "2026-11-01",
    "previous_per_kg": 58.0,
    "price_changed_on": null
   },
@@ -8735,96 +8855,6 @@
    "price_changed_on": null
   },
   {
-   "id": "motiv:el-salvador-ilamatepec-double-soaked-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "El Salvador - Ilamatepec Double Soaked Washed",
-   "origin": "El Salvador",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Baked pears & apple, caramel, yellow fruit, brown sugar",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/los-luchadores-1",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/elsalvador.jpg?v=1789806765&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 16.5,
-     "in_stock": true,
-     "per_kg": 66.0
-    }
-   ],
-   "best_per_kg": 66.0,
-   "cheapest_bag": 16.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 66.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:ethiopia-yirgacheffe-natural",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Ethiopia - Yirgacheffe Natural",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Dense, juicy and intense. Cherry, red grapes and red fruits. Bright, winey and sweet from start to finish",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/ethiopia-yirgacheffe-chelbesa-3",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/eth.jpg?v=1789806552&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 16.5,
-     "in_stock": true,
-     "per_kg": 66.0
-    }
-   ],
-   "best_per_kg": 66.0,
-   "cheapest_bag": 16.5,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 66.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:honduras-caballero-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Honduras - Caballero Washed",
-   "origin": "Honduras",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/honduras-caballero-washed",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/honduras-caballero.jpg?v=1794892204&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 16.5,
-     "in_stock": true,
-     "per_kg": 66.0
-    }
-   ],
-   "best_per_kg": 66.0,
-   "cheapest_bag": 16.5,
-   "first_seen": "2026-11-17",
-   "previous_per_kg": 66.0,
-   "price_changed_on": null
-  },
-  {
    "id": "samba:la-lindosa-colombia",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -9080,6 +9110,36 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
    "price_changed_on": null
+  },
+  {
+   "id": "motiv:colombia-tolima-geisha-natural",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Colombia - Tolima Geisha Natural",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Lemongrass & lime, apricot",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/colombia-la-roca",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rojas.jpg?v=1790080952&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.8,
+     "in_stock": true,
+     "per_kg": 67.2
+    }
+   ],
+   "best_per_kg": 67.2,
+   "cheapest_bag": 16.8,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 84.0,
+   "price_changed_on": "2026-11-21"
   },
   {
    "id": "conte:supernatural",
@@ -9509,36 +9569,6 @@
    "best_per_kg": 70.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 70.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:kenya-rung-eto-kii-washed",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Kenya - Rung'Eto Kii Washed",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Violet, rose, dark jammy fruit, plum, molasses, layered sticky finish",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/kenya-rungeto-kii",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/kenya.jpg?v=1789806037&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 17.5,
-     "in_stock": true,
-     "per_kg": 70.0
-    }
-   ],
-   "best_per_kg": 70.0,
-   "cheapest_bag": 17.5,
-   "first_seen": "2026-11-01",
    "previous_per_kg": 70.0,
    "price_changed_on": null
   },
@@ -11188,36 +11218,6 @@
    "cheapest_bag": 26.7,
    "first_seen": "2026-10-28",
    "previous_per_kg": 83.8,
-   "price_changed_on": null
-  },
-  {
-   "id": "motiv:colombia-tolima-geisha-natural",
-   "roaster_id": "motiv",
-   "roaster": "Motiv",
-   "name": "Colombia - Tolima Geisha Natural",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Lemongrass & lime, apricot",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://motiv.coffee/products/colombia-la-roca",
-   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rojas.jpg?v=1790080952&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 21.0,
-     "in_stock": true,
-     "per_kg": 84.0
-    }
-   ],
-   "best_per_kg": 84.0,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 84.0,
    "price_changed_on": null
   },
   {
@@ -14572,6 +14572,36 @@
    "best_per_kg": null,
    "cheapest_bag": 11.8,
    "first_seen": "2026-10-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:the-christmas-roast",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "THE CHRISTMAS ROAST",
+   "origin": "Not stated",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "Chocolate, Fruity",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/espresso-en/the-christmas-roast-2/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/IMG_9178-1-600x600.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": null,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": null
+    }
+   ],
+   "best_per_kg": null,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-11-21",
    "previous_per_kg": null,
    "price_changed_on": null
   },
