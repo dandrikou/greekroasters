@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T14:53+00:00",
+ "generated_at": "2026-11-25T14:21+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -23,11 +23,11 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 16,
-   "cheapest_per_kg": 36.67,
-   "median_per_kg": 59.62
+   "cheapest_per_kg": 36.3,
+   "median_per_kg": 48.0
   },
   {
    "id": "novelty",
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,10 +51,10 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 8,
-   "cheapest_per_kg": 46.4,
+   "cheapest_per_kg": 27.2,
    "median_per_kg": 52.8
   },
   {
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 36.68,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,9 +149,9 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
-   "coffees": 7,
+   "coffees": 6,
    "cheapest_per_kg": 44.84,
    "median_per_kg": 50.36
   },
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 17,
    "cheapest_per_kg": 33.2,
@@ -205,9 +205,9 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
-   "coffees": 16,
+   "coffees": 15,
    "cheapest_per_kg": 46.0,
    "median_per_kg": 92.5
   },
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 50.0,
@@ -344,10 +344,10 @@
    "website": "https://roasters-kolektiva.com",
    "free_shipping_eur": 50,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-23",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "coffees": 19,
+   "source": "live",
+   "last_checked": "2026-11-25",
+   "error": null,
+   "coffees": 21,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 61.6
   },
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 34,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,9 +443,9 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-24",
+   "last_checked": "2026-11-25",
    "error": null,
-   "coffees": 7,
+   "coffees": 6,
    "cheapest_per_kg": 38.8,
    "median_per_kg": 41.6
   }
@@ -676,12 +676,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 6.8,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 27.2
     }
    ],
@@ -1089,12 +1089,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/colombia-bucaramanga-tolima-washed",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/bocaramanga.jpg?v=1789202482&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 7.65,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 30.6
     }
    ],
@@ -2143,12 +2143,12 @@
    "roast_basis": "Omni roast or you choose",
    "url": "https://www.earthcoffeeco.shop/products/colombia-bucaramanga",
    "image": "https://cdn.shopify.com/s/files/1/0760/3945/5054/files/Earth.Bag.250.A.png?v=1781880150&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 270,
      "price": 9.8,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 36.3
     }
    ],
@@ -2221,7 +2221,7 @@
    "best_per_kg": 36.68,
    "cheapest_bag": 10.24,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 46.08,
+   "previous_per_kg": 36.68,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -2323,7 +2323,7 @@
    "best_per_kg": 37.44,
    "cheapest_bag": 10.4,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 46.8,
+   "previous_per_kg": 37.44,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -2490,7 +2490,7 @@
    "best_per_kg": 37.76,
    "cheapest_bag": 9.44,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 47.2,
+   "previous_per_kg": 37.76,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -2856,7 +2856,7 @@
    "best_per_kg": 38.88,
    "cheapest_bag": 10.8,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 48.6,
+   "previous_per_kg": 38.88,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -3090,7 +3090,7 @@
    "best_per_kg": 40.0,
    "cheapest_bag": 10.0,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 45.0,
+   "previous_per_kg": 40.0,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -3342,7 +3342,7 @@
    "best_per_kg": 40.32,
    "cheapest_bag": 11.2,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 50.4,
+   "previous_per_kg": 40.32,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -5359,36 +5359,6 @@
    "price_changed_on": null
   },
   {
-   "id": "area51:decaf-co2",
-   "roaster_id": "area51",
-   "roaster": "Area 51",
-   "name": "Decaf CO2",
-   "origin": "Not stated",
-   "region": "",
-   "type": "Decaf",
-   "process": "CO2 decaf",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://area51coffeeroasters.com/προϊοντα/specialty-%ce%ba%ce%b1%cf%86%ce%b5%ce%b4%ce%b5%cf%82/%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9/decaf-co2-%ce%ba%ce%bf%ce%ba%ce%ba%ce%bf%ce%b9-%ce%ba%ce%b1%cf%86%ce%b5-250g/",
-   "image": "https://area51coffeeroasters.com/wp-content/uploads/Coffee_Area51Decaf-WholeBeans-250g_P01A-1080w.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.44,
-     "in_stock": true,
-     "per_kg": 49.76
-    }
-   ],
-   "best_per_kg": 49.76,
-   "cheapest_bag": 12.44,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 49.76,
-   "price_changed_on": null
-  },
-  {
    "id": "kudu:kenya-kiandu-aa",
    "roaster_id": "kudu",
    "roaster": "Kudu",
@@ -6314,12 +6284,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/ethiopia-yirgacheffe-chelbesa-3",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/eth.jpg?v=1789806552&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 13.2,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 52.8
     }
    ],
@@ -6344,12 +6314,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/los-luchadores-1",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/elsalvador.jpg?v=1789806765&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 13.2,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 52.8
     }
    ],
@@ -6673,7 +6643,7 @@
    "best_per_kg": 54.72,
    "cheapest_bag": 15.2,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 68.4,
+   "previous_per_kg": 54.72,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -6709,7 +6679,7 @@
    "best_per_kg": 54.72,
    "cheapest_bag": 15.2,
    "first_seen": "2026-11-01",
-   "previous_per_kg": 68.4,
+   "previous_per_kg": 54.72,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -6981,36 +6951,6 @@
    "price_changed_on": null
   },
   {
-   "id": "conte:kenya-kanjathi-aa",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "KENYA KANJATHI AA",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Tea Like, Cranberries, Honey, Blackcurrant, Orange",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/kenya-kanjathi-aa-2/",
-   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2024/09/4-600x600.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": 56.0
-    }
-   ],
-   "best_per_kg": 56.0,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-11-18",
-   "previous_per_kg": 56.0,
-   "price_changed_on": null
-  },
-  {
    "id": "cafeistas:sesongot-gayo-indonesia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
@@ -7037,7 +6977,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 14.0,
    "first_seen": "2026-11-24",
-   "previous_per_kg": null,
+   "previous_per_kg": 56.0,
    "price_changed_on": null
   },
   {
@@ -7681,6 +7621,36 @@
    "cheapest_bag": 14.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": 59.2,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-kenya-siba",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip To Kenya #Siba 200gr",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-kenya-siba-200gr/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2023/11/kenya_siba--407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 11.9,
+     "in_stock": true,
+     "per_kg": 59.5
+    }
+   ],
+   "best_per_kg": 59.5,
+   "cheapest_bag": 11.9,
+   "first_seen": "2026-11-25",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -8358,36 +8328,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kolektiva:trip-to-peru-jaguar",
-   "roaster_id": "kolektiva",
-   "roaster": "Roasters Kolektiva",
-   "name": "Trip to Peru #Jaguar",
-   "origin": "Peru",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://roasters-kolektiva.com/product/trip-to-peru-jaguar/",
-   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/04/trip-to-peru_jaguar-407x407.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 15.8,
-     "in_stock": true,
-     "per_kg": 63.2
-    }
-   ],
-   "best_per_kg": 63.2,
-   "cheapest_bag": 15.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 63.2,
-   "price_changed_on": null
-  },
-  {
    "id": "kolektiva:trip-to-peru-macaw",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -8480,7 +8420,7 @@
    "best_per_kg": 64.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": 70.0,
+   "previous_per_kg": 64.0,
    "price_changed_on": "2026-11-24"
   },
   {
@@ -8660,36 +8600,6 @@
    "cheapest_bag": 12.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "june:0-1-project-guatemala",
-   "roaster_id": "june",
-   "roaster": "June Roasters",
-   "name": "0.1 PROJECT GUATEMALA",
-   "origin": "Guatemala",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "CHERRY, LIQUOR, CHOCO SYRUP, MELON, PASSION FRUIT",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.junecoffeeroasters.com/product/0-1-project-colombia-la-cabana/",
-   "image": "https://www.junecoffeeroasters.com/wp-content/uploads/2025/07/01-pro-300x300.jpg",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 16.0,
-     "in_stock": true,
-     "per_kg": 64.0
-    }
-   ],
-   "best_per_kg": 64.0,
-   "cheapest_bag": 16.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 64.0,
    "price_changed_on": null
   },
   {
@@ -9174,12 +9084,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/colombia-la-roca",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/rojas.jpg?v=1790080952&width=480",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 250,
      "price": 16.8,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 67.2
     }
    ],
@@ -9725,6 +9635,36 @@
    "roast_basis": "",
    "url": "https://www.foyerespressobar.com/shop/p/golba-ethiopia-loud-bean",
    "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/fb0f3abc-d0fa-4a3a-b8fc-877c7f1605b3/5fc19d86-dd95-47f5-b351-15af697cd5de-Photoroom.png",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 14.0,
+     "in_stock": false,
+     "per_kg": 70.0
+    }
+   ],
+   "best_per_kg": 70.0,
+   "cheapest_bag": 14.0,
+   "first_seen": "2026-11-01",
+   "previous_per_kg": 70.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-costa-rica-cougar",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Costa Rica #Cougar 200gr",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Honey",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-costa-rica-cougar/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2025/01/Trip-to-Costa-Rica-Cougar-retail.jpg--407x407.jpeg",
    "in_stock": true,
    "options": [
     {
@@ -9736,8 +9676,38 @@
    ],
    "best_per_kg": 70.0,
    "cheapest_bag": 14.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 70.0,
+   "first_seen": "2026-11-25",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-ethiopia-marabou",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Ethiopia #Marabou 200gr",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-ethiopia-marabou/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2023/11/ethiopia_marabou--407x407.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 14.2,
+     "in_stock": true,
+     "per_kg": 71.0
+    }
+   ],
+   "best_per_kg": 71.0,
+   "cheapest_bag": 14.2,
+   "first_seen": "2026-11-25",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -12215,6 +12185,36 @@
    "price_changed_on": null
   },
   {
+   "id": "foyer:loud-bean-bolivia-los-rodriguez",
+   "roaster_id": "foyer",
+   "roaster": "Foyer Espresso Bar",
+   "name": "Loud Bean - Bolivia Los Rodriguez",
+   "origin": "Bolivia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.foyerespressobar.com/shop/p/1rxat9etf3j9ulhiozuios6kh8zgle",
+   "image": "https://static1.squarespace.com/static/5e8dfa499db7b95a5c76529d/5e9385ab72f3495f04f520de/6b06c209fb01400e4e7397ee/1795610140490/",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 21.0,
+     "in_stock": true,
+     "per_kg": 105.0
+    }
+   ],
+   "best_per_kg": 105.0,
+   "cheapest_bag": 21.0,
+   "first_seen": "2026-11-25",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "earth:las-quebraditas-sl-28-colombia",
    "roaster_id": "earth",
    "roaster": "Earth Coffee",
@@ -13677,36 +13677,6 @@
    "cheapest_bag": 25.0,
    "first_seen": "2026-10-28",
    "previous_per_kg": 250.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:marageisha-colombia-poma",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Marageisha Colombia - POMA",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.foyerespressobar.com/shop/p/muthuaini-kenya-poma-52bgz",
-   "image": "https://static1.squarespace.com/static/5e8dfa499db7b95a5c76529d/5e9385ab72f3495f04f520de/6ae8ad11af804b181b0a770f/1793634509151/",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 150,
-     "price": 40.0,
-     "in_stock": true,
-     "per_kg": 266.67
-    }
-   ],
-   "best_per_kg": 266.67,
-   "cheapest_bag": 40.0,
-   "first_seen": "2026-11-03",
-   "previous_per_kg": 266.67,
    "price_changed_on": null
   },
   {
