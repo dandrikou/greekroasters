@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:57+00:00",
+ "generated_at": "2026-11-27T13:53+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -8,12 +8,12 @@
    "website": "https://kudu.gr",
    "free_shipping_eur": 40,
    "note": null,
-   "source": "previous",
-   "last_checked": "2026-11-23",
-   "error": "HTTPError: 401 Client Error: Unauthorized for url: https://kudu.gr/collections/coffee/products.json?limit=250&page=1",
+   "source": "live",
+   "last_checked": "2026-11-27",
+   "error": null,
    "coffees": 26,
-   "cheapest_per_kg": 31.6,
-   "median_per_kg": 56.0
+   "cheapest_per_kg": 22.12,
+   "median_per_kg": 39.2
   },
   {
    "id": "earth",
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.67,
@@ -37,7 +37,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 33.34,
@@ -51,7 +51,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 8,
    "cheapest_per_kg": 27.2,
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 36.68,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 6,
    "cheapest_per_kg": 44.84,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,11 +177,11 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
-   "coffees": 17,
+   "coffees": 16,
    "cheapest_per_kg": 33.2,
-   "median_per_kg": 44.65
+   "median_per_kg": 46.45
   },
   {
    "id": "omsom",
@@ -205,11 +205,11 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
-   "coffees": 15,
+   "coffees": 18,
    "cheapest_per_kg": 46.0,
-   "median_per_kg": 92.5
+   "median_per_kg": 66.0
   },
   {
    "id": "cafeistas",
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -289,9 +289,9 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
-   "coffees": 10,
+   "coffees": 11,
    "cheapest_per_kg": 36.0,
    "median_per_kg": 72.0
   },
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,7 +331,7 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 55.0,
@@ -345,9 +345,9 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
-   "coffees": 21,
+   "coffees": 22,
    "cheapest_per_kg": 34.15,
    "median_per_kg": 61.6
   },
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 33,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-26",
+   "last_checked": "2026-11-27",
    "error": null,
    "coffees": 6,
    "cheapest_per_kg": 38.8,
@@ -451,6 +451,66 @@
   }
  ],
  "coffees": [
+  {
+   "id": "kudu:good-cup-specialty-blend",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Good Cup Specialty Coffee blend (250g)",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural, Pulped natural",
+   "notes": "dark chocolate, magnolia, cedar, caramel, hazelnut butter, cashew",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/good-cup-specialty-coffee-blend-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Good-cup.jpg?v=1593086929&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 5.53,
+     "in_stock": true,
+     "per_kg": 22.12
+    }
+   ],
+   "best_per_kg": 22.12,
+   "cheapest_bag": 5.53,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 31.6,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:habit-specialty-blend",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Habit Specialty Coffee blend (250g)",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural, Washed",
+   "notes": "milk chocolate, peach, green tea, tangerine zest, cocoa, caramel",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/habit-specialty-coffee-blend-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Habit.jpg?v=1593086955&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.09,
+     "in_stock": true,
+     "per_kg": 24.36
+    }
+   ],
+   "best_per_kg": 24.36,
+   "cheapest_bag": 6.09,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 34.8,
+   "price_changed_on": "2026-11-27"
+  },
   {
    "id": "spinos:spinos-presidente",
    "roaster_id": "spinos",
@@ -690,6 +750,96 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 27.2,
    "price_changed_on": "2026-11-21"
+  },
+  {
+   "id": "kudu:colombia-los-idolos",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Colombia Los Idolos (250g)",
+   "origin": "Colombia",
+   "region": "Nariño",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "walnut, lilac, almond, red cherry, sweet orange, chocolate, prune",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/colombia-los-idolos-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Colombia_Red_4.jpg?v=1593092747&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.86,
+     "in_stock": true,
+     "per_kg": 27.44
+    }
+   ],
+   "best_per_kg": 27.44,
+   "cheapest_bag": 6.86,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 39.2,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:brazil-finca-cecilia",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Brazil Finca Cecilia (250g)",
+   "origin": "Brazil",
+   "region": "Cerrado Mineiro",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "walnut, fir, carob, raisin, floral spice, chocolate, orange",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/brazil-finca-cecilia-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Brazil-Sceilia.jpg?v=1593087268&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.86,
+     "in_stock": true,
+     "per_kg": 27.44
+    }
+   ],
+   "best_per_kg": 27.44,
+   "cheapest_bag": 6.86,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 39.2,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:decaf-mexico-mountain-water",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Decaf Mexico Mountain Water (250g)",
+   "origin": "Mexico",
+   "region": "Chiapas",
+   "type": "Decaf",
+   "process": "Mountain Water decaf",
+   "notes": "chocolate, caramel, smooth body",
+   "taste": "Chocolate / nutty",
+   "roast": "Medium",
+   "roast_basis": "Stated",
+   "url": "https://kudu.gr/products/decaf-mexico-100-arabica-coffee",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/decaf.jpg?v=1753185108&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 6.93,
+     "in_stock": true,
+     "per_kg": 27.72
+    }
+   ],
+   "best_per_kg": 27.72,
+   "cheapest_bag": 6.93,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 39.6,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "spiri:outlaw-blend",
@@ -1039,6 +1189,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:costa-rica-cedral-alto",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Costa Rica Cedral Alto (250gr)",
+   "origin": "Costa Rica",
+   "region": "Tarrazú",
+   "type": "Single origin",
+   "process": "Natural, Washed",
+   "notes": "nutmeg, hazelnut, citrus, cocoa, dark chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/costa-rica-cedral-alto",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Costa_Rica_Cedral-Alto.jpg?v=1706624175&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 7.56,
+     "in_stock": true,
+     "per_kg": 30.24
+    }
+   ],
+   "best_per_kg": 30.24,
+   "cheapest_bag": 7.56,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 43.2,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "spiri:house-blend",
    "roaster_id": "spiri",
    "roaster": "Spiri",
@@ -1103,36 +1283,6 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 30.6,
    "price_changed_on": "2026-11-21"
-  },
-  {
-   "id": "kudu:good-cup-specialty-blend",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Good Cup Specialty Coffee blend (250g)",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "Natural, Pulped natural",
-   "notes": "dark chocolate, magnolia, cedar, caramel, hazelnut butter, cashew",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/good-cup-specialty-coffee-blend-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Good-cup.jpg?v=1593086929&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 7.9,
-     "in_stock": true,
-     "per_kg": 31.6
-    }
-   ],
-   "best_per_kg": 31.6,
-   "cheapest_bag": 7.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 31.6,
-   "price_changed_on": null
   },
   {
    "id": "blackbart:brazilian-loot-single-origin",
@@ -1277,6 +1427,36 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 32.0,
    "price_changed_on": null
+  },
+  {
+   "id": "kudu:colombia-black-condor",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Colombia Black Condor (250g)",
+   "origin": "Colombia",
+   "region": "Tolima",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "pink grapefruit, chocolate, raspberry, plum, lime, cacao, black currant",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/colombia-black-condor-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Colombia-Black-Condor.jpg?v=1697021343&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.05,
+     "in_stock": true,
+     "per_kg": 32.2
+    }
+   ],
+   "best_per_kg": 32.2,
+   "cheapest_bag": 8.05,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 46.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "handpickers:h-p-100-arabica-blend",
@@ -1831,36 +2011,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:habit-specialty-blend",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Habit Specialty Coffee blend (250g)",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "Natural, Washed",
-   "notes": "milk chocolate, peach, green tea, tangerine zest, cocoa, caramel",
-   "taste": "Balanced",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/habit-specialty-coffee-blend-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Habit.jpg?v=1593086955&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 8.7,
-     "in_stock": true,
-     "per_kg": 34.8
-    }
-   ],
-   "best_per_kg": 34.8,
-   "cheapest_bag": 8.7,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 34.8,
-   "price_changed_on": null
-  },
-  {
    "id": "samba:heavy-drinker-exclusive-pack",
    "roaster_id": "samba",
    "roaster": "Samba",
@@ -1889,6 +2039,36 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 34.8,
    "price_changed_on": null
+  },
+  {
+   "id": "kudu:kenya-kiandu-aa",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Kenya Kiandu AA (250g)",
+   "origin": "Kenya",
+   "region": "Nyeri",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "fir, dried plum, toffee, blackberry, red currant, ripe orange, tomato",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/kenya-kiandu-aa-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Kenya-Kiandu-AA.jpg?v=1712134035&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 8.75,
+     "in_stock": true,
+     "per_kg": 35.0
+    }
+   ],
+   "best_per_kg": 35.0,
+   "cheapest_bag": 8.75,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 50.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "spiri:decaf-colombia-tumbaga",
@@ -2069,6 +2249,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:the-grail-specialty-blend",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "The Grail Specialty Coffee blend (250g)",
+   "origin": "Blend",
+   "region": "",
+   "type": "Blend",
+   "process": "Natural, Washed",
+   "notes": "chocolate fudge, dried apricot, almond paste, cedar, mango, tangerine, jasmine",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/grail-specialty-coffee-blend-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Grail.jpg?v=1593086972&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.03,
+     "in_stock": true,
+     "per_kg": 36.12
+    }
+   ],
+   "best_per_kg": 36.12,
+   "cheapest_bag": 9.03,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 51.6,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "handpickers:dark-sparrow-espresso-blend",
    "roaster_id": "handpickers",
    "roaster": "Handpickers",
@@ -2157,6 +2367,36 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 36.3,
    "price_changed_on": null
+  },
+  {
+   "id": "kudu:peru-huabal-gr1",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Peru Huabal Gr1 (250g)",
+   "origin": "Peru",
+   "region": "Cajamarca, Huabal",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "hazelnut, butter, tea, chocolate, almond, caramel, bergamot",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/peru-huabal-gr1-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Peru-Huabal.jpg?v=1670839301&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.1,
+     "in_stock": true,
+     "per_kg": 36.4
+    }
+   ],
+   "best_per_kg": 36.4,
+   "cheapest_bag": 9.1,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 52.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "earth:don-pilo-guatemala",
@@ -2494,6 +2734,66 @@
    "price_changed_on": "2026-11-24"
   },
   {
+   "id": "kudu:nicaragua-el-bosque",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Nicaragua El Bosque (250g)",
+   "origin": "Nicaragua",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "green apple, strawberry, vanilla, lemon, honey syrup, cocoa, caramel, dark chocolate",
+   "taste": "Chocolate / nutty",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/nicaragua-el-bosque-bendicion-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Nicaragua-El-bosque-_NEW-2.jpg?v=1769099841&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.45,
+     "in_stock": true,
+     "per_kg": 37.8
+    }
+   ],
+   "best_per_kg": 37.8,
+   "cheapest_bag": 9.45,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 54.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:ethiopia-wubanchi-gr1",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Ethiopia Wubanchi Gr1 (250g)",
+   "origin": "Ethiopia",
+   "region": "Wubanchi",
+   "type": "Single origin",
+   "process": "",
+   "notes": "mango, pineapple, dried cherry, melon, chocolate, plum, earl grey",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/ethiopia-wubanchi-gr1-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia_Wubanchi--Gr1.jpg?v=1726575116&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 9.45,
+     "in_stock": true,
+     "per_kg": 37.8
+    }
+   ],
+   "best_per_kg": 37.8,
+   "cheapest_bag": 9.45,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 54.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "kross:sidewalk",
    "roaster_id": "kross",
    "roaster": "Kross",
@@ -2692,40 +2992,34 @@
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "roosters:no-51-colombia-divino-ni-o",
-   "roaster_id": "roosters",
-   "roaster": "The Roosters",
-   "name": "No 51 Colombia Divino Niño",
-   "origin": "Colombia",
-   "region": "Huila, Suaza",
+   "id": "kudu:guatemala-jalapa",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Guatemala Jalapa (250g)",
+   "origin": "Guatemala",
+   "region": "Jalapa",
    "type": "Single origin",
    "process": "Washed",
-   "notes": "brown sugar, stone fruit",
-   "taste": "Balanced",
+   "notes": "orange, nectarine, caramel, toffee, milk chocolate, almond",
+   "taste": "Chocolate / nutty",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://theroosters.gr/product/no-51-colombia-divino-nino/",
-   "image": "https://theroosters.gr/wp-content/uploads/2024/10/4-2.png",
+   "url": "https://kudu.gr/products/guatemala-jalapa-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Guatemala-Jalapa.jpg?v=1733305074&width=480",
    "in_stock": true,
    "options": [
     {
      "size_g": 250,
-     "price": 11.2,
+     "price": 9.66,
      "in_stock": true,
-     "per_kg": 44.8
-    },
-    {
-     "size_g": 1000,
-     "price": 38.6,
-     "in_stock": true,
-     "per_kg": 38.6
+     "per_kg": 38.64
     }
    ],
-   "best_per_kg": 38.6,
-   "cheapest_bag": 11.2,
+   "best_per_kg": 38.64,
+   "cheapest_bag": 9.66,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 38.6,
-   "price_changed_on": null
+   "previous_per_kg": 55.2,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "samba:espresso-exclusive-blend",
@@ -2968,20 +3262,20 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:colombia-los-idolos",
+   "id": "kudu:ethiopia-west-archi-nensebo-gr1",
    "roaster_id": "kudu",
    "roaster": "Kudu",
-   "name": "Colombia Los Idolos (250g)",
-   "origin": "Colombia",
-   "region": "Nariño",
+   "name": "Ethiopia West Archi Nensebo Gr1 (250g)",
+   "origin": "Ethiopia",
+   "region": "West Arsi, Nensebo",
    "type": "Single origin",
-   "process": "Washed",
-   "notes": "walnut, lilac, almond, red cherry, sweet orange, chocolate, prune",
+   "process": "",
+   "notes": "jasmine, citrus blossom, orange, green apple, apricot, honey",
    "taste": "Fruity / floral",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://kudu.gr/products/colombia-los-idolos-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Colombia_Red_4.jpg?v=1593092747&width=480",
+   "url": "https://kudu.gr/products/ethiopia-west-archi-nensebo-gr1-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia-West-Archi-Nensebo-Gr1.jpg?v=1732882449&width=480",
    "in_stock": true,
    "options": [
     {
@@ -2994,68 +3288,38 @@
    "best_per_kg": 39.2,
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 39.2,
-   "price_changed_on": null
+   "previous_per_kg": 56.0,
+   "price_changed_on": "2026-11-27"
   },
   {
-   "id": "kudu:brazil-finca-cecilia",
+   "id": "kudu:ethiopia-gargari-gutity",
    "roaster_id": "kudu",
    "roaster": "Kudu",
-   "name": "Brazil Finca Cecilia (250g)",
-   "origin": "Brazil",
-   "region": "Cerrado Mineiro",
+   "name": "Ethiopia Gargari Gutity (250g)",
+   "origin": "Ethiopia",
+   "region": "Gutity",
    "type": "Single origin",
-   "process": "Natural",
-   "notes": "walnut, fir, carob, raisin, floral spice, chocolate, orange",
-   "taste": "Balanced",
+   "process": "",
+   "notes": "melon, jasmine, black tea, stewed fruit, orange, white grape",
+   "taste": "Fruity / floral",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://kudu.gr/products/brazil-finca-cecilia-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Brazil-Sceilia.jpg?v=1593087268&width=480",
+   "url": "https://kudu.gr/products/ethiopia-gargari-gutity-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia_Gargari-Gutity.jpg?v=1696854493&width=480",
    "in_stock": true,
    "options": [
     {
      "size_g": 250,
-     "price": 9.8,
+     "price": 9.94,
      "in_stock": true,
-     "per_kg": 39.2
+     "per_kg": 39.76
     }
    ],
-   "best_per_kg": 39.2,
-   "cheapest_bag": 9.8,
+   "best_per_kg": 39.76,
+   "cheapest_bag": 9.94,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 39.2,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:decaf-mexico-mountain-water",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Decaf Mexico Mountain Water (250g)",
-   "origin": "Mexico",
-   "region": "Chiapas",
-   "type": "Decaf",
-   "process": "Mountain Water decaf",
-   "notes": "chocolate, caramel, smooth body",
-   "taste": "Chocolate / nutty",
-   "roast": "Medium",
-   "roast_basis": "Stated",
-   "url": "https://kudu.gr/products/decaf-mexico-100-arabica-coffee",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/decaf.jpg?v=1753185108&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 9.9,
-     "in_stock": true,
-     "per_kg": 39.6
-    }
-   ],
-   "best_per_kg": 39.6,
-   "cheapest_bag": 9.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 39.6,
-   "price_changed_on": null
+   "previous_per_kg": 56.8,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "sortie:decaf-brazil-santos",
@@ -3344,6 +3608,36 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 40.32,
    "price_changed_on": "2026-11-24"
+  },
+  {
+   "id": "kudu:papua-new-guinea-lahamenega-red-mountain",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Papua New Guinea Lahamenega Red Mountain (250g)",
+   "origin": "Papua New Guinea",
+   "region": "Eastern Highlands",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "concord grape, citrus, cherry, ripe banana, strawberry",
+   "taste": "Fruity / floral",
+   "roast": "Medium",
+   "roast_basis": "Stated",
+   "url": "https://kudu.gr/products/papua-new-guinea-lahamenega-red-mountain-250g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Papua_Mountain-final.jpg?v=1768918060&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 10.15,
+     "in_stock": true,
+     "per_kg": 40.6
+    }
+   ],
+   "best_per_kg": 40.6,
+   "cheapest_bag": 10.15,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 58.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "taresso:supremo-espresso-blend",
@@ -4108,36 +4402,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:costa-rica-cedral-alto",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Costa Rica Cedral Alto (250gr)",
-   "origin": "Costa Rica",
-   "region": "Tarrazú",
-   "type": "Single origin",
-   "process": "Natural, Washed",
-   "notes": "nutmeg, hazelnut, citrus, cocoa, dark chocolate",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/costa-rica-cedral-alto",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Costa_Rica_Cedral-Alto.jpg?v=1706624175&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 10.8,
-     "in_stock": true,
-     "per_kg": 43.2
-    }
-   ],
-   "best_per_kg": 43.2,
-   "cheapest_bag": 10.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 43.2,
-   "price_changed_on": null
-  },
-  {
    "id": "mokka:βραζιλ-α-brazil-fazenda-monte-alegre-natural-fermentation-lighter-roast",
    "roaster_id": "mokka",
    "roaster": "Mokka",
@@ -4713,36 +4977,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:colombia-black-condor",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Colombia Black Condor (250g)",
-   "origin": "Colombia",
-   "region": "Tolima",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "pink grapefruit, chocolate, raspberry, plum, lime, cacao, black currant",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/colombia-black-condor-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Colombia-Black-Condor.jpg?v=1697021343&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 11.5,
-     "in_stock": true,
-     "per_kg": 46.0
-    }
-   ],
-   "best_per_kg": 46.0,
-   "cheapest_bag": 11.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 46.0,
-   "price_changed_on": null
-  },
-  {
    "id": "roastingwarehouse:happy-days",
    "roaster_id": "roastingwarehouse",
    "roaster": "Roasting Warehouse",
@@ -4896,6 +5130,36 @@
    "cheapest_bag": 11.5,
    "first_seen": "2026-10-28",
    "previous_per_kg": 46.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "kolektiva:trip-to-brazil-sitio-dois",
+   "roaster_id": "kolektiva",
+   "roaster": "Roasters Kolektiva",
+   "name": "Trip to Brazil #Sitio Dois",
+   "origin": "Brazil",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://roasters-kolektiva.com/product/trip-to-brazil-sitio-dois/",
+   "image": "https://roasters-kolektiva.com/wp-content/uploads/2026/11/BRAZIL-Sitio-Dois-407x407.jpeg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 11.5,
+     "in_stock": true,
+     "per_kg": 46.0
+    }
+   ],
+   "best_per_kg": 46.0,
+   "cheapest_bag": 11.5,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -5222,6 +5486,36 @@
    "price_changed_on": "2026-11-17"
   },
   {
+   "id": "darg:colombia-santander-bucaramanga",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Colombia Santander, Bucaramanga",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/colombia-santander-bucaramanga/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/11/DARG_23_Colombia_Santander_Bucaramanga_250g-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 12.0,
+     "in_stock": true,
+     "per_kg": 48.0
+    }
+   ],
+   "best_per_kg": 48.0,
+   "cheapest_bag": 12.0,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "valenio:north-specialty-signature-espresso-blend",
    "roaster_id": "valenio",
    "roaster": "Valenio",
@@ -5330,6 +5624,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:kenya-muhara-aa",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Kenya Muhara AA (200g)",
+   "origin": "Kenya",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/kenya-muhara-aa-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Kenya-muhara-AA.jpg?v=1792392153&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 9.8,
+     "in_stock": true,
+     "per_kg": 49.0
+    }
+   ],
+   "best_per_kg": 49.0,
+   "cheapest_bag": 9.8,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 70.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "dabov:colombia-by-dabov",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -5356,36 +5680,6 @@
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:kenya-kiandu-aa",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Kenya Kiandu AA (250g)",
-   "origin": "Kenya",
-   "region": "Nyeri",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "fir, dried plum, toffee, blackberry, red currant, ripe orange, tomato",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/kenya-kiandu-aa-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Kenya-Kiandu-AA.jpg?v=1712134035&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.5,
-     "in_stock": true,
-     "per_kg": 50.0
-    }
-   ],
-   "best_per_kg": 50.0,
-   "cheapest_bag": 12.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 50.0,
    "price_changed_on": null
   },
   {
@@ -5893,66 +6187,6 @@
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "kudu:the-grail-specialty-blend",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "The Grail Specialty Coffee blend (250g)",
-   "origin": "Blend",
-   "region": "",
-   "type": "Blend",
-   "process": "Natural, Washed",
-   "notes": "chocolate fudge, dried apricot, almond paste, cedar, mango, tangerine, jasmine",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/grail-specialty-coffee-blend-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Grail.jpg?v=1593086972&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 12.9,
-     "in_stock": true,
-     "per_kg": 51.6
-    }
-   ],
-   "best_per_kg": 51.6,
-   "cheapest_bag": 12.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 51.6,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:peru-huabal-gr1",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Peru Huabal Gr1 (250g)",
-   "origin": "Peru",
-   "region": "Cajamarca, Huabal",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "hazelnut, butter, tea, chocolate, almond, caramel, bergamot",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/peru-huabal-gr1-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Peru-Huabal.jpg?v=1670839301&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.0,
-     "in_stock": true,
-     "per_kg": 52.0
-    }
-   ],
-   "best_per_kg": 52.0,
-   "cheapest_bag": 13.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 52.0,
-   "price_changed_on": null
-  },
-  {
    "id": "roastingwarehouse:ethiopia-murago",
    "roaster_id": "roastingwarehouse",
    "roaster": "Roasting Warehouse",
@@ -6360,66 +6594,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:nicaragua-el-bosque",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Nicaragua El Bosque (250g)",
-   "origin": "Nicaragua",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "green apple, strawberry, vanilla, lemon, honey syrup, cocoa, caramel, dark chocolate",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/nicaragua-el-bosque-bendicion-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Nicaragua-El-bosque-_NEW-2.jpg?v=1769099841&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": 54.0
-    }
-   ],
-   "best_per_kg": 54.0,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 54.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:ethiopia-wubanchi-gr1",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Ethiopia Wubanchi Gr1 (250g)",
-   "origin": "Ethiopia",
-   "region": "Wubanchi",
-   "type": "Single origin",
-   "process": "",
-   "notes": "mango, pineapple, dried cherry, melon, chocolate, plum, earl grey",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/ethiopia-wubanchi-gr1-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia_Wubanchi--Gr1.jpg?v=1726575116&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.5,
-     "in_stock": true,
-     "per_kg": 54.0
-    }
-   ],
-   "best_per_kg": 54.0,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 54.0,
-   "price_changed_on": null
-  },
-  {
    "id": "roosters:no-72-yirgacheffe-lalesa",
    "roaster_id": "roosters",
    "roaster": "The Roosters",
@@ -6682,36 +6856,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:guatemala-jalapa",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Guatemala Jalapa (250g)",
-   "origin": "Guatemala",
-   "region": "Jalapa",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "orange, nectarine, caramel, toffee, milk chocolate, almond",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/guatemala-jalapa-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Guatemala-Jalapa.jpg?v=1733305074&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 13.8,
-     "in_stock": true,
-     "per_kg": 55.2
-    }
-   ],
-   "best_per_kg": 55.2,
-   "cheapest_bag": 13.8,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 55.2,
-   "price_changed_on": null
-  },
-  {
    "id": "mokka:κ-νυα-kenya-nyeri-hill-aa-washed",
    "roaster_id": "mokka",
    "roaster": "Mokka",
@@ -6768,36 +6912,6 @@
    "cheapest_bag": 11.15,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:ethiopia-west-archi-nensebo-gr1",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Ethiopia West Archi Nensebo Gr1 (250g)",
-   "origin": "Ethiopia",
-   "region": "West Arsi, Nensebo",
-   "type": "Single origin",
-   "process": "",
-   "notes": "jasmine, citrus blossom, orange, green apple, apricot, honey",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/ethiopia-west-archi-nensebo-gr1-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia-West-Archi-Nensebo-Gr1.jpg?v=1732882449&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": 56.0
-    }
-   ],
-   "best_per_kg": 56.0,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 56.0,
    "price_changed_on": null
   },
   {
@@ -6863,7 +6977,7 @@
    "best_per_kg": 56.0,
    "cheapest_bag": 16.0,
    "first_seen": "2026-11-16",
-   "previous_per_kg": 64.0,
+   "previous_per_kg": 56.0,
    "price_changed_on": "2026-11-26"
   },
   {
@@ -7166,36 +7280,6 @@
    "price_changed_on": "2026-10-29"
   },
   {
-   "id": "kudu:ethiopia-gargari-gutity",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Ethiopia Gargari Gutity (250g)",
-   "origin": "Ethiopia",
-   "region": "Gutity",
-   "type": "Single origin",
-   "process": "",
-   "notes": "melon, jasmine, black tea, stewed fruit, orange, white grape",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/ethiopia-gargari-gutity-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia_Gargari-Gutity.jpg?v=1696854493&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 14.2,
-     "in_stock": true,
-     "per_kg": 56.8
-    }
-   ],
-   "best_per_kg": 56.8,
-   "cheapest_bag": 14.2,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 56.8,
-   "price_changed_on": null
-  },
-  {
    "id": "kolektiva:trip-to-mexico-maya-volc-n",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -7252,36 +7336,6 @@
    "cheapest_bag": 11.52,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:papua-new-guinea-lahamenega-red-mountain",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Papua New Guinea Lahamenega Red Mountain (250g)",
-   "origin": "Papua New Guinea",
-   "region": "Eastern Highlands",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "concord grape, citrus, cherry, ripe banana, strawberry",
-   "taste": "Fruity / floral",
-   "roast": "Medium",
-   "roast_basis": "Stated",
-   "url": "https://kudu.gr/products/papua-new-guinea-lahamenega-red-mountain-250g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Papua_Mountain-final.jpg?v=1768918060&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 14.5,
-     "in_stock": true,
-     "per_kg": 58.0
-    }
-   ],
-   "best_per_kg": 58.0,
-   "cheapest_bag": 14.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 58.0,
    "price_changed_on": null
   },
   {
@@ -8024,6 +8078,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:costa-rica-cerro-buena-vista",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Costa Rica Cerro Buena Vista (200gr)",
+   "origin": "Costa Rica",
+   "region": "Cerro Buena Vista",
+   "type": "Single origin",
+   "process": "",
+   "notes": "lime, cacao, orange, raspberry, guava, pear, honey",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/costa-rica-cerro-buena-vista-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Costa_Rica_Buena-Vistal.jpg?v=1682691150&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 12.25,
+     "in_stock": true,
+     "per_kg": 61.25
+    }
+   ],
+   "best_per_kg": 61.25,
+   "cheapest_bag": 12.25,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 87.5,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "kolektiva:trip-to-guatemala-bolsa-de-las-mayas",
    "roaster_id": "kolektiva",
    "roaster": "Roasters Kolektiva",
@@ -8082,6 +8166,36 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 61.92,
    "price_changed_on": "2026-10-29"
+  },
+  {
+   "id": "conte:sweet-velvet",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "SWEET VELVET",
+   "origin": "Rwanda",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Peach, cherry, milk chocolate, almond, toffee, cream",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/sweet-velvet-2/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/sweet-velvet-front-view-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.5,
+     "in_stock": true,
+     "per_kg": 62.0
+    }
+   ],
+   "best_per_kg": 62.0,
+   "cheapest_bag": 15.5,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "anana:kenya-kiamugumo-pb",
@@ -8753,6 +8867,36 @@
    "price_changed_on": null
   },
   {
+   "id": "conte:ruby-tropic",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "RUBY TROPIC",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Tropical fruits, sour cherry, liquor",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/ruby-tropic-2/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/ruby-tropic-front-view-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 16.5,
+     "in_stock": true,
+     "per_kg": 66.0
+    }
+   ],
+   "best_per_kg": 66.0,
+   "cheapest_bag": 16.5,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "conte:mango-muse",
    "roaster_id": "conte",
    "roaster": "Conte",
@@ -9216,7 +9360,7 @@
    "best_per_kg": 68.0,
    "cheapest_bag": 17.0,
    "first_seen": "2026-11-26",
-   "previous_per_kg": null,
+   "previous_per_kg": 68.0,
    "price_changed_on": null
   },
   {
@@ -9366,36 +9510,6 @@
    "cheapest_bag": 13.8,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:kenya-muhara-aa",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Kenya Muhara AA (200g)",
-   "origin": "Kenya",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/kenya-muhara-aa-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Kenya-muhara-AA.jpg?v=1792392153&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 14.0,
-     "in_stock": true,
-     "per_kg": 70.0
-    }
-   ],
-   "best_per_kg": 70.0,
-   "cheapest_bag": 14.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 70.0,
    "price_changed_on": null
   },
   {
@@ -9709,6 +9823,36 @@
    "price_changed_on": null
   },
   {
+   "id": "darg:honduras-alex-caceres-santa-barbara",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Honduras Alex Caceres, Santa Barbara",
+   "origin": "Honduras",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/honduras-alex-caceres-santa-barbara/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/11/DARG_25_Honduras_Alex_Caceres_Santa_Barbara-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 18.0,
+     "in_stock": true,
+     "per_kg": 72.0
+    }
+   ],
+   "best_per_kg": 72.0,
+   "cheapest_bag": 18.0,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "darg:ethiopia-guji-uraga",
    "roaster_id": "darg",
    "roaster": "Darg",
@@ -9783,66 +9927,6 @@
    "roast_basis": "",
    "url": "https://www.dargcoffee.shop/product/rwanda-kizi-rift/",
    "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_10_Rwanda_Kizi_Rift-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": 72.0
-    }
-   ],
-   "best_per_kg": 72.0,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 72.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:peru-cajamarca",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Peru Cajamarca",
-   "origin": "Peru",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/peru-cajamarca/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_09_Peru_Cajamarca-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 18.0,
-     "in_stock": true,
-     "per_kg": 72.0
-    }
-   ],
-   "best_per_kg": 72.0,
-   "cheapest_bag": 18.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 72.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:papua-lamala-a",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Papua Lamala A",
-   "origin": "Papua New Guinea",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/papua-lamala-a/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_08_Papua_Lamala_A-400x400.png",
    "in_stock": true,
    "options": [
     {
@@ -11167,36 +11251,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:costa-rica-cerro-buena-vista",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Costa Rica Cerro Buena Vista (200gr)",
-   "origin": "Costa Rica",
-   "region": "Cerro Buena Vista",
-   "type": "Single origin",
-   "process": "",
-   "notes": "lime, cacao, orange, raspberry, guava, pear, honey",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/costa-rica-cerro-buena-vista-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Costa_Rica_Buena-Vistal.jpg?v=1682691150&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 17.5,
-     "in_stock": true,
-     "per_kg": 87.5
-    }
-   ],
-   "best_per_kg": 87.5,
-   "cheapest_bag": 17.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 87.5,
-   "price_changed_on": null
-  },
-  {
    "id": "cafeistas:gesha-l-h-salazar-colombia",
    "roaster_id": "cafeistas",
    "roaster": "Cafeistas",
@@ -11211,12 +11265,12 @@
    "roast_basis": "",
    "url": "https://cafeistas.com/en/product/gesha-lhsalazar-colombia-250g-coffee-2/",
    "image": "https://cafeistas.com/wp-content/uploads/2025/11/COLOMBIA-L.H.SALAZAR-BASIC-1-300x300.png",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 22.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 88.0
     }
    ],
@@ -11343,12 +11397,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pina-colada-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/earth-03-1.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 18.5,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 92.5
     }
    ],
@@ -11475,12 +11529,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/apple-explosion-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/choco-apple-explosion-front-view-03-600x600.jpg",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 200,
      "price": 19.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 95.0
     }
    ],
@@ -11804,12 +11858,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/lila-pause-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/choco-lila-pause-front-view-02-600x600.jpg",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 200,
      "price": 20.0,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 100.0
     }
    ],
@@ -12095,6 +12149,66 @@
    "price_changed_on": "2026-11-14"
   },
   {
+   "id": "darg:ethiopia-yirgacheffe-koke-shalaye",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Ethiopia Yirgacheffe Koke Shalaye",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/ethiopia-yirgacheffe-koke-shalaye/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/11/DARG_22_Ethiopia_Yirgacheffe_Koke_Shalaye-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 108.0
+    }
+   ],
+   "best_per_kg": 108.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
+   "id": "darg:ethiopia-yirgacheffe-gargari-gutity",
+   "roaster_id": "darg",
+   "roaster": "Darg",
+   "name": "Ethiopia Yirgacheffe Gargari Gutity",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.dargcoffee.shop/product/ethiopia-yirgacheffe-gargari-gutity/",
+   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/11/DARG_21_Ethiopia_Yirgacheffe_Gargari_Gutity-400x400.png",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 27.0,
+     "in_stock": true,
+     "per_kg": 108.0
+    }
+   ],
+   "best_per_kg": 108.0,
+   "cheapest_bag": 27.0,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "darg:colombia-finca-penas-blancas",
    "roaster_id": "darg",
    "roaster": "Darg",
@@ -12109,36 +12223,6 @@
    "roast_basis": "",
    "url": "https://www.dargcoffee.shop/product/colombia-finca-penas-blancas/",
    "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/08/DARG_12_Colombia_Finca_Penas_Blancas-400x400.png",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 27.0,
-     "in_stock": true,
-     "per_kg": 108.0
-    }
-   ],
-   "best_per_kg": 108.0,
-   "cheapest_bag": 27.0,
-   "first_seen": "2026-11-01",
-   "previous_per_kg": 108.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "darg:colombia-finca-el-bosque",
-   "roaster_id": "darg",
-   "roaster": "Darg",
-   "name": "Colombia Finca El Bosque",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.dargcoffee.shop/product/colombia-finca-el-bosque/",
-   "image": "https://www.dargcoffee.shop/wp-content/uploads/2026/06/DARG_05_Colombia_Finca_El_Bosque-1-400x400.png",
    "in_stock": true,
    "options": [
     {
@@ -12184,6 +12268,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:panama-mi-finquita",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Panama Mi Finquita (200g)",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/panama-mi-finquita-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/panama_mi_finquita_alternative.jpg?v=1793703831&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 22.05,
+     "in_stock": true,
+     "per_kg": 110.25
+    }
+   ],
+   "best_per_kg": 110.25,
+   "cheapest_bag": 22.05,
+   "first_seen": "2026-11-06",
+   "previous_per_kg": 122.5,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "novelty:colombia-yellow-papayo-el-diviso",
    "roaster_id": "novelty",
    "roaster": "Novelty Coffee",
@@ -12198,12 +12312,12 @@
    "roast_basis": "Omni roast or you choose",
    "url": "https://noveltycoffee.gr/products/colombia-huila-el-diviso-yeast-natural-yellow-papayo",
    "image": "https://cdn.shopify.com/s/files/1/1001/4169/5321/files/papayo.png?v=1792435100&width=480",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 28.0,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 112.0
     }
    ],
@@ -12212,6 +12326,96 @@
    "first_seen": "2026-10-28",
    "previous_per_kg": 112.0,
    "price_changed_on": null
+  },
+  {
+   "id": "kudu:panama-finca-bonita-springs",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Panama Finca Bonita Springs (200g)",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/panama-finca-bonita-springs-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Panama_Bonita_Springs.jpg?v=1766340146&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": 112.5
+    }
+   ],
+   "best_per_kg": 112.5,
+   "cheapest_bag": 22.5,
+   "first_seen": "2026-11-02",
+   "previous_per_kg": 125.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:ethiopia-kokosa-gr1",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Ethiopia Kokosa Gr1 (200g)",
+   "origin": "Ethiopia",
+   "region": "Kokosa",
+   "type": "Single origin",
+   "process": "",
+   "notes": "jasmine, strawberry, blueberry, papaya, black cherry, tropical, winey finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/ethiopia-kokosa-gr1-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia-Kokosa-Gr1.jpg?v=1792410051&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": 112.5
+    }
+   ],
+   "best_per_kg": 112.5,
+   "cheapest_bag": 22.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 125.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "kudu:ethiopia-sheka-gr1",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Ethiopia Sheka Gr1 (200g)",
+   "origin": "Ethiopia",
+   "region": "Sheka",
+   "type": "Single origin",
+   "process": "",
+   "notes": "jasmine, ripe peach, blueberry, pineapple, mango, floral, winey finish",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/ethiopia-sheka-gr1-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/White_pic_for_eshop_1d5d1030-b854-48ca-9bf5-670d87fd0e26.jpg?v=1792406427&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 22.5,
+     "in_stock": true,
+     "per_kg": 112.5
+    }
+   ],
+   "best_per_kg": 112.5,
+   "cheapest_bag": 22.5,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 125.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "taresso:guatemala-pink-bourbon-finca-la-hermosa",
@@ -12304,6 +12508,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:colombia-los-nogales",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Colombia Los Nogales (200g)",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "milk chocolate, citrus, ripe mango, yellow fruits",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/colombia-los-nogales-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Colombia-los-nogales.jpg?v=1750082721&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 23.31,
+     "in_stock": true,
+     "per_kg": 116.55
+    }
+   ],
+   "best_per_kg": 116.55,
+   "cheapest_bag": 23.31,
+   "first_seen": "2026-10-28",
+   "previous_per_kg": 129.5,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "foyer:gesha-lohas-opal-colombia-loud-bean",
    "roaster_id": "foyer",
    "roaster": "Foyer Espresso Bar",
@@ -12334,10 +12568,10 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:panama-mi-finquita",
+   "id": "kudu:panama-altieri-caturra",
    "roaster_id": "kudu",
    "roaster": "Kudu",
-   "name": "Panama Mi Finquita (200g)",
+   "name": "Panama Altieri Caturra (200g)",
    "origin": "Panama",
    "region": "",
    "type": "Single origin",
@@ -12346,142 +12580,52 @@
    "taste": "Not stated",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://kudu.gr/products/panama-mi-finquita-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/panama_mi_finquita_alternative.jpg?v=1793703831&width=480",
+   "url": "https://kudu.gr/products/panama-altieri-caturra-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Panama_Altieri_Caturra_alternative.jpg?v=1793371330&width=480",
    "in_stock": true,
    "options": [
     {
      "size_g": 200,
-     "price": 24.5,
+     "price": 24.3,
      "in_stock": true,
-     "per_kg": 122.5
+     "per_kg": 121.5
     }
    ],
-   "best_per_kg": 122.5,
-   "cheapest_bag": 24.5,
+   "best_per_kg": 121.5,
+   "cheapest_bag": 24.3,
    "first_seen": "2026-11-06",
-   "previous_per_kg": 122.5,
-   "price_changed_on": null
+   "previous_per_kg": 135.0,
+   "price_changed_on": "2026-11-27"
   },
   {
-   "id": "kudu:panama-finca-bonita-springs",
+   "id": "kudu:rwanda-muhondo-11",
    "roaster_id": "kudu",
    "roaster": "Kudu",
-   "name": "Panama Finca Bonita Springs (200g)",
-   "origin": "Panama",
+   "name": "Rwanda Muhondo #11 (200g)",
+   "origin": "Rwanda",
    "region": "",
    "type": "Single origin",
    "process": "",
-   "notes": "",
-   "taste": "Not stated",
+   "notes": "whiskey, sugar cane, coffee blossom, tangerine, white pepper, maple, honey",
+   "taste": "Chocolate / nutty",
    "roast": "Not stated",
    "roast_basis": "",
-   "url": "https://kudu.gr/products/panama-finca-bonita-springs-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/products/Panama_Bonita_Springs.jpg?v=1766340146&width=480",
+   "url": "https://kudu.gr/products/rwanda-muhondo-11",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Rwanda_Muhondo_85b83673-65c4-4916-aa84-8ef56be9be71.jpg?v=1776701277&width=480",
    "in_stock": true,
    "options": [
     {
      "size_g": 200,
-     "price": 25.0,
+     "price": 25.2,
      "in_stock": true,
-     "per_kg": 125.0
+     "per_kg": 126.0
     }
    ],
-   "best_per_kg": 125.0,
-   "cheapest_bag": 25.0,
-   "first_seen": "2026-11-02",
-   "previous_per_kg": 125.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:ethiopia-kokosa-gr1",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Ethiopia Kokosa Gr1 (200g)",
-   "origin": "Ethiopia",
-   "region": "Kokosa",
-   "type": "Single origin",
-   "process": "",
-   "notes": "jasmine, strawberry, blueberry, papaya, black cherry, tropical, winey finish",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/ethiopia-kokosa-gr1-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Ethiopia-Kokosa-Gr1.jpg?v=1792410051&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 25.0,
-     "in_stock": true,
-     "per_kg": 125.0
-    }
-   ],
-   "best_per_kg": 125.0,
-   "cheapest_bag": 25.0,
+   "best_per_kg": 126.0,
+   "cheapest_bag": 25.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 125.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:ethiopia-sheka-gr1",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Ethiopia Sheka Gr1 (200g)",
-   "origin": "Ethiopia",
-   "region": "Sheka",
-   "type": "Single origin",
-   "process": "",
-   "notes": "jasmine, ripe peach, blueberry, pineapple, mango, floral, winey finish",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/ethiopia-sheka-gr1-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/White_pic_for_eshop_1d5d1030-b854-48ca-9bf5-670d87fd0e26.jpg?v=1792406427&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 25.0,
-     "in_stock": true,
-     "per_kg": 125.0
-    }
-   ],
-   "best_per_kg": 125.0,
-   "cheapest_bag": 25.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 125.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:colombia-los-nogales",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Colombia Los Nogales (200g)",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "milk chocolate, citrus, ripe mango, yellow fruits",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/colombia-los-nogales-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Colombia-los-nogales.jpg?v=1750082721&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 25.9,
-     "in_stock": true,
-     "per_kg": 129.5
-    }
-   ],
-   "best_per_kg": 129.5,
-   "cheapest_bag": 25.9,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 129.5,
-   "price_changed_on": null
+   "previous_per_kg": 140.0,
+   "price_changed_on": "2026-11-27"
   },
   {
    "id": "anana:colombia-la-esmeralda-yellow-gesha",
@@ -12577,36 +12721,6 @@
    "cheapest_bag": 33.25,
    "first_seen": "2026-10-28",
    "previous_per_kg": 133.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:panama-altieri-caturra",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Panama Altieri Caturra (200g)",
-   "origin": "Panama",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/panama-altieri-caturra-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Panama_Altieri_Caturra_alternative.jpg?v=1793371330&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 27.0,
-     "in_stock": true,
-     "per_kg": 135.0
-    }
-   ],
-   "best_per_kg": 135.0,
-   "cheapest_bag": 27.0,
-   "first_seen": "2026-11-06",
-   "previous_per_kg": 135.0,
    "price_changed_on": null
   },
   {
@@ -12712,36 +12826,6 @@
    "price_changed_on": null
   },
   {
-   "id": "kudu:rwanda-muhondo-11",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Rwanda Muhondo #11 (200g)",
-   "origin": "Rwanda",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "whiskey, sugar cane, coffee blossom, tangerine, white pepper, maple, honey",
-   "taste": "Chocolate / nutty",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/rwanda-muhondo-11",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Rwanda_Muhondo_85b83673-65c4-4916-aa84-8ef56be9be71.jpg?v=1776701277&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 28.0,
-     "in_stock": true,
-     "per_kg": 140.0
-    }
-   ],
-   "best_per_kg": 140.0,
-   "cheapest_bag": 28.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 140.0,
-   "price_changed_on": null
-  },
-  {
    "id": "hue:quebraditas-sl28",
    "roaster_id": "hue",
    "roaster": "Hue Roastery",
@@ -12769,6 +12853,36 @@
    "cheapest_bag": 28.0,
    "first_seen": "2026-11-18",
    "previous_per_kg": 140.0,
+   "price_changed_on": null
+  },
+  {
+   "id": "conte:papayo-lovers",
+   "roaster_id": "conte",
+   "roaster": "Conte",
+   "name": "PAPAYO LOVERS",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Natural",
+   "notes": "Fruity",
+   "taste": "Balanced",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/papayo-lovers/",
+   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/11/papayo-lovers-front-view-600x600.jpg",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 28.5,
+     "in_stock": true,
+     "per_kg": 142.5
+    }
+   ],
+   "best_per_kg": 142.5,
+   "cheapest_bag": 28.5,
+   "first_seen": "2026-11-27",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -13411,6 +13525,36 @@
    "price_changed_on": null
   },
   {
+   "id": "kudu:panama-finca-hartmann-wush-wush",
+   "roaster_id": "kudu",
+   "roaster": "Kudu",
+   "name": "Panama Finca Hartmann Wush Wush (200g)",
+   "origin": "Panama",
+   "region": "",
+   "type": "Single origin",
+   "process": "",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://kudu.gr/products/panama-finca-hartmann-wush-wush-200g",
+   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Panama_Finca_Hartmann_wush_wush.jpg?v=1793368001&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 200,
+     "price": 43.2,
+     "in_stock": true,
+     "per_kg": 216.0
+    }
+   ],
+   "best_per_kg": 216.0,
+   "cheapest_bag": 43.2,
+   "first_seen": "2026-11-06",
+   "previous_per_kg": 240.0,
+   "price_changed_on": "2026-11-27"
+  },
+  {
    "id": "dabov:mexico-fatima-geisha",
    "roaster_id": "dabov",
    "roaster": "Dabov (Bulgaria)",
@@ -13437,36 +13581,6 @@
    "cheapest_bag": 28.3,
    "first_seen": "2026-10-28",
    "previous_per_kg": null,
-   "price_changed_on": null
-  },
-  {
-   "id": "kudu:panama-finca-hartmann-wush-wush",
-   "roaster_id": "kudu",
-   "roaster": "Kudu",
-   "name": "Panama Finca Hartmann Wush Wush (200g)",
-   "origin": "Panama",
-   "region": "",
-   "type": "Single origin",
-   "process": "",
-   "notes": "",
-   "taste": "Not stated",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://kudu.gr/products/panama-finca-hartmann-wush-wush-200g",
-   "image": "https://cdn.shopify.com/s/files/1/0350/5553/4217/files/Panama_Finca_Hartmann_wush_wush.jpg?v=1793368001&width=480",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 48.0,
-     "in_stock": true,
-     "per_kg": 240.0
-    }
-   ],
-   "best_per_kg": 240.0,
-   "cheapest_bag": 48.0,
-   "first_seen": "2026-11-06",
-   "previous_per_kg": 240.0,
    "price_changed_on": null
   },
   {
@@ -14126,10 +14240,10 @@
    "price_changed_on": null
   },
   {
-   "id": "samba:shyira-natural",
+   "id": "samba:rwanda-shyira-natural",
    "roaster_id": "samba",
    "roaster": "Samba",
-   "name": "Shyira Natural",
+   "name": "Rwanda Shyira Natural",
    "origin": "Rwanda",
    "region": "",
    "type": "Single origin",
@@ -14151,7 +14265,7 @@
    ],
    "best_per_kg": null,
    "cheapest_bag": 12.0,
-   "first_seen": "2026-10-28",
+   "first_seen": "2026-11-27",
    "previous_per_kg": null,
    "price_changed_on": null
   },
