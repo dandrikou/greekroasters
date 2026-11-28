@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:53+00:00",
+ "generated_at": "2026-11-28T13:02+00:00",
  "roasters": [
   {
    "id": "kudu",
@@ -9,7 +9,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 26,
    "cheapest_per_kg": 22.12,
@@ -23,7 +23,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.67,
@@ -37,9 +37,9 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
-   "coffees": 10,
+   "coffees": 13,
    "cheapest_per_kg": 33.34,
    "median_per_kg": 52.68
   },
@@ -51,10 +51,10 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
-   "coffees": 8,
-   "cheapest_per_kg": 27.2,
+   "coffees": 9,
+   "cheapest_per_kg": 30.6,
    "median_per_kg": 52.8
   },
   {
@@ -65,7 +65,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 36.68,
@@ -79,7 +79,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 10,
    "cheapest_per_kg": 44.0,
@@ -93,7 +93,7 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 34.8,
@@ -107,7 +107,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 18,
    "cheapest_per_kg": 40.0,
@@ -121,7 +121,7 @@
    "free_shipping_eur": 30,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 23,
    "cheapest_per_kg": 38.0,
@@ -135,7 +135,7 @@
    "free_shipping_eur": 65,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 32.0,
@@ -149,7 +149,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 6,
    "cheapest_per_kg": 44.84,
@@ -163,7 +163,7 @@
    "free_shipping_eur": 20,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 19,
    "cheapest_per_kg": 38.42,
@@ -177,7 +177,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 33.2,
@@ -205,11 +205,11 @@
    "free_shipping_eur": 35,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
-   "coffees": 18,
+   "coffees": 15,
    "cheapest_per_kg": 46.0,
-   "median_per_kg": 66.0
+   "median_per_kg": 92.5
   },
   {
    "id": "cafeistas",
@@ -219,7 +219,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 36.0,
@@ -233,7 +233,7 @@
    "free_shipping_eur": null,
    "note": "Shop API returns errors, so product pages are read instead.",
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 28.0,
@@ -247,7 +247,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 13,
    "cheapest_per_kg": 39.0,
@@ -261,7 +261,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 33.92,
@@ -289,7 +289,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 11,
    "cheapest_per_kg": 36.0,
@@ -303,7 +303,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 14,
    "cheapest_per_kg": 40.0,
@@ -317,7 +317,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 9,
    "cheapest_per_kg": 47.5,
@@ -331,9 +331,9 @@
    "free_shipping_eur": null,
    "note": "Café shop reselling international roasters (SEY, DAK, Coffee Collective and others).",
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
-   "coffees": 12,
+   "coffees": 10,
    "cheapest_per_kg": 55.0,
    "median_per_kg": 98.4
   },
@@ -345,7 +345,7 @@
    "free_shipping_eur": 50,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 22,
    "cheapest_per_kg": 34.15,
@@ -359,7 +359,7 @@
    "free_shipping_eur": 40,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 33,
    "cheapest_per_kg": 32.28,
@@ -373,7 +373,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 16,
    "cheapest_per_kg": 32.52,
@@ -401,7 +401,7 @@
    "free_shipping_eur": null,
    "note": "Drupal shop. Prices are the smallest (250 g) bag.",
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 12,
    "cheapest_per_kg": 25.0,
@@ -443,7 +443,7 @@
    "free_shipping_eur": null,
    "note": null,
    "source": "live",
-   "last_checked": "2026-11-27",
+   "last_checked": "2026-11-28",
    "error": null,
    "coffees": 6,
    "cheapest_per_kg": 38.8,
@@ -478,7 +478,7 @@
    "best_per_kg": 22.12,
    "cheapest_bag": 5.53,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 31.6,
+   "previous_per_kg": 22.12,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -508,7 +508,7 @@
    "best_per_kg": 24.36,
    "cheapest_bag": 6.09,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 34.8,
+   "previous_per_kg": 24.36,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -736,12 +736,12 @@
    "roast_basis": "",
    "url": "https://motiv.coffee/products/mexico-chiapas-swiss-water-decaf",
    "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/mexico-decaf.jpg?v=1793199652&width=480",
-   "in_stock": true,
+   "in_stock": false,
    "options": [
     {
      "size_g": 250,
      "price": 6.8,
-     "in_stock": true,
+     "in_stock": false,
      "per_kg": 27.2
     }
    ],
@@ -778,7 +778,7 @@
    "best_per_kg": 27.44,
    "cheapest_bag": 6.86,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 39.2,
+   "previous_per_kg": 27.44,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -808,7 +808,7 @@
    "best_per_kg": 27.44,
    "cheapest_bag": 6.86,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 39.2,
+   "previous_per_kg": 27.44,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -838,7 +838,7 @@
    "best_per_kg": 27.72,
    "cheapest_bag": 6.93,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 39.6,
+   "previous_per_kg": 27.72,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -1215,7 +1215,7 @@
    "best_per_kg": 30.24,
    "cheapest_bag": 7.56,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 43.2,
+   "previous_per_kg": 30.24,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -1455,7 +1455,7 @@
    "best_per_kg": 32.2,
    "cheapest_bag": 8.05,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 46.0,
+   "previous_per_kg": 32.2,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -2067,7 +2067,7 @@
    "best_per_kg": 35.0,
    "cheapest_bag": 8.75,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 50.0,
+   "previous_per_kg": 35.0,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -2275,7 +2275,7 @@
    "best_per_kg": 36.12,
    "cheapest_bag": 9.03,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 51.6,
+   "previous_per_kg": 36.12,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -2395,7 +2395,7 @@
    "best_per_kg": 36.4,
    "cheapest_bag": 9.1,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 52.0,
+   "previous_per_kg": 36.4,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -2760,7 +2760,7 @@
    "best_per_kg": 37.8,
    "cheapest_bag": 9.45,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 54.0,
+   "previous_per_kg": 37.8,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -2790,7 +2790,7 @@
    "best_per_kg": 37.8,
    "cheapest_bag": 9.45,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 54.0,
+   "previous_per_kg": 37.8,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -3018,7 +3018,7 @@
    "best_per_kg": 38.64,
    "cheapest_bag": 9.66,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 55.2,
+   "previous_per_kg": 38.64,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -3288,7 +3288,7 @@
    "best_per_kg": 39.2,
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 56.0,
+   "previous_per_kg": 39.2,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -3318,7 +3318,7 @@
    "best_per_kg": 39.76,
    "cheapest_bag": 9.94,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 56.8,
+   "previous_per_kg": 39.76,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -3636,7 +3636,7 @@
    "best_per_kg": 40.6,
    "cheapest_bag": 10.15,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 58.0,
+   "previous_per_kg": 40.6,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -5159,7 +5159,7 @@
    "best_per_kg": 46.0,
    "cheapest_bag": 11.5,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 46.0,
    "price_changed_on": null
   },
   {
@@ -5512,7 +5512,7 @@
    "best_per_kg": 48.0,
    "cheapest_bag": 12.0,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 48.0,
    "price_changed_on": null
   },
   {
@@ -5650,7 +5650,7 @@
    "best_per_kg": 49.0,
    "cheapest_bag": 9.8,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 70.0,
+   "previous_per_kg": 49.0,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -6562,6 +6562,36 @@
    "first_seen": "2026-11-17",
    "previous_per_kg": 52.8,
    "price_changed_on": "2026-11-21"
+  },
+  {
+   "id": "motiv:ethiopia-kelloo-chelchele-washed",
+   "roaster_id": "motiv",
+   "roaster": "Motiv",
+   "name": "Ethiopia - Kelloo Chelchele Washed",
+   "origin": "Ethiopia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Washed",
+   "notes": "Floral, citrusy, nectarine",
+   "taste": "Fruity / floral",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://motiv.coffee/products/ethiopia-kelloo-chelchele-washed",
+   "image": "https://cdn.shopify.com/s/files/1/1021/9097/3305/files/ethiopia-kelloo-chelchele.jpg?v=1795840121&width=480",
+   "in_stock": true,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 13.2,
+     "in_stock": true,
+     "per_kg": 52.8
+    }
+   ],
+   "best_per_kg": 52.8,
+   "cheapest_bag": 13.2,
+   "first_seen": "2026-11-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "novelty:rwanda-nyaruguru",
@@ -8104,7 +8134,7 @@
    "best_per_kg": 61.25,
    "cheapest_bag": 12.25,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 87.5,
+   "previous_per_kg": 61.25,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -8194,7 +8224,7 @@
    "best_per_kg": 62.0,
    "cheapest_bag": 15.5,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 62.0,
    "price_changed_on": null
   },
   {
@@ -8355,6 +8385,36 @@
    "cheapest_bag": 15.58,
    "first_seen": "2026-10-28",
    "previous_per_kg": 62.32,
+   "price_changed_on": null
+  },
+  {
+   "id": "novelty:costa-rica-la-unidad",
+   "roaster_id": "novelty",
+   "roaster": "Novelty Coffee",
+   "name": "Costa Rica - La Unidad 250g",
+   "origin": "Costa Rica",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://noveltycoffee.gr/products/costa-rica-la-unidad-caturra-anaerobic-natural",
+   "image": "https://cdn.shopify.com/s/files/1/1001/4169/5321/files/3.png?v=1767017590&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 15.59,
+     "in_stock": false,
+     "per_kg": 62.36
+    }
+   ],
+   "best_per_kg": 62.36,
+   "cheapest_bag": 15.59,
+   "first_seen": "2026-11-28",
+   "previous_per_kg": null,
    "price_changed_on": null
   },
   {
@@ -8893,7 +8953,7 @@
    "best_per_kg": 66.0,
    "cheapest_bag": 16.5,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 66.0,
    "price_changed_on": null
   },
   {
@@ -9152,36 +9212,6 @@
    "first_seen": "2026-11-01",
    "previous_per_kg": 67.2,
    "price_changed_on": "2026-11-21"
-  },
-  {
-   "id": "conte:supernatural",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "SUPERNATURAL",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Anaerobic",
-   "notes": "Peach, orange wine, kiwi, strawberry, dark chocolate, honey",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/supernatural-2/",
-   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/flw-02.jpg",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 13.5,
-     "in_stock": false,
-     "per_kg": 67.5
-    }
-   ],
-   "best_per_kg": 67.5,
-   "cheapest_bag": 13.5,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 67.5,
-   "price_changed_on": null
   },
   {
    "id": "hue:decaf-colombia",
@@ -9849,7 +9879,7 @@
    "best_per_kg": 72.0,
    "cheapest_bag": 18.0,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 72.0,
    "price_changed_on": null
   },
   {
@@ -11397,12 +11427,12 @@
    "roast_basis": "",
    "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/pina-colada-2/",
    "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/earth-03-1.jpg",
-   "in_stock": false,
+   "in_stock": true,
    "options": [
     {
      "size_g": 200,
      "price": 18.5,
-     "in_stock": false,
+     "in_stock": true,
      "per_kg": 92.5
     }
    ],
@@ -11545,6 +11575,36 @@
    "price_changed_on": null
   },
   {
+   "id": "novelty:colombia-chiroso-las-flores",
+   "roaster_id": "novelty",
+   "roaster": "Novelty Coffee",
+   "name": "Colombia - Chiroso Las Flores 250g",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://noveltycoffee.gr/products/colombia-chiroso-las-flores-250g",
+   "image": "https://cdn.shopify.com/s/files/1/1001/4169/5321/files/d31329ef9552e3386841038b824f6a12.jpg?v=1772040101&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 23.79,
+     "in_stock": false,
+     "per_kg": 95.16
+    }
+   ],
+   "best_per_kg": 95.16,
+   "cheapest_bag": 23.79,
+   "first_seen": "2026-11-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
+  },
+  {
    "id": "foyer:pillow-talk-colombia-decaf-dak",
    "roaster_id": "foyer",
    "roaster": "Foyer Espresso Bar",
@@ -11635,36 +11695,6 @@
    "price_changed_on": null
   },
   {
-   "id": "foyer:tatmara-ethiopia-tim-wendelboe",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Tatmara Ethiopia - Tim Wendelboe",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Citrus, floral & stone fruits",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Stated",
-   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc-trjld-fj2m8-rm9ln",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/259c5239-05a0-45d3-9d74-b0d7d073a147/TatmaraFilter-Webshop.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 24.6,
-     "in_stock": true,
-     "per_kg": 98.4
-    }
-   ],
-   "best_per_kg": 98.4,
-   "cheapest_bag": 24.6,
-   "first_seen": "2026-11-18",
-   "previous_per_kg": 98.4,
-   "price_changed_on": null
-  },
-  {
    "id": "foyer:ngerwe-kenya-christmas-edition-tim-wendelboe",
    "roaster_id": "foyer",
    "roaster": "Foyer Espresso Bar",
@@ -11739,36 +11769,6 @@
    "roast_basis": "Stated",
    "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe-tn2cc",
    "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/2be31ad8-d70b-42a9-abc8-cde7a2a58628/Catuai-Filter-Webshop.webp",
-   "in_stock": true,
-   "options": [
-    {
-     "size_g": 250,
-     "price": 24.6,
-     "in_stock": true,
-     "per_kg": 98.4
-    }
-   ],
-   "best_per_kg": 98.4,
-   "cheapest_bag": 24.6,
-   "first_seen": "2026-11-18",
-   "previous_per_kg": 98.4,
-   "price_changed_on": null
-  },
-  {
-   "id": "foyer:echemo-ethiopia-tim-wendelboe",
-   "roaster_id": "foyer",
-   "roaster": "Foyer Espresso Bar",
-   "name": "Echemo Ethiopia - Tim Wendelboe",
-   "origin": "Ethiopia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Floral, white tea & stone fruits",
-   "taste": "Fruity / floral",
-   "roast": "Light",
-   "roast_basis": "Stated",
-   "url": "https://www.foyerespressobar.com/shop/p/echemo-ethiopia-tim-wendelboe",
-   "image": "https://images.squarespace-cdn.com/content/v1/5e8dfa499db7b95a5c76529d/52ee0af9-573c-4237-b0cc-6cc3fcda959f/EchemoFilterWebshop.webp",
    "in_stock": true,
    "options": [
     {
@@ -12029,66 +12029,6 @@
    "price_changed_on": "2026-10-28"
   },
   {
-   "id": "conte:aji-bourbon-washed",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "AJI BOURBON WASHED",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Washed",
-   "notes": "Lemon Iced Tea, White Grapes, Peach",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-washed-2/",
-   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/fruity-01.jpg",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 21.0,
-     "in_stock": false,
-     "per_kg": 105.0
-    }
-   ],
-   "best_per_kg": 105.0,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 105.0,
-   "price_changed_on": null
-  },
-  {
-   "id": "conte:aji-bourbon-natural",
-   "roaster_id": "conte",
-   "roaster": "Conte",
-   "name": "AJI BOURBON NATURAL",
-   "origin": "Colombia",
-   "region": "",
-   "type": "Single origin",
-   "process": "Natural",
-   "notes": "Red Berry Tea, Jasmine, Bubblegum",
-   "taste": "Fruity / floral",
-   "roast": "Not stated",
-   "roast_basis": "",
-   "url": "https://www.contecoffeeroasters.com/en/coffeeshop/origins-en/aji-bourbon-natural-2/",
-   "image": "https://www.contecoffeeroasters.com/wp-content/uploads/2026/09/flw-03.jpg",
-   "in_stock": false,
-   "options": [
-    {
-     "size_g": 200,
-     "price": 21.0,
-     "in_stock": false,
-     "per_kg": 105.0
-    }
-   ],
-   "best_per_kg": 105.0,
-   "cheapest_bag": 21.0,
-   "first_seen": "2026-10-28",
-   "previous_per_kg": 105.0,
-   "price_changed_on": null
-  },
-  {
    "id": "foyer:loud-bean-bolivia-los-rodriguez",
    "roaster_id": "foyer",
    "roaster": "Foyer Espresso Bar",
@@ -12175,7 +12115,7 @@
    "best_per_kg": 108.0,
    "cheapest_bag": 27.0,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 108.0,
    "price_changed_on": null
   },
   {
@@ -12205,7 +12145,7 @@
    "best_per_kg": 108.0,
    "cheapest_bag": 27.0,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 108.0,
    "price_changed_on": null
   },
   {
@@ -12294,7 +12234,7 @@
    "best_per_kg": 110.25,
    "cheapest_bag": 22.05,
    "first_seen": "2026-11-06",
-   "previous_per_kg": 122.5,
+   "previous_per_kg": 110.25,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12354,7 +12294,7 @@
    "best_per_kg": 112.5,
    "cheapest_bag": 22.5,
    "first_seen": "2026-11-02",
-   "previous_per_kg": 125.0,
+   "previous_per_kg": 112.5,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12384,7 +12324,7 @@
    "best_per_kg": 112.5,
    "cheapest_bag": 22.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 125.0,
+   "previous_per_kg": 112.5,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12414,7 +12354,7 @@
    "best_per_kg": 112.5,
    "cheapest_bag": 22.5,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 125.0,
+   "previous_per_kg": 112.5,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12534,8 +12474,38 @@
    "best_per_kg": 116.55,
    "cheapest_bag": 23.31,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 129.5,
+   "previous_per_kg": 116.55,
    "price_changed_on": "2026-11-27"
+  },
+  {
+   "id": "novelty:colombia-sl28-quebraditas",
+   "roaster_id": "novelty",
+   "roaster": "Novelty Coffee",
+   "name": "Colombia - SL28 Quebraditas 250g",
+   "origin": "Colombia",
+   "region": "",
+   "type": "Single origin",
+   "process": "Anaerobic",
+   "notes": "",
+   "taste": "Not stated",
+   "roast": "Not stated",
+   "roast_basis": "",
+   "url": "https://noveltycoffee.gr/products/colombia-sl28-quebraditas-250g",
+   "image": "https://cdn.shopify.com/s/files/1/1001/4169/5321/files/2.jpg?v=1772040276&width=480",
+   "in_stock": false,
+   "options": [
+    {
+     "size_g": 250,
+     "price": 29.45,
+     "in_stock": false,
+     "per_kg": 117.8
+    }
+   ],
+   "best_per_kg": 117.8,
+   "cheapest_bag": 29.45,
+   "first_seen": "2026-11-28",
+   "previous_per_kg": null,
+   "price_changed_on": null
   },
   {
    "id": "foyer:gesha-lohas-opal-colombia-loud-bean",
@@ -12594,7 +12564,7 @@
    "best_per_kg": 121.5,
    "cheapest_bag": 24.3,
    "first_seen": "2026-11-06",
-   "previous_per_kg": 135.0,
+   "previous_per_kg": 121.5,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12624,7 +12594,7 @@
    "best_per_kg": 126.0,
    "cheapest_bag": 25.2,
    "first_seen": "2026-10-28",
-   "previous_per_kg": 140.0,
+   "previous_per_kg": 126.0,
    "price_changed_on": "2026-11-27"
   },
   {
@@ -12882,7 +12852,7 @@
    "best_per_kg": 142.5,
    "cheapest_bag": 28.5,
    "first_seen": "2026-11-27",
-   "previous_per_kg": null,
+   "previous_per_kg": 142.5,
    "price_changed_on": null
   },
   {
@@ -13551,7 +13521,7 @@
    "best_per_kg": 216.0,
    "cheapest_bag": 43.2,
    "first_seen": "2026-11-06",
-   "previous_per_kg": 240.0,
+   "previous_per_kg": 216.0,
    "price_changed_on": "2026-11-27"
   },
   {
